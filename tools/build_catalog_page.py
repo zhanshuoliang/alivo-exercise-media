@@ -168,7 +168,16 @@ button{cursor:pointer}.chips{display:flex;gap:6px;flex-wrap:wrap}.chip{padding:3
 @media(max-width:900px){.main{grid-template-columns:1fr}}
 .list{max-height:calc(100vh - 170px);overflow:auto;border:1px solid var(--line);border-radius:8px;background:var(--card)}
 .row{display:grid;grid-template-columns:52px 1fr auto;gap:8px;padding:6px 8px;border-bottom:1px solid var(--line);cursor:pointer;align-items:center}
-.row:hover{background:#f1f3f1}.row.sel{background:#e6efe9}.row img{width:52px;height:52px;object-fit:cover;border-radius:4px;background:#ddd}
+.row:hover{background:#f1f3f1}.row.sel{background:#e6efe9}.row img{width:52px;height:52px;object-fit:cover;border-radius:4px;background:#ddd;transition:transform .25s ease}.row:hover img{transform:scale(1.15)}
+.detail img{transition:transform .4s ease;transform-origin:50% 40%}
+.detail img.zoomed{transform:scale(1.9);cursor:zoom-out}
+.detail .imgwrap{position:relative;overflow:hidden;border-radius:6px;background:#ddd;width:260px}
+.detail .imgwrap .hint{position:absolute;left:8px;bottom:8px;background:rgba(0,0,0,.55);color:#fff;font-size:11px;padding:2px 7px;border-radius:4px;pointer-events:none}
+.detail .imgctrl{margin-top:6px;display:flex;gap:6px}
+.detail .imgctrl button{font-size:12px;padding:3px 10px}
+.detail .imgctrl button.on{background:var(--acc);color:#fff;border-color:var(--acc)}
+@keyframes kenburns{0%{transform:scale(1) translate(0,0)}50%{transform:scale(1.18) translate(-2%,2%)}100%{transform:scale(1) translate(0,0)}}
+.detail img.kb{animation:kenburns 9s ease-in-out infinite}
 .row .n{font-weight:600}.row .s{font-size:12px;color:var(--mut)}.badge{font-size:11px;padding:1px 6px;border-radius:4px;background:#eee;white-space:nowrap}
 .badge.aerobic{background:#dcefe6;color:#1d5c44}.badge.mixed{background:#f6e3c8;color:#8a4a10}.badge.strength{background:#eee;color:#555}
 .badge.reviewed{background:#dcefe6;color:#1d5c44}.badge.pending{background:#f6e3c8;color:#8a4a10}.badge.low{background:#f3d7d7;color:var(--warn)}
@@ -261,7 +270,7 @@ function renderDetail(r){
  '<h2>'+esc(r.name)+' <span class="badge '+e+'">'+ENERGY[e]+'</span> <span class="badge '+(r.meta.reviewStatus==='reviewed'?'reviewed':'pending')+'">'+(r.meta.reviewStatus==='reviewed'?'已审核':'未审核')+'</span> <span class="badge '+conf+'">类别置信 '+conf+'</span></h2>'+
  '<div class="en">'+esc(r.en)+' · <code>'+esc(r.id)+'</code> · 来源 '+esc(r.source)+'</div>'+
  (r.energy===e?'':'<div class="warnbox">规则原判：'+ENERGY[r.energy]+'（'+esc(r.energyBasis)+'）。已被你改为：'+ENERGY[e]+'。</div>')+
- '<div class="grid"><div>'+(r.media.file?'<img src="media/'+encodeURIComponent(r.media.file)+'">':'<div class="note" style="padding:40px;text-align:center">无 ALIVO 插图</div>')+'</div><div>'+
+ '<div class="grid"><div>'+(r.media.file?'<div class="imgwrap"><img id="dImg" src="media/'+encodeURIComponent(r.media.file)+'"><div class="hint">可放大检视</div></div><div class="imgctrl"><button id="btnKb">动态检视</button><button id="btnZoom">放大细节</button></div>':'<div class="note" style="padding:40px;text-align:center">无 ALIVO 插图</div>')+'</div><div>'+
  '<div class="kv"><b>类别依据</b><span>'+esc(r.energyBasis)+(r.energy!==e?' → 人工改为 '+ENERGY[e]:'')+'</span>'+
  '<b>部位</b><span>'+esc(r.partLabel||r.part)+'</span><b>器械</b><span>'+esc(r.eqLabel||r.eq)+'</span>'+
  '<b>目标肌群</b><span>'+esc(r.tg)+(r.sm.length?'；协同：'+esc(r.sm.join('、')):'')+'</span>'+
@@ -275,6 +284,14 @@ function renderDetail(r){
  '<ol class="steps">'+r.st.map(s=>'<li>'+esc(s)+'</li>').join('')+'</ol>'+
  (r.media.file?'<div class="note">图片：'+esc(r.media.file)+' · '+esc(r.media.license)+' · sha256 '+esc(r.media.sha256.slice(0,12))+'…</div>':'')+
  '</div></div>';
+ const di=document.getElementById('dImg');
+ if(di){
+  const kb=document.getElementById('btnKb'),zm=document.getElementById('btnZoom');
+  kb.onclick=()=>{di.classList.toggle('kb');kb.classList.toggle('on');kb.textContent=di.classList.contains('kb')?'停止检视':'动态检视'};
+  zm.onclick=()=>{di.classList.toggle('zoomed');zm.classList.toggle('on');zm.textContent=di.classList.contains('zoomed')?'还原':'放大细节'};
+  di.onclick=()=>{if(di.classList.contains('zoomed')){di.classList.remove('zoomed');zm.classList.remove('on');zm.textContent='放大细节'}};
+  di.onmousemove=e=>{if(di.classList.contains('zoomed')){const b=di.getBoundingClientRect();di.style.transformOrigin=((e.clientX-b.left)/b.width*100)+'% '+((e.clientY-b.top)/b.height*100)+'%'}};
+ }
  document.getElementById('eOv').onchange=ev=>{const v=ev.target.value;if(v)st.energyOv[r.id]=v;else delete st.energyOv[r.id];save();renderDetail(r);render()};
  document.getElementById('eClr').onclick=()=>{delete st.energyOv[r.id];save();renderDetail(r);render()};
 }
