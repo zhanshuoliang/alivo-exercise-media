@@ -228,3 +228,11 @@ Generated specifically for ALIVO with OpenAI ImageGen. Editorial illustrations a
 - `exercise_media/stability_ball_crunch.png` — `exercises-dataset:0271`; SHA-256 `af69a6f71b95ccb1da33e140566254c68ec3bd13176b7dca891d1d99f5d0bfdb`.
 - `exercise_media/kettlebell_goblet_squat.png` — `exercises-dataset:0534`; SHA-256 `2d80cc0d7f5a4e36ffcc0633799eab9a1ed21d15b1d6e6d275c4b9a19e109411`.
 - `exercise_media/kettlebell_halo.png` — `free-exercise-db:Kettlebell_Halo`; SHA-256 `47edef22e4098af5f78572d06d7fe0e8297adcfbcfd686e671c660baec9a83bd`.
+
+## ALIVO editorial gap-fill illustrations — round 8, 2026-11-09
+
+ALIVO 编辑插图，非动作教学示范。Generated specifically for ALIVO with OpenAI ImageGen.
+
+- `exercise_media/band_squat.png` — `exercises-dataset:1004`; SHA-256 `0bc3f34cfbdb945ebb0e40144759ec63564b83b510de9c8585681e3ae1154091`.
+- `exercise_media/band_hip_lift.png` — `exercises-dataset:1408`; SHA-256 `7da38176206877b56be58416841c24a9faba731b6d73a1746d2ce54919a0287d`.
+- `exercise_media/resistance_band_seated_hip_abduction.png` — `exercises-dataset:3006`; SHA-256 `413e29d8a90ef3047e1dabba00e0717f76b95d22aee25008f39f3da3cbdf705f`.

@@ -1,0 +1,73 @@
+{
+  "baseline": "c56634583252ac1505cccb1e71addc806daa2f45",
+  "baselineCount": 180,
+  "total": 183,
+  "priorPreserved": 180,
+  "newCount": 3,
+  "catalogCount": 1352,
+  "platformAndSnapshotBytesEqual": true,
+  "metadataMeasuresAndNoticeEqual": true,
+  "noticeRowsAndSha256Valid": true,
+  "noGifProductionBindings": true,
+  "historicalUnboundFilesPreserved": [
+    "wger_plank_346.png"
+  ],
+  "experimentalMotionSamplesVerified": 2,
+  "boundByEquipment": {
+    "barbell": 27,
+    "cable": 22,
+    "body weight": 43,
+    "sled machine": 2,
+    "leverage machine": 25,
+    "dumbbell": 43,
+    "trap bar": 1,
+    "wheel roller": 1,
+    "kettlebell": 3,
+    "stability ball": 2,
+    "landmine": 1,
+    "weighted": 1,
+    "smith machine": 6,
+    "rope": 2,
+    "ez barbell": 1,
+    "band": 2,
+    "resistance band": 1
+  },
+  "records": [
+    {
+      "catalogId": "exercises-dataset:1004",
+      "sourceRecordId": "alivo:editorial:band_squat.png",
+      "localPath": "exercise_media/band_squat.png",
+      "sourceUrl": "https://openai.com/policies/terms-of-use/",
+      "author": "ALIVO",
+      "license": "ALIVO-editorial",
+      "licenseUrl": "https://openai.com/policies/terms-of-use/",
+      "changes": "ALIVO 原创彩色编辑插图，服装带 ALIVO 品牌字标",
+      "sha256": "0bc3f34cfbdb945ebb0e40144759ec63564b83b510de9c8585681e3ae1154091",
+      "reviewedAt": "2026-11-09"
+    },
+    {
+      "catalogId": "exercises-dataset:1408",
+      "sourceRecordId": "alivo:editorial:band_hip_lift.png",
+      "localPath": "exercise_media/band_hip_lift.png",
+      "sourceUrl": "https://openai.com/policies/terms-of-use/",
+      "author": "ALIVO",
+      "license": "ALIVO-editorial",
+      "licenseUrl": "https://openai.com/policies/terms-of-use/",
+      "changes": "ALIVO 原创彩色编辑插图，服装带 ALIVO 品牌字标",
+      "sha256": "7da38176206877b56be58416841c24a9faba731b6d73a1746d2ce54919a0287d",
+      "reviewedAt": "2026-11-09"
+    },
+    {
+      "catalogId": "exercises-dataset:3006",
+      "sourceRecordId": "alivo:editorial:resistance_band_seated_hip_abduction.png",
+      "localPath": "exercise_media/resistance_band_seated_hip_abduction.png",
+      "sourceUrl": "https://openai.com/policies/terms-of-use/",
+      "author": "ALIVO",
+      "license": "ALIVO-editorial",
+      "licenseUrl": "https://openai.com/policies/terms-of-use/",
+      "changes": "ALIVO 原创彩色编辑插图，服装带 ALIVO 品牌字标",
+      "sha256": "413e29d8a90ef3047e1dabba00e0717f76b95d22aee25008f39f3da3cbdf705f",
+      "reviewedAt": "2026-11-09"
+    }
+  ]
+}

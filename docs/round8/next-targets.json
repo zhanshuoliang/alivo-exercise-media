@@ -1,0 +1,120 @@
+{
+  "asOf": "2026-11-09",
+  "basis": "目录覆盖与场景用途推断；没有真实使用频次或业务需求排序数据。候选不代表批准生成或绑定。",
+  "catalogCount": 1352,
+  "boundCount": 183,
+  "unboundCount": 1169,
+  "bandCatalogCount": 61,
+  "bandBoundCount": 3,
+  "bandUnboundCount": 58,
+  "items": [
+    {
+      "catalogId": "exercises-dataset:0979",
+      "name": "弹力带水平帕洛夫推",
+      "equipment": "band",
+      "priority": "P1",
+      "reason": "补充家用弹力带核心抗旋转场景；与已有绳索 Pallof 的器械不同。",
+      "instructionSteps": [
+        "将带子固定在腰部高度的坚固锚点上。",
+        "垂直于锚点站立，双脚分开与肩同宽。",
+        "用双手抓住带子手柄并远离锚点以在带子中产生张力。",
+        "将双手放在胸前，保持肘部弯曲并靠近身体。",
+        "调动你的核心并保持稳定的姿势。",
+        "将手臂伸直至前方，将弹力带推离身体。",
+        "保持伸展姿势几秒钟，专注于保持核心紧张。",
+        "慢慢地将双手放回胸前，抵抗弹力带的拉力。",
+        "重复所需的重复次数。"
+      ],
+      "status": "candidate-not-generated"
+    },
+    {
+      "catalogId": "exercises-dataset:0993",
+      "name": "弹力带反向飞鸟",
+      "equipment": "band",
+      "priority": "P1",
+      "reason": "补充家用弹力带肩背场景；需按目录胸高固定点，严审锚点、带体连续性与双手接触。",
+      "instructionSteps": [
+        "将带子固定在胸部高度的固定物体上。",
+        "双脚分开与肩同宽站立，双手握住弹力带放在身前。",
+        "保持手臂伸直并将其向两侧抬起，直到与地面平行。",
+        "在动作的最高点将肩胛骨挤压在一起。",
+        "慢慢地将手臂放回起始位置。",
+        "重复所需的重复次数。"
+      ],
+      "status": "candidate-not-generated"
+    },
+    {
+      "catalogId": "exercises-dataset:0968",
+      "name": "弹力带交替弯举",
+      "equipment": "band",
+      "priority": "P1",
+      "reason": "补充弹力带交替弯举；需清楚表现一侧动作相位与带体受力。",
+      "instructionSteps": [
+        "双脚分开与肩同宽站立，反手握住弹力带，手掌朝上。",
+        "保持肘部靠近身体两侧，慢慢地将一只手臂向肩膀弯曲，在顶部挤压二头肌。",
+        "将手臂放回起始位置，然后用另一只手臂重复此动作。",
+        "继续交替手臂进行所需的重复次数。"
+      ],
+      "status": "candidate-not-generated"
+    },
+    {
+      "catalogId": "exercises-dataset:0997",
+      "name": "弹力带肩推",
+      "equipment": "band",
+      "priority": "P1",
+      "reason": "补充弹力带肩推；需完整显示双脚固定、双手握带与连续带体。",
+      "instructionSteps": [
+        "双脚分开与肩同宽站立，将弹力带放在脚下。",
+        "手掌朝前握住弹力带，将双手举至肩高，肘部弯曲。",
+        "将弹力带压过头顶，充分伸展双臂。",
+        "在顶部暂停片刻，然后慢慢将阻力带降低至肩部高度。",
+        "重复所需的重复次数。"
+      ],
+      "status": "candidate-not-generated"
+    },
+    {
+      "catalogId": "exercises-dataset:0710",
+      "name": "侧髋外展",
+      "equipment": "body weight",
+      "priority": "P2",
+      "reason": "无器械站姿髋外展，补充与已绑定坐姿器械/弹力带髋外展不同的场景。",
+      "instructionSteps": [
+        "双脚分开与肩同宽站立，双手放在臀部。",
+        "将重心转移到一条腿上，并将另一条腿向一侧抬起，保持伸直。",
+        "在顶部暂停片刻，然后慢慢将腿放回起始位置。",
+        "在另一侧重复。",
+        "继续交替进行所需的重复次数。"
+      ],
+      "status": "candidate-not-generated"
+    },
+    {
+      "catalogId": "exercises-dataset:1429",
+      "name": "宽握引体向上",
+      "equipment": "body weight",
+      "priority": "P2",
+      "reason": "宽正握引体向上与已有普通正握稳定 ID 分开；需核对握距后才出图。",
+      "instructionSteps": [
+        "悬挂在引体向上杆上，手掌背向自己，双手之间的距离比肩宽。",
+        "启动你的核心并将肩胛骨挤压在一起。",
+        "将身体向上拉向杠铃，直到下巴位于杠铃上方。",
+        "有控制地降低身体回到起始位置。",
+        "重复所需的重复次数。"
+      ],
+      "status": "candidate-not-generated"
+    },
+    {
+      "catalogId": "exercises-dataset:0407",
+      "name": "哑铃侧屈",
+      "equipment": "dumbbell",
+      "priority": "deferred",
+      "reason": "步骤同时描述向持铃对侧侧弯和降低重量，方向含义矛盾；先维护动作口径。",
+      "instructionSteps": [
+        "站直，双脚分开与肩同宽，一手握住哑铃，让它垂在身侧。",
+        "保持背部挺直，核心肌群参与，慢慢地将腰部向哑铃的另一侧侧弯，在舒适的范围内尽可能降低重量。",
+        "暂停片刻，然后慢慢回到起始位置。",
+        "重复所需的重复次数，然后换边重复。"
+      ],
+      "status": "needs-instruction-maintenance"
+    }
+  ]
+}
