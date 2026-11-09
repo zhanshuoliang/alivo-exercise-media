@@ -1,6 +1,6 @@
 # alivo-exercise-media
 
-ALIVO 自研动作编辑插图与动作目录资源库（私有）。
+ALIVO 自研动作编辑插图与动作目录资源库。
 
 - 快照基线：`alivo` 仓库 `origin/main` @ `c566345`（含第七轮全部 4 个媒体提交）。
 - 快照日期：2026-11-09（Asia/Shanghai）。
@@ -10,6 +10,7 @@ ALIVO 自研动作编辑插图与动作目录资源库（私有）。
 
 ```text
 media/      两端字节一致的 exercise_media 全量图片 + NOTICE.md 署名清单
+motion/     独立的自研动作 GIF 试稿、关键帧、许可与校验清单
 catalog/    动作目录与媒体/计量元数据 JSON
 docs/       交接文档、验收清单、历史报告、基线
 docs/round7/ 第七轮目标清单、生成计划、逐图提示词与审查、绑定/审计脚本
@@ -17,9 +18,16 @@ docs/round7/ 第七轮目标清单、生成计划、逐图提示词与审查、�
 
 ### media/
 
-- 181 个文件（180 张图片 + `NOTICE.md`）；其中 180 张为 ALIVO 自研编辑插图，`wger_plank_346.png` 为历史遗留的第三方 wger 文件（保留来源记录，不计入自研数量）。
+- 182 个文件（181 张图片 + `NOTICE.md`）；其中 180 张为 ALIVO 自研编辑插图，`wger_plank_346.png` 为历史遗留的第三方 wger 文件（保留来源记录，不计入自研数量）。
 - 每张自研图：1254×1254 PNG，中性灰棚拍背景、自然肤色与服装、深色背心短裤、服装带白色 `ALIVO` 字标。
 - `NOTICE.md` 逐文件记录 catalogId 与 SHA-256；HarmonyOS 与 Flutter 两端图片逐字节相同。
+
+### motion/（GIF 试稿）
+
+- [查看两个动作 GIF 样例](motion-preview.html)：徒手深蹲（`alivo:extra-022`）和俯卧撑（`exercises-dataset:0662`）。动作目录审查页的对应详情也可切换至 GIF。
+- 样例由自研插图作风格参考，经 AI 生成动作关键帧及插帧制作；保留关键帧、提示词和 SHA-256，具体见 `motion/NOTICE.md` 与 `motion/manifest.json`。
+- 样例独立于生产 `media[]` 绑定，供风格及效果评审；“ALIVO 编辑插图，非动作教学示范”。
+- 更新清单后可运行 `python -B tools/build_motion_preview.py` 与 `python -B tools/build_catalog_page.py`，重新生成两个审查页面。
 
 ### catalog/
 

@@ -1,0 +1,39 @@
+{
+    "schemaVersion":  1,
+    "caption":  "ALIVO 编辑插图，非动作教学示范",
+    "method":  "OpenAI ImageGen keyframes; FFmpeg motion interpolation and GIF encoding",
+    "items":  [
+                  {
+                      "catalogId":  "alivo:extra-022",
+                      "name":  "徒手深蹲",
+                      "file":  "bodyweight_squat_preview.gif",
+                      "sha256":  "8e94a883051303d3883ce786c1688305a2f48ede4bd9b7b6307a8eeb4a53b9d7",
+                      "sourceStill":  "media/bodyweight_squat.png",
+                      "sourceStillSha256":  "e8f473e15d3a7060281b33b20759c640b9e26a6b8af9911e6ea93039ec344d62",
+                      "keyframes":  "sources/bodyweight_squat_keyframes.png",
+                      "keyframesSha256":  "ef108af36f02ce2277af637413692d9d979af68e3fecdb18b32169780363d36e",
+                      "width":  414,
+                      "height":  414,
+                      "frames":  32,
+                      "durationMs":  2000,
+                      "license":  "ALIVO-editorial",
+                      "status":  "experimental"
+                  },
+                  {
+                      "catalogId":  "exercises-dataset:0662",
+                      "name":  "俯卧撑",
+                      "file":  "push_up_preview.gif",
+                      "sha256":  "0f5fbb4e9b942eea5b65ef264ba92311823f4dbf429df4b9a3cde7a337a589d4",
+                      "sourceStill":  "media/push_up.png",
+                      "sourceStillSha256":  "b3794d98ecceb1861da374ab22129392cf16b44917d34dcb73576f94541e940c",
+                      "keyframes":  "sources/push_up_keyframes.png",
+                      "keyframesSha256":  "e7451f799530c3d973c46e3d9f24327fd69edfb9ea01c86f1fca442634e20705",
+                      "width":  414,
+                      "height":  414,
+                      "frames":  32,
+                      "durationMs":  2000,
+                      "license":  "ALIVO-editorial",
+                      "status":  "experimental"
+                  }
+              ]
+}

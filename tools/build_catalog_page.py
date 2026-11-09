@@ -12,6 +12,8 @@ import re
 from collections import Counter
 from pathlib import Path
 
+from motion_samples import load_motion_samples
+
 ROOT = Path(__file__).resolve().parent.parent
 CAT = ROOT / "catalog"
 
@@ -112,6 +114,7 @@ def main():
     args = ap.parse_args()
 
     items, measures, meta, media = load_catalog(), load_measures(), load_metadata(), load_media()
+    motion = load_motion_samples()
     records = []
     for it in items:
         cid = it["id"]
@@ -142,6 +145,7 @@ def main():
         "total": len(records),
         "stats": dict(Counter(r["energy"] for r in records)),
         "records": records,
+        "motionSamples": {item["catalogId"]: item["file"] for item in motion},
     }
     labels = json.dumps(label_maps(), ensure_ascii=False)
     esc = lambda o: json.dumps(o, ensure_ascii=False).replace("</", "<" + chr(92) + "/")
@@ -173,7 +177,7 @@ button{cursor:pointer}.chips{display:flex;gap:6px;flex-wrap:wrap}.chip{padding:3
 .detail img.zoomed{transform:scale(1.9);cursor:zoom-out}
 .detail .imgwrap{position:relative;overflow:hidden;border-radius:6px;background:#ddd;width:260px}
 .detail .imgwrap .hint{position:absolute;left:8px;bottom:8px;background:rgba(0,0,0,.55);color:#fff;font-size:11px;padding:2px 7px;border-radius:4px;pointer-events:none}
-.detail .imgctrl{margin-top:6px;display:flex;gap:6px}
+.detail .imgctrl{margin-top:6px;display:flex;flex-wrap:wrap;gap:6px}
 .detail .imgctrl button{font-size:12px;padding:3px 10px}
 .detail .imgctrl button.on{background:var(--acc);color:#fff;border-color:var(--acc)}
 @keyframes kenburns{0%{transform:scale(1) translate(0,0)}50%{transform:scale(1.18) translate(-2%,2%)}100%{transform:scale(1) translate(0,0)}}
@@ -211,7 +215,7 @@ table{border-collapse:collapse;width:100%;font-size:13px}td,th{border-bottom:1px
   <button id="reset">重置</button>
  </div>
  <div class="chips" id="chips"></div>
- <div class="note">类别为规则推断（见每行依据），“力量/柔韧”为默认值请重点复核；本地修改存于浏览器 localStorage，导出 JSON 后可合并回 exercise_measures / metadata。</div>
+ <div class="note">类别为规则推断（见每行依据），“力量/柔韧”为默认值请重点复核；本地修改存于浏览器 localStorage，导出 JSON 后可合并回 exercise_measures / metadata。 <a href="motion-preview.html">查看动作 GIF 样例 →</a></div>
 </header>
 <div class="main">
  <div class="list" id="list"></div>
@@ -265,12 +269,13 @@ function renderList(){/* re-render only selection highlight cheaply */document.q
 function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 function renderDetail(r){
  const e=energyOf(r),conf=confOf(r),t=r.timing;
+ const motionFile=DATA.motionSamples[r.id]||'';
  const track=r.meta.track||{},tk=Object.entries(track).filter(([k,v])=>v).map(([k,v])=>({'loadType':'负重类型','weightBasis':'重量口径','repsBasis':'次数口径','defaultSide':'默认侧别'}[k]||k)+'：'+({'external':'外部负重','bodyweight':'自重','assistance':'辅助','machine':'器械示值','single':'单侧','total':'合计','per-side':'单侧','bilateral':'双侧','alternating':'交替','unknown':'未知'}[v]||v)).join('；');
  document.getElementById('detail').innerHTML=
  '<h2>'+esc(r.name)+' <span class="badge '+e+'">'+ENERGY[e]+'</span> <span class="badge '+(r.meta.reviewStatus==='reviewed'?'reviewed':'pending')+'">'+(r.meta.reviewStatus==='reviewed'?'已审核':'未审核')+'</span> <span class="badge '+conf+'">类别置信 '+conf+'</span></h2>'+
  '<div class="en">'+esc(r.en)+' · <code>'+esc(r.id)+'</code> · 来源 '+esc(r.source)+'</div>'+
  (r.energy===e?'':'<div class="warnbox">规则原判：'+ENERGY[r.energy]+'（'+esc(r.energyBasis)+'）。已被你改为：'+ENERGY[e]+'。</div>')+
- '<div class="grid"><div>'+(r.media.file?'<div class="imgwrap"><img id="dImg" src="media/'+encodeURIComponent(r.media.file)+'"><div class="hint">可放大检视</div></div><div class="imgctrl"><button id="btnKb">动态检视</button><button id="btnZoom">放大细节</button></div>':'<div class="note" style="padding:40px;text-align:center">无 ALIVO 插图</div>')+'</div><div>'+
+ '<div class="grid"><div>'+(r.media.file?'<div class="imgwrap"><img id="dImg" alt="'+esc(r.name)+'的插图" src="media/'+encodeURIComponent(r.media.file)+'"><div class="hint">可放大检视</div></div><div class="imgctrl"><button id="btnKb">动态检视</button><button id="btnZoom">放大细节</button>'+(motionFile?'<button id="btnGif" type="button" aria-pressed="false">动作 GIF 样例</button>':'')+'</div>'+(motionFile?'<div class="note">ALIVO 编辑插图，非动作教学示范（动态试稿）</div>':''):'<div class="note" style="padding:40px;text-align:center">无 ALIVO 插图</div>')+'</div><div>'+
  '<div class="kv"><b>类别依据</b><span>'+esc(r.energyBasis)+(r.energy!==e?' → 人工改为 '+ENERGY[e]:'')+'</span>'+
  '<b>部位</b><span>'+esc(r.partLabel||r.part)+'</span><b>器械</b><span>'+esc(r.eqLabel||r.eq)+'</span>'+
  '<b>目标肌群</b><span>'+esc(r.tg)+(r.sm.length?'；协同：'+esc(r.sm.join('、')):'')+'</span>'+
@@ -291,6 +296,15 @@ function renderDetail(r){
   zm.onclick=()=>{di.classList.toggle('zoomed');zm.classList.toggle('on');zm.textContent=di.classList.contains('zoomed')?'还原':'放大细节'};
   di.onclick=()=>{if(di.classList.contains('zoomed')){di.classList.remove('zoomed');zm.classList.remove('on');zm.textContent='放大细节'}};
   di.onmousemove=e=>{if(di.classList.contains('zoomed')){const b=di.getBoundingClientRect();di.style.transformOrigin=((e.clientX-b.left)/b.width*100)+'% '+((e.clientY-b.top)/b.height*100)+'%'}};
+  const gif=document.getElementById('btnGif'),hint=document.querySelector('.detail .hint');
+  if(gif){let playing=false;
+   gif.onclick=()=>{playing=!playing;di.classList.remove('kb','zoomed');kb.classList.remove('on');zm.classList.remove('on');kb.textContent='动态检视';zm.textContent='放大细节';
+    gif.classList.toggle('on',playing);gif.setAttribute('aria-pressed',String(playing));gif.textContent=playing?'返回静态插图':'动作 GIF 样例';
+    hint.textContent=playing?'动态试稿 · 非动作教学':'可放大检视';di.alt=r.name+(playing?'的动态试稿':'的插图');
+    di.onerror=()=>{if(playing){playing=false;di.onerror=null;di.src='media/'+encodeURIComponent(r.media.file);gif.classList.remove('on');gif.setAttribute('aria-pressed','false');gif.textContent='动作 GIF 样例';hint.textContent='GIF 加载失败';}};
+    di.src=(playing?'motion/'+encodeURIComponent(motionFile):'media/'+encodeURIComponent(r.media.file));
+   };
+  }
  }
  document.getElementById('eOv').onchange=ev=>{const v=ev.target.value;if(v)st.energyOv[r.id]=v;else delete st.energyOv[r.id];save();renderDetail(r);render()};
  document.getElementById('eClr').onclick=()=>{delete st.energyOv[r.id];save();renderDetail(r);render()};
