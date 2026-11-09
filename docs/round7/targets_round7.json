@@ -54,5 +54,57 @@
  {
   "catalogId": "exercises-dataset:0179",
   "filename": "cable_low_fly.png"
+ },
+ {
+  "catalogId": "exercises-dataset:1359",
+  "filename": "smith_bent_over_row.png"
+ },
+ {
+  "catalogId": "exercises-dataset:0753",
+  "filename": "smith_decline_bench.png"
+ },
+ {
+  "catalogId": "exercises-dataset:0575",
+  "filename": "lever_bicep_curl.png"
+ },
+ {
+  "catalogId": "exercises-dataset:0581",
+  "filename": "lever_high_row.png"
+ },
+ {
+  "catalogId": "exercises-dataset:1299",
+  "filename": "lever_incline_chest_press.png"
+ },
+ {
+  "catalogId": "exercises-dataset:1451",
+  "filename": "lever_seated_dip.png"
+ },
+ {
+  "catalogId": "exercises-dataset:0129",
+  "filename": "bench_dip.png"
+ },
+ {
+  "catalogId": "exercises-dataset:0499",
+  "filename": "inverted_row.png"
+ },
+ {
+  "catalogId": "exercises-dataset:0277",
+  "filename": "decline_crunch.png"
+ },
+ {
+  "catalogId": "exercises-dataset:0507",
+  "filename": "jackknife_sit_up.png"
+ },
+ {
+  "catalogId": "exercises-dataset:0271",
+  "filename": "stability_ball_crunch.png"
+ },
+ {
+  "catalogId": "exercises-dataset:0534",
+  "filename": "kettlebell_goblet_squat.png"
+ },
+ {
+  "catalogId": "free-exercise-db:Kettlebell_Halo",
+  "filename": "kettlebell_halo.png"
  }
 ]

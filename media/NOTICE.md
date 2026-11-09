@@ -215,3 +215,16 @@ Generated specifically for ALIVO with OpenAI ImageGen. Editorial illustrations a
 - `exercise_media/dumbbell_standing_overhead_press.png` — `exercises-dataset:0426`; SHA-256 `a60ae6fbead4492bdbc484b51eeca4748f121c0c709dc5f3862767bf4f41c027`.
 - `exercise_media/ez_barbell_curl.png` — `exercises-dataset:0447`; SHA-256 `a22738ef243a7cc8a238ec340ae2a737507e6e3a96e15ded17d732ecccf24854`.
 - `exercise_media/cable_low_fly.png` — `exercises-dataset:0179`; SHA-256 `b7bdb9b8cb9e293e4211ebd63e926b424c0b18deab1dcca3d30b83de7ed84a14`.
+- `exercise_media/smith_bent_over_row.png` — `exercises-dataset:1359`; SHA-256 `49552fef9734495c3d88afa98804185c4e8bcfc58e1eb8210f43b0b78c6601a1`.
+- `exercise_media/smith_decline_bench.png` — `exercises-dataset:0753`; SHA-256 `626b8dd4ead055aea9a3db1500db65c05c8f732fbb6f331c62fec4dc9454b1e1`.
+- `exercise_media/lever_bicep_curl.png` — `exercises-dataset:0575`; SHA-256 `2fbfed9f451436d866534d4d25ec9cae523c7a9d9ccf83efb767d99571ade148`.
+- `exercise_media/lever_high_row.png` — `exercises-dataset:0581`; SHA-256 `3741e25f64bae4f38d446763509656d1bcc1a46f8ac63fedf5b355e4a5bb6b90`.
+- `exercise_media/lever_incline_chest_press.png` — `exercises-dataset:1299`; SHA-256 `0fe95a39e5d7225225e0d697faf8bc560052c891e7050502f82bd728d498966c`.
+- `exercise_media/lever_seated_dip.png` — `exercises-dataset:1451`; SHA-256 `f1b274de8da56e34ebd6d0540aae2506b56381baa633c347838ea0a442407e04`.
+- `exercise_media/bench_dip.png` — `exercises-dataset:0129`; SHA-256 `a1748b75ce5e33b3987820acda107960e34fd8c0c89b83c8c4c45b2ab2345378`.
+- `exercise_media/inverted_row.png` — `exercises-dataset:0499`; SHA-256 `7b2841aa4ad157c18f1cc0c7fc5c30b70acd7e7fa745f8de94a2591ba2e83f10`.
+- `exercise_media/decline_crunch.png` — `exercises-dataset:0277`; SHA-256 `c40e54ad84ce86f05addceefce13e3864923a3659d39d204384f6cbde4131f74`.
+- `exercise_media/jackknife_sit_up.png` — `exercises-dataset:0507`; SHA-256 `68b9b2ba6eb5a0b4fa933703ebb4d38b897e8042ea2747cb598cf364c025165a`.
+- `exercise_media/stability_ball_crunch.png` — `exercises-dataset:0271`; SHA-256 `af69a6f71b95ccb1da33e140566254c68ec3bd13176b7dca891d1d99f5d0bfdb`.
+- `exercise_media/kettlebell_goblet_squat.png` — `exercises-dataset:0534`; SHA-256 `2d80cc0d7f5a4e36ffcc0633799eab9a1ed21d15b1d6e6d275c4b9a19e109411`.
+- `exercise_media/kettlebell_halo.png` — `free-exercise-db:Kettlebell_Halo`; SHA-256 `47edef22e4098af5f78572d06d7fe0e8297adcfbcfd686e671c660baec9a83bd`.

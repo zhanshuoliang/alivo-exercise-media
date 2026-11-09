@@ -1,0 +1,11 @@
+{
+  "bindings": [
+    { "catalogId": "exercises-dataset:0129", "filename": "bench_dip.png", "folder": "new" },
+    { "catalogId": "exercises-dataset:0499", "filename": "inverted_row.png", "folder": "new" },
+    { "catalogId": "exercises-dataset:0277", "filename": "decline_crunch.png", "folder": "new" },
+    { "catalogId": "exercises-dataset:0507", "filename": "jackknife_sit_up.png", "folder": "new" },
+    { "catalogId": "exercises-dataset:0271", "filename": "stability_ball_crunch.png", "folder": "new" },
+    { "catalogId": "exercises-dataset:0534", "filename": "kettlebell_goblet_squat.png", "folder": "new" },
+    { "catalogId": "free-exercise-db:Kettlebell_Halo", "filename": "kettlebell_halo.png", "folder": "new" }
+  ]
+}

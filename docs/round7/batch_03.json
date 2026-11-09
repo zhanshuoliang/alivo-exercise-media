@@ -1,0 +1,10 @@
+{
+  "bindings": [
+    { "catalogId": "exercises-dataset:1359", "filename": "smith_bent_over_row.png", "folder": "new" },
+    { "catalogId": "exercises-dataset:0753", "filename": "smith_decline_bench.png", "folder": "new" },
+    { "catalogId": "exercises-dataset:0575", "filename": "lever_bicep_curl.png", "folder": "new" },
+    { "catalogId": "exercises-dataset:0581", "filename": "lever_high_row.png", "folder": "new" },
+    { "catalogId": "exercises-dataset:1299", "filename": "lever_incline_chest_press.png", "folder": "new" },
+    { "catalogId": "exercises-dataset:1451", "filename": "lever_seated_dip.png", "folder": "new" }
+  ]
+}

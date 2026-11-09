@@ -1,0 +1,14 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:0404",
+      "filename": "dumbbell_neutral_shoulder_press.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0218",
+      "filename": "cable_wide_seated_row.png",
+      "folder": "new"
+    }
+  ]
+}
