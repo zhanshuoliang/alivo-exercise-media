@@ -1,0 +1,39 @@
+{
+  "baselineCommit": "2773155ea88b6aaf28fdcbb966999d56af093b94",
+  "targets": [
+    {
+      "catalogId": "exercises-dataset:0404",
+      "filename": "dumbbell_neutral_shoulder_press.png",
+      "folder": "new",
+      "name": "哑铃坐姿肩推平行握",
+      "englishName": "dumbbell seated shoulder press (parallel grip)",
+      "equipment": "dumbbell",
+      "instructionSource": "metadata.instructionSteps",
+      "instructionSteps": [
+        "坐在有靠背的长凳上，双脚站稳，双手各持一个哑铃，掌心相对。",
+        "将哑铃移至肩部附近，保持掌心相对，向上推举至双臂伸展。",
+        "控制哑铃回到肩部高度，按所需次数重复。"
+      ],
+      "priorFailure": "Prior attempts showed forward-facing palms or occluded hands; keep neutral grip visibly verifiable."
+    },
+    {
+      "catalogId": "exercises-dataset:0218",
+      "filename": "cable_wide_seated_row.png",
+      "folder": "new",
+      "name": "绳索坐姿宽握划船",
+      "englishName": "cable seated wide-grip row",
+      "equipment": "cable",
+      "instructionSource": "source.st",
+      "instructionSteps": [
+        "坐在电缆划船机上，双脚平放在脚踏板上，膝盖稍微弯曲。",
+        "正手宽握握住手柄，手掌朝下。",
+        "保持背部挺直，并从臀部稍微向前倾斜。",
+        "将手柄拉向下胸部，将肩胛骨挤压在一起。",
+        "在收缩高峰时暂停片刻。",
+        "慢慢松开手柄回到起始位置，充分伸展双臂。",
+        "重复所需的重复次数。"
+      ],
+      "priorFailure": "Prior attempts left footplate contact or low-pulley-to-weight connection unclear."
+    }
+  ]
+}

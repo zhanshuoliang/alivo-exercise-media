@@ -1,0 +1,177 @@
+[
+  {
+    "catalogId": "exercises-dataset:0041",
+    "filename": "barbell_front_raise.png",
+    "ref": "front_raise.png",
+    "zh": "杠铃前平举",
+    "exercise": "BARBELL FRONT RAISE, standing, at the top of the raise. The athlete stands tall with both feet flat shoulder-width apart, holding ONE loaded barbell with a wide OVERHAND grip, palms facing down toward the thighs, hands just outside shoulder width. Both arms are nearly straight and lifted forward and up so the barbell is held horizontally at SHOULDER HEIGHT in front of the body. Front three-quarter view showing the whole body, both shoes, the complete bar with plates and both hands clearly. No dumbbells, no seated position, no underhand grip."
+  },
+  {
+    "catalogId": "exercises-dataset:0080",
+    "filename": "barbell_reverse_curl.png",
+    "ref": "barbell_curl.png",
+    "zh": "杠铃反握弯举",
+    "exercise": "STANDING BARBELL REVERSE CURL at the curled top position. The athlete stands upright, feet shoulder-width apart, holding ONE barbell with an OVERHAND PRONATED grip, palms facing DOWN, hands just wider than shoulders. Elbows are pinned close to the sides, forearms raised so the bar is near upper-chest level at the top of the curl; the backs of both hands face the camera. Three-quarter front view; entire body, both shoes, both elbows, both hands and the full bar with plates visible. No supinated palms-up grip, no EZ-curl bar, no preacher bench."
+  },
+  {
+    "catalogId": "exercises-dataset:0095",
+    "filename": "barbell_shrug.png",
+    "ref": "deadlift.png",
+    "zh": "杠铃耸肩",
+    "exercise": "STANDING BARBELL SHRUG at the top of the shrug. The athlete stands tall, feet shoulder-width apart, holding ONE loaded barbell in front of the thighs with an overhand grip just outside shoulder width, arms fully straight. Both shoulders are elevated high toward the ears, squeezing the trapezius; the bar hangs slightly higher than a relaxed dead-hang. Front three-quarter view, whole body, both shoes, straight arms, both hands, complete bar and plates. No bent elbows, no seated position, no dumbbells."
+  },
+  {
+    "catalogId": "exercises-dataset:0091",
+    "filename": "barbell_seated_overhead_press.png",
+    "ref": "smith_seated_shoulder_press.png",
+    "zh": "杠铃坐姿过顶推举",
+    "exercise": "SEATED BARBELL OVERHEAD PRESS near the top of the press. The athlete sits upright on a bench with a vertical backrest, back against the pad, both feet flat on the floor. Both hands hold ONE barbell with an OVERHAND grip slightly wider than the shoulders and press the bar directly ABOVE THE HEAD in front of the face, elbows nearly straight; palms face forward away from the face. Front three-quarter view showing the entire seated body, both shoes, both hands, the whole bar and plates and the complete bench. No Smith rails, no dumbbells, no behind-the-neck position."
+  },
+  {
+    "catalogId": "exercises-dataset:0109",
+    "filename": "barbell_overhead_triceps_extension.png",
+    "ref": "dumbbell_standing_triceps_extension.png",
+    "zh": "杠铃站姿过顶臂屈伸",
+    "exercise": "STANDING BARBELL OVERHEAD TRICEPS EXTENSION at the lowered mid-rep moment. The athlete stands tall with feet shoulder-width apart, holding ONE short loaded barbell overhead with BOTH hands in a narrow overhand grip, elbows bent so the bar is lowered BEHIND THE HEAD toward the neck while both upper arms stay close to the ears. Side three-quarter view so both bent elbows, the bar behind the head, both hands on the bar and the whole standing body with shoes are clear. No dumbbells, no lying bench, no seated position."
+  },
+  {
+    "catalogId": "exercises-dataset:0046",
+    "filename": "barbell_hack_squat.png",
+    "ref": "barbell_back_squat.png",
+    "zh": "杠铃哈克深蹲",
+    "exercise": "BARBELL HACK SQUAT with a free barbell held BEHIND the body, at the bottom of the squat. The athlete stands with feet shoulder-width apart, toes slightly out, holding ONE loaded barbell with an overhand grip BEHIND the back below the glutes, arms straight. Hips and knees are bent so the thighs are near parallel to the floor, torso upright, heels on the floor. Rear three-quarter view so the bar behind the legs, both straight arms, both hands and both feet are clear. No machine rails, no bar resting on the shoulders, no dumbbells."
+  },
+  {
+    "catalogId": "exercises-dataset:0301",
+    "filename": "dumbbell_decline_bench_press.png",
+    "ref": "barbell_decline_bench.png",
+    "zh": "哑铃下斜卧推",
+    "exercise": "DUMBBELL DECLINE BENCH PRESS at the lowered position. The athlete lies face-up on a clearly DECLINED bench that slopes down toward the head, head and shoulders visibly LOWER than the hips, both ankles hooked under padded rollers at the high end. One dumbbell in each hand held just above the lower chest, elbows bent near 90 degrees, palms facing forward toward the feet. Side three-quarter view; whole body, both feet in the anchors, both arms, both dumbbells and the complete decline bench visible. No barbell, no flat or incline bench, no Smith rails."
+  },
+  {
+    "catalogId": "exercises-dataset:0319",
+    "filename": "dumbbell_incline_fly.png",
+    "ref": "dumbbell_fly.png",
+    "zh": "哑铃上斜飞鸟",
+    "exercise": "DUMBBELL INCLINE FLY at the open bottom position. The athlete lies back on a bench inclined about 30 to 45 degrees, head higher than hips, both feet flat on the floor. One dumbbell in each hand, both arms opened wide to the sides in a large arc slightly above chest height with a soft elbow bend, palms facing up and toward each other. Front three-quarter view from the foot end showing the incline angle, the whole bench, both arms extended wide with both dumbbells, both hands and both feet. No barbell, no flat bench, no arms-pressed-together position."
+  },
+  {
+    "catalogId": "exercises-dataset:0351",
+    "filename": "dumbbell_lying_triceps_extension.png",
+    "ref": "skull_crusher.png",
+    "zh": "哑铃仰卧臂屈伸",
+    "exercise": "DUMBBELL LYING TRICEPS EXTENSION on a flat bench, elbows bent mid-rep. The athlete lies face-up on a flat bench, head fully supported, one dumbbell in EACH hand. Both upper arms point straight up toward the ceiling, elbows bent about 90 degrees so both dumbbells are lowered beside the head at ear height, palms facing inward toward each other. Side three-quarter view from near the head so both bent elbows and both dumbbells beside the head are clearly separated; whole body, bench and both feet in frame. No barbell, no single dumbbell held by both hands, no standing position."
+  },
+  {
+    "catalogId": "exercises-dataset:0426",
+    "filename": "dumbbell_standing_overhead_press.png",
+    "ref": "dumbbell_shoulder_press.png",
+    "zh": "哑铃站姿过顶推举",
+    "exercise": "STANDING DUMBBELL OVERHEAD PRESS near the top. The athlete stands tall with feet shoulder-width apart, one dumbbell in each hand pressed directly overhead with elbows nearly straight, palms facing forward, arms flanking the head. Front three-quarter view; entire standing body, both shoes, both arms, both dumbbells and the full head visible. No bench, no barbell, no neutral grip, no seated position."
+  },
+  {
+    "catalogId": "exercises-dataset:0447",
+    "filename": "ez_barbell_curl.png",
+    "ref": "barbell_curl.png",
+    "zh": "曲杠弯举",
+    "exercise": "STANDING EZ-BAR CURL at the top of the curl. The athlete stands upright, feet shoulder-width apart, holding ONE CAMBERED W-shaped EZ-curl bar with an underhand grip on the angled grip sections, palms facing up and slightly inward. Elbows pinned close to the torso, forearms raised so the wavy bar is near upper-chest height. Front three-quarter view; the cambered bends of the EZ bar must be clearly visible, plus whole body, both shoes, both elbows and both hands. No straight barbell, no dumbbells, no palms-down grip, no preacher bench."
+  },
+  {
+    "catalogId": "exercises-dataset:0179",
+    "filename": "cable_low_fly.png",
+    "ref": "cable_fly.png",
+    "zh": "绳索低飞鸟",
+    "exercise": "CABLE LOW-TO-HIGH FLY at mid-arc. The athlete stands centered between a dual cable station, torso upright, feet slightly staggered for balance. One single-handle grip in EACH hand, each connected to a LOW pulley on its side of the machine; both arms sweep forward and upward in a wide arc so the hands meet in front of the torso at about lower-chest height, elbows softly bent, palms facing each other. Front three-quarter view; show both low pulleys with their cables running to each hand, the two tower columns with weight stacks, the full body and both feet. No straight bar, no high-pulley downward fly, no bench."
+  },
+  {
+    "catalogId": "exercises-dataset:1359",
+    "filename": "smith_bent_over_row.png",
+    "ref": "smith_bench_press.png",
+    "zh": "史密斯架俯身划船",
+    "exercise": "SMITH MACHINE BENT-OVER ROW at the contracted position. The athlete stands inside a Smith machine frame hinged forward at the hips about 40 to 50 degrees, knees slightly bent, back flat. Both hands hold the ONE horizontal Smith bar with an overhand grip just wider than the shoulders, pulled up toward the lower chest and upper abdomen, elbows drawn back. Both ends of the bar are visibly attached to the vertical Smith guide rails with sliding collars. Side three-quarter view showing the complete frame, both rails, the whole bar, the entire hinged body, both hands and both feet. No free barbell without rails, no seated machine, no dumbbells."
+  },
+  {
+    "catalogId": "exercises-dataset:0753",
+    "filename": "smith_decline_bench.png",
+    "ref": "smith_incline_bench.png",
+    "zh": "史密斯架下斜卧推",
+    "exercise": "SMITH MACHINE DECLINE BENCH PRESS at the lowered position. The athlete lies face-up on a decline bench that slopes down toward the head, head and shoulders visibly LOWER than the hips, ankles anchored under padded rollers, inside a Smith machine frame. Both hands hold the ONE horizontal Smith bar with an overhand grip slightly wider than the shoulders, lowered toward the lower chest with elbows bent. Both ends of the bar attach to the vertical guide rails with sliding collars. Side three-quarter view showing the decline angle, the anchored feet, both rails, the full bar and the whole body. No flat bench, no free barbell, no dumbbells."
+  },
+  {
+    "catalogId": "exercises-dataset:0575",
+    "filename": "lever_bicep_curl.png",
+    "ref": "lever_chest_press.png",
+    "zh": "杠杆弯举",
+    "exercise": "SEATED MACHINE BICEP CURL on a leverage curl machine, at the curled top. The athlete sits on the machine seat with the backs of the upper arms resting on an angled arm pad, chest against the support. Both hands grip the machine's handle bar with an UNDERHAND grip, palms up, elbows bent so the handles are raised toward the shoulders. A visible pivot arm connects the handles to the machine frame and a weight stack. Front three-quarter view showing the seat, arm pad, handles, pivot linkage, weight stack, full body and both feet. No free barbell, no standing position, no cable."
+  },
+  {
+    "catalogId": "exercises-dataset:0581",
+    "filename": "lever_high_row.png",
+    "ref": "lever_narrow_seated_row.png",
+    "zh": "杠杆高划船",
+    "exercise": "SEATED MACHINE HIGH ROW at the pulled-in position. The athlete sits facing the machine with the chest braced against a vertical chest pad, both feet on the foot platform. Both hands grip the machine's two lever handles with a wide OVERHAND grip, elbows drawn back and down, handles pulled toward the lower chest. The lever arms visibly connect to pivot points and a weight stack. Front three-quarter view showing the chest pad, both lever arms, both hands, seat, platform, whole body and both feet. No cable, no free weights, no floor footplates low row."
+  },
+  {
+    "catalogId": "exercises-dataset:1299",
+    "filename": "lever_incline_chest_press.png",
+    "ref": "lever_chest_press.png",
+    "zh": "杠杆上斜推胸",
+    "exercise": "SEATED MACHINE INCLINE CHEST PRESS at mid-press. The athlete sits on an incline chest press machine with the back on an angled backrest, both feet flat on the floor. Both hands grip the two lever handles at upper-chest level with an overhand grip and press them forward and UPWARD along the incline line until the elbows are nearly straight. The lever arms connect to the machine frame and weight stack. Side three-quarter view showing the angled backrest, both lever handles, both hands, seat, whole body and both feet. No flat bench press angle, no free barbell, no cable."
+  },
+  {
+    "catalogId": "exercises-dataset:1451",
+    "filename": "lever_seated_dip.png",
+    "ref": "lever_chest_press.png",
+    "zh": "杠杆坐姿臂屈伸",
+    "exercise": "SEATED DIP MACHINE repetition at the lowered position. The athlete sits on the dip machine seat facing forward, torso upright, both feet on the floor or a foot bar, knees bent about 90 degrees. Both hands grip the machine's two handles beside the hips, elbows bent behind the torso as the lever handles are pressed downward; upper arms near parallel to the floor. A visible pivot linkage connects the handles to the weight stack. Front three-quarter view showing the seat, both handles, the linkage, the stack, the whole body and both feet. No parallel bars, no body suspended in the air, no bench behind the back."
+  },
+  {
+    "catalogId": "exercises-dataset:0129",
+    "filename": "bench_dip.png",
+    "ref": "dip.png",
+    "zh": "凳上臂屈伸",
+    "exercise": "BENCH DIP with knees bent, at the lowered position. The athlete faces AWAY from a flat bench: both palms grip the bench edge beside and slightly behind the hips, fingers pointing forward; the hips are off the bench in front of it; knees bent about 90 degrees with both feet flat on the floor. Elbows are bent so the body is lowered, shoulders below elbow height, back close to the bench. Side three-quarter view showing the bench edge, both hands gripping it, bent elbows, the whole body and both feet. No parallel bars, no legs extended straight out, no second bench."
+  },
+  {
+    "catalogId": "exercises-dataset:0499",
+    "filename": "inverted_row.png",
+    "ref": "barbell_row.png",
+    "zh": "反向划船",
+    "exercise": "INVERTED ROW under a fixed waist-height bar at the pulled-up position. The athlete hangs underneath a sturdy horizontal bar racked at about waist height, body straight as a plank, heels on the floor, head on the far side of the bar. Both hands hold the bar with an OVERHAND grip slightly wider than the shoulders; the chest is pulled up to nearly touch the bar, elbows bent and drawn back. Side three-quarter view showing the angled rigid body, the feet with heels down, the bar and its rack, both hands and the full body. No pull-up bar overhead, no seated cable row, no bent hips."
+  },
+  {
+    "catalogId": "exercises-dataset:0277",
+    "filename": "decline_crunch.png",
+    "ref": "decline_push_up.png",
+    "zh": "下斜卷腹",
+    "exercise": "DECLINE CRUNCH on a decline bench at the curled top. The athlete lies face-up on a decline bench sloping down toward the head, both lower legs hooked under the padded ankle rollers at the high end, knees bent about 90 degrees. Fingertips rest lightly behind the ears without pulling; the torso is curled UP toward the knees so the shoulders are clearly lifted, elbows wide. Side three-quarter view showing the decline angle, the anchored legs, the curled torso, both hands at the head and the complete bench. No sit-up with hands on the thighs, no flat floor, no held weight."
+  },
+  {
+    "catalogId": "exercises-dataset:0507",
+    "filename": "jackknife_sit_up.png",
+    "ref": "floor_crunch.png",
+    "zh": "折刀仰卧起坐",
+    "exercise": "JACKKNIFE SIT-UP (V-up) at the contracted top. The athlete balances on the sit bones on the floor: both legs extended and lifted off the floor together, torso lifted so the body forms a V, both arms reaching forward toward the toes. Side three-quarter view showing the floor, the lifted straight legs, the raised torso, both arms reaching toward the feet, the whole body. No hands behind the head, no bent-knee crunch, no support under the legs."
+  },
+  {
+    "catalogId": "exercises-dataset:0271",
+    "filename": "stability_ball_crunch.png",
+    "ref": "floor_crunch.png",
+    "zh": "卷腹瑜伽球",
+    "exercise": "CRUNCH ON A STABILITY BALL at the curled top. The athlete reclines on a large round stability ball supporting the lower back, knees bent about 90 degrees, both feet flat on the floor. Fingertips rest behind the ears; the torso curls forward and up so the shoulders lift off the ball. Side three-quarter view showing the ball under the lower back, both feet on the floor, the curled torso, both hands at the head, the whole body. No flat bench, no medicine ball, no hands pulling the neck."
+  },
+  {
+    "catalogId": "exercises-dataset:0534",
+    "filename": "kettlebell_goblet_squat.png",
+    "ref": "kettlebell_swing.png",
+    "zh": "壶铃高脚杯深蹲",
+    "exercise": "KETTLEBELL GOBLET SQUAT at the bottom of the squat. The athlete stands with feet slightly wider than shoulders, toes slightly out, holding ONE kettlebell by its horns vertically against the chest, elbows tucked under the bell. Hips and knees bent so the thighs are near parallel to the floor, torso upright, heels flat. Front three-quarter view showing the single kettlebell held at the chest, both hands on the horns, the squat depth, the whole body and both feet. No dumbbell, no barbell, no standing tall."
+  },
+  {
+    "catalogId": "free-exercise-db:Kettlebell_Halo",
+    "filename": "kettlebell_halo.png",
+    "ref": "kettlebell_swing.png",
+    "zh": "壶铃绕头",
+    "exercise": "KETTLEBELL HALO mid-rotation. The athlete stands tall with feet shoulder-width apart, torso still, holding ONE kettlebell upside-down by its horns with BOTH hands, bell on top and handle below, moving it in a slow circle around the head. Capture the moment the kettlebell passes beside the head at ear height: elbows bent and raised, both hands gripping the horns, the bell tilted, head and hips facing straight ahead and not rotating with the bell. Front three-quarter view; whole body, both shoes, both hands, the single kettlebell clearly beside the head. No dumbbell, no bell held right-side-up at the waist, no rotation of the torso."
+  }
+]

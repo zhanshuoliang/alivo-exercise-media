@@ -1,0 +1,58 @@
+[
+ {
+  "catalogId": "exercises-dataset:0404",
+  "filename": "dumbbell_neutral_shoulder_press.png"
+ },
+ {
+  "catalogId": "exercises-dataset:0218",
+  "filename": "cable_wide_seated_row.png"
+ },
+ {
+  "catalogId": "exercises-dataset:0041",
+  "filename": "barbell_front_raise.png"
+ },
+ {
+  "catalogId": "exercises-dataset:0080",
+  "filename": "barbell_reverse_curl.png"
+ },
+ {
+  "catalogId": "exercises-dataset:0095",
+  "filename": "barbell_shrug.png"
+ },
+ {
+  "catalogId": "exercises-dataset:0091",
+  "filename": "barbell_seated_overhead_press.png"
+ },
+ {
+  "catalogId": "exercises-dataset:0109",
+  "filename": "barbell_overhead_triceps_extension.png"
+ },
+ {
+  "catalogId": "exercises-dataset:0046",
+  "filename": "barbell_hack_squat.png"
+ },
+ {
+  "catalogId": "exercises-dataset:0301",
+  "filename": "dumbbell_decline_bench_press.png"
+ },
+ {
+  "catalogId": "exercises-dataset:0319",
+  "filename": "dumbbell_incline_fly.png"
+ },
+ {
+  "catalogId": "exercises-dataset:0351",
+  "filename": "dumbbell_lying_triceps_extension.png"
+ },
+ {
+  "catalogId": "exercises-dataset:0426",
+  "filename": "dumbbell_standing_overhead_press.png"
+ },
+ {
+  "catalogId": "exercises-dataset:0447",
+  "filename": "ez_barbell_curl.png"
+ },
+ {
+  "catalogId": "exercises-dataset:0179",
+  "filename": "cable_low_fly.png"
+ }
+]

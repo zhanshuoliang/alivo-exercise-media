@@ -1,0 +1,407 @@
+{
+  "schemaVersion": 1,
+  "reviewedDate": "2026-11-09",
+  "description": "人工验收参考集；包含42项既有维护参考和58项按基础训练场景补充的具体变式，不代表真实使用频率。",
+  "items": [
+    {
+      "catalogId": "exercises-dataset:1347",
+      "scope": "既有维护参考"
+    },
+    {
+      "catalogId": "exercises-dataset:0588",
+      "scope": "既有维护参考"
+    },
+    {
+      "catalogId": "exercises-dataset:0571",
+      "scope": "既有维护参考"
+    },
+    {
+      "catalogId": "exercises-dataset:0579",
+      "scope": "既有维护参考"
+    },
+    {
+      "catalogId": "exercises-dataset:0327",
+      "scope": "既有维护参考"
+    },
+    {
+      "catalogId": "exercises-dataset:0603",
+      "scope": "既有维护参考"
+    },
+    {
+      "catalogId": "alivo:extra-012",
+      "scope": "既有维护参考"
+    },
+    {
+      "catalogId": "alivo:extra-013",
+      "scope": "既有维护参考"
+    },
+    {
+      "catalogId": "alivo:extra-014",
+      "scope": "既有维护参考"
+    },
+    {
+      "catalogId": "alivo:extra-009",
+      "scope": "既有维护参考"
+    },
+    {
+      "catalogId": "alivo:extra-010",
+      "scope": "既有维护参考"
+    },
+    {
+      "catalogId": "alivo:extra-011",
+      "scope": "既有维护参考"
+    },
+    {
+      "catalogId": "exercises-dataset:0584",
+      "scope": "既有维护参考"
+    },
+    {
+      "catalogId": "exercises-dataset:0201",
+      "scope": "既有维护参考"
+    },
+    {
+      "catalogId": "exercises-dataset:0200",
+      "scope": "既有维护参考"
+    },
+    {
+      "catalogId": "exercises-dataset:0165",
+      "scope": "既有维护参考"
+    },
+    {
+      "catalogId": "exercises-dataset:0472",
+      "scope": "既有维护参考"
+    },
+    {
+      "catalogId": "exercises-dataset:0652",
+      "scope": "既有维护参考"
+    },
+    {
+      "catalogId": "exercises-dataset:1326",
+      "scope": "既有维护参考"
+    },
+    {
+      "catalogId": "exercises-dataset:0841",
+      "scope": "既有维护参考"
+    },
+    {
+      "catalogId": "exercises-dataset:0238",
+      "scope": "既有维护参考"
+    },
+    {
+      "catalogId": "exercises-dataset:0237",
+      "scope": "既有维护参考"
+    },
+    {
+      "catalogId": "exercises-dataset:2330",
+      "scope": "既有维护参考"
+    },
+    {
+      "catalogId": "exercises-dataset:0861",
+      "scope": "既有维护参考"
+    },
+    {
+      "catalogId": "exercises-dataset:0027",
+      "scope": "既有维护参考"
+    },
+    {
+      "catalogId": "exercises-dataset:0025",
+      "scope": "既有维护参考"
+    },
+    {
+      "catalogId": "exercises-dataset:0289",
+      "scope": "既有维护参考"
+    },
+    {
+      "catalogId": "exercises-dataset:0047",
+      "scope": "既有维护参考"
+    },
+    {
+      "catalogId": "exercises-dataset:0314",
+      "scope": "既有维护参考"
+    },
+    {
+      "catalogId": "exercises-dataset:0334",
+      "scope": "既有维护参考"
+    },
+    {
+      "catalogId": "exercises-dataset:0405",
+      "scope": "既有维护参考"
+    },
+    {
+      "catalogId": "exercises-dataset:0294",
+      "scope": "既有维护参考"
+    },
+    {
+      "catalogId": "exercises-dataset:0241",
+      "scope": "既有维护参考"
+    },
+    {
+      "catalogId": "exercises-dataset:0043",
+      "scope": "既有维护参考"
+    },
+    {
+      "catalogId": "exercises-dataset:0085",
+      "scope": "既有维护参考"
+    },
+    {
+      "catalogId": "exercises-dataset:1459",
+      "scope": "既有维护参考"
+    },
+    {
+      "catalogId": "exercises-dataset:0857",
+      "scope": "既有维护参考"
+    },
+    {
+      "catalogId": "exercises-dataset:0017",
+      "scope": "既有维护参考"
+    },
+    {
+      "catalogId": "exercises-dataset:0292",
+      "scope": "既有维护参考"
+    },
+    {
+      "catalogId": "exercises-dataset:0285",
+      "scope": "既有维护参考"
+    },
+    {
+      "catalogId": "alivo:extra-015",
+      "scope": "既有维护参考"
+    },
+    {
+      "catalogId": "alivo:extra-016",
+      "scope": "既有维护参考"
+    },
+    {
+      "catalogId": "alivo:extra-022",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:0042",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:0032",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:1760",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:2368",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:1460",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:0381",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:0431",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:0739",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:0743",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:0770",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:0585",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:0586",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "alivo:extra-025",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:0597",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:0598",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:3013",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:0662",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:0493",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:0279",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:0577",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:0748",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:0596",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:0227",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:1457",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "alivo:extra-024",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:0194",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "alivo:extra-001",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "alivo:extra-002",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "alivo:extra-023",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:0276",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:0003",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "free-exercise-db:Pallof_Press",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:2612",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "alivo:extra-007",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:1160",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:0630",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:0549",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:0599",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:0313",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:0336",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:0054",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:0605",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:1379",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:0757",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:0033",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:0315",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:0404",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:0430",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:0293",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:0180",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:0218",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:0245",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:0572",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:0765",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:1372",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:0078",
+      "scope": "训练场景补充"
+    },
+    {
+      "catalogId": "exercises-dataset:0352",
+      "scope": "训练场景补充"
+    }
+  ]
+}

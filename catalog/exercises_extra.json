@@ -1,0 +1,385 @@
+[
+  { "id": "extra-009", "name": "standing lever shoulder press", "nz": "站姿固定器械推肩", "cat": "shoulders", "part": "shoulders", "eq": "leverage machine", "tg": "delts", "mg": "三角肌", "sm": ["triceps"], "st": ["站姿使用固定推肩器械，按器械说明及教练指导重复推举。"], "im": "", "gf": "" },
+  { "id": "extra-010", "name": "high cable rope face pull", "nz": "龙门架面拉", "cat": "shoulders", "part": "shoulders", "eq": "cable", "tg": "delts", "mg": "三角肌后束", "sm": ["traps", "upper back"], "st": ["使用龙门架高位绳索向面部方向重复拉动，按教练指导完成。"], "im": "", "gf": "" },
+  { "id": "extra-011", "name": "standing cable straight bar curl", "nz": "龙门架直杆弯举", "cat": "upper arms", "part": "upper arms", "eq": "cable", "tg": "biceps", "mg": "肱二头肌", "sm": ["forearms"], "st": ["使用龙门架直杆附件，按教练指导重复屈肘弯举。"], "im": "", "gf": "" },
+  {
+    "id": "extra-001",
+    "name": "plank",
+    "nz": "平板支撑",
+    "cat": "waist",
+    "part": "waist",
+    "eq": "body weight",
+    "tg": "abs",
+    "mg": "核心",
+    "sm": ["shoulders", "glutes"],
+    "st": ["双肘撑地与肩同宽，身体从头到脚成一条直线", "收紧腹部与臀部，避免塌腰或撅臀", "保持均匀呼吸，坚持到目标时长"],
+    "im": "",
+    "gf": ""
+  },
+  {
+    "id": "extra-002",
+    "name": "side plank",
+    "nz": "侧平板支撑",
+    "cat": "waist",
+    "part": "waist",
+    "eq": "body weight",
+    "tg": "abs",
+    "mg": "腹斜肌",
+    "sm": ["obliques", "shoulders"],
+    "st": ["单侧肘撑地，身体侧向成一条直线", "上侧手臂向上伸直或叉腰", "保持髋部不下沉，坚持到目标时长后换边"],
+    "im": "",
+    "gf": ""
+  },
+  {
+    "id": "extra-003",
+    "name": "wall sit",
+    "nz": "靠墙静蹲",
+    "cat": "upper legs",
+    "part": "upper legs",
+    "eq": "body weight",
+    "tg": "quads",
+    "mg": "股四头肌",
+    "sm": ["quadriceps", "glutes"],
+    "st": ["背靠墙下滑至大腿与地面平行", "膝盖不超过脚尖，背部贴紧墙面", "保持呼吸，坚持到目标时长"],
+    "im": "",
+    "gf": ""
+  },
+  {
+    "id": "extra-004",
+    "name": "dead hang",
+    "nz": "单杠悬垂",
+    "cat": "back",
+    "part": "back",
+    "eq": "body weight",
+    "tg": "lats",
+    "mg": "握力/背阔肌",
+    "sm": ["forearms", "lats"],
+    "st": ["双手正握单杠，身体自然悬垂", "肩胛微微下沉，不要耸肩", "保持握力，坚持到目标时长"],
+    "im": "",
+    "gf": ""
+  },
+  {
+    "id": "extra-005",
+    "name": "glute bridge hold",
+    "nz": "臀桥保持",
+    "cat": "upper legs",
+    "part": "upper legs",
+    "eq": "body weight",
+    "tg": "glutes",
+    "mg": "臀肌",
+    "sm": ["glutes", "hamstrings"],
+    "st": ["仰卧屈膝，抬起髋部至身体成直线", "顶端收紧臀部", "保持不动，坚持到目标时长"],
+    "im": "",
+    "gf": ""
+  },
+  {
+    "id": "extra-006",
+    "name": "hollow body hold",
+    "nz": "空心体保持",
+    "cat": "waist",
+    "part": "waist",
+    "eq": "body weight",
+    "tg": "abs",
+    "mg": "核心",
+    "sm": ["abs"],
+    "st": ["仰卧，腰背部贴地", "同时抬起肩部与双腿，身体呈弧形", "核心全程收紧，坚持到目标时长"],
+    "im": "",
+    "gf": ""
+  },
+  {
+    "id": "extra-007",
+    "name": "jump rope",
+    "nz": "跳绳",
+    "cat": "cardio",
+    "part": "cardio",
+    "eq": "rope",
+    "tg": "cardio",
+    "mg": "心肺",
+    "sm": ["calves", "cardiovascular system"],
+    "st": ["手腕摇绳，前脚掌轻跳", "保持节奏与呼吸", "到目标时长结束"],
+    "im": "",
+    "gf": ""
+  },
+  {
+    "id": "extra-008",
+    "name": "bear crawl hold",
+    "nz": "四点支撑保持",
+    "cat": "waist",
+    "part": "waist",
+    "eq": "body weight",
+    "tg": "abs",
+    "mg": "核心",
+    "sm": ["abs", "shoulders"],
+    "st": ["四点支撑位，膝盖离地约一拳", "背部平直，核心收紧", "保持静止，坚持到目标时长"],
+    "im": "",
+    "gf": ""
+  },
+  {
+    "id": "extra-012",
+    "name": "standing split stance single arm landmine press",
+    "nz": "站姿单臂地雷管推举",
+    "cat": "shoulders",
+    "part": "shoulders",
+    "eq": "landmine",
+    "tg": "delts",
+    "mg": "三角肌",
+    "sm": ["triceps"],
+    "st": ["本条用于记录站姿单臂、无蹬腿借力的地雷管推举。先确认杠铃固定端牢靠，再分腿站稳。", "单手从肩前持握活动端，向前上方推起，控制回到起点；保持躯干稳定。", "同侧完成后再换侧；负重、幅度及支撑方式按器械说明或教练指导选择。"],
+    "im": "",
+    "gf": ""
+  },
+  {
+    "id": "extra-013",
+    "name": "bodyweight wall supported tibialis raise",
+    "nz": "靠墙提脚尖",
+    "cat": "lower legs",
+    "part": "lower legs",
+    "eq": "body weight",
+    "tg": "tibialis anterior",
+    "mg": "胫骨前肌",
+    "sm": [],
+    "st": ["背部靠稳墙面，双脚在身前落地，脚跟保持接触地面。", "保持身体位置，抬起双脚前脚掌，再缓慢放回；不靠抬脚跟完成。", "在能控制的活动范围内重复；本条不是站姿提踵，也不包含外加负重。"],
+    "im": "",
+    "gf": ""
+  },
+  {
+    "id": "extra-014",
+    "name": "bodyweight controlled forward step down",
+    "nz": "台阶缓降（向前）",
+    "cat": "upper legs",
+    "part": "upper legs",
+    "eq": "body weight",
+    "tg": "quads",
+    "mg": "股四头肌",
+    "sm": [],
+    "st": ["在稳固台阶上站稳，以一条腿承重，另一只脚伸向台阶前方；需要时使用牢靠扶手。", "支撑腿屈膝，控制身体下降，让前方脚跟接近并轻落地面；保持骨盆平稳、膝盖朝向脚趾。", "重新回到起始位置后再做下一次，同侧完成后换侧；本条只记录向前下降，不用于侧向缓降或连续爬楼。"],
+    "im": "",
+    "gf": ""
+  },
+  {
+    "id": "extra-015",
+    "name": "barbell hip thrust with upper back on bench",
+    "nz": "杠铃臀推（上背靠凳）",
+    "cat": "upper legs",
+    "part": "upper legs",
+    "eq": "barbell",
+    "tg": "glutes",
+    "mg": "臀肌",
+    "sm": [
+      "hamstrings"
+    ],
+    "st": [
+      "上背部靠在稳固的平凳边缘，双脚平放地面，屈膝；将杠铃稳妥地放在髋部上方并双手扶住。",
+      "以双脚支撑抬起髋部，使躯干与大腿接近一直线，顶部短暂停顿。",
+      "控制髋部回落后重复；本条为上背靠凳的杠铃臀推，不是双脚抬上凳的臀桥。"
+    ],
+    "im": "",
+    "gf": ""
+  },
+  {
+    "id": "extra-016",
+    "name": "bodyweight rear foot elevated bulgarian split squat",
+    "nz": "保加利亚分腿蹲（自重）",
+    "cat": "upper legs",
+    "part": "upper legs",
+    "eq": "body weight",
+    "tg": "quads",
+    "mg": "股四头肌",
+    "sm": [
+      "glutes",
+      "hamstrings"
+    ],
+    "st": [
+      "背对稳固平凳站立，一只脚向前落地，另一只脚的脚背放在身后凳面。",
+      "屈前膝及髋部，控制身体下降，保持前脚全脚掌着地与躯干稳定。",
+      "以前腿发力回到起点，同侧完成后换腿；本条为后脚抬高版本，不是双脚都在地面的分腿蹲。"
+    ],
+    "im": "",
+    "gf": ""
+  },
+  {
+    "id": "extra-017",
+    "name": "one arm dumbbell row with knee and hand on bench",
+    "nz": "凳支撑单臂哑铃划船",
+    "cat": "back",
+    "part": "back",
+    "eq": "dumbbell",
+    "tg": "lats",
+    "mg": "背阔肌",
+    "sm": [
+      "upper back",
+      "biceps"
+    ],
+    "st": [
+      "一侧膝盖和同侧手掌稳妥支撑在平凳上，另一只脚踩地，另一手持哑铃。",
+      "保持躯干稳定，将哑铃拉向躯干侧面，再控制下降。",
+      "同侧完成后换边；本条为凳支撑版本，不是双脚站地的俯身划船。"
+    ],
+    "im": "",
+    "gf": ""
+  },
+  {
+    "id": "extra-018",
+    "name": "bodyweight russian twist with feet on floor",
+    "nz": "俄罗斯转体（双脚着地）",
+    "cat": "waist",
+    "part": "waist",
+    "eq": "body weight",
+    "tg": "abs",
+    "mg": "腹斜肌",
+    "sm": [
+      "obliques"
+    ],
+    "st": [
+      "坐在垫上屈膝，双脚保持接触地面，躯干略向后倾。",
+      "双手在身前相握，控制躯干向一侧转动，再转向另一侧。",
+      "按本次记录约定计数；本条为双脚着地版本，不是双脚悬空版本。"
+    ],
+    "im": "",
+    "gf": ""
+  },
+  {
+    "id": "extra-019",
+    "name": "barbell upright row with narrow grip",
+    "nz": "窄握杠铃直立划船",
+    "cat": "shoulders",
+    "part": "shoulders",
+    "eq": "barbell",
+    "tg": "delts",
+    "mg": "三角肌",
+    "sm": [
+      "traps",
+      "upper back"
+    ],
+    "st": [
+      "双脚站稳，双手正握杠铃，握距约肩宽或略窄。",
+      "保持躯干稳定，以手肘向两侧引导杠铃上提，再控制放下。",
+      "选择舒适且可控制的活动范围；本条与宽握版本分开记录。"
+    ],
+    "im": "",
+    "gf": ""
+  },
+  {
+    "id": "extra-020",
+    "name": "single arm cable lateral raise standing side on to pulley",
+    "nz": "绳索单臂侧平举（侧对滑轮）",
+    "cat": "shoulders",
+    "part": "shoulders",
+    "eq": "cable",
+    "tg": "delts",
+    "mg": "三角肌",
+    "sm": [
+      "traps"
+    ],
+    "st": [
+      "身体侧对低位滑轮站稳，用远离滑轮的一侧手握住单把手。",
+      "保持躯干稳定，将持把手的手臂向身体外侧抬至约肩高，再缓慢放下。",
+      "同侧完成后换边；本条为侧对滑轮的单臂变式。"
+    ],
+    "im": "",
+    "gf": ""
+  },
+  {
+    "id": "extra-021",
+    "name": "standing chest supported incline dumbbell rear fly",
+    "nz": "站姿上斜凳胸托后束飞鸟",
+    "cat": "shoulders",
+    "part": "shoulders",
+    "eq": "dumbbell",
+    "tg": "delts",
+    "mg": "三角肌后束",
+    "sm": [
+      "upper back",
+      "traps"
+    ],
+    "st": [
+      "双脚站地，胸部贴靠稳固的上斜凳，两手各持一个哑铃。",
+      "保持肘部微屈，将双臂向两侧抬起，再控制下放。",
+      "本条为双脚站地的胸托版本，不是跨坐凳面的版本。"
+    ],
+    "im": "",
+    "gf": ""
+  },
+  {
+    "id": "extra-024",
+    "name": "standing bilateral dumbbell hammer curl",
+    "nz": "站姿双臂哑铃锤式弯举",
+    "cat": "upper arms",
+    "part": "upper arms",
+    "eq": "dumbbell",
+    "tg": "biceps",
+    "mg": "肱二头肌与肱肌",
+    "sm": [
+      "forearms"
+    ],
+    "st": [
+      "双脚站稳，双手各持哑铃垂于身体两侧，掌心相对。",
+      "保持上臂靠近躯干，双手以掌心相对的中立握姿屈肘，将哑铃向肩部方向抬起。",
+      "控制下放回起点；双臂同时完成一次抬起和下放计 1 次。"
+    ],
+    "im": "",
+    "gf": ""
+  },
+  {
+    "id": "extra-025",
+    "name": "seated leg curl with rear ankle roller",
+    "nz": "坐姿腿弯举（踝后滚垫）",
+    "cat": "upper legs",
+    "part": "upper legs",
+    "eq": "leverage machine",
+    "tg": "hamstrings",
+    "mg": "腘绳肌",
+    "sm": [
+      "calves"
+    ],
+    "st": [
+      "调整坐姿腿弯举器械，坐稳并让背部贴靠靠背，大腿固定在压垫下。",
+      "将滚垫放在小腿后侧、靠近脚踝的位置，双手握住器械把手。",
+      "屈膝使滚垫向后下方移动，再控制伸膝回到起点；每次屈伸计 1 次。"
+    ],
+    "im": "",
+    "gf": ""
+  },
+  {
+    "id": "extra-022",
+    "name": "bodyweight squat",
+    "nz": "徒手深蹲",
+    "cat": "upper legs",
+    "part": "upper legs",
+    "eq": "body weight",
+    "tg": "quads",
+    "mg": "股四头肌",
+    "sm": [
+      "glutes",
+      "hamstrings"
+    ],
+    "st": [
+      "双脚约与肩同宽站稳，脚尖自然略向外，双手在身前保持平衡。",
+      "屈髋屈膝，臀部向后下方移动，在可控制范围内下蹲，双脚全脚掌保持着地。",
+      "伸展髋膝回到站姿；每次从站姿下蹲并回到站姿计 1 次。"
+    ],
+    "im": "",
+    "gf": ""
+  },
+  {
+    "id": "extra-023",
+    "name": "bird dog",
+    "nz": "鸟狗式（对侧伸展）",
+    "cat": "waist",
+    "part": "waist",
+    "eq": "body weight",
+    "tg": "abs",
+    "mg": "核心肌群",
+    "sm": [
+      "glutes",
+      "lower back"
+    ],
+    "st": [
+      "四点跪姿，双手位于肩下、双膝位于髋下，保持躯干稳定。",
+      "向前伸直一侧手臂，同时向后伸直对侧腿，控制骨盆，避免腰背过度伸展。",
+      "缓慢回到四点跪姿后交换侧；每侧伸展并回位计 1 次，左右次数合计。"
+    ],
+    "im": "",
+    "gf": ""
+  }
+]
