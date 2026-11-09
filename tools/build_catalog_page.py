@@ -2,7 +2,7 @@
 """Build a standalone HTML catalog review page from catalog/*.json.
 
 Usage: python tools/build_catalog_page.py [--out PATH]
-Default output: catalog-review.html at the repository root (images resolve to ../media).
+Default output: catalog-review.html at the repository root (images resolve to media/).
 """
 import argparse
 import hashlib
@@ -245,7 +245,7 @@ function render(){
  rows=filtered();document.getElementById('count').textContent='显示 '+rows.length+' / '+DATA.total;
  const l=document.getElementById('list');l.innerHTML='';
  for(const r of rows.slice(0,400)){const d=document.createElement('div');d.className='row'+(cur===r.id?' sel':'');
-  d.innerHTML='<img loading="lazy" src="'+(r.media.file?'../media/'+encodeURIComponent(r.media.file):'')+'" onerror="this.style.visibility=\'hidden\'">'+
+  d.innerHTML='<img loading="lazy" src="'+(r.media.file?'media/'+encodeURIComponent(r.media.file):'')+'" onerror="this.style.visibility=\'hidden\'">'+
    '<div><div class="n">'+esc(r.name)+'</div><div class="s">'+esc(r.eqLabel||'')+' · '+esc(r.partLabel||'')+' · '+esc(r.measure==='reps'?'计数':r.measure==='duration'?'计时':'待维护')+'</div></div>'+
    '<div style="text-align:right"><span class="badge '+energyOf(r)+'">'+ENERGY[energyOf(r)].split('（')[0]+'</span><br><span class="badge '+(r.meta.reviewStatus==='reviewed'?'reviewed':'pending')+'">'+(r.meta.reviewStatus==='reviewed'?'已审':'未审')+'</span> '+(r.media.file?'<span class="badge">图</span>':'')+'</div>';
   d.onclick=()=>{cur=r.id;renderList();renderDetail(r)};l.appendChild(d)}
@@ -261,7 +261,7 @@ function renderDetail(r){
  '<h2>'+esc(r.name)+' <span class="badge '+e+'">'+ENERGY[e]+'</span> <span class="badge '+(r.meta.reviewStatus==='reviewed'?'reviewed':'pending')+'">'+(r.meta.reviewStatus==='reviewed'?'已审核':'未审核')+'</span> <span class="badge '+conf+'">类别置信 '+conf+'</span></h2>'+
  '<div class="en">'+esc(r.en)+' · <code>'+esc(r.id)+'</code> · 来源 '+esc(r.source)+'</div>'+
  (r.energy===e?'':'<div class="warnbox">规则原判：'+ENERGY[r.energy]+'（'+esc(r.energyBasis)+'）。已被你改为：'+ENERGY[e]+'。</div>')+
- '<div class="grid"><div>'+(r.media.file?'<img src="../media/'+encodeURIComponent(r.media.file)+'">':'<div class="note" style="padding:40px;text-align:center">无 ALIVO 插图</div>')+'</div><div>'+
+ '<div class="grid"><div>'+(r.media.file?'<img src="media/'+encodeURIComponent(r.media.file)+'">':'<div class="note" style="padding:40px;text-align:center">无 ALIVO 插图</div>')+'</div><div>'+
  '<div class="kv"><b>类别依据</b><span>'+esc(r.energyBasis)+(r.energy!==e?' → 人工改为 '+ENERGY[e]:'')+'</span>'+
  '<b>部位</b><span>'+esc(r.partLabel||r.part)+'</span><b>器械</b><span>'+esc(r.eqLabel||r.eq)+'</span>'+
  '<b>目标肌群</b><span>'+esc(r.tg)+(r.sm.length?'；协同：'+esc(r.sm.join('、')):'')+'</span>'+
