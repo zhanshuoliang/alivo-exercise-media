@@ -1,0 +1,122 @@
+[
+  {
+    "catalogId": "exercises-dataset:0648",
+    "filename": "barbell_power_clean.png"
+  },
+  {
+    "catalogId": "exercises-dataset:0069",
+    "filename": "barbell_overhead_squat.png"
+  },
+  {
+    "catalogId": "exercises-dataset:1700",
+    "filename": "dumbbell_push_press.png"
+  },
+  {
+    "catalogId": "exercises-dataset:0287",
+    "filename": "dumbbell_arnold_press.png"
+  },
+  {
+    "catalogId": "exercises-dataset:0128",
+    "filename": "battle_ropes.png"
+  },
+  {
+    "catalogId": "exercises-dataset:0488",
+    "filename": "bench_hyperextension.png"
+  },
+  {
+    "catalogId": "exercises-dataset:3193",
+    "filename": "glute_ham_raise.png"
+  },
+  {
+    "catalogId": "exercises-dataset:1759",
+    "filename": "pistol_squat.png"
+  },
+  {
+    "catalogId": "exercises-dataset:0471",
+    "filename": "handstand_push_up.png"
+  },
+  {
+    "catalogId": "exercises-dataset:1401",
+    "filename": "muscle_up.png"
+  },
+  {
+    "catalogId": "exercises-dataset:3360",
+    "filename": "bear_crawl.png"
+  },
+  {
+    "catalogId": "exercises-dataset:0628",
+    "filename": "band_monster_walk.png"
+  },
+  {
+    "catalogId": "exercises-dataset:0554",
+    "filename": "kettlebell_windmill.png"
+  },
+  {
+    "catalogId": "exercises-dataset:0551",
+    "filename": "kettlebell_turkish_get_up.png"
+  },
+  {
+    "catalogId": "exercises-dataset:0407",
+    "filename": "dumbbell_side_bend.png"
+  },
+  {
+    "catalogId": "exercises-dataset:1412",
+    "filename": "barbell_wrist_curl.png"
+  },
+  {
+    "catalogId": "exercises-dataset:1411",
+    "filename": "barbell_reverse_wrist_curl.png"
+  },
+  {
+    "catalogId": "exercises-dataset:0439",
+    "filename": "dumbbell_zottman_curl.png"
+  },
+  {
+    "catalogId": "exercises-dataset:0009",
+    "filename": "assisted_dip_machine.png"
+  },
+  {
+    "catalogId": "exercises-dataset:1432",
+    "filename": "assisted_pull_up_machine.png"
+  },
+  {
+    "catalogId": "exercises-dataset:0970",
+    "filename": "band_assisted_pull_up.png"
+  },
+  {
+    "catalogId": "exercises-dataset:0860",
+    "filename": "cable_triceps_kickback.png"
+  },
+  {
+    "catalogId": "exercises-dataset:0620",
+    "filename": "bench_lying_leg_raise.png"
+  },
+  {
+    "catalogId": "exercises-dataset:1490",
+    "filename": "standing_calf_raise_step.png"
+  },
+  {
+    "catalogId": "exercises-dataset:3643",
+    "filename": "weighted_cossack_squat.png"
+  },
+  {
+    "catalogId": "exercises-dataset:1354",
+    "filename": "medicine_ball_slam.png"
+  },
+  {
+    "catalogId": "exercises-dataset:1604",
+    "filename": "worlds_greatest_stretch.png"
+  },
+  {
+    "catalogId": "exercises-dataset:1017",
+    "filename": "band_y_raise.png"
+  },
+  {
+    "catalogId": "exercises-dataset:0098",
+    "filename": "barbell_side_squat.png"
+  },
+  {
+    "catalogId": "exercises-dataset:1298",
+    "filename": "kettlebell_floor_press.png"
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:0648",
+      "filename": "barbell_power_clean.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0069",
+      "filename": "barbell_overhead_squat.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1700",
+      "filename": "dumbbell_push_press.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0287",
+      "filename": "dumbbell_arnold_press.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0128",
+      "filename": "battle_ropes.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0488",
+      "filename": "bench_hyperextension.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3193",
+      "filename": "glute_ham_raise.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1759",
+      "filename": "pistol_squat.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0471",
+      "filename": "handstand_push_up.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1401",
+      "filename": "muscle_up.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3360",
+      "filename": "bear_crawl.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0628",
+      "filename": "band_monster_walk.png",
+      "folder": "new"
+    }
+  ]
+}

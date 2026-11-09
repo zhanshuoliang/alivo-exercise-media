@@ -18,7 +18,7 @@ docs/round7/ 第七轮目标清单、生成计划、逐图提示词与审查、�
 
 ### media/
 
-- 185 个文件（184 张图片 + `NOTICE.md`）；其中 183 张为 ALIVO 自研编辑插图，`wger_plank_346.png` 为历史遗留的第三方 wger 文件（保留来源记录，不计入自研数量）。
+- 215 个文件（214 张图片 + `NOTICE.md`）；其中 213 张为 ALIVO 自研编辑插图，`wger_plank_346.png` 为历史遗留的第三方 wger 文件（保留来源记录，不计入自研数量）。
 - 每张自研图：1254×1254 PNG，中性灰棚拍背景、自然肤色与服装、深色背心短裤、服装带白色 `ALIVO` 字标。
 - `NOTICE.md` 逐文件记录 catalogId 与 SHA-256；HarmonyOS 与 Flutter 两端图片逐字节相同。
 
@@ -67,6 +67,13 @@ docs/round7/ 第七轮目标清单、生成计划、逐图提示词与审查、�
 - [本轮完整提示词](docs/round8/prompts.json)（内置 ImageGen）；[媒体审计结果](docs/round8/audit-result.json)以接手的 `c566345` / 180 条为基线。
 - 重跑审计：`python -B tools/audit_media.py --app-root D:/codex-temp/alivo --baseline c566345 --expected docs/round8/accepted.json`。该工具不写死轮次或旧基线数量。
 - Node 774/774、Flutter 指定媒体和领域测试 28/28、清单、计量及 diff 检查通过。GIF 仍为独立 experimental 试稿，未经用户确认，不绑定生产。
+
+## 第九轮（2026-11-09）
+
+- 新增 30 张自研静态图（主仓库 `ce5799e` + `716696c`），现有 213 条绑定；catalog 仍为 1352 条。
+- [本轮中文报告](docs/round9/report.md)：逐张清单、审核要点与验证结果。
+- `docs/round9/`：`plan_round8.json`（30 项目标与动作描述）、`prompts/`（逐图完整提示词）、`batch_05.json`/`batch_06.json`（两批绑定清单）、`tools/`（`add_bindings.cjs`、`audit_round8.cjs`）、`media-baseline-183.json`（本轮审计基线）。
+- 审计：total=213、183 旧绑定保留、30 新增与审核文件一致、两端字节相同、NOTICE/SHA-256 全有效；Node 774/774、Flutter 媒体测试全过。
 
 ## 使用约定
 
