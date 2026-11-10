@@ -1,0 +1,7 @@
+Use the image generation tool to create exactly one image now. Include the image attached to this prompt as the tool's reference image input. Call the tool with use case "photorealistic-natural" and pass the following prompt text to it VERBATIM, without rewriting or shortening:
+
+BEGIN TOOL PROMPT
+Use case: photorealistic-natural. Asset type: ALIVO fitness editorial illustration. The attached photo is a STYLE reference only: create the DIFFERENT exercise described below, never copy its pose. Square photograph, neutral gray seamless studio backdrop and floor, soft editorial lighting, natural realistic skin and hair, one adult athletic woman with brown hair tied in a low ponytail wearing a dark muted forest-green tank top, charcoal shorts and dark athletic shoes. Print exactly one small white wordmark "ALIVO" (letters A L I V O) on the clothing in a clean sans-serif font; no other text, branding or watermark. Exercise: FLOOR DIP. The athlete sits with hands planted on the floor behind them fingers forward, hips lifted off the ground, legs extended straight in front, mid-dip with elbows bent. Side three-quarter view showing the lifted hips and bent elbows. Keep the whole athlete, head, hands, feet and all equipment entirely inside the square frame. Realistic anatomy and hand placement, one person only, no mirrors, no gym background clutter, no extra lettering.
+END TOOL PROMPT
+
+After the image is generated, reply with only the absolute path of the saved PNG file. Do not edit files, do not review the image, do not generate more than one image.

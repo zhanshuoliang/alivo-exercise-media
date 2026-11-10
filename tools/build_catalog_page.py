@@ -86,12 +86,37 @@ def load_media():
 
 
 def load_open_media():
-    """media-open/manifest.json -> catalogId to unbranded CC-BY edition file."""
+    """media-open/manifest.json -> catalogId to list of unbranded CC-BY edition items."""
     p = ROOT / "media-open" / "manifest.json"
     if not p.exists():
         return {}
     data = json.loads(p.read_text(encoding="utf-8"))
-    return {item["catalogId"]: item for item in data.get("items", [])}
+    out = {}
+    for item in data.get("items", []):
+        out.setdefault(item["catalogId"], []).append(item)
+    return out
+
+
+def media_block(cid, mrow, open_items):
+    """Per-record media variants: branded bound file + gender variants + open editions."""
+    file = mrow["localPath"].split("/", 1)[1] if mrow else ""
+    female = ""
+    if file.endswith("_male.png"):
+        cand = file[:-len("_male.png")] + "_female.png"
+        if (ROOT / "media" / cand).exists():
+            female = cand
+    open_single, open_m, open_f = "", "", ""
+    for item in open_items:
+        f = item.get("file", "")
+        if f.endswith("_male.png"):
+            open_m = f
+        elif f.endswith("_female.png"):
+            open_f = f
+        else:
+            open_single = f
+    return {"file": file, "license": mrow["license"] if mrow else "",
+            "sha256": mrow["sha256"] if mrow else "",
+            "female": female, "open": open_single, "openM": open_m, "openF": open_f}
 
 
 def classify_energy(item, meas):
@@ -160,9 +185,7 @@ def main():
             "energy": energy, "energyBasis": energy_basis,
             "warmup": is_warmup(it),
             "timing": timing_suggestion(meas, energy),
-            "media": {"file": mrow["localPath"].split("/", 1)[1] if mrow else "",
-                      "license": mrow["license"] if mrow else "", "sha256": mrow["sha256"] if mrow else "",
-                      "open": open_media.get(cid, {}).get("file", "")},
+            "media": media_block(cid, mrow, open_media.get(cid, [])),
             "source": it["source"],
         })
     payload = {
@@ -237,6 +260,9 @@ button.no{background:#fbeeee;color:var(--warn);border:1px solid #e5bcbc}button.n
 .grid.duo2{grid-template-columns:minmax(0,560px) 1fr}
 @media(max-width:1150px){.grid.duo2{grid-template-columns:1fr}}
 .duo{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.grid.quad2{grid-template-columns:minmax(0,780px) 1fr}
+@media(max-width:1250px){.grid.quad2{grid-template-columns:1fr}}
+.duo .vlabel{font-size:12px;font-weight:600;color:var(--acc);margin-bottom:4px}
 .duocol .imgwrap{width:100%;position:relative;overflow:hidden;border-radius:6px;background:#ddd}
 .duocol img{width:100%;height:auto;display:block}
 .duocol .verdict{margin-top:6px;padding:6px 8px}
@@ -356,13 +382,21 @@ const mRev=JSON.parse(localStorage.getItem('alivoMediaReview')||'{}');
 function saveMRev(){localStorage.setItem('alivoMediaReview',JSON.stringify(mRev));updSubBtn()}
 function mRevCount(){return Object.keys(mRev).length}
 function updSubBtn(){document.getElementById('subIssue').textContent='提交审核到 GitHub（'+mRevCount()+'）';
- const opens=DATA.records.filter(r=>r.media.open);
- const ap=opens.filter(r=>mRev[r.id+':open']&&mRev[r.id+':open'].status==='approved').length;
- const rj=opens.filter(r=>mRev[r.id+':open']&&mRev[r.id+':open'].status==='rejected').length;
+ const opens=DATA.records.filter(hasOpen);
+ const ap=opens.filter(r=>openStatus(r)==='approved').length;
+ const rj=opens.filter(r=>openStatus(r)==='rejected').length;
  const el=document.getElementById('revProg');
  const wc=Object.values(mRev).filter(d=>d.version==='request').length;
  if(opens.length||wc){el.hidden=false;el.textContent='开源版审核：通过 '+ap+' · 拒绝 '+rj+' · 未审 '+(opens.length-ap-rj)+' / '+opens.length+(wc?' · 已标记需配图 '+wc:'')}}
 let cur=null,rows=[];
+function hasOpen(r){return !!(r.media.open||r.media.openM||r.media.openF)}
+function openStatus(r){
+ const vs=[];if(r.media.open)vs.push('open');if(r.media.openM)vs.push('openM');if(r.media.openF)vs.push('openF');
+ if(!vs.length)return'';
+ const ds=vs.map(v=>mRev[r.id+':'+v]);
+ if(ds.some(d=>d&&d.status==='rejected'))return'rejected';
+ if(ds.every(d=>d&&d.status==='approved'))return'approved';
+ return'pending'}
 function energyOf(r){return st.energyOv[r.id]||r.energy}
 function confOf(r){const e=energyOf(r);return r.energy==='strength'? 'low' : (r.energy===e?'high':'medium')}
 function timingOf(r){return r.timing?(r.timing.mode==='free'?'free':'fixed'):'none'}
@@ -376,11 +410,11 @@ function filtered(){
   if(st.timing&&timingOf(r)!==st.timing)return false;
   if(st.media==='yes'&&!r.media.file)return false;
   if(st.media==='no'&&r.media.file)return false;
-  if(st.media==='open'&&!r.media.open)return false;
-  if(st.media==='noopen'&&r.media.open)return false;
+  if(st.media==='open'&&!hasOpen(r))return false;
+  if(st.media==='noopen'&&hasOpen(r))return false;
   if(st.media==='want'&&!mRev[r.id+':request'])return false;
   if(st.review){const s=r.meta.reviewStatus==='reviewed'?'reviewed':'pending';if(s!==st.review)return false}
-  if(st.mrev){if(!r.media.open)return false;const d=mRev[r.id+':open'];const s=d?d.status:'pending';if(s!==st.mrev)return false}
+  if(st.mrev){const s=openStatus(r);if(!s||s!==st.mrev)return false}
   if(st.conf&&confOf(r)!==st.conf)return false;
   if(q){const hay=(r.id+' '+r.name+' '+r.en+' '+(r.meta.standardName||'')+' '+r.tg+' '+r.sm.join(' ')+' '+(r.meta.variant||'')).toLowerCase();if(!hay.includes(q))return false}
   return true}).sort((a,b)=>a.name.localeCompare(b.name,'zh'));
@@ -396,7 +430,7 @@ function render(){
  for(const r of rows.slice(0,400)){const d=document.createElement('div');d.className='row'+(cur===r.id?' sel':'');
   d.innerHTML='<img loading="lazy" src="'+(r.media.file?'media/'+encodeURIComponent(r.media.file):'')+'" onerror="this.style.visibility=\'hidden\'">'+
    '<div><div class="n">'+esc(r.name)+'</div><div class="s">'+esc(r.eqLabel||'')+' · '+esc(r.partLabel||'')+' · '+esc(r.measure==='reps'?'计数':r.measure==='duration'?'计时':'待维护')+'</div></div>'+
-   '<div style="text-align:right"><span class="badge '+energyOf(r)+'">'+ENERGY[energyOf(r)].split('（')[0]+'</span>'+(r.warmup?' <span class="badge warm">热身</span>':'')+'<br><span class="badge '+(r.meta.reviewStatus==='reviewed'?'reviewed':'pending')+'">'+(r.meta.reviewStatus==='reviewed'?'已审':'未审')+'</span> '+(r.media.file?'<span class="badge">图</span>':(mRev[r.id+':request']?'<span class="badge mixed">需图</span>':''))+(r.media.open?'<span class="badge aerobic">开源</span>'+(mRev[r.id+':open']?'<span class="dot '+(mRev[r.id+':open'].status==='approved'?'ok':'no')+'"></span>':''):'')+'</div>';
+   '<div style="text-align:right"><span class="badge '+energyOf(r)+'">'+ENERGY[energyOf(r)].split('（')[0]+'</span>'+(r.warmup?' <span class="badge warm">热身</span>':'')+'<br><span class="badge '+(r.meta.reviewStatus==='reviewed'?'reviewed':'pending')+'">'+(r.meta.reviewStatus==='reviewed'?'已审':'未审')+'</span> '+(r.media.file?'<span class="badge">图</span>':(mRev[r.id+':request']?'<span class="badge mixed">需图</span>':''))+(hasOpen(r)?'<span class="badge aerobic">开源</span>'+(openStatus(r)!=='pending'?'<span class="dot '+(openStatus(r)==='approved'?'ok':'no')+'"></span>':''):'')+'</div>';
   d.onclick=()=>{cur=r.id;renderList();renderDetail(r)};l.appendChild(d)}
  if(rows.length>400){const p=document.createElement('div');p.className='note';p.style.padding='8px';p.textContent='仅显示前 400 条，请用筛选缩小范围';l.appendChild(p)}
  renderChips();
@@ -406,16 +440,22 @@ function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&l
 function renderDetail(r){
  const e=energyOf(r),conf=confOf(r),t=r.timing;
  const motionFile=DATA.motionSamples[r.id]||'';
+ const vars=[];
+ if(r.media.file)vars.push({v:'branded',src:'media/'+r.media.file,label:r.media.female?'Kai · 带标版':'带标版',lic:'ALIVO-editorial · 可自由使用'});
+ if(r.media.female)vars.push({v:'brandedF',src:'media/'+r.media.female,label:'Liv · 带标版',lic:'ALIVO-editorial · 可自由使用'});
+ if(r.media.openM)vars.push({v:'openM',src:'media-open/'+r.media.openM,label:'Kai · 无标开源版',lic:'CC-BY-4.0 · Paul Leung · 使用须署名'});
+ if(r.media.openF)vars.push({v:'openF',src:'media-open/'+r.media.openF,label:'Liv · 无标开源版',lic:'CC-BY-4.0 · Paul Leung · 使用须署名'});
+ if(r.media.open)vars.push({v:'open',src:'media-open/'+r.media.open,label:'无标开源版',lic:'CC-BY-4.0 · Paul Leung · 使用须署名'});
+ const multi=vars.length>1;
  const track=r.meta.track||{},tk=Object.entries(track).filter(([k,v])=>v).map(([k,v])=>({'loadType':'负重类型','weightBasis':'重量口径','repsBasis':'次数口径','defaultSide':'默认侧别'}[k]||k)+'：'+({'external':'外部负重','bodyweight':'自重','assistance':'辅助','machine':'器械示值','single':'单侧','total':'合计','per-side':'单侧','bilateral':'双侧','alternating':'交替','unknown':'未知'}[v]||v)).join('；');
  document.getElementById('detail').innerHTML=
  '<h2>'+esc(r.name)+' <span class="badge '+e+'">'+ENERGY[e]+'</span>'+(r.warmup?' <span class="badge warm">热身 / 拉伸</span>':'')+' <span class="badge '+(r.meta.reviewStatus==='reviewed'?'reviewed':'pending')+'">'+(r.meta.reviewStatus==='reviewed'?'已审核':'未审核')+'</span> <span class="badge '+conf+'">类别置信 '+conf+'</span></h2>'+
  '<div class="en">'+esc(r.en)+' · <code>'+esc(r.id)+'</code> · 来源 '+esc(r.source)+'</div>'+
  (r.energy===e?'':'<div class="warnbox">规则原判：'+ENERGY[r.energy]+'（'+esc(r.energyBasis)+'）。已被你改为：'+ENERGY[e]+'。</div>')+
- '<div class="grid'+(r.media.open?' duo2':'')+'"><div>'+(
- r.media.open?
+ '<div class="grid'+(multi?(vars.length>2?' quad2':' duo2'):'')+'"><div>'+(
+ multi?
   '<div class="duo">'+
-   '<div class="duocol"><div class="imgwrap"><img id="dImg_branded" alt="'+esc(r.name)+'（带标版）" src="media/'+encodeURIComponent(r.media.file)+'"><div class="hint">带标版 · 点击放大</div></div><div class="verdict"><span class="lbl" id="mrevLabel_branded"></span><button id="mOk_branded" class="ok">✓ 通过</button><button id="mNo_branded" class="no">✗ 重新生成</button></div><div class="note" style="margin-top:4px">ALIVO-editorial · 可自由使用</div></div>'+
-   '<div class="duocol"><div class="imgwrap"><img id="dImg_open" alt="'+esc(r.name)+'（无标开源版）" src="media-open/'+encodeURIComponent(r.media.open)+'"><div class="hint">无标开源版 · 点击放大</div></div><div class="verdict"><span class="lbl" id="mrevLabel_open"></span><button id="mOk_open" class="ok">✓ 通过</button><button id="mNo_open" class="no">✗ 重新生成</button></div><div class="note" style="margin-top:4px">CC-BY-4.0 · Paul Leung · 使用须署名</div></div>'+
+  vars.map(t=>'<div class="duocol"><div class="vlabel">'+t.label+'</div><div class="imgwrap"><img id="dImg_'+t.v+'" alt="'+esc(r.name)+'（'+t.label+'）" src="'+t.src.split('/').map(encodeURIComponent).join('/')+'"><div class="hint">'+t.label+' · 点击放大</div></div><div class="verdict"><span class="lbl" id="mrevLabel_'+t.v+'"></span><button id="mOk_'+t.v+'" class="ok">✓ 通过</button><button id="mNo_'+t.v+'" class="no">✗ 重新生成</button></div><div class="note" style="margin-top:4px">'+t.lic+'</div></div>').join('')+
   '</div>'+(motionFile?'<div class="imgctrl"><button id="btnGif" type="button" aria-pressed="false">动作 GIF 样例</button></div><div class="note">ALIVO 编辑插图，非动作教学示范（动态试稿）</div>':'')
  :r.media.file?
   '<div class="imgwrap"><img id="dImg" alt="'+esc(r.name)+'的插图" src="media/'+encodeURIComponent(r.media.file)+'"><div class="hint">可放大检视</div></div>'+
@@ -438,14 +478,14 @@ function renderDetail(r){
  '</div></div>';
  const verRefresh=[];
  const mSetV=(v,s)=>{const k=r.id+':'+v;if(mRev[k]&&mRev[k].status===s)delete mRev[k];else mRev[k]={status:s,version:v,catalogId:r.id,ts:new Date().toISOString()};saveMRev();verRefresh.forEach(f=>f());render()};
- ['branded','open'].forEach(v=>{
+ vars.forEach(t=>{const v=t.v;
   const ok=document.getElementById('mOk_'+v),no=document.getElementById('mNo_'+v),lb=document.getElementById('mrevLabel_'+v);
   if(!ok)return;
   const show=()=>{const d=mRev[r.id+':'+v];
-   lb.textContent=(v==='open'?'无标开源版':'带标版')+'：'+(d?(d.status==='approved'?'✓ 已通过 '+d.ts.slice(0,10):'✗ 需重新生成 '+d.ts.slice(0,10)):'未审');
+   lb.textContent=t.label+'：'+(d?(d.status==='approved'?'✓ 已通过 '+d.ts.slice(0,10):'✗ 需重新生成 '+d.ts.slice(0,10)):'未审');
    ok.classList.toggle('on',!!d&&d.status==='approved');no.classList.toggle('on',!!d&&d.status==='rejected')};
   ok.onclick=()=>mSetV(v,'approved');no.onclick=()=>mSetV(v,'rejected');verRefresh.push(show);show()});
- ['dImg_branded','dImg_open'].forEach(id=>{const img=document.getElementById(id);if(img){
+ vars.map(t=>'dImg_'+t.v).concat(['dImg']).forEach(id=>{const img=document.getElementById(id);if(img){
   img.style.cursor='zoom-in';
   img.onclick=()=>{img.classList.toggle('zoomed');img.style.cursor=img.classList.contains('zoomed')?'zoom-out':'zoom-in'};
   img.onmousemove=e=>{if(img.classList.contains('zoomed')){const b=img.getBoundingClientRect();img.style.transformOrigin=((e.clientX-b.left)/b.width*100)+'% '+((e.clientY-b.top)/b.height*100)+'%'}}}});
@@ -475,7 +515,7 @@ function renderDetail(r){
 }
 ['q','part','eq','energy','measure','timing','media','review','conf','mrev'].forEach(id=>{document.getElementById(id).oninput=e=>{st[id]=e.target.value;render()}});
 document.getElementById('reset').onclick=()=>{Object.keys(st).forEach(k=>{if(typeof st[k]==='string')st[k]=''});localStorage.removeItem('alivoReview');document.querySelectorAll('header select,input').forEach(el=>{if(el.tagName==='SELECT')el.selectedIndex=0;else el.value=''});render()};
-function out(){return{note:'ALIVO 动作库复核结果；energy 为 aerobic/mixed/strength，合并到 exercise_measures.json 或 exercise_metadata.json 前需维护者确认；mediaReview 为逐图审核决定（version: branded|open, status: approved|rejected）；imageRequests 为无图动作的配图优先级请求',overrides:Object.entries(st.energyOv).map(([id,energy])=>({catalogId:id,energy})),mediaReview:Object.values(mRev).filter(d=>d.version==='branded'||d.version==='open'),imageRequests:Object.values(mRev).filter(d=>d.version==='request')}}
+function out(){return{note:'ALIVO 动作库复核结果；energy 为 aerobic/mixed/strength，合并到 exercise_measures.json 或 exercise_metadata.json 前需维护者确认；mediaReview 为逐图审核决定（version: branded|brandedF|open|openM|openF, status: approved|rejected）；imageRequests 为无图动作的配图优先级请求',overrides:Object.entries(st.energyOv).map(([id,energy])=>({catalogId:id,energy})),mediaReview:Object.values(mRev).filter(d=>d.version!=='request'),imageRequests:Object.values(mRev).filter(d=>d.version==='request')}}
 document.getElementById('subIssue').onclick=()=>{
  const payload=out();const body='<!-- alivo-review-payload\n'+JSON.stringify(payload)+'\n-->\n\n复核决定：'+payload.mediaReview.length+' 条媒体审核 + '+payload.overrides.length+' 条类别修正 + '+payload.imageRequests.length+' 条配图请求，请见上方 JSON。';
  const url='https://github.com/zhanshuoliang/alivo-exercise-media/issues/new?title='+encodeURIComponent('媒体与类别复核 '+new Date().toISOString().slice(0,10))+'&body='+encodeURIComponent(body);

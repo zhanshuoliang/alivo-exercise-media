@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:1430",
+      "filename": "chest_dip_on_dip_pull_up_cage_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3302",
+      "filename": "handstand_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0253",
+      "filename": "chin_ups_narrow_parallel_grip_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3543",
+      "filename": "bodyweight_drop_jump_squat_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0803",
+      "filename": "superman_push_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1761",
+      "filename": "hanging_oblique_knee_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1374",
+      "filename": "box_jump_down_with_one_leg_stabilization_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1399",
+      "filename": "bench_dip_on_floor_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1201",
+      "filename": "dumbbell_burpee_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0295",
+      "filename": "dumbbell_clean_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0114",
+      "filename": "barbell_step_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0053",
+      "filename": "barbell_jump_squat_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1410",
+      "filename": "barbell_lateral_lunge_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0029",
+      "filename": "barbell_clean_grip_front_squat_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3327",
+      "filename": "full_planche_push_up_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:1430",
+      "base": "chest_dip_on_dip_pull_up_cage"
+    },
+    {
+      "catalogId": "exercises-dataset:3302",
+      "base": "handstand"
+    },
+    {
+      "catalogId": "exercises-dataset:0253",
+      "base": "chin_ups_narrow_parallel_grip"
+    },
+    {
+      "catalogId": "exercises-dataset:3543",
+      "base": "bodyweight_drop_jump_squat"
+    },
+    {
+      "catalogId": "exercises-dataset:0803",
+      "base": "superman_push_up"
+    },
+    {
+      "catalogId": "exercises-dataset:1761",
+      "base": "hanging_oblique_knee_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:1374",
+      "base": "box_jump_down_with_one_leg_stabilization"
+    },
+    {
+      "catalogId": "exercises-dataset:1399",
+      "base": "bench_dip_on_floor"
+    },
+    {
+      "catalogId": "exercises-dataset:1201",
+      "base": "dumbbell_burpee"
+    },
+    {
+      "catalogId": "exercises-dataset:0295",
+      "base": "dumbbell_clean"
+    },
+    {
+      "catalogId": "exercises-dataset:0114",
+      "base": "barbell_step_up"
+    },
+    {
+      "catalogId": "exercises-dataset:0053",
+      "base": "barbell_jump_squat"
+    },
+    {
+      "catalogId": "exercises-dataset:1410",
+      "base": "barbell_lateral_lunge"
+    },
+    {
+      "catalogId": "exercises-dataset:0029",
+      "base": "barbell_clean_grip_front_squat"
+    },
+    {
+      "catalogId": "exercises-dataset:3327",
+      "base": "full_planche_push_up"
+    }
+  ]
+}

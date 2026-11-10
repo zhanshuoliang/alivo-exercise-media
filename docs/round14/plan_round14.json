@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:1430",
+    "name": "chest dip (on dip-pull-up cage)",
+    "base": "chest_dip_on_dip_pull_up_cage"
+  },
+  {
+    "catalogId": "exercises-dataset:3302",
+    "name": "handstand",
+    "base": "handstand"
+  },
+  {
+    "catalogId": "exercises-dataset:0253",
+    "name": "chin-ups (narrow parallel grip)",
+    "base": "chin_ups_narrow_parallel_grip"
+  },
+  {
+    "catalogId": "exercises-dataset:3543",
+    "name": "bodyweight drop jump squat",
+    "base": "bodyweight_drop_jump_squat"
+  },
+  {
+    "catalogId": "exercises-dataset:0803",
+    "name": "superman push-up",
+    "base": "superman_push_up"
+  },
+  {
+    "catalogId": "exercises-dataset:1761",
+    "name": "hanging oblique knee raise",
+    "base": "hanging_oblique_knee_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:1374",
+    "name": "box jump down with one leg stabilization",
+    "base": "box_jump_down_with_one_leg_stabilization"
+  },
+  {
+    "catalogId": "exercises-dataset:1399",
+    "name": "bench dip on floor",
+    "base": "bench_dip_on_floor"
+  },
+  {
+    "catalogId": "exercises-dataset:1201",
+    "name": "dumbbell burpee",
+    "base": "dumbbell_burpee"
+  },
+  {
+    "catalogId": "exercises-dataset:0295",
+    "name": "dumbbell clean",
+    "base": "dumbbell_clean"
+  },
+  {
+    "catalogId": "exercises-dataset:0114",
+    "name": "barbell step-up",
+    "base": "barbell_step_up"
+  },
+  {
+    "catalogId": "exercises-dataset:0053",
+    "name": "barbell jump squat",
+    "base": "barbell_jump_squat"
+  },
+  {
+    "catalogId": "exercises-dataset:1410",
+    "name": "barbell lateral lunge",
+    "base": "barbell_lateral_lunge"
+  },
+  {
+    "catalogId": "exercises-dataset:0029",
+    "name": "barbell clean-grip front squat",
+    "base": "barbell_clean_grip_front_squat"
+  },
+  {
+    "catalogId": "exercises-dataset:3327",
+    "name": "full planche push-up",
+    "base": "full_planche_push_up"
+  }
+]
