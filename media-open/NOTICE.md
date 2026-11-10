@@ -1,3 +1,33 @@
+| `ankle_circles.png` | `exercises-dataset:1368` | `2074641b46383be1426266dccdfc196d33795df249e25a9d02ba6af623bfe768` |
+| `wrist_circles.png` | `exercises-dataset:1428` | `e95eb20f9fe6611c33e442f1df4271eb38f7d65e4bba8d528f911fdf0bdca9a7` |
+| `dynamic_chest_stretch_male.png` | `exercises-dataset:1167` | `e468a75012e19d213c4860cb3f9c08c7df969bcde69521cde4489186d24706c8` |
+| `inchworm_v_2.png` | `exercises-dataset:3698` | `0f5ffd65a427976d3707fa32b15ae06d85e8255ab6eafcdd2b1e2c11f97ab53a` |
+| `walking_high_knees_lunge.png` | `exercises-dataset:3655` | `ed8a94ccbff4eb023e730c3bdb8d7edec01dbe46a4eea17b051559f361cf1196` |
+| `high_knee_against_wall.png` | `exercises-dataset:3636` | `3fb26cf6d60ee6c223ae4e4ff378b04e045c1bb67da8bd386b2c1742f054e569` |
+| `runners_stretch.png` | `exercises-dataset:1585` | `717a3f118bdf6108c855288813fd0aa4f00473435d584c4713bf214cc2d67fc1` |
+| `hamstring_stretch.png` | `exercises-dataset:1511` | `e4a9b5d34287e55a20472c88bfb7b4e28a88ae55621898b2bbc51e46a924a489` |
+| `leg_up_hamstring_stretch.png` | `exercises-dataset:1576` | `686d916bc6a12c34a35bfba1a5b7e7da74fddb84ccf781df066d5d67c48d7558` |
+| `seated_glute_stretch.png` | `exercises-dataset:1424` | `535da6eff3d8ba693439444ba785873cc52287677e2796115d86388d6f61924b` |
+| `seated_piriformis_stretch.png` | `exercises-dataset:2567` | `04c190696767ee8ed1235f3266c64e4ad17b05ef5905bec4de2dd41314d2d8cb` |
+| `butterfly_yoga_pose.png` | `exercises-dataset:1494` | `c03f9dada999e7c53a572b463e386ab770be1c17e57f5db1fb2cacb891719344` |
+| `seated_wide_angle_pose_sequence.png` | `exercises-dataset:1587` | `955e9139c3b43a74999a335b0b140a97ce113d937c4e04c349de2870e9f236ae` |
+| `rocking_frog_stretch.png` | `exercises-dataset:2571` | `db4fd9ce7c12057b988aefc7f465f0c5a926157d31bc3fdd43edac4bf5df3c9e` |
+| `iron_cross_stretch.png` | `exercises-dataset:1419` | `b47551f5892be026d37e35ccc10843df9a82d5b944b583b6fb4fa772e7d55d58` |
+| `intermediate_hip_flexor_and_quad_stretch.png` | `exercises-dataset:1564` | `a0df68316fa1dd90c027c962d0582c3ba26e7cc051a341a1f0f68ef55a0cc126` |
+| `lying_side_quads_stretch.png` | `exercises-dataset:0613` | `63fcaaee1025ddc697478b1d5f96c00dd73ea29d3e37b910b7769d87e8dd8ab7` |
+| `standing_hamstring_and_calf_stretch_with_strap.png` | `exercises-dataset:1599` | `caf4d7284322c7550dd9fee32951c18b6bdb1b71e294902a73ca0811e955205d` |
+| `calf_stretch_with_hands_against_wall.png` | `exercises-dataset:1377` | `d0c0c105bf6328b5cd7f16361d84beac41bc47cf08e86be82b6558dc37fb00d0` |
+| `standing_calves_calf_stretch.png` | `exercises-dataset:1398` | `f988c3e381ef6a8d3c2ee9c89ec901de81bc976be271d16e273025f9855b88bd` |
+| `kneeling_lat_stretch.png` | `exercises-dataset:1346` | `f2bf81ed879320e889f72ac0c12b7a32eee84ebb8e17599a6bbe2c69986a2363` |
+| `circles_knee_stretch.png` | `exercises-dataset:0257` | `e7c3daffc2833d77791263ee5a2916a9bc5c9e1c9186f580c9b8a090c19355ec` |
+| `overhead_triceps_stretch.png` | `exercises-dataset:0643` | `293873ead1a4a7eea4f8432f4c42d46479af8d995f0e5520385fc80727bb4ae2` |
+| `rear_deltoid_stretch.png` | `exercises-dataset:0669` | `ac35af3eb6cee00cb8a3ea985d9ab63b53498a43a6c31a5e9676e581b3626ccc` |
+| `chest_and_front_of_shoulder_stretch.png` | `exercises-dataset:1271` | `caab66469d9695cd7f5cbb8fa31352f2804078054083bed9667d0f76bd362162` |
+| `side_push_neck_stretch.png` | `exercises-dataset:0716` | `eda9632a813cd7df8aac14434ab4c2edca1c2b166acb82475f4fe85b3553c66d` |
+| `side_wrist_pull_stretch.png` | `exercises-dataset:0721` | `0bd364692a37bfb15d170ffc86947302b7e9994fda5ca01539351a5ee82050a8` |
+| `upper_back_stretch.png` | `exercises-dataset:1365` | `1bbd735c25cc1e26935adbee9ab442d7955c1c55f0935c5a796e12bd7f0397b5` |
+| `spine_stretch.png` | `exercises-dataset:1363` | `909a9c8c63f308c0ce94b209a5b83fd6726bc37d242c9701f409acdb98f26f61` |
+| `seated_lower_back_stretch.png` | `exercises-dataset:0690` | `e2bf8c1ad04c34f875b19617b067798f9d4955f13ec5de06b3f49083df73a750` |
 # ALIVO Exercise Media — Open Edition NOTICE
 
 本目录收录 ALIVO 自研动作编辑插图的**无字标开源版**。

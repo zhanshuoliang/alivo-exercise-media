@@ -1,0 +1,154 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:1368",
+      "filename": "ankle_circles.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1428",
+      "filename": "wrist_circles.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1167",
+      "filename": "dynamic_chest_stretch_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3698",
+      "filename": "inchworm_v_2.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3655",
+      "filename": "walking_high_knees_lunge.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3636",
+      "filename": "high_knee_against_wall.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1585",
+      "filename": "runners_stretch.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1511",
+      "filename": "hamstring_stretch.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1576",
+      "filename": "leg_up_hamstring_stretch.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1424",
+      "filename": "seated_glute_stretch.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2567",
+      "filename": "seated_piriformis_stretch.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1494",
+      "filename": "butterfly_yoga_pose.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1587",
+      "filename": "seated_wide_angle_pose_sequence.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2571",
+      "filename": "rocking_frog_stretch.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1419",
+      "filename": "iron_cross_stretch.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1564",
+      "filename": "intermediate_hip_flexor_and_quad_stretch.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0613",
+      "filename": "lying_side_quads_stretch.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1599",
+      "filename": "standing_hamstring_and_calf_stretch_with_strap.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1377",
+      "filename": "calf_stretch_with_hands_against_wall.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1398",
+      "filename": "standing_calves_calf_stretch.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1346",
+      "filename": "kneeling_lat_stretch.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0257",
+      "filename": "circles_knee_stretch.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0643",
+      "filename": "overhead_triceps_stretch.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0669",
+      "filename": "rear_deltoid_stretch.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1271",
+      "filename": "chest_and_front_of_shoulder_stretch.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0716",
+      "filename": "side_push_neck_stretch.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0721",
+      "filename": "side_wrist_pull_stretch.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1365",
+      "filename": "upper_back_stretch.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1363",
+      "filename": "spine_stretch.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0690",
+      "filename": "seated_lower_back_stretch.png",
+      "folder": "new"
+    }
+  ]
+}

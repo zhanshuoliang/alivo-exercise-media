@@ -335,3 +335,38 @@ Generated specifically for ALIVO with OpenAI ImageGen. These are editorial illus
 - `exercise_media/medicine_ball_catch_and_overhead_throw.png` - `exercises-dataset:1353`; SHA-256 `7ab0f03799bec352969e752f378bf656afcbfd5b6f6fb4cbe6fa84d660ec9ebf`.
 - `exercise_media/hands_bike.png` - `exercises-dataset:2139`; SHA-256 `8c397e02359546d5916e800438b3ada860209368af34adfbacd8613d86f9770b`.
 - `exercise_media/neck_side_stretch.png` - `exercises-dataset:1403`; SHA-256 `9534a663289fee24e23bdf416928c35840b965ea3a2cd5cc0208d6ca20bf2ee1`.
+
+## ALIVO editorial warm-up and mobility illustrations generated 2026-11-10
+
+Generated specifically for ALIVO with OpenAI ImageGen. Editorial illustrations are not instructional demonstrations.
+
+- `exercise_media/ankle_circles.png` — `exercises-dataset:1368`; SHA-256 `09468555d24fb80d6573f69263e0a9fe8b10a6846621e6f04487a2e8d48d8a99`.
+- `exercise_media/wrist_circles.png` — `exercises-dataset:1428`; SHA-256 `3f2727df9e234505ea5b3d9e5fdb886d45864146ffc05aa53f3e1dafa4c5a927`.
+- `exercise_media/dynamic_chest_stretch_male.png` — `exercises-dataset:1167`; SHA-256 `2a8ba7d5aafc120d9cf0685ca76e6c065052ed9bfbf1bbbf9e4ac4ec7574f733`.
+- `exercise_media/inchworm_v_2.png` — `exercises-dataset:3698`; SHA-256 `19e6d664c7fa113a6edf9803c2e75a5218d0215e318acc453296117a4f5ba122`.
+- `exercise_media/walking_high_knees_lunge.png` — `exercises-dataset:3655`; SHA-256 `5f993b572be9a08f6343eb512c99af294a1c39938809931f071e992e614437e4`.
+- `exercise_media/high_knee_against_wall.png` — `exercises-dataset:3636`; SHA-256 `afb393ea44b5e18b978be6e08a29c447b4e8705fce996dfb52f88b62422a2010`.
+- `exercise_media/runners_stretch.png` — `exercises-dataset:1585`; SHA-256 `81e05b9f284f552ad625f9e516dde6bee830ed2a7fb91fe1a4961891f2a5f515`.
+- `exercise_media/hamstring_stretch.png` — `exercises-dataset:1511`; SHA-256 `cd3dd9c87b8c5b1c0eef8e0b1285cf2411b90a502cc41287397f1286f60aa1d9`.
+- `exercise_media/leg_up_hamstring_stretch.png` — `exercises-dataset:1576`; SHA-256 `cc102c9da9aaf878cf12ca612954b06c34e3b3c74783fc6a6a90a64cc4f355c9`.
+- `exercise_media/seated_glute_stretch.png` — `exercises-dataset:1424`; SHA-256 `a6bf65b8d5e8e978237cad989957d1e846c6de37eaa4202adaeac3aab6d32b44`.
+- `exercise_media/seated_piriformis_stretch.png` — `exercises-dataset:2567`; SHA-256 `f6c398ce7aa986f1a292bc2de7ad7ce964c58a80bb904bdd32e310788e14847f`.
+- `exercise_media/butterfly_yoga_pose.png` — `exercises-dataset:1494`; SHA-256 `b8b68cf2ae5eef259626f924a8c3cac045b99742eda17cf3b9642a76e2390acd`.
+- `exercise_media/seated_wide_angle_pose_sequence.png` — `exercises-dataset:1587`; SHA-256 `3649986632ad5654d51dd2cc52b157b82e40dd8e10d391e26e36d56c830f69af`.
+- `exercise_media/rocking_frog_stretch.png` — `exercises-dataset:2571`; SHA-256 `c934ee1a7ff45ea7c2e1c2d97c46188bc2e805532e3166693610d2b612978d63`.
+- `exercise_media/iron_cross_stretch.png` — `exercises-dataset:1419`; SHA-256 `9bda26713e5b9bc3e3b232bac83cbdcd457992a3b221b1b6eb7b9fda6a5d2e58`.
+- `exercise_media/intermediate_hip_flexor_and_quad_stretch.png` — `exercises-dataset:1564`; SHA-256 `86059c31129afd0af37850aa9437f00f00b20dd3d29b47c8ab05d5be4f0018f1`.
+- `exercise_media/lying_side_quads_stretch.png` — `exercises-dataset:0613`; SHA-256 `21e0eb8652afc4442c05270c68bbe05087c2cd83e8924209c82961c4807eb504`.
+- `exercise_media/standing_hamstring_and_calf_stretch_with_strap.png` — `exercises-dataset:1599`; SHA-256 `b75157bb9283dfef1d43b26687998a692e502535c3a109bc2c72269b238ba013`.
+- `exercise_media/calf_stretch_with_hands_against_wall.png` — `exercises-dataset:1377`; SHA-256 `6c875fd2dce1d936d09d4643021bb07835e015bf2cd0320e5b6dc86af2dc2b4e`.
+- `exercise_media/standing_calves_calf_stretch.png` — `exercises-dataset:1398`; SHA-256 `65630ad68e1e71050e9c6f2dd57e33e446a5dbbdac717f561fc53c1c49128082`.
+- `exercise_media/kneeling_lat_stretch.png` — `exercises-dataset:1346`; SHA-256 `c8ad3802fa24f566e69c55f4d5fb7c7c52528d01c546c8e12a6eaaa7e33ed1bb`.
+- `exercise_media/circles_knee_stretch.png` — `exercises-dataset:0257`; SHA-256 `1cfb7284e0f5d9f3023dfd748ef7fbb1931042cae9a9c124b7f4d21669274039`.
+- `exercise_media/overhead_triceps_stretch.png` — `exercises-dataset:0643`; SHA-256 `221272ef4247aed2e8afb3596f3521c972574a0eef646e0a29ad0729de7e9869`.
+- `exercise_media/rear_deltoid_stretch.png` — `exercises-dataset:0669`; SHA-256 `72386a738ccd212c0dbebf8a3f4c4e5cfcf70f6c9492e66d5eae873a1ad5cf4c`.
+- `exercise_media/chest_and_front_of_shoulder_stretch.png` — `exercises-dataset:1271`; SHA-256 `e4acf391ea1601869143dd378af7f20f1e3bc62dc40c33226adf478f30537249`.
+- `exercise_media/side_push_neck_stretch.png` — `exercises-dataset:0716`; SHA-256 `4b40923c957405c42313544567cb97de1488e3346d7ba4d04c07e0597f24af4d`.
+- `exercise_media/side_wrist_pull_stretch.png` — `exercises-dataset:0721`; SHA-256 `4259ce2553c3380d6437c479e21ac7772b5fd46572bcb7bca61694d268ea2d11`.
+- `exercise_media/upper_back_stretch.png` — `exercises-dataset:1365`; SHA-256 `57ad3f797b9449c685abe39660ed39b838951f64b75a8de0ff838c014446ae85`.
+- `exercise_media/spine_stretch.png` — `exercises-dataset:1363`; SHA-256 `71f92b5855b59bdfa0a7c4a6cd8ab4dc877da326428a9b71b3ee83520b72f0f8`.
+- `exercise_media/seated_lower_back_stretch.png` — `exercises-dataset:0690`; SHA-256 `c95ae139a916fc5837f05a3fd8ba5fe9c3a544c16f6b00258dc350116c4bbf84`.
