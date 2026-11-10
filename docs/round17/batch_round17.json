@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:1749",
+      "filename": "ez_bar_standing_french_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1344",
+      "filename": "ez_bar_reverse_grip_bent_over_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0451",
+      "filename": "ez_barbell_reverse_grip_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0445",
+      "filename": "ez_barbell_anti_gravity_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0830",
+      "filename": "weighted_bench_dip_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0834",
+      "filename": "weighted_front_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0835",
+      "filename": "weighted_hyperextension_on_stability_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1463",
+      "filename": "sled_45_leg_press_side_pov_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0741",
+      "filename": "sled_closer_hack_squat_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3123",
+      "filename": "resistance_band_seated_biceps_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3124",
+      "filename": "resistance_band_seated_chest_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1307",
+      "filename": "push_up_on_bosu_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2204",
+      "filename": "roller_body_saw_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1496",
+      "filename": "sledge_hammer_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0636",
+      "filename": "olympic_barbell_hammer_curl_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:1749",
+      "base": "ez_bar_standing_french_press"
+    },
+    {
+      "catalogId": "exercises-dataset:1344",
+      "base": "ez_bar_reverse_grip_bent_over_row"
+    },
+    {
+      "catalogId": "exercises-dataset:0451",
+      "base": "ez_barbell_reverse_grip_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0445",
+      "base": "ez_barbell_anti_gravity_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0830",
+      "base": "weighted_bench_dip"
+    },
+    {
+      "catalogId": "exercises-dataset:0834",
+      "base": "weighted_front_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:0835",
+      "base": "weighted_hyperextension_on_stability_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:1463",
+      "base": "sled_45_leg_press_side_pov"
+    },
+    {
+      "catalogId": "exercises-dataset:0741",
+      "base": "sled_closer_hack_squat"
+    },
+    {
+      "catalogId": "exercises-dataset:3123",
+      "base": "resistance_band_seated_biceps_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:3124",
+      "base": "resistance_band_seated_chest_press"
+    },
+    {
+      "catalogId": "exercises-dataset:1307",
+      "base": "push_up_on_bosu_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:2204",
+      "base": "roller_body_saw"
+    },
+    {
+      "catalogId": "exercises-dataset:1496",
+      "base": "sledge_hammer"
+    },
+    {
+      "catalogId": "exercises-dataset:0636",
+      "base": "olympic_barbell_hammer_curl"
+    }
+  ]
+}

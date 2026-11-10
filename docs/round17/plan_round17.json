@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:1749",
+    "name": "ez bar standing french press",
+    "base": "ez_bar_standing_french_press"
+  },
+  {
+    "catalogId": "exercises-dataset:1344",
+    "name": "ez bar reverse grip bent over row",
+    "base": "ez_bar_reverse_grip_bent_over_row"
+  },
+  {
+    "catalogId": "exercises-dataset:0451",
+    "name": "ez barbell reverse grip curl",
+    "base": "ez_barbell_reverse_grip_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0445",
+    "name": "ez barbell anti gravity press",
+    "base": "ez_barbell_anti_gravity_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0830",
+    "name": "weighted bench dip",
+    "base": "weighted_bench_dip"
+  },
+  {
+    "catalogId": "exercises-dataset:0834",
+    "name": "weighted front raise",
+    "base": "weighted_front_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:0835",
+    "name": "weighted hyperextension (on stability ball)",
+    "base": "weighted_hyperextension_on_stability_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:1463",
+    "name": "sled 45° leg press (side pov)",
+    "base": "sled_45_leg_press_side_pov"
+  },
+  {
+    "catalogId": "exercises-dataset:0741",
+    "name": "sled closer hack squat",
+    "base": "sled_closer_hack_squat"
+  },
+  {
+    "catalogId": "exercises-dataset:3123",
+    "name": "resistance band seated biceps curl",
+    "base": "resistance_band_seated_biceps_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:3124",
+    "name": "resistance band seated chest press",
+    "base": "resistance_band_seated_chest_press"
+  },
+  {
+    "catalogId": "exercises-dataset:1307",
+    "name": "push up on bosu ball",
+    "base": "push_up_on_bosu_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:2204",
+    "name": "roller body saw",
+    "base": "roller_body_saw"
+  },
+  {
+    "catalogId": "exercises-dataset:1496",
+    "name": "sledge hammer",
+    "base": "sledge_hammer"
+  },
+  {
+    "catalogId": "exercises-dataset:0636",
+    "name": "olympic barbell hammer curl",
+    "base": "olympic_barbell_hammer_curl"
+  }
+]
