@@ -78,6 +78,15 @@ def load_media():
     return media
 
 
+def load_open_media():
+    """media-open/manifest.json -> catalogId to unbranded CC-BY edition file."""
+    p = ROOT / "media-open" / "manifest.json"
+    if not p.exists():
+        return {}
+    data = json.loads(p.read_text(encoding="utf-8"))
+    return {item["catalogId"]: item for item in data.get("items", [])}
+
+
 def classify_energy(item, meas):
     """Heuristic three-way split; always flagged as inferred so the reviewer confirms."""
     if meas["measure"] == "duration" and meas["kind"] == "continuous":
@@ -113,7 +122,8 @@ def main():
     ap.add_argument("--out", default=str(ROOT / "catalog-review.html"))
     args = ap.parse_args()
 
-    items, measures, meta, media = load_catalog(), load_measures(), load_metadata(), load_media()
+    items, measures, meta, media, open_media = (
+        load_catalog(), load_measures(), load_metadata(), load_media(), load_open_media())
     motion = load_motion_samples()
     records = []
     for it in items:
@@ -137,7 +147,8 @@ def main():
             "energy": energy, "energyBasis": energy_basis,
             "timing": timing_suggestion(meas, energy),
             "media": {"file": mrow["localPath"].split("/", 1)[1] if mrow else "",
-                      "license": mrow["license"] if mrow else "", "sha256": mrow["sha256"] if mrow else ""},
+                      "license": mrow["license"] if mrow else "", "sha256": mrow["sha256"] if mrow else "",
+                      "open": open_media.get(cid, {}).get("file", "")},
             "source": it["source"],
         })
     payload = {
@@ -209,7 +220,7 @@ table{border-collapse:collapse;width:100%;font-size:13px}td,th{border-bottom:1px
     <option value="aerobic">有氧（持续）</option><option value="mixed">混合 / 高强度间歇</option><option value="strength">力量 / 柔韧（默认，待复核）</option></select></label>
   <label>计量 <select id="measure"><option value="">全部</option><option value="reps">计数</option><option value="duration">计时</option><option value="unknown">待维护</option></select></label>
   <label>计时建议 <select id="timing"><option value="">全部</option><option value="free">正计时</option><option value="fixed">倒计时</option><option value="none">无建议</option></select></label>
-  <label>配图 <select id="media"><option value="">全部</option><option value="yes">有 ALIVO 插图</option><option value="no">无图</option></select></label>
+  <label>配图 <select id="media"><option value="">全部</option><option value="yes">有 ALIVO 插图</option><option value="no">无图</option><option value="open">有无标开源版</option><option value="noopen">无无标版</option></select></label>
   <label>审核 <select id="review"><option value="">全部</option><option value="reviewed">已审核</option><option value="pending">未审核</option></select></label>
   <label>置信 <select id="conf"><option value="">全部</option><option value="high">高</option><option value="medium">中</option><option value="low">低</option></select></label>
   <button id="reset">重置</button>
@@ -221,7 +232,7 @@ table{border-collapse:collapse;width:100%;font-size:13px}td,th{border-bottom:1px
  <div class="list" id="list"></div>
  <div class="detail" id="detail"><p class="note">← 选择左侧动作查看详情</p></div>
 </div>
-<div class="export"><button id="expJson">导出我的复核修改</button><button id="impJson">导入复核修改</button><input type="file" id="impFile" accept=".json" hidden></div>
+<div class="export"><button id="subIssue" title="把全部复核决定打包成 GitHub Issue">提交审核到 GitHub（0）</button><button id="expJson">导出我的复核修改</button><button id="impJson">导入复核修改</button><input type="file" id="impFile" accept=".json" hidden></div>
 <script>
 const DATA=__DATA__;
 const ENERGY={aerobic:'有氧（持续）',mixed:'混合 / 高强度间歇',strength:'力量 / 柔韧（默认）'};
@@ -232,6 +243,10 @@ const LBL=__LABELS__;
 const st={q:'',part:'',eq:'',energy:'',measure:'',timing:'',media:'',review:'',conf:'',energyOv:{}};
 const store=JSON.parse(localStorage.getItem('alivoReview')||'{}');
 if(store.overrides)Object.assign(st.energyOv,store.overrides);
+const mRev=JSON.parse(localStorage.getItem('alivoMediaReview')||'{}');
+function saveMRev(){localStorage.setItem('alivoMediaReview',JSON.stringify(mRev));updSubBtn()}
+function mRevCount(){return Object.keys(mRev).length}
+function updSubBtn(){document.getElementById('subIssue').textContent='提交审核到 GitHub（'+mRevCount()+'）'}
 let cur=null,rows=[];
 function energyOf(r){return st.energyOv[r.id]||r.energy}
 function confOf(r){const e=energyOf(r);return r.energy==='strength'? 'low' : (r.energy===e?'high':'medium')}
@@ -243,7 +258,10 @@ function filtered(){
   if(st.part&&r.part!==st.part)return false;if(st.eq&&r.eq!==st.eq)return false;
   if(st.energy&&energyOf(r)!==st.energy)return false;if(st.measure&&r.measure!==st.measure)return false;
   if(st.timing&&timingOf(r)!==st.timing)return false;
-  if(st.media&&(st.media==='yes')!==(!!r.media.file))return false;
+  if(st.media==='yes'&&!r.media.file)return false;
+  if(st.media==='no'&&r.media.file)return false;
+  if(st.media==='open'&&!r.media.open)return false;
+  if(st.media==='noopen'&&r.media.open)return false;
   if(st.review){const s=r.meta.reviewStatus==='reviewed'?'reviewed':'pending';if(s!==st.review)return false}
   if(st.conf&&confOf(r)!==st.conf)return false;
   if(q){const hay=(r.id+' '+r.name+' '+r.en+' '+(r.meta.standardName||'')+' '+r.tg+' '+r.sm.join(' ')+' '+(r.meta.variant||'')).toLowerCase();if(!hay.includes(q))return false}
@@ -260,7 +278,7 @@ function render(){
  for(const r of rows.slice(0,400)){const d=document.createElement('div');d.className='row'+(cur===r.id?' sel':'');
   d.innerHTML='<img loading="lazy" src="'+(r.media.file?'media/'+encodeURIComponent(r.media.file):'')+'" onerror="this.style.visibility=\'hidden\'">'+
    '<div><div class="n">'+esc(r.name)+'</div><div class="s">'+esc(r.eqLabel||'')+' · '+esc(r.partLabel||'')+' · '+esc(r.measure==='reps'?'计数':r.measure==='duration'?'计时':'待维护')+'</div></div>'+
-   '<div style="text-align:right"><span class="badge '+energyOf(r)+'">'+ENERGY[energyOf(r)].split('（')[0]+'</span><br><span class="badge '+(r.meta.reviewStatus==='reviewed'?'reviewed':'pending')+'">'+(r.meta.reviewStatus==='reviewed'?'已审':'未审')+'</span> '+(r.media.file?'<span class="badge">图</span>':'')+'</div>';
+   '<div style="text-align:right"><span class="badge '+energyOf(r)+'">'+ENERGY[energyOf(r)].split('（')[0]+'</span><br><span class="badge '+(r.meta.reviewStatus==='reviewed'?'reviewed':'pending')+'">'+(r.meta.reviewStatus==='reviewed'?'已审':'未审')+'</span> '+(r.media.file?'<span class="badge">图</span>':'')+(r.media.open?'<span class="badge aerobic">开源</span>':'')+'</div>';
   d.onclick=()=>{cur=r.id;renderList();renderDetail(r)};l.appendChild(d)}
  if(rows.length>400){const p=document.createElement('div');p.className='note';p.style.padding='8px';p.textContent='仅显示前 400 条，请用筛选缩小范围';l.appendChild(p)}
  renderChips();
@@ -275,7 +293,11 @@ function renderDetail(r){
  '<h2>'+esc(r.name)+' <span class="badge '+e+'">'+ENERGY[e]+'</span> <span class="badge '+(r.meta.reviewStatus==='reviewed'?'reviewed':'pending')+'">'+(r.meta.reviewStatus==='reviewed'?'已审核':'未审核')+'</span> <span class="badge '+conf+'">类别置信 '+conf+'</span></h2>'+
  '<div class="en">'+esc(r.en)+' · <code>'+esc(r.id)+'</code> · 来源 '+esc(r.source)+'</div>'+
  (r.energy===e?'':'<div class="warnbox">规则原判：'+ENERGY[r.energy]+'（'+esc(r.energyBasis)+'）。已被你改为：'+ENERGY[e]+'。</div>')+
- '<div class="grid"><div>'+(r.media.file?'<div class="imgwrap"><img id="dImg" alt="'+esc(r.name)+'的插图" src="media/'+encodeURIComponent(r.media.file)+'"><div class="hint">可放大检视</div></div><div class="imgctrl"><button id="btnKb">动态检视</button><button id="btnZoom">放大细节</button>'+(motionFile?'<button id="btnGif" type="button" aria-pressed="false">动作 GIF 样例</button>':'')+'</div>'+(motionFile?'<div class="note">ALIVO 编辑插图，非动作教学示范（动态试稿）</div>':''):'<div class="note" style="padding:40px;text-align:center">无 ALIVO 插图</div>')+'</div><div>'+
+ '<div class="grid"><div>'+(r.media.file?'<div class="imgwrap"><img id="dImg" alt="'+esc(r.name)+'的插图" src="media/'+encodeURIComponent(r.media.file)+'"><div class="hint">可放大检视</div></div>'+
+ (r.media.open?'<div class="imgctrl"><button id="vBranded" class="on">带标版</button><button id="vOpen">无标开源版</button></div>':'')+
+ '<div class="imgctrl"><button id="btnKb">动态检视</button><button id="btnZoom">放大细节</button>'+(motionFile?'<button id="btnGif" type="button" aria-pressed="false">动作 GIF 样例</button>':'')+'</div>'+
+ '<div class="imgctrl"><span class="note" id="mrevLabel" style="align-self:center"></span><button id="mOk">通过</button><button id="mNo">需重新生成</button></div>'+
+ (motionFile?'<div class="note">ALIVO 编辑插图，非动作教学示范（动态试稿）</div>':''):'<div class="note" style="padding:40px;text-align:center">无 ALIVO 插图</div>')+'</div><div>'+
  '<div class="kv"><b>类别依据</b><span>'+esc(r.energyBasis)+(r.energy!==e?' → 人工改为 '+ENERGY[e]:'')+'</span>'+
  '<b>部位</b><span>'+esc(r.partLabel||r.part)+'</span><b>器械</b><span>'+esc(r.eqLabel||r.eq)+'</span>'+
  '<b>目标肌群</b><span>'+esc(r.tg)+(r.sm.length?'；协同：'+esc(r.sm.join('、')):'')+'</span>'+
@@ -291,6 +313,20 @@ function renderDetail(r){
  '</div></div>';
  const di=document.getElementById('dImg');
  if(di){
+  let ver='branded';
+  const mKey=()=>r.id+':'+ver;
+  const mShow=()=>{const d=mRev[mKey()],lb=document.getElementById('mrevLabel');
+   lb.textContent=d?(d.status==='approved'?'已通过':'已标记需重新生成'):'';
+   document.getElementById('mOk').classList.toggle('on',!!d&&d.status==='approved');
+   document.getElementById('mNo').classList.toggle('on',!!d&&d.status==='rejected');};
+  const mSet=s=>{const k=mKey();if(mRev[k]&&mRev[k].status===s)delete mRev[k];else mRev[k]={status:s,version:ver,catalogId:r.id,ts:new Date().toISOString()};saveMRev();mShow()};
+  document.getElementById('mOk').onclick=()=>mSet('approved');
+  document.getElementById('mNo').onclick=()=>mSet('rejected');
+  if(r.media.open){const vb=document.getElementById('vBranded'),vo=document.getElementById('vOpen');
+   const setVer=v=>{ver=v;vb.classList.toggle('on',v==='branded');vo.classList.toggle('on',v==='open');
+    di.src=(v==='open'?'media-open/'+encodeURIComponent(r.media.open):'media/'+encodeURIComponent(r.media.file));mShow()};
+   vb.onclick=()=>setVer('branded');vo.onclick=()=>setVer('open')}
+  mShow();
   const kb=document.getElementById('btnKb'),zm=document.getElementById('btnZoom');
   kb.onclick=()=>{di.classList.toggle('kb');kb.classList.toggle('on');kb.textContent=di.classList.contains('kb')?'停止检视':'动态检视'};
   zm.onclick=()=>{di.classList.toggle('zoomed');zm.classList.toggle('on');zm.textContent=di.classList.contains('zoomed')?'还原':'放大细节'};
@@ -311,7 +347,11 @@ function renderDetail(r){
 }
 ['q','part','eq','energy','measure','timing','media','review','conf'].forEach(id=>{document.getElementById(id).oninput=e=>{st[id]=e.target.value;render()}});
 document.getElementById('reset').onclick=()=>{Object.keys(st).forEach(k=>{if(typeof st[k]==='string')st[k]=''});localStorage.removeItem('alivoReview');document.querySelectorAll('header select,input').forEach(el=>{if(el.tagName==='SELECT')el.selectedIndex=0;else el.value=''});render()};
-function out(){return{note:'ALIVO 动作库类别复核结果；energy 为 aerobic/mixed/strength，合并到 exercise_measures.json 或 exercise_metadata.json 前需维护者确认',overrides:Object.entries(st.energyOv).map(([id,energy])=>({catalogId:id,energy}))}}
+function out(){return{note:'ALIVO 动作库复核结果；energy 为 aerobic/mixed/strength，合并到 exercise_measures.json 或 exercise_metadata.json 前需维护者确认；mediaReview 为逐图审核决定（version: branded|open, status: approved|rejected）',overrides:Object.entries(st.energyOv).map(([id,energy])=>({catalogId:id,energy})),mediaReview:Object.values(mRev)}}
+document.getElementById('subIssue').onclick=()=>{
+ const payload=out();const body='<!-- alivo-review-payload\n'+JSON.stringify(payload)+'\n-->\n\n复核决定 '+payload.mediaReview.length+' 条媒体审核 + '+payload.overrides.length+' 条类别修正，请见上方 JSON。';
+ const url='https://github.com/zhanshuoliang/alivo-exercise-media/issues/new?title='+encodeURIComponent('媒体与类别复核 '+new Date().toISOString().slice(0,10))+'&body='+encodeURIComponent(body);
+ window.open(url,'_blank')};
 document.getElementById('expJson').onclick=()=>{const b=new Blob([JSON.stringify(out(),null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='alivo-catalog-review-'+new Date().toISOString().slice(0,10)+'.json';a.click()};
 document.getElementById('impJson').onclick=()=>document.getElementById('impFile').click();
 document.getElementById('impFile').onchange=async e=>{const f=e.target.files[0];if(!f)return;try{const j=JSON.parse(await f.text());(j.overrides||[]).forEach(o=>{if(o.catalogId&&o.energy)st.energyOv[o.catalogId]=o.energy});save();render();if(cur)renderDetail(DATA.records.find(r=>r.id===cur))}catch(err){alert('导入失败：'+err.message)}};
@@ -321,6 +361,7 @@ document.getElementById('impFile').onchange=async e=>{const f=e.target.files[0];
 const partCnt={},eqCnt={};DATA.records.forEach(r=>{partCnt[r.part]=(partCnt[r.part]||0)+1;eqCnt[r.eq]=(eqCnt[r.eq]||0)+1});
 document.getElementById('part').innerHTML='<option value="">全部</option>'+Object.entries(partCnt).sort((a,b)=>b[1]-a[1]).map(([k,v])=>'<option value="'+esc(k)+'">'+esc(LBL.part[k]||k)+'（'+v+'）</option>').join('');
 document.getElementById('eq').innerHTML='<option value="">全部</option>'+Object.entries(eqCnt).sort((a,b)=>b[1]-a[1]).map(([k,v])=>'<option value="'+esc(k)+'">'+esc(LBL.eq[k]||k)+'（'+v+'）</option>').join('');
+updSubBtn();
 render();if(DATA.records.length)renderDetail(DATA.records[0]);
 </script>
 </body></html>"""
