@@ -22,9 +22,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Stage site without bulk PNG payloads
+        run: |
+          mkdir _site
+          rsync -a --exclude 'media/*.png' --exclude 'media-open/*.png' \
+            --exclude '.git' --exclude '.github' --exclude '_site' ./ _site/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: _site
       - id: deployment
         uses: actions/deploy-pages@v4

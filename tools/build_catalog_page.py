@@ -370,6 +370,7 @@ table{border-collapse:collapse;width:100%;font-size:13px}td,th{border-bottom:1px
 </div>
 <script>
 const DATA=__DATA__;
+const MBASE='https://raw.githubusercontent.com/zhanshuoliang/alivo-exercise-media/main/';
 const ENERGY={aerobic:'有氧（持续）',mixed:'混合 / 高强度间歇',strength:'力量 / 柔韧（默认）'};
 const PART={};DATA.records.forEach(r=>{PART[r.part||'(未标注)']=1});
 const EQ={};DATA.records.forEach(r=>{EQ[r.eq||'(未标注)']=1});
@@ -428,7 +429,7 @@ function render(){
  rows=filtered();document.getElementById('count').textContent='显示 '+rows.length+' / '+DATA.total;
  const l=document.getElementById('list');l.innerHTML='';
  for(const r of rows.slice(0,400)){const d=document.createElement('div');d.className='row'+(cur===r.id?' sel':'');
-  d.innerHTML='<img loading="lazy" src="'+(r.media.file?'media/'+encodeURIComponent(r.media.file):'')+'" onerror="this.style.visibility=\'hidden\'">'+
+  d.innerHTML='<img loading="lazy" src="'+(r.media.file?MBASE+'media/'+encodeURIComponent(r.media.file):'')+'" onerror="this.style.visibility=\'hidden\'">'+
    '<div><div class="n">'+esc(r.name)+'</div><div class="s">'+esc(r.eqLabel||'')+' · '+esc(r.partLabel||'')+' · '+esc(r.measure==='reps'?'计数':r.measure==='duration'?'计时':'待维护')+'</div></div>'+
    '<div style="text-align:right"><span class="badge '+energyOf(r)+'">'+ENERGY[energyOf(r)].split('（')[0]+'</span>'+(r.warmup?' <span class="badge warm">热身</span>':'')+'<br><span class="badge '+(r.meta.reviewStatus==='reviewed'?'reviewed':'pending')+'">'+(r.meta.reviewStatus==='reviewed'?'已审':'未审')+'</span> '+(r.media.file?'<span class="badge">图</span>':(mRev[r.id+':request']?'<span class="badge mixed">需图</span>':''))+(hasOpen(r)?'<span class="badge aerobic">开源</span>'+(openStatus(r)!=='pending'?'<span class="dot '+(openStatus(r)==='approved'?'ok':'no')+'"></span>':''):'')+'</div>';
   d.onclick=()=>{cur=r.id;renderList();renderDetail(r)};l.appendChild(d)}
@@ -441,11 +442,11 @@ function renderDetail(r){
  const e=energyOf(r),conf=confOf(r),t=r.timing;
  const motionFile=DATA.motionSamples[r.id]||'';
  const vars=[];
- if(r.media.file)vars.push({v:'branded',src:'media/'+r.media.file,label:r.media.female?'Kai · 带标版':'带标版',lic:'ALIVO-editorial · 可自由使用'});
- if(r.media.female)vars.push({v:'brandedF',src:'media/'+r.media.female,label:'Liv · 带标版',lic:'ALIVO-editorial · 可自由使用'});
- if(r.media.openM)vars.push({v:'openM',src:'media-open/'+r.media.openM,label:'Kai · 无标开源版',lic:'CC-BY-4.0 · Paul Leung · 使用须署名'});
- if(r.media.openF)vars.push({v:'openF',src:'media-open/'+r.media.openF,label:'Liv · 无标开源版',lic:'CC-BY-4.0 · Paul Leung · 使用须署名'});
- if(r.media.open)vars.push({v:'open',src:'media-open/'+r.media.open,label:'无标开源版',lic:'CC-BY-4.0 · Paul Leung · 使用须署名'});
+ if(r.media.file)vars.push({v:'branded',src:MBASE+'media/'+r.media.file,label:r.media.female?'Kai · 带标版':'带标版',lic:'ALIVO-editorial · 可自由使用'});
+ if(r.media.female)vars.push({v:'brandedF',src:MBASE+'media/'+r.media.female,label:'Liv · 带标版',lic:'ALIVO-editorial · 可自由使用'});
+ if(r.media.openM)vars.push({v:'openM',src:MBASE+'media-open/'+r.media.openM,label:'Kai · 无标开源版',lic:'CC-BY-4.0 · Paul Leung · 使用须署名'});
+ if(r.media.openF)vars.push({v:'openF',src:MBASE+'media-open/'+r.media.openF,label:'Liv · 无标开源版',lic:'CC-BY-4.0 · Paul Leung · 使用须署名'});
+ if(r.media.open)vars.push({v:'open',src:MBASE+'media-open/'+r.media.open,label:'无标开源版',lic:'CC-BY-4.0 · Paul Leung · 使用须署名'});
  const multi=vars.length>1;
  const track=r.meta.track||{},tk=Object.entries(track).filter(([k,v])=>v).map(([k,v])=>({'loadType':'负重类型','weightBasis':'重量口径','repsBasis':'次数口径','defaultSide':'默认侧别'}[k]||k)+'：'+({'external':'外部负重','bodyweight':'自重','assistance':'辅助','machine':'器械示值','single':'单侧','total':'合计','per-side':'单侧','bilateral':'双侧','alternating':'交替','unknown':'未知'}[v]||v)).join('；');
  document.getElementById('detail').innerHTML=
@@ -455,10 +456,10 @@ function renderDetail(r){
  '<div class="grid'+(multi?(vars.length>2?' quad2':' duo2'):'')+'"><div>'+(
  multi?
   '<div class="duo">'+
-  vars.map(t=>'<div class="duocol"><div class="vlabel">'+t.label+'</div><div class="imgwrap"><img id="dImg_'+t.v+'" alt="'+esc(r.name)+'（'+t.label+'）" src="'+t.src.split('/').map(encodeURIComponent).join('/')+'"><div class="hint">'+t.label+' · 点击放大</div></div><div class="verdict"><span class="lbl" id="mrevLabel_'+t.v+'"></span><button id="mOk_'+t.v+'" class="ok">✓ 通过</button><button id="mNo_'+t.v+'" class="no">✗ 重新生成</button></div><div class="note" style="margin-top:4px">'+t.lic+'</div></div>').join('')+
+  vars.map(t=>'<div class="duocol"><div class="vlabel">'+t.label+'</div><div class="imgwrap"><img id="dImg_'+t.v+'" alt="'+esc(r.name)+'（'+t.label+'）" src="'+t.src.replace(/[^/]+$/,encodeURIComponent)+'"><div class="hint">'+t.label+' · 点击放大</div></div><div class="verdict"><span class="lbl" id="mrevLabel_'+t.v+'"></span><button id="mOk_'+t.v+'" class="ok">✓ 通过</button><button id="mNo_'+t.v+'" class="no">✗ 重新生成</button></div><div class="note" style="margin-top:4px">'+t.lic+'</div></div>').join('')+
   '</div>'+(motionFile?'<div class="imgctrl"><button id="btnGif" type="button" aria-pressed="false">动作 GIF 样例</button></div><div class="note">ALIVO 编辑插图，非动作教学示范（动态试稿）</div>':'')
  :r.media.file?
-  '<div class="imgwrap"><img id="dImg" alt="'+esc(r.name)+'的插图" src="media/'+encodeURIComponent(r.media.file)+'"><div class="hint">可放大检视</div></div>'+
+  '<div class="imgwrap"><img id="dImg" alt="'+esc(r.name)+'的插图" src="'+MBASE+'media/'+encodeURIComponent(r.media.file)+'"><div class="hint">可放大检视</div></div>'+
   '<div class="imgctrl"><button id="btnKb">动态检视</button><button id="btnZoom">放大细节</button>'+(motionFile?'<button id="btnGif" type="button" aria-pressed="false">动作 GIF 样例</button>':'')+'</div>'+
   '<div class="verdict"><span class="lbl" id="mrevLabel_branded"></span><button id="mOk_branded" class="ok">✓ 通过</button><button id="mNo_branded" class="no">✗ 需重新生成</button></div>'+
   (motionFile?'<div class="note">ALIVO 编辑插图，非动作教学示范（动态试稿）</div>':'')
@@ -506,8 +507,8 @@ function renderDetail(r){
   gif.onclick=()=>{playing=!playing;di.classList.remove('kb','zoomed');if(kb){kb.classList.remove('on');zm.classList.remove('on');kb.textContent='动态检视';zm.textContent='放大细节'}
    gif.classList.toggle('on',playing);gif.setAttribute('aria-pressed',String(playing));gif.textContent=playing?'返回静态插图':'动作 GIF 样例';
    if(hint)hint.textContent=playing?'动态试稿 · 非动作教学':'可放大检视';di.alt=r.name+(playing?'的动态试稿':'的插图');
-   di.onerror=()=>{if(playing){playing=false;di.onerror=null;di.src='media/'+encodeURIComponent(r.media.file);gif.classList.remove('on');gif.setAttribute('aria-pressed','false');gif.textContent='动作 GIF 样例';if(hint)hint.textContent='GIF 加载失败';}};
-   di.src=(playing?'motion/'+encodeURIComponent(motionFile):'media/'+encodeURIComponent(r.media.file));
+   di.onerror=()=>{if(playing){playing=false;di.onerror=null;di.src=MBASE+'media/'+encodeURIComponent(r.media.file);gif.classList.remove('on');gif.setAttribute('aria-pressed','false');gif.textContent='动作 GIF 样例';if(hint)hint.textContent='GIF 加载失败';}};
+   di.src=(playing?'motion/'+encodeURIComponent(motionFile):MBASE+'media/'+encodeURIComponent(r.media.file));
   };
  }
  document.getElementById('eOv').onchange=ev=>{const v=ev.target.value;if(v)st.energyOv[r.id]=v;else delete st.energyOv[r.id];save();renderDetail(r);render()};

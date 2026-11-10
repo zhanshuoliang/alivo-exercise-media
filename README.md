@@ -21,6 +21,8 @@ docs/        交接文档、验收清单、历史报告、基线
 docs/round7..10/ 各轮目标清单、生成计划、逐图提示词与审查、绑定/审计脚本
 ```
 
+> Pages 部署说明：整站媒体已超过 GitHub Pages 1 GB 上限，部署 artifact 排除了 `media/*.png` 与 `media-open/*.png`（保留 `NOTICE.md`、`manifest.json` 等索引文件）；`catalog-review.html` 通过 `raw.githubusercontent.com` 从本仓库 main 分支加载图片。
+
 ### media/（带标版）
 
 - 245 个文件（244 张图片 + `NOTICE.md`）；其中 243 张为 ALIVO 自研编辑插图，`wger_plank_346.png` 为历史遗留的第三方 wger 文件（保留来源记录，不计入自研数量）。
