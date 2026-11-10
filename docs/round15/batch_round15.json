@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:0122",
+      "filename": "barbell_wide_bench_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0116",
+      "filename": "barbell_straight_leg_deadlift_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0120",
+      "filename": "barbell_upright_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0023",
+      "filename": "barbell_alternate_biceps_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0061",
+      "filename": "barbell_lying_triceps_extension_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0302",
+      "filename": "dumbbell_decline_fly_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0330",
+      "filename": "dumbbell_incline_triceps_extension_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0290",
+      "filename": "dumbbell_bench_seated_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0160",
+      "filename": "cable_floor_seated_wide_grip_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0219",
+      "filename": "cable_shoulder_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0868",
+      "filename": "cable_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0664",
+      "filename": "push_up_to_side_plank_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0796",
+      "filename": "standing_wheel_rollerout_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0090",
+      "filename": "barbell_seated_good_morning_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0075",
+      "filename": "barbell_rear_delt_raise_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:0122",
+      "base": "barbell_wide_bench_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0116",
+      "base": "barbell_straight_leg_deadlift"
+    },
+    {
+      "catalogId": "exercises-dataset:0120",
+      "base": "barbell_upright_row"
+    },
+    {
+      "catalogId": "exercises-dataset:0023",
+      "base": "barbell_alternate_biceps_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0061",
+      "base": "barbell_lying_triceps_extension"
+    },
+    {
+      "catalogId": "exercises-dataset:0302",
+      "base": "dumbbell_decline_fly"
+    },
+    {
+      "catalogId": "exercises-dataset:0330",
+      "base": "dumbbell_incline_triceps_extension"
+    },
+    {
+      "catalogId": "exercises-dataset:0290",
+      "base": "dumbbell_bench_seated_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0160",
+      "base": "cable_floor_seated_wide_grip_row"
+    },
+    {
+      "catalogId": "exercises-dataset:0219",
+      "base": "cable_shoulder_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0868",
+      "base": "cable_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0664",
+      "base": "push_up_to_side_plank"
+    },
+    {
+      "catalogId": "exercises-dataset:0796",
+      "base": "standing_wheel_rollerout"
+    },
+    {
+      "catalogId": "exercises-dataset:0090",
+      "base": "barbell_seated_good_morning"
+    },
+    {
+      "catalogId": "exercises-dataset:0075",
+      "base": "barbell_rear_delt_raise"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:0122",
+    "name": "barbell wide bench press",
+    "base": "barbell_wide_bench_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0116",
+    "name": "barbell straight leg deadlift",
+    "base": "barbell_straight_leg_deadlift"
+  },
+  {
+    "catalogId": "exercises-dataset:0120",
+    "name": "barbell upright row",
+    "base": "barbell_upright_row"
+  },
+  {
+    "catalogId": "exercises-dataset:0023",
+    "name": "barbell alternate biceps curl",
+    "base": "barbell_alternate_biceps_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0061",
+    "name": "barbell lying triceps extension",
+    "base": "barbell_lying_triceps_extension"
+  },
+  {
+    "catalogId": "exercises-dataset:0302",
+    "name": "dumbbell decline fly",
+    "base": "dumbbell_decline_fly"
+  },
+  {
+    "catalogId": "exercises-dataset:0330",
+    "name": "dumbbell incline triceps extension",
+    "base": "dumbbell_incline_triceps_extension"
+  },
+  {
+    "catalogId": "exercises-dataset:0290",
+    "name": "dumbbell bench seated press",
+    "base": "dumbbell_bench_seated_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0160",
+    "name": "cable floor seated wide-grip row",
+    "base": "cable_floor_seated_wide_grip_row"
+  },
+  {
+    "catalogId": "exercises-dataset:0219",
+    "name": "cable shoulder press",
+    "base": "cable_shoulder_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0868",
+    "name": "cable curl",
+    "base": "cable_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0664",
+    "name": "push-up to side plank",
+    "base": "push_up_to_side_plank"
+  },
+  {
+    "catalogId": "exercises-dataset:0796",
+    "name": "standing wheel rollerout",
+    "base": "standing_wheel_rollerout"
+  },
+  {
+    "catalogId": "exercises-dataset:0090",
+    "name": "barbell seated good morning",
+    "base": "barbell_seated_good_morning"
+  },
+  {
+    "catalogId": "exercises-dataset:0075",
+    "name": "barbell rear delt raise",
+    "base": "barbell_rear_delt_raise"
+  }
+]

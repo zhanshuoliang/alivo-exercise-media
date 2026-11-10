@@ -1,0 +1,7 @@
+Use the image generation tool to create exactly one image now. Call the tool with use case "photorealistic-natural" and pass the following prompt text to it VERBATIM, without rewriting or shortening:
+
+BEGIN TOOL PROMPT
+Use case: photorealistic-natural. Asset type: ALIVO open fitness editorial illustration. Square photograph, neutral gray seamless studio backdrop and floor, soft editorial lighting, natural realistic skin and hair, one adult athletic man with short dark wavy hair wearing a plain dark muted forest-green tank top, plain charcoal shorts and plain dark athletic shoes. All clothing is completely unbranded: absolutely no text, letters, wordmarks, logos, emblems or branding anywhere on the clothing, the equipment or in the image. Exercise: DUMBBELL SEATED SHOULDER PRESS mid-press. The athlete sits upright on a bench pressing two dumbbells overhead, arms nearly extended, palms forward. Front three-quarter view showing the overhead dumbbells and upright bench. Keep the whole athlete, head, hands, feet and all equipment entirely inside the square frame. Realistic anatomy and hand placement, one person only, no mirrors, no gym background clutter, no text or logos.
+END TOOL PROMPT
+
+After the image is generated, reply with only the absolute path of the saved PNG file. Do not edit files, do not review the image, do not generate more than one image.
