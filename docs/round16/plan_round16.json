@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:0533",
+    "name": "kettlebell front squat",
+    "base": "kettlebell_front_squat"
+  },
+  {
+    "catalogId": "exercises-dataset:0541",
+    "name": "kettlebell one arm row",
+    "base": "kettlebell_one_arm_row"
+  },
+  {
+    "catalogId": "exercises-dataset:0550",
+    "name": "kettlebell thruster",
+    "base": "kettlebell_thruster"
+  },
+  {
+    "catalogId": "exercises-dataset:0532",
+    "name": "kettlebell figure 8",
+    "base": "kettlebell_figure_8"
+  },
+  {
+    "catalogId": "exercises-dataset:0752",
+    "name": "smith deadlift",
+    "base": "smith_deadlift"
+  },
+  {
+    "catalogId": "exercises-dataset:0755",
+    "name": "smith hack squat",
+    "base": "smith_hack_squat"
+  },
+  {
+    "catalogId": "exercises-dataset:0751",
+    "name": "smith close-grip bench press",
+    "base": "smith_close_grip_bench_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0576",
+    "name": "lever chest press",
+    "base": "lever_chest_press"
+  },
+  {
+    "catalogId": "exercises-dataset:2287",
+    "name": "lever alternate leg press",
+    "base": "lever_alternate_leg_press"
+  },
+  {
+    "catalogId": "exercises-dataset:1254",
+    "name": "band bench press",
+    "base": "band_bench_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0977",
+    "name": "band front lateral raise",
+    "base": "band_front_lateral_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:0997",
+    "name": "band shoulder press",
+    "base": "band_shoulder_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0272",
+    "name": "crunch (on stability ball, arms straight)",
+    "base": "crunch_on_stability_ball_arms_straight"
+  },
+  {
+    "catalogId": "exercises-dataset:1333",
+    "name": "exercise ball back extension with arms extended",
+    "base": "exercise_ball_back_extension_with_arms_extended"
+  },
+  {
+    "catalogId": "exercises-dataset:0640",
+    "name": "one arm slam (with medicine ball)",
+    "base": "one_arm_slam_with_medicine_ball"
+  }
+]

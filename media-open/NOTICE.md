@@ -199,3 +199,39 @@ Kai/Liv 双角色同动作四轨批次的开源轨（男/女各 15 张），纯�
 - `barbell_seated_good_morning_female.png` — `exercises-dataset:0090`; SHA-256 `45b3408d0e83bcb97fd6c75cb776e23edfac49dd6d2b34b0cb482994fc4210b5`.
 - `barbell_rear_delt_raise_male.png` — `exercises-dataset:0075`; SHA-256 `4d6e36dd6821506581fbf630a0effde65bc25d473310516ae85010b1c0c62b24`.
 - `barbell_rear_delt_raise_female.png` — `exercises-dataset:0075`; SHA-256 `afb9726e0c124c932f24f171fb121eb0d3806ea276a62ca6d51adcf55061f1c9`.
+
+## Round 16 — dual-athlete open edition (2026-11-10)
+
+Kai/Liv 双角色同动作四轨批次的开源轨（男/女各 15 张），纯提示词独立生成，无参考图。
+
+- `kettlebell_front_squat_male.png` — `exercises-dataset:0533`; SHA-256 `cfa6121d237471c5a5a2c92ad2b01b738154daf5c1e05e2658f3e4f0fa8c4ce9`.
+- `kettlebell_front_squat_female.png` — `exercises-dataset:0533`; SHA-256 `e8c4bcc10902a657ecfefcb0c03be8afe3cc6fe8a4fc947dcad8214798e101ab`.
+- `kettlebell_one_arm_row_male.png` — `exercises-dataset:0541`; SHA-256 `a37876b1ead232425d5da16915de419290beaf93b3ffb2159dcfabcb28de96d5`.
+- `kettlebell_one_arm_row_female.png` — `exercises-dataset:0541`; SHA-256 `5f3ffb89e6216378a72a69fc3921848e3c3dbee7b88364c9c7ad82b2d5fb36bb`.
+- `kettlebell_thruster_male.png` — `exercises-dataset:0550`; SHA-256 `489d7ad954703b0c76c224332f70c447dd76e771fed5dea0ce5d88bd46ea4e2c`.
+- `kettlebell_thruster_female.png` — `exercises-dataset:0550`; SHA-256 `c2f93c8edd0d1b5b02a248bf21e3add0cf7896c5f7fa97fc3eb70d3b95097047`.
+- `kettlebell_figure_8_male.png` — `exercises-dataset:0532`; SHA-256 `c6db86277e976ced02a3850b6abf4417178696c6c5a40095e796314bd2de5025`.
+- `kettlebell_figure_8_female.png` — `exercises-dataset:0532`; SHA-256 `d6d1781a2760a49288191c1188a52c3c2de96e9a644c542f44cf2a05674e6378`.
+- `smith_deadlift_male.png` — `exercises-dataset:0752`; SHA-256 `371035df0120a597b40d5d485ae4de2f4704ba443c5bc449d140e6a6b0d76bd5`.
+- `smith_deadlift_female.png` — `exercises-dataset:0752`; SHA-256 `21d407c814ba6e235e9688dee7fbb8546d813bc794c038c76527bdcb5d0eef89`.
+- `smith_hack_squat_male.png` — `exercises-dataset:0755`; SHA-256 `a864301cbe4d58b2bcde093962b4e07204e75daa967de7c86178c59d2d6dba1b`.
+- `smith_hack_squat_female.png` — `exercises-dataset:0755`; SHA-256 `d438e0d70be37c6da473d4aed65b8d32d938bf7cf1b114fde18da024dd65c78b`.
+- `smith_close_grip_bench_press_male.png` — `exercises-dataset:0751`; SHA-256 `f8f3e84f784eef7c79744b44df0ab766175a1f6861727d691c826074f61d8fee`.
+- `smith_close_grip_bench_press_female.png` — `exercises-dataset:0751`; SHA-256 `73bf16d1d9eced375e4fd4c58709ccc355f2207d9646317fd00d04c533a86980`.
+- `lever_chest_press_male.png` — `exercises-dataset:0576`; SHA-256 `94d18cb4081781dd0a68d2f5d0188dad344c05c1a97c908e8f99c1c91cc6ddc4`.
+- `lever_chest_press_female.png` — `exercises-dataset:0576`; SHA-256 `df5a59018faf13f44d1a7b8fc5dd0b4078c1f43f1a192611d61123a81ca544f8`.
+- `lever_alternate_leg_press_male.png` — `exercises-dataset:2287`; SHA-256 `504ab75687e9fb8c66084d8e459caa9b91fa22946aa2c2c86eb527343cab2b47`.
+- `lever_alternate_leg_press_female.png` — `exercises-dataset:2287`; SHA-256 `30f9df185fb59d48e672c8629f0c41d4f462911385b2fdbc85ca28caa815fea3`.
+- `band_bench_press_male.png` — `exercises-dataset:1254`; SHA-256 `17921875757db328c19b9b41812221fe8d7a1cca08194f2087816c7c6d970cbc`.
+- `band_bench_press_female.png` — `exercises-dataset:1254`; SHA-256 `d16db2c2332c37cfadc974f22b94d0fd15d1e929212697274b6863994b8184cd`.
+- `band_front_lateral_raise_male.png` — `exercises-dataset:0977`; SHA-256 `169afa773970d01f6e8786306d34122f66cf93e1252a35dbd0bcbe5cd27de412`.
+- `band_front_lateral_raise_female.png` — `exercises-dataset:0977`; SHA-256 `6cb7f797e46199d85493c032712cf32e8edc4f4f18cecaad1c54ea1da829edb3`.
+- `band_shoulder_press_male.png` — `exercises-dataset:0997`; SHA-256 `5c22b790270b4bf272a884b757a6d102ad26ba7ba8b37e8e6b1dac2ee8aaa71c`.
+- `band_shoulder_press_female.png` — `exercises-dataset:0997`; SHA-256 `e9fe7dc2efd754d2b7bb8e082b382468503fc331cf88986ddc07b740072a7cf4`.
+- `crunch_on_stability_ball_arms_straight_male.png` — `exercises-dataset:0272`; SHA-256 `5242860ce13d4aa09a66d935b88cc07e47b2bcd42ec8fbd7225ba50cacfc2f18`.
+- `crunch_on_stability_ball_arms_straight_female.png` — `exercises-dataset:0272`; SHA-256 `851de964ee1c36ad49e6128f8dddcda6d6d8e87ddb796cbe5f0114f824b58c13`.
+- `exercise_ball_back_extension_with_arms_extended_male.png` — `exercises-dataset:1333`; SHA-256 `edfb7ec50f5b7224492b05e68af59c86011315cc1e0e6b76fb25f1cd887e7a41`.
+- `exercise_ball_back_extension_with_arms_extended_female.png` — `exercises-dataset:1333`; SHA-256 `e8de25d6e6c4c8479f6a1f03080bdfa190ab4d18b9a14f08e06c291f955ddbd4`.
+- `one_arm_slam_with_medicine_ball_male.png` — `exercises-dataset:0640`; SHA-256 `99183165bf26e2a21e4b5412c62b7d09aba9c218f9542f2ddc6964b4084b97ad`.
+- `one_arm_slam_with_medicine_ball_female.png` — `exercises-dataset:0640`; SHA-256 `eb83bac8371ed82f05b56080047f16598b1e8066912a0e568ad19d00f63b4970`.
+

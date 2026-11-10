@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:0533",
+      "filename": "kettlebell_front_squat_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0541",
+      "filename": "kettlebell_one_arm_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0550",
+      "filename": "kettlebell_thruster_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0532",
+      "filename": "kettlebell_figure_8_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0752",
+      "filename": "smith_deadlift_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0755",
+      "filename": "smith_hack_squat_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0751",
+      "filename": "smith_close_grip_bench_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0576",
+      "filename": "lever_chest_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2287",
+      "filename": "lever_alternate_leg_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1254",
+      "filename": "band_bench_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0977",
+      "filename": "band_front_lateral_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0997",
+      "filename": "band_shoulder_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0272",
+      "filename": "crunch_on_stability_ball_arms_straight_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1333",
+      "filename": "exercise_ball_back_extension_with_arms_extended_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0640",
+      "filename": "one_arm_slam_with_medicine_ball_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:0533",
+      "base": "kettlebell_front_squat"
+    },
+    {
+      "catalogId": "exercises-dataset:0541",
+      "base": "kettlebell_one_arm_row"
+    },
+    {
+      "catalogId": "exercises-dataset:0550",
+      "base": "kettlebell_thruster"
+    },
+    {
+      "catalogId": "exercises-dataset:0532",
+      "base": "kettlebell_figure_8"
+    },
+    {
+      "catalogId": "exercises-dataset:0752",
+      "base": "smith_deadlift"
+    },
+    {
+      "catalogId": "exercises-dataset:0755",
+      "base": "smith_hack_squat"
+    },
+    {
+      "catalogId": "exercises-dataset:0751",
+      "base": "smith_close_grip_bench_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0576",
+      "base": "lever_chest_press"
+    },
+    {
+      "catalogId": "exercises-dataset:2287",
+      "base": "lever_alternate_leg_press"
+    },
+    {
+      "catalogId": "exercises-dataset:1254",
+      "base": "band_bench_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0977",
+      "base": "band_front_lateral_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:0997",
+      "base": "band_shoulder_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0272",
+      "base": "crunch_on_stability_ball_arms_straight"
+    },
+    {
+      "catalogId": "exercises-dataset:1333",
+      "base": "exercise_ball_back_extension_with_arms_extended"
+    },
+    {
+      "catalogId": "exercises-dataset:0640",
+      "base": "one_arm_slam_with_medicine_ball"
+    }
+  ]
+}
