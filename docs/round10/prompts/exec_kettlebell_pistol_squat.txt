@@ -1,0 +1,7 @@
+Use the image generation tool to create exactly one image now. Call the tool with use case "photorealistic-natural" and pass the following prompt text to it VERBATIM, without rewriting or shortening:
+
+BEGIN TOOL PROMPT
+Use case: photorealistic-natural. Asset type: ALIVO fitness editorial illustration. Square photograph, neutral gray seamless studio backdrop and floor, soft editorial lighting, natural realistic skin and hair, one adult athletic person wearing a plain dark muted forest-green tank top, plain charcoal shorts and plain dark athletic shoes. All clothing is completely unbranded: absolutely no text, letters, wordmarks, logos, emblems or branding anywhere on the clothing, the equipment or in the image. One person, one coherent exercise moment, full body and all exercise equipment visible, realistic anatomy, hands and feet. Exercise: KETTLEBELL PISTOL SQUAT at the bottom. The athlete squats to full depth on one leg while holding a kettlebell goblet-style at the chest as a counterweight, the free leg extended straight forward just off the floor, supporting heel flat on the ground, torso upright. Front three-quarter view showing the kettlebell at the chest, the extended leg, the deep single-leg squat, whole body. No mirrors, no extra people, no gym background clutter, no text or logos.
+END TOOL PROMPT
+
+After the image is generated, reply with only the absolute path of the saved PNG file. Do not edit files, do not review the image, do not generate more than one image.

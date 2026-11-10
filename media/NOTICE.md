@@ -266,3 +266,37 @@ ALIVO 编辑插图，非动作教学示范。Generated specifically for ALIVO wi
 - `exercise_media/band_y_raise.png` — `exercises-dataset:1017`; SHA-256 `a736beac4afe4dc8aeb28b2db939efdec2caf818275968f6e21b8be25296d332`.
 - `exercise_media/barbell_side_squat.png` — `exercises-dataset:0098`; SHA-256 `767d936f3aca21e27b23ce92b30805e978c33b7e3491c9220326ded9c77e8237`.
 - `exercise_media/kettlebell_floor_press.png` — `exercises-dataset:1298`; SHA-256 `75fcc1b518ead269079f090c676bea0cce04f6cdf5b4f0d6bfa96866aa65d396`.
+
+## ALIVO editorial gap-fill illustrations generated 2026-11-10
+
+Generated specifically for ALIVO with OpenAI ImageGen. Editorial illustrations are not instructional demonstrations.
+- `exercise_media/barbell_clean_press.png` — `exercises-dataset:0028`; SHA-256 `06dd177b571f30ce8170416fc29c52d9eeda753dfbe7747c043b7e112b3ae514`.
+- `exercise_media/barbell_thruster.png` — `exercises-dataset:3305`; SHA-256 `19f9782b6fb4394d61741b6b5d64106212bef5eb139f2574760da505c3328b89`.
+- `exercise_media/barbell_one_arm_snatch.png` — `exercises-dataset:0067`; SHA-256 `9346e30549a82274763b42df9a7fb0535856c88f1ed4e828ad5c6e7f6ac3c30d`.
+- `exercise_media/dumbbell_one_arm_snatch.png` — `exercises-dataset:3888`; SHA-256 `861095020cb53f839ec8cfbac74c9ee9698c0f6f5fbf7815172299ee2bd1c6b2`.
+- `exercise_media/kettlebell_one_arm_snatch.png` — `exercises-dataset:0542`; SHA-256 `d02357c6f43e16172b5dee5a94f97b6a087b9c17ecc8999e413caf6f48aa7e80`.
+- `exercise_media/kettlebell_clean_jerk_rack.png` — `exercises-dataset:0537`; SHA-256 `aefc0b29bf672efbd252c30ef8ca05d00d3a554021a4f66acf4e65deed7d399b`.
+- `exercise_media/kettlebell_pistol_squat.png` — `exercises-dataset:0544`; SHA-256 `5a15d2eefb480c9355c433836144060a6daecfa49f86609eff23497bd190a74d`.
+- `exercise_media/inchworm.png` — `exercises-dataset:1471`; SHA-256 `5c467ee7f8d03c6f792ffcbda27745dc2a5b59552e4bcf3ec4ac8814797119e1`.
+- `exercise_media/l_sit_floor.png` — `exercises-dataset:3419`; SHA-256 `8f21a308d9e715693585533befe0604d7ca56f6ba350a9e2a5d6338fb9369f91`.
+- `exercise_media/tire_flip.png` — `exercises-dataset:2459`; SHA-256 `93e2ce2a7040eb3d960e1bb384e121b2ee2ef2c1f7b802a9767c850c4f858ee9`.
+- `exercise_media/rope_climb.png` — `exercises-dataset:0680`; SHA-256 `a849025e0b87e9fb7d9a80fe4f4c3649d23ebdc524a0131e701f81e6ba766f6c`.
+- `exercise_media/pike_cobra_pushup.png` — `exercises-dataset:3662`; SHA-256 `8d0442352dc1e2b772d3f2958fa90dd806e0473e3855867625b794e90cff315f`.
+- `exercise_media/crab_twist_toe_touch.png` — `exercises-dataset:1468`; SHA-256 `2d7fe761e9a2c72aad2fd63d76f0af471018915f2b9662d5de7833ccc326b23a`.
+- `exercise_media/flutter_kicks.png` — `exercises-dataset:0459`; SHA-256 `2b046562c111e8f2c5cd9fe23abe44dbc7e12c68994cb29667359286cf3f4ee3`.
+- `exercise_media/band_v_up.png` — `exercises-dataset:1014`; SHA-256 `d43bccb8b91a4059e02cee99a478f226c033c6e867082afe8804e6b317b2360e`.
+- `exercise_media/parallel_bar_leg_raise.png` — `exercises-dataset:0826`; SHA-256 `1a661ca3cd4c326cc13890d86410b3bed00c6dbb3230d97c413849f01bb439f0`.
+- `exercise_media/wrist_roller.png` — `exercises-dataset:0859`; SHA-256 `1cc85821c6270487d5f7d5337fb45bf7840f6126762e8749e96d4b6340080797`.
+- `exercise_media/barbell_drag_curl.png` — `exercises-dataset:0038`; SHA-256 `7f5a980b956d5181d90c1463c06e5fc3d7eec3785860f15c1c989194dc93a8cd`.
+- `exercise_media/ez_spider_curl.png` — `exercises-dataset:0454`; SHA-256 `0e09baa84b791308465e5abaf81412e26fb96a91fef748ef83557a1b4f75894d`.
+- `exercise_media/dumbbell_kickback.png` — `exercises-dataset:0354`; SHA-256 `6bb2e651d3117eb00914944a59d95643dfd3f3343935f665086c6b72dc6e9f0a`.
+- `exercise_media/sissy_squat.png` — `exercises-dataset:1489`; SHA-256 `9f17beae9c6bb7754fa5d8e24c283991cf0fba82dc18748d4d6db2e58f0b91ac`.
+- `exercise_media/bosu_ball_squat.png` — `exercises-dataset:1705`; SHA-256 `85e0ca176fc6bbc49171bd6ec78b70319e808fdad9de4dbcd55f34fc37565424`.
+- `exercise_media/elliptical_trainer.png` — `exercises-dataset:2141`; SHA-256 `0558a0f20205193e7682a95311c497649701f741732c8199a6d9fb6198a0b2ac`.
+- `exercise_media/ski_erg.png` — `exercises-dataset:2142`; SHA-256 `262bc86008dcd06777e4889ff747e443293d925feb0bb5b415523fd288d364de`.
+- `exercise_media/incline_treadmill_walk.png` — `exercises-dataset:3666`; SHA-256 `8f6dbe96f47851c5c823627a20a6b7125b51e783c47a98848c7315bd99392fb6`.
+- `exercise_media/stepmill_walk.png` — `exercises-dataset:2311`; SHA-256 `bb3bde5e40d876a864a206fd31fc910fa136ed1f722b6a7f175ced47682ec90e`.
+- `exercise_media/stationary_bike.png` — `exercises-dataset:0798`; SHA-256 `5b95a84cb245b73892001051f91c932d1d523c73c62e4ff8a23261a2588150b3`.
+- `exercise_media/medicine_ball_chest_pass.png` — `exercises-dataset:1302`; SHA-256 `442e96bcddc3a82c24e195880a4336d328cb6addb960c4d4ccc44c566f35ff3b`.
+- `exercise_media/balance_board.png` — `exercises-dataset:0020`; SHA-256 `fa9005dea3b88706c437daf6c1ec7863ebf24cde123c87c8d5492f11fbab2dd9`.
+- `exercise_media/scissor_jump.png` — `exercises-dataset:3219`; SHA-256 `1f4741573a4ceb369d90cf4b7976e503ee692caa076827b389ba191c29089ec6`.

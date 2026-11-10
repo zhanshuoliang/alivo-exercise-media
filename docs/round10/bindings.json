@@ -1,0 +1,154 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:0028",
+      "filename": "barbell_clean_press.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3305",
+      "filename": "barbell_thruster.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0067",
+      "filename": "barbell_one_arm_snatch.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3888",
+      "filename": "dumbbell_one_arm_snatch.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0542",
+      "filename": "kettlebell_one_arm_snatch.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0537",
+      "filename": "kettlebell_clean_jerk_rack.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0544",
+      "filename": "kettlebell_pistol_squat.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1471",
+      "filename": "inchworm.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3419",
+      "filename": "l_sit_floor.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2459",
+      "filename": "tire_flip.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0680",
+      "filename": "rope_climb.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3662",
+      "filename": "pike_cobra_pushup.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1468",
+      "filename": "crab_twist_toe_touch.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0459",
+      "filename": "flutter_kicks.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1014",
+      "filename": "band_v_up.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0826",
+      "filename": "parallel_bar_leg_raise.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0859",
+      "filename": "wrist_roller.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0038",
+      "filename": "barbell_drag_curl.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0454",
+      "filename": "ez_spider_curl.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0354",
+      "filename": "dumbbell_kickback.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1489",
+      "filename": "sissy_squat.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1705",
+      "filename": "bosu_ball_squat.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2141",
+      "filename": "elliptical_trainer.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2142",
+      "filename": "ski_erg.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3666",
+      "filename": "incline_treadmill_walk.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2311",
+      "filename": "stepmill_walk.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0798",
+      "filename": "stationary_bike.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1302",
+      "filename": "medicine_ball_chest_pass.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0020",
+      "filename": "balance_board.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3219",
+      "filename": "scissor_jump.png",
+      "folder": "new"
+    }
+  ]
+}

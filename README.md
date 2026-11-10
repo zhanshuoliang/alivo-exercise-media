@@ -2,25 +2,37 @@
 
 ALIVO 自研动作编辑插图与动作目录资源库。
 
-- 快照基线：`alivo` 仓库 `origin/main` @ `8a03365`（含第八轮 3 张弹力带动作插图）。
-- 快照日期：2026-11-09（Asia/Taipei）。
-- 媒体许可：`ALIVO-editorial`；界面文案：“ALIVO 编辑插图，非动作教学示范”。图片为静态编辑插图，只表现动作某一瞬间，不是教学示范。
+- 快照基线：`alivo` 仓库 `origin/main` @ `9d25a98`（含第十轮 30 张动作插图）。
+- 快照日期：2026-11-10（Asia/Taipei）。
+- 图片为静态编辑插图，只表现动作某一瞬间，不是教学示范。
+- **双版本授权**（2026-11-10 起）：
+  - `media/`：带 ALIVO 字标版，`ALIVO-editorial` 许可，可自由使用（字标本身即署名），App 两端生产绑定使用此版本。
+  - `media-open/`：无字标开源版，`CC-BY-4.0` 许可，作者 `Paul Leung`，使用时须署名；独立于 App 生产绑定，不进 App bundle。
 
 ## 目录结构
 
 ```text
-media/      两端字节一致的 exercise_media 全量图片 + NOTICE.md 署名清单
-motion/     独立的自研动作 GIF 试稿、关键帧、许可与校验清单
-catalog/    动作目录与媒体/计量元数据 JSON
-docs/       交接文档、验收清单、历史报告、基线
-docs/round7/ 第七轮目标清单、生成计划、逐图提示词与审查、绑定/审计脚本
+media/       两端字节一致的 exercise_media 全量带标图片 + NOTICE.md 署名清单
+media-open/  无字标开源版图片（CC-BY-4.0）+ 独立 NOTICE.md 署名清单
+motion/      独立的自研动作 GIF 试稿、关键帧、许可与校验清单
+catalog/     动作目录与媒体/计量元数据 JSON
+docs/        交接文档、验收清单、历史报告、基线
+docs/round7..10/ 各轮目标清单、生成计划、逐图提示词与审查、绑定/审计脚本
 ```
 
-### media/
+### media/（带标版）
 
-- 215 个文件（214 张图片 + `NOTICE.md`）；其中 213 张为 ALIVO 自研编辑插图，`wger_plank_346.png` 为历史遗留的第三方 wger 文件（保留来源记录，不计入自研数量）。
+- 245 个文件（244 张图片 + `NOTICE.md`）；其中 243 张为 ALIVO 自研编辑插图，`wger_plank_346.png` 为历史遗留的第三方 wger 文件（保留来源记录，不计入自研数量）。
 - 每张自研图：1254×1254 PNG，中性灰棚拍背景、自然肤色与服装、深色背心短裤、服装带白色 `ALIVO` 字标。
+- 许可 `ALIVO-editorial`，可自由使用；第七轮起新增记录 `author` 为 `Paul Leung`（早期记录仍为 `ALIVO`，历史不改写）。
 - `NOTICE.md` 逐文件记录 catalogId 与 SHA-256；HarmonyOS 与 Flutter 两端图片逐字节相同。
+
+### media-open/（无标开源版）
+
+- 与 `media/` 同 catalogId、同文件名的无字标版本，纯色服装，全图无任何文字、标志或水印。
+- 许可 **CC-BY-4.0**（https://creativecommons.org/licenses/by/4.0/），作者 **Paul Leung**；使用须署名 "Paul Leung — ALIVO open exercise illustrations" 并标明许可。
+- `media-open/NOTICE.md` 逐文件记录 catalogId 与 SHA-256；本目录为独立发行物，不写入 App 的 `exercise_metadata.json`，不进入 App bundle。
+- 按生成轮次逐步补齐，不一次性全量重制。
 
 ### motion/（GIF 试稿）
 
@@ -74,6 +86,13 @@ docs/round7/ 第七轮目标清单、生成计划、逐图提示词与审查、�
 - [本轮中文报告](docs/round9/report.md)：逐张清单、审核要点与验证结果。
 - `docs/round9/`：`plan_round8.json`（30 项目标与动作描述）、`prompts/`（逐图完整提示词）、`batch_05.json`/`batch_06.json`（两批绑定清单）、`tools/`（`add_bindings.cjs`、`audit_round8.cjs`）、`media-baseline-183.json`（本轮审计基线）。
 - 审计：total=213、183 旧绑定保留、30 新增与审核文件一致、两端字节相同、NOTICE/SHA-256 全有效；Node 774/774、Flutter 媒体测试全过。
+
+## 第十轮（2026-11-10）
+
+- 新增 30 张自研带标静态图（主仓库 `9d25a98`），现有 243 条绑定；catalog 仍为 1352 条。
+- 本轮起确立双版本授权：新绑定记录 `author: Paul Leung`、`license: ALIVO-editorial`；同批动作另生成无字标开源版入 `media-open/`（CC-BY-4.0）。
+- `docs/round10/`：`plan.json`（30 项目标与动作描述）、`prompts/`（无标版逐图提示词）、`bindings.json` / `targets.json`（绑定清单）、`audit_round10.cjs`、`media-baseline-213.json`（本轮审计基线）。
+- 审计：total=243、213 旧绑定保留、30 新增与审核文件一致、两端字节相同、NOTICE/SHA-256 全有效；Node 774/774、Flutter 媒体测试全过。
 
 ## 使用约定
 

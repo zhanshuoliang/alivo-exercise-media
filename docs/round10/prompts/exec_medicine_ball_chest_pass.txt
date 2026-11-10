@@ -1,0 +1,7 @@
+Use the image generation tool to create exactly one image now. Call the tool with use case "photorealistic-natural" and pass the following prompt text to it VERBATIM, without rewriting or shortening:
+
+BEGIN TOOL PROMPT
+Use case: photorealistic-natural. Asset type: ALIVO fitness editorial illustration. Square photograph, neutral gray seamless studio backdrop and floor, soft editorial lighting, natural realistic skin and hair, one adult athletic person wearing a plain dark muted forest-green tank top, plain charcoal shorts and plain dark athletic shoes. All clothing is completely unbranded: absolutely no text, letters, wordmarks, logos, emblems or branding anywhere on the clothing, the equipment or in the image. One person, one coherent exercise moment, full body and all exercise equipment visible, realistic anatomy, hands and feet. Exercise: MEDICINE BALL CHEST PASS at the release. The athlete stands in an athletic stance throwing a medicine ball straight forward from the chest: arms extended, ball just leaving the hands in front of the chest, torso leaning slightly forward into the throw. Side three-quarter view showing the ball in flight ahead of the extended hands, whole body. No mirrors, no extra people, no gym background clutter, no text or logos.
+END TOOL PROMPT
+
+After the image is generated, reply with only the absolute path of the saved PNG file. Do not edit files, do not review the image, do not generate more than one image.
