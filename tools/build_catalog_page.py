@@ -250,6 +250,19 @@ table{border-collapse:collapse;width:100%;font-size:13px}td,th{border-bottom:1px
 .export{position:fixed;right:16px;bottom:16px;display:flex;gap:8px}
 .export button{background:var(--acc);color:#fff;border:none;padding:8px 12px;border-radius:8px}
 .count{color:var(--mut);font-size:12px}
+.charbtn{display:inline-flex;align-items:center;gap:6px;padding:6px 12px;border-radius:999px;border:1px solid var(--line);background:#fff;font-size:12px;cursor:pointer;color:var(--ink);white-space:nowrap}
+.charbtn:hover{border-color:var(--acc);color:var(--acc)}
+.charmask{position:fixed;inset:0;background:rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;z-index:50;padding:20px}
+.charmask[hidden]{display:none}
+.charcard{background:#fff;border-radius:12px;max-width:1100px;width:100%;max-height:90vh;overflow:auto;padding:16px 18px}
+.charhead{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}
+.charhead b{font-size:15px}
+.charhead button{border:none;background:none;font-size:24px;cursor:pointer;color:var(--mut);line-height:1;padding:0 4px}
+.charbody{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:720px){.charbody{grid-template-columns:1fr}}
+.charbody figure{margin:0}
+.charbody img{width:100%;border-radius:8px;background:#ddd;display:block}
+.charbody figcaption{font-size:12px;color:var(--mut);margin-top:6px;text-align:center}
 </style>
 </head>
 <body>
@@ -261,6 +274,7 @@ table{border-collapse:collapse;width:100%;font-size:13px}td,th{border-bottom:1px
    <span class="count" id="count"></span><span class="revchip" id="revProg" hidden></span>
   </div>
   <div class="search"><svg class="ic" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg><input type="search" id="q" placeholder="搜索名称 / 英文 / 肌群 / 别名"></div>
+  <button id="charBtn" class="charbtn" title="ALIVO 运动员数字资产"><svg class="ic" viewBox="0 0 24 24"><circle cx="12" cy="7" r="3.5"/><path d="M5 21c0-4 3-7 7-7s7 3 7 7"/></svg>运动员三视图</button>
  </div>
  <div class="filters">
   <span class="fsec">筛选</span>
@@ -283,6 +297,16 @@ table{border-collapse:collapse;width:100%;font-size:13px}td,th{border-bottom:1px
  <div class="detail" id="detail"><p class="note">← 选择左侧动作查看详情</p></div>
 </div>
 <div class="export"><button id="subIssue" title="把全部复核决定打包成 GitHub Issue">提交审核到 GitHub（0）</button><button id="expJson">导出我的复核修改</button><button id="impJson">导入复核修改</button><input type="file" id="impFile" accept=".json" hidden></div>
+<div class="charmask" id="charMask" hidden>
+ <div class="charcard">
+  <div class="charhead"><b>ALIVO 运动员 · 数字资产三视图</b><button id="charClose" aria-label="关闭">×</button></div>
+  <div class="charbody">
+   <figure><img src="character/turnaround_branded.png" alt="ALIVO 运动员三视图（带标版）"><figcaption>带标版 · ALIVO-editorial · 可自由使用</figcaption></figure>
+   <figure><img src="character/turnaround_open.png" alt="ALIVO 运动员三视图（无标开源版）"><figcaption>无标开源版 · CC-BY-4.0 · Paul Leung · 使用须署名</figcaption></figure>
+  </div>
+  <div class="note" style="margin-top:10px">ALIVO 演示运动员为本项目数字资产：深灰绿背心、炭灰短裤、深色运动鞋、中性灰摄影棚背景，全部自研动作插图沿用同一角色基准。</div>
+ </div>
+</div>
 <script>
 const DATA=__DATA__;
 const ENERGY={aerobic:'有氧（持续）',mixed:'混合 / 高强度间歇',strength:'力量 / 柔韧（默认）'};
@@ -429,6 +453,10 @@ document.getElementById('impFile').onchange=async e=>{const f=e.target.files[0];
 const partCnt={},eqCnt={};DATA.records.forEach(r=>{partCnt[r.part]=(partCnt[r.part]||0)+1;eqCnt[r.eq]=(eqCnt[r.eq]||0)+1});
 document.getElementById('part').innerHTML='<option value="">全部</option>'+Object.entries(partCnt).sort((a,b)=>b[1]-a[1]).map(([k,v])=>'<option value="'+esc(k)+'">'+esc(LBL.part[k]||k)+'（'+v+'）</option>').join('');
 document.getElementById('eq').innerHTML='<option value="">全部</option>'+Object.entries(eqCnt).sort((a,b)=>b[1]-a[1]).map(([k,v])=>'<option value="'+esc(k)+'">'+esc(LBL.eq[k]||k)+'（'+v+'）</option>').join('');
+const cm=document.getElementById('charMask');
+document.getElementById('charBtn').onclick=()=>{cm.hidden=false};
+document.getElementById('charClose').onclick=()=>{cm.hidden=true};
+cm.onclick=e=>{if(e.target===cm)cm.hidden=true};
 updSubBtn();
 render();if(DATA.records.length)renderDetail(DATA.records[0]);
 </script>

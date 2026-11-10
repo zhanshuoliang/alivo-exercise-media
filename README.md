@@ -14,6 +14,7 @@ ALIVO 自研动作编辑插图与动作目录资源库。
 ```text
 media/       两端字节一致的 exercise_media 全量带标图片 + NOTICE.md 署名清单
 media-open/  无字标开源版图片（CC-BY-4.0）+ 独立 NOTICE.md 署名清单
+character/   ALIVO 运动员角色数字资产（三视图：带标 + 无标双版本）+ NOTICE.md
 motion/      独立的自研动作 GIF 试稿、关键帧、许可与校验清单
 catalog/     动作目录与媒体/计量元数据 JSON
 docs/        交接文档、验收清单、历史报告、基线
@@ -33,6 +34,12 @@ docs/round7..10/ 各轮目标清单、生成计划、逐图提示词与审查、
 - 许可 **CC-BY-4.0**（https://creativecommons.org/licenses/by/4.0/），作者 **Paul Leung**；使用须署名 "Paul Leung — ALIVO open exercise illustrations" 并标明许可。
 - `media-open/NOTICE.md` 逐文件记录 catalogId 与 SHA-256；本目录为独立发行物，不写入 App 的 `exercise_metadata.json`，不进入 App bundle。
 - 按生成轮次逐步补齐，不一次性全量重制。
+
+### character/（运动员角色资产）
+
+- ALIVO 演示运动员的角色三视图（正视 / 侧视 / 背视），为全库自研插图统一使用的角色基准（深灰绿背心、炭灰短裤、深色运动鞋、中性灰棚拍）。
+- 带标版 `turnaround_branded.png`（ALIVO-editorial）与无标开源版 `turnaround_open.png`（CC-BY-4.0 · Paul Leung），SHA-256 与授权见 `character/NOTICE.md`，提示词存档在 `character/prompts/`。
+- 审查页右上角"运动员三视图"按钮可直接查看双版本。
 
 ### motion/（GIF 试稿）
 
