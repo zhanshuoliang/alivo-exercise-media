@@ -305,6 +305,306 @@
       "sha256": "6a89e7c1d2dbfe1fee46c0035f4533193d8fb6fcf89b4890e4da4dd2758b5594",
       "reviewedAt": "2026-11-10",
       "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0001",
+      "file": "3_4_sit_up.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "2497acc2efe6ea764062670208824119f175ffa474367b55ae6ec2f6e6fed803",
+      "reviewedAt": "2026-11-10",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:3296",
+      "file": "front_lever.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "7911bcb0fef9f8c082d79d26aab3eda6355b9d060ad1278d5686b86f60afdcb8",
+      "reviewedAt": "2026-11-10",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:3297",
+      "file": "back_lever.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "b5f6865c8e8657b39d1ba91d6dc5e177081483e1502184a5e9b3aedd0cacbd55",
+      "reviewedAt": "2026-11-10",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:3299",
+      "file": "full_planche.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "718483f7eb63e17d761eb97f9bae3a91eaf8892858918f63fa8085f6a4b15d49",
+      "reviewedAt": "2026-11-10",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:3294",
+      "file": "archer_push_up.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "4047ec414ee881e891129a45aa788ca79cab2c65b55d4e9f00271dc492174ff3",
+      "reviewedAt": "2026-11-10",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:3293",
+      "file": "archer_pull_up.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "058d45751d2f074a00efe48db46590b34f2a59a00b187ed94b712411c8ffa4a1",
+      "reviewedAt": "2026-11-10",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0677",
+      "file": "ring_dips.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "7d29866cf9e85a9676f2b6e90764c98ced46f0116e8108b18bc103188df8bab1",
+      "reviewedAt": "2026-11-10",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0283",
+      "file": "diamond_push_up.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "171bf3cd2c3d8e5b66249254a59a28127bb18694e6e96e86815c49150f4b1f0e",
+      "reviewedAt": "2026-11-10",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:1273",
+      "file": "clap_push_up.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "0bc54e5514f87073b6ab6234cadf7094aeede9bfcd6f045dc227dfb223b3a870",
+      "reviewedAt": "2026-11-10",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0500",
+      "file": "isometric_wipers.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "8106a1e031df8af948f1ce0721963dbb4d94648c02c22f747cf826876b5f5e5c",
+      "reviewedAt": "2026-11-10",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:3217",
+      "file": "modified_hindu_push_up_male.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "a2983530cb1bfeebd76a361c365b264d20311e148f105abef4476a56551a1b53",
+      "reviewedAt": "2026-11-10",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:3418",
+      "file": "l_pull_up.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "dcd0376dd22a9bebcf74ff0d175922ec2fcc98d579b585141f5f293b4bd1fd9e",
+      "reviewedAt": "2026-11-10",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:3304",
+      "file": "skin_the_cat.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "0ad51fab933238c2ba9aeff11fea3f5a89f61807521865b37bd85f5c49a6d48c",
+      "reviewedAt": "2026-11-10",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:2963",
+      "file": "captains_chair_straight_leg_raise.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "c562a2dadc8bf397036df7c703b89ad5bd1d34db31de67b8da5283d2e7cdaf7d",
+      "reviewedAt": "2026-11-10",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0127",
+      "file": "barbell_zercher_squat.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "9190dce14c9f392a6a5c3ff6ee0e518993bcb1e13b3446a31926f69509eeabaa",
+      "reviewedAt": "2026-11-10",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0051",
+      "file": "barbell_jefferson_squat.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "2403176799127d4ebc815fd0fa1b67227b03b80a74334d301b6eadbd6aafb3aa",
+      "reviewedAt": "2026-11-10",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:3017",
+      "file": "barbell_pendlay_row.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "145f98cdf5532c3fb7b132cfa999ae54fdd57b3aca87223fd5be70b1e7e0b6e9",
+      "reviewedAt": "2026-11-10",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0074",
+      "file": "barbell_rack_pull.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "66b74fa43237db26fd8318b44b4cefd4464e62a8e6608175584426da75e5eb64",
+      "reviewedAt": "2026-11-10",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:1756",
+      "file": "barbell_single_leg_deadlift.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "cf7781777bd4ee55cbddade7d151460130c5c06638bd6dc19a3d0bfc4b0b7075",
+      "reviewedAt": "2026-11-10",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0052",
+      "file": "barbell_jm_bench_press.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "9d14e10a72b21b55294ff8f26bde766f8c1193f131dcfa73d3d10873e81ea142",
+      "reviewedAt": "2026-11-10",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:1316",
+      "file": "barbell_bent_arm_pullover.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "4bfbc8821c9a0cffb91404b75735197f1135349de98d18a4f42e4f0ebd23ddc5",
+      "reviewedAt": "2026-11-10",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0521",
+      "file": "kettlebell_alternating_renegade_row.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "1c7ca559f992abe1937e367e1f8876c59a0e684bb2aa1c236904ba992b597c18",
+      "reviewedAt": "2026-11-10",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:1423",
+      "file": "reverse_hyper_on_flat_bench.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "ae12f5efeb7d8886c4e25287dde4e8b26379453f4b84256e805ac3ea73306b6d",
+      "reviewedAt": "2026-11-10",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:1270",
+      "file": "cable_upper_chest_crossovers.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "333e038b08aaab33f557a15a04eb862229ef4d939a60d74e6dee21b21bf0e3e4",
+      "reviewedAt": "2026-11-10",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0235",
+      "file": "cable_standing_shoulder_external_rotation.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "c65f26ba0f6f9563006b8077f345141a68196733c843b46b2a551d4143233b82",
+      "reviewedAt": "2026-11-10",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0299",
+      "file": "dumbbell_cuban_press.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "bd6681e8119ab32d63fae886da69696b1b223ce6375e5902861f3bafc4ce6012",
+      "reviewedAt": "2026-11-10",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:3548",
+      "file": "dumbbell_single_arm_overhead_carry.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "320b2c440310b9b4d8b1ae501e5b4b589e4feb39bfc7d548c237728c0cc1cb17",
+      "reviewedAt": "2026-11-10",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:1353",
+      "file": "medicine_ball_catch_and_overhead_throw.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "72c2e0755ae1468a0d201cb612c6efdc48ce2d155764794569290eb9c2a6d3de",
+      "reviewedAt": "2026-11-10",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:2139",
+      "file": "hands_bike.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "51665305fcc56be2a9de93dffca2e8fcb0e6f549206263aadf15a0f1a3cb9039",
+      "reviewedAt": "2026-11-10",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:1403",
+      "file": "neck_side_stretch.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "6005047ad34ff49498c741a559211c4bd3a12e068f9557255c02a705ca9eebcf",
+      "reviewedAt": "2026-11-10",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
     }
   ]
 }

@@ -47,6 +47,13 @@ MIX_WORD = re.compile(
     r"(战绳|山羊|开合跳|高抬腿|冲刺|burpee|skater|bear\s*crawl|battle\s*rope|sprint|剪刀跳|星形跳|轮跑步|"
     r"深蹲跳|踏步|跳跃|lunge\s*jump)", re.I)
 SIDE_WORD = re.compile(r"(单边|单侧|单臂|交替|换边|换臂|一侧|每侧|左右)")
+WARMUP_WORD = re.compile(
+    r"(\bstretch|mobilit|yoga|\bpose\b|circle|inchworm|walk[\s-]?out|cat[\s-]*(cow|camel)|"
+    r"cobra(?!.*push)|downward\s*dog|child'?s?\s*pose|pigeon|samson|open\s*book|"
+    r"thread\s*the\s*needle|greatest\s*stretch|sun\s*salutation|hip\s*opener|groiner|"
+    r"foam\s*roll|jumping\s*jack|high\s*knee|butt\s*kick|leg\s*swing|arm\s*swing|"
+    r"hip\s*circle|shoulder\s*roll|wall\s*angel|wall\s*slide|scapular|pull[\s-]?apart|"
+    r"dislocat|拉伸|热身|柔韧性|灵活性|yoga|瑜伽(?!球)|动态伸展|筋膜|放松)", re.I)
 
 
 def load_catalog():
@@ -102,6 +109,12 @@ def classify_energy(item, meas):
     return "strength", "默认：力量/柔韧性（待复核）"
 
 
+def is_warmup(item):
+    """Warm-up / stretching / mobility / recovery classification by exercise name only."""
+    text = " ".join([item.get("nz", ""), item.get("name", "")])
+    return bool(WARMUP_WORD.search(text))
+
+
 def timing_suggestion(meas, energy):
     """Mirror of proposal A: only a suggestion, never enforced."""
     if meas["measure"] != "duration":
@@ -145,6 +158,7 @@ def main():
                      "track": {k: track.get(k) for k in ("loadType", "weightBasis", "repsBasis", "defaultSide") if k in track},
                      "recordingNotes": ov.get("recordingNotes", []), "standardName": ov.get("standardName", "")},
             "energy": energy, "energyBasis": energy_basis,
+            "warmup": is_warmup(it),
             "timing": timing_suggestion(meas, energy),
             "media": {"file": mrow["localPath"].split("/", 1)[1] if mrow else "",
                       "license": mrow["license"] if mrow else "", "sha256": mrow["sha256"] if mrow else "",
@@ -238,6 +252,7 @@ button.no{background:#fbeeee;color:var(--warn);border:1px solid #e5bcbc}button.n
 .detail img.kb{animation:kenburns 9s ease-in-out infinite}
 .row .n{font-weight:600}.row .s{font-size:12px;color:var(--mut)}.badge{font-size:11px;padding:1px 6px;border-radius:4px;background:#eee;white-space:nowrap}
 .badge.aerobic{background:#dcefe6;color:#1d5c44}.badge.mixed{background:#f6e3c8;color:#8a4a10}.badge.strength{background:#eee;color:#555}
+.badge.warm{background:#e3ecf9;color:#2c5aa8}
 .badge.reviewed{background:#dcefe6;color:#1d5c44}.badge.pending{background:#f6e3c8;color:#8a4a10}.badge.low{background:#f3d7d7;color:var(--warn)}
 .detail{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:14px 16px}
 .detail h2{margin:0 0 2px;font-size:18px}.detail .en{color:var(--mut);margin-bottom:8px}
@@ -280,7 +295,7 @@ table{border-collapse:collapse;width:100%;font-size:13px}td,th{border-bottom:1px
   <span class="fsec">筛选</span>
   <label class="fld"><svg class="ic" viewBox="0 0 24 24"><circle cx="12" cy="7" r="3.5"/><path d="M5 21c0-4 3-7 7-7s7 3 7 7"/></svg><span>部位</span><select id="part"></select></label>
   <label class="fld"><svg class="ic" viewBox="0 0 24 24"><path d="M2 12h20M6 8v8M18 8v8M4 10v4M20 10v4"/></svg><span>器械</span><select id="eq"></select></label>
-  <label class="fld"><svg class="ic" viewBox="0 0 24 24"><path d="M13 2 4 14h6l-1 8 9-12h-6z"/></svg><span>类别</span><select id="energy"><option value="">全部</option><option value="aerobic">有氧</option><option value="mixed">混合</option><option value="strength">力量</option></select></label>
+  <label class="fld"><svg class="ic" viewBox="0 0 24 24"><path d="M13 2 4 14h6l-1 8 9-12h-6z"/></svg><span>类别</span><select id="energy"><option value="">全部</option><option value="warmup">热身 / 拉伸</option><option value="aerobic">有氧</option><option value="mixed">混合</option><option value="strength">力量</option></select></label>
   <label class="fld"><svg class="ic" viewBox="0 0 24 24"><path d="M4 9h16M4 15h16M10 3 8 21M16 3l-2 18"/></svg><span>计量</span><select id="measure"><option value="">全部</option><option value="reps">计数</option><option value="duration">计时</option><option value="unknown">待维护</option></select></label>
   <label class="fld"><svg class="ic" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg><span>计时</span><select id="timing"><option value="">全部</option><option value="free">正计时</option><option value="fixed">倒计时</option><option value="none">无建议</option></select></label>
   <span class="fsec">审核</span>
@@ -290,7 +305,7 @@ table{border-collapse:collapse;width:100%;font-size:13px}td,th{border-bottom:1px
   <label class="fld"><svg class="ic" viewBox="0 0 24 24"><path d="m12 3 8 8-8 10L4 11z"/></svg><span>置信</span><select id="conf"><option value="">全部</option><option value="high">高</option><option value="medium">中</option><option value="low">低</option></select></label>
   <button id="reset">重置</button>
  </div>
- <div class="chipsrow"><div class="chips" id="chips"></div><div class="note">类别为规则推断待复核 · <a href="motion-preview.html">动作 GIF 样例 →</a></div></div>
+ <div class="chipsrow"><div class="chips" id="chips"></div><div class="note">类别与热身/拉伸均为规则推断待复核 · <a href="motion-preview.html">动作 GIF 样例 →</a></div></div>
 </header>
 <div class="main">
  <div class="list" id="list"></div>
@@ -336,7 +351,8 @@ function filtered(){
  const q=st.q.trim().toLowerCase();
  return DATA.records.filter(r=>{
   if(st.part&&r.part!==st.part)return false;if(st.eq&&r.eq!==st.eq)return false;
-  if(st.energy&&energyOf(r)!==st.energy)return false;if(st.measure&&r.measure!==st.measure)return false;
+  if(st.energy==='warmup'){if(!r.warmup)return false}else if(st.energy&&energyOf(r)!==st.energy)return false;
+  if(st.measure&&r.measure!==st.measure)return false;
   if(st.timing&&timingOf(r)!==st.timing)return false;
   if(st.media==='yes'&&!r.media.file)return false;
   if(st.media==='no'&&r.media.file)return false;
@@ -349,9 +365,9 @@ function filtered(){
   if(q){const hay=(r.id+' '+r.name+' '+r.en+' '+(r.meta.standardName||'')+' '+r.tg+' '+r.sm.join(' ')+' '+(r.meta.variant||'')).toLowerCase();if(!hay.includes(q))return false}
   return true}).sort((a,b)=>a.name.localeCompare(b.name,'zh'));
 }
-function chipSet(){const c={aerobic:0,mixed:0,strength:0};DATA.records.forEach(r=>c[energyOf(r)]++);return c}
+function chipSet(){const c={aerobic:0,mixed:0,strength:0,warmup:0};DATA.records.forEach(r=>{c[energyOf(r)]++;if(r.warmup)c.warmup++});return c}
 function renderChips(){const c=chipSet();const el=document.getElementById('chips');el.innerHTML='';
- [['', '全部 '+DATA.total],['aerobic','有氧 '+c.aerobic],['mixed','混合 '+c.mixed],['strength','力量(默认) '+c.strength]].forEach(([v,t])=>{
+ [['', '全部 '+DATA.total],['warmup','热身/拉伸 '+c.warmup],['aerobic','有氧 '+c.aerobic],['mixed','混合 '+c.mixed],['strength','力量(默认) '+c.strength]].forEach(([v,t])=>{
   const b=document.createElement('button');b.className='chip'+(st.energy===v?' on':'');b.textContent=t;
   b.onclick=()=>{st.energy=v;document.getElementById('energy').value=v;render()};el.appendChild(b)})}
 function render(){
@@ -360,7 +376,7 @@ function render(){
  for(const r of rows.slice(0,400)){const d=document.createElement('div');d.className='row'+(cur===r.id?' sel':'');
   d.innerHTML='<img loading="lazy" src="'+(r.media.file?'media/'+encodeURIComponent(r.media.file):'')+'" onerror="this.style.visibility=\'hidden\'">'+
    '<div><div class="n">'+esc(r.name)+'</div><div class="s">'+esc(r.eqLabel||'')+' · '+esc(r.partLabel||'')+' · '+esc(r.measure==='reps'?'计数':r.measure==='duration'?'计时':'待维护')+'</div></div>'+
-   '<div style="text-align:right"><span class="badge '+energyOf(r)+'">'+ENERGY[energyOf(r)].split('（')[0]+'</span><br><span class="badge '+(r.meta.reviewStatus==='reviewed'?'reviewed':'pending')+'">'+(r.meta.reviewStatus==='reviewed'?'已审':'未审')+'</span> '+(r.media.file?'<span class="badge">图</span>':(mRev[r.id+':request']?'<span class="badge mixed">需图</span>':''))+(r.media.open?'<span class="badge aerobic">开源</span>'+(mRev[r.id+':open']?'<span class="dot '+(mRev[r.id+':open'].status==='approved'?'ok':'no')+'"></span>':''):'')+'</div>';
+   '<div style="text-align:right"><span class="badge '+energyOf(r)+'">'+ENERGY[energyOf(r)].split('（')[0]+'</span>'+(r.warmup?' <span class="badge warm">热身</span>':'')+'<br><span class="badge '+(r.meta.reviewStatus==='reviewed'?'reviewed':'pending')+'">'+(r.meta.reviewStatus==='reviewed'?'已审':'未审')+'</span> '+(r.media.file?'<span class="badge">图</span>':(mRev[r.id+':request']?'<span class="badge mixed">需图</span>':''))+(r.media.open?'<span class="badge aerobic">开源</span>'+(mRev[r.id+':open']?'<span class="dot '+(mRev[r.id+':open'].status==='approved'?'ok':'no')+'"></span>':''):'')+'</div>';
   d.onclick=()=>{cur=r.id;renderList();renderDetail(r)};l.appendChild(d)}
  if(rows.length>400){const p=document.createElement('div');p.className='note';p.style.padding='8px';p.textContent='仅显示前 400 条，请用筛选缩小范围';l.appendChild(p)}
  renderChips();
@@ -372,7 +388,7 @@ function renderDetail(r){
  const motionFile=DATA.motionSamples[r.id]||'';
  const track=r.meta.track||{},tk=Object.entries(track).filter(([k,v])=>v).map(([k,v])=>({'loadType':'负重类型','weightBasis':'重量口径','repsBasis':'次数口径','defaultSide':'默认侧别'}[k]||k)+'：'+({'external':'外部负重','bodyweight':'自重','assistance':'辅助','machine':'器械示值','single':'单侧','total':'合计','per-side':'单侧','bilateral':'双侧','alternating':'交替','unknown':'未知'}[v]||v)).join('；');
  document.getElementById('detail').innerHTML=
- '<h2>'+esc(r.name)+' <span class="badge '+e+'">'+ENERGY[e]+'</span> <span class="badge '+(r.meta.reviewStatus==='reviewed'?'reviewed':'pending')+'">'+(r.meta.reviewStatus==='reviewed'?'已审核':'未审核')+'</span> <span class="badge '+conf+'">类别置信 '+conf+'</span></h2>'+
+ '<h2>'+esc(r.name)+' <span class="badge '+e+'">'+ENERGY[e]+'</span>'+(r.warmup?' <span class="badge warm">热身 / 拉伸</span>':'')+' <span class="badge '+(r.meta.reviewStatus==='reviewed'?'reviewed':'pending')+'">'+(r.meta.reviewStatus==='reviewed'?'已审核':'未审核')+'</span> <span class="badge '+conf+'">类别置信 '+conf+'</span></h2>'+
  '<div class="en">'+esc(r.en)+' · <code>'+esc(r.id)+'</code> · 来源 '+esc(r.source)+'</div>'+
  (r.energy===e?'':'<div class="warnbox">规则原判：'+ENERGY[r.energy]+'（'+esc(r.energyBasis)+'）。已被你改为：'+ENERGY[e]+'。</div>')+
  '<div class="grid'+(r.media.open?' duo2':'')+'"><div>'+(
@@ -387,7 +403,7 @@ function renderDetail(r){
   '<div class="verdict"><span class="lbl" id="mrevLabel_branded"></span><button id="mOk_branded" class="ok">✓ 通过</button><button id="mNo_branded" class="no">✗ 需重新生成</button></div>'+
   (motionFile?'<div class="note">ALIVO 编辑插图，非动作教学示范（动态试稿）</div>':'')
  :'<div class="noimg">无 ALIVO 插图</div><div class="verdict wantrow"><span class="lbl" id="wantLabel"></span><button id="wantImg">＋ 标记需要配图</button></div>')+'</div><div>'+
- '<div class="kv"><b>类别依据</b><span>'+esc(r.energyBasis)+(r.energy!==e?' → 人工改为 '+ENERGY[e]:'')+'</span>'+
+ '<div class="kv"><b>类别依据</b><span>'+esc(r.energyBasis)+(r.energy!==e?' → 人工改为 '+ENERGY[e]:'')+(r.warmup?'；用途：热身 / 拉伸 / 灵活性（按名称规则识别）':'')+'</span>'+
  '<b>部位</b><span>'+esc(r.partLabel||r.part)+'</span><b>器械</b><span>'+esc(r.eqLabel||r.eq)+'</span>'+
  '<b>目标肌群</b><span>'+esc(r.tg)+(r.sm.length?'；协同：'+esc(r.sm.join('、')):'')+'</span>'+
  '<b>计量</b><span>'+({reps:'计数',duration:'计时',unknown:'待维护'}[r.measure]||r.measure)+' / '+({hold:'保持',continuous:'持续',repetition:'重复',duration:'',blocked:'已阻塞'}[r.kind]||r.kind)+'（依据：'+esc(r.evidence||'—')+'）</span>'+

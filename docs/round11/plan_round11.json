@@ -1,0 +1,362 @@
+[
+ {
+  "catalogId": "exercises-dataset:0001",
+  "name": "3/4 sit-up",
+  "part": "waist",
+  "eq": "body weight",
+  "steps": [
+   "平躺，膝盖弯曲，双脚平放在地上。",
+   "将双手放在脑后，肘部朝外。",
+   "收紧腹肌，慢慢将上半身抬离地面，向前卷曲，直到躯干呈 45 度角。",
+   "在顶部停顿片刻，然后慢慢将上半身放回起始位置。"
+  ]
+ },
+ {
+  "catalogId": "exercises-dataset:3296",
+  "name": "front lever",
+  "part": "waist",
+  "eq": "body weight",
+  "steps": [
+   "首先，用正手握法悬挂在引体向上杆上，双手与肩同宽。",
+   "启动你的核心并将肩胛骨向下拉和向后拉。",
+   "弯曲膝盖并将其向胸部靠拢。",
+   "同时，抬起双腿并将其伸直在您面前，保持身体与地面平行。"
+  ]
+ },
+ {
+  "catalogId": "exercises-dataset:3297",
+  "name": "back lever",
+  "part": "back",
+  "eq": "body weight",
+  "steps": [
+   "首先，用正手握法悬挂在引体向上杆上，双手分开的距离略大于肩宽。",
+   "启动你的核心并将肩胛骨向下拉和向后拉。",
+   "弯曲膝盖并将其向胸部靠拢。",
+   "慢慢抬起双腿，保持伸直，直到身体与地面平行。"
+  ]
+ },
+ {
+  "catalogId": "exercises-dataset:3299",
+  "name": "full planche",
+  "part": "waist",
+  "eq": "body weight",
+  "steps": [
+   "从俯卧撑位置开始，双手与肩同宽，手指指向前方。",
+   "启动你的核心并缓慢地将你的重心向前移动，将你的脚抬离地面。",
+   "继续向前移动体重，直到身体与地面平行，并用双手保持平衡。",
+   "尽可能长时间地保持这个姿势，保持身体线条笔直。"
+  ]
+ },
+ {
+  "catalogId": "exercises-dataset:3294",
+  "name": "archer push up",
+  "part": "chest",
+  "eq": "body weight",
+  "steps": [
+   "从俯卧撑位置开始，双手分开略宽于肩宽。",
+   "将一只手臂伸直至一侧，与地面平行。",
+   "弯曲肘部降低身体，保持背部挺直，核心参与。",
+   "推回到起始位置。"
+  ]
+ },
+ {
+  "catalogId": "exercises-dataset:3293",
+  "name": "archer pull up",
+  "part": "back",
+  "eq": "body weight",
+  "steps": [
+   "首先，用正手握法悬挂在引体向上杆上，握距略宽于肩宽。",
+   "启动你的核心并将肩胛骨向下拉和向后拉。",
+   "当你站起来时，弯曲一只手臂并将肘部移向身体一侧，同时保持另一只手臂伸直。",
+   "继续拉，直到下巴位于杠铃上方并且弯曲的手臂完全弯曲。"
+  ]
+ },
+ {
+  "catalogId": "exercises-dataset:0677",
+  "name": "ring dips",
+  "part": "upper arms",
+  "eq": "body weight",
+  "steps": [
+   "首先，将手臂完全伸展，身体伸直，挂在吊环上。",
+   "弯曲肘部，降低身体，直到肩膀低于肘部。",
+   "伸直手臂，将自己推回起始位置。",
+   "重复所需的重复次数。"
+  ]
+ },
+ {
+  "catalogId": "exercises-dataset:0283",
+  "name": "diamond push-up",
+  "part": "upper arms",
+  "eq": "body weight",
+  "steps": [
+   "从高位平板支撑开始，双手并拢，拇指和食指形成菱形。",
+   "让你的身体从头到脚保持一条直线，锻炼你的核心和臀部。",
+   "将胸部降低至双手形成的菱形，保持肘部靠近身体。",
+   "在底部暂停片刻，然后将自己推回到起始位置。"
+  ]
+ },
+ {
+  "catalogId": "exercises-dataset:1273",
+  "name": "clap push up",
+  "part": "chest",
+  "eq": "body weight",
+  "steps": [
+   "从高平板支撑位置开始，双手分开略宽于肩宽。",
+   "弯曲肘部，将身体降低到地面，保持核心参与。",
+   "爆发性地推动手掌，将身体推离地面。",
+   "在半空中时，拍手，然后回到起始位置。"
+  ]
+ },
+ {
+  "catalogId": "exercises-dataset:0500",
+  "name": "isometric wipers",
+  "part": "chest",
+  "eq": "body weight",
+  "steps": [
+   "首先平躺在垫子或长凳上。",
+   "将手臂伸直至两侧，与身体垂直。",
+   "启动你的核心并将双腿抬离地面，保持它们并拢并伸直。",
+   "慢慢地将双腿向一侧降低，目标是用脚接触地面，同时保持控制。"
+  ]
+ },
+ {
+  "catalogId": "exercises-dataset:3217",
+  "name": "modified hindu push-up (male)",
+  "part": "chest",
+  "eq": "body weight",
+  "steps": [
+   "从俯卧撑位置开始，双手分开略宽于肩宽，双脚分开与臀部同宽。",
+   "将身体向地面降低，弯曲肘部并保持核心参与。",
+   "当你降低身体时，将你的重心向后转移，并将臀部向上抬向天花板，与你的身体形成一个倒V形。",
+   "继续降低身体，直到胸部刚好高于地面，然后反向运动，将臀部向下推，并伸展手臂回到起始位置。"
+  ]
+ },
+ {
+  "catalogId": "exercises-dataset:3418",
+  "name": "l-pull-up",
+  "part": "back",
+  "eq": "body weight",
+  "steps": [
+   "正手握住引体向上杆，握距略宽于肩宽。",
+   "双臂完全伸展，身体伸直。",
+   "收紧背阔肌和二头肌，将身体拉向杠铃杆，保持肘部靠近身体。",
+   "继续拉，直到下巴位于杠铃上方。"
+  ]
+ },
+ {
+  "catalogId": "exercises-dataset:3304",
+  "name": "skin the cat",
+  "part": "back",
+  "eq": "body weight",
+  "steps": [
+   "首先，将双臂完全伸展，身体放松地悬挂在杆上。",
+   "收紧核心并抬起双腿，使膝盖靠近胸部。",
+   "继续将双腿举过头顶，让身体穿过手臂。",
+   "一旦双腿完全伸过头顶，就开始将它们放回起始位置。"
+  ]
+ },
+ {
+  "catalogId": "exercises-dataset:2963",
+  "name": "captains chair straight leg raise",
+  "part": "waist",
+  "eq": "body weight",
+  "steps": [
+   "坐在船长椅上，背部靠在靠背上，前臂放在扶手垫上。",
+   "保持上半身稳定，背部挺直。",
+   "收紧腹肌并将双腿抬起到身前，保持伸直。",
+   "继续抬起，直到双腿与地面平行或达到您可以舒适地达到的高度。"
+  ]
+ },
+ {
+  "catalogId": "exercises-dataset:0127",
+  "name": "barbell zercher squat",
+  "part": "upper legs",
+  "eq": "barbell",
+  "steps": [
+   "站立，双脚分开与肩同宽，脚趾稍微外翻。",
+   "将杠铃放在肘部的弯曲处，双手握住杠铃以保持稳定。",
+   "当你将臀部向后降低到蹲姿时，启动你的核心并保持胸部抬起。",
+   "保持膝盖与脚趾对齐，并将重量放在脚后跟上。"
+  ]
+ },
+ {
+  "catalogId": "exercises-dataset:0051",
+  "name": "barbell jefferson squat",
+  "part": "upper legs",
+  "eq": "barbell",
+  "steps": [
+   "站立，双脚分开与肩同宽，脚趾稍微外翻。",
+   "正手握住杠铃，将其放在身体前部、腰部下方。",
+   "左脚向前迈出，右脚向后迈出，双脚分开与肩同宽。",
+   "弯曲膝盖，将身体降低至蹲姿，保持背部挺直，挺胸。"
+  ]
+ },
+ {
+  "catalogId": "exercises-dataset:3017",
+  "name": "barbell pendlay row",
+  "part": "back",
+  "eq": "barbell",
+  "steps": [
+   "双脚分开与肩同宽站立，膝盖稍微弯曲。",
+   "臀部向前弯曲，保持背部挺直，挺胸。",
+   "正手握住杠铃，握距略宽于肩宽。",
+   "将杠铃拉向上腹部，将肩胛骨挤压在一起。"
+  ]
+ },
+ {
+  "catalogId": "exercises-dataset:0074",
+  "name": "barbell rack pull",
+  "part": "upper legs",
+  "eq": "barbell",
+  "steps": [
+   "将杠铃放在膝盖高度的架子上。",
+   "双脚分开与肩同宽站立，脚趾稍微向外。",
+   "弯曲臀部和膝盖，降低身体高度，正手握住杠铃，双手与肩同宽。",
+   "通过伸展臀部和膝盖、向后拉肩膀并在顶部挤压臀部来收紧核心并举起杠铃。"
+  ]
+ },
+ {
+  "catalogId": "exercises-dataset:1756",
+  "name": "barbell single leg deadlift",
+  "part": "upper legs",
+  "eq": "barbell",
+  "steps": [
+   "站立，双脚分开与臀部同宽，正手握住杠铃在大腿前面。",
+   "将重心转移到左脚上，并将右脚稍微抬离地面。",
+   "臀部向前转动，保持背部挺直，右腿向后伸展以保持平衡。",
+   "将杠铃向地面降低，使其靠近身体，左腿稍微弯曲。"
+  ]
+ },
+ {
+  "catalogId": "exercises-dataset:0052",
+  "name": "barbell jm bench press",
+  "part": "upper arms",
+  "eq": "barbell",
+  "steps": [
+   "平躺在长凳上，双脚平放在地上，背部紧贴长凳。",
+   "正手握住杠铃，握距略宽于肩宽。",
+   "将杠铃降低到胸部，保持肘部靠近身体。",
+   "将杠铃推回到起始位置，完全伸展双臂。"
+  ]
+ },
+ {
+  "catalogId": "exercises-dataset:1316",
+  "name": "barbell bent arm pullover",
+  "part": "back",
+  "eq": "barbell",
+  "steps": [
+   "平躺在长凳上，头放在一端，双脚放在地板上。",
+   "握距与肩同宽，握住杠铃，将手臂伸直至胸部上方。",
+   "将杠铃放在脑后，同时保持手臂稍微弯曲。",
+   "暂停片刻，然后将杠铃举回起始位置。"
+  ]
+ },
+ {
+  "catalogId": "exercises-dataset:0521",
+  "name": "kettlebell alternating renegade row",
+  "part": "back",
+  "eq": "kettlebell",
+  "steps": [
+   "从高平板支撑位置开始，双手握住壶铃，双脚分开与臀部同宽。",
+   "收紧核心肌群，保持身体从头到脚跟呈一条直线。",
+   "将一个壶铃向上拉向胸部，保持肘部靠近身体。",
+   "将壶铃放回起始位置，然后用另一只手臂重复该动作。"
+  ]
+ },
+ {
+  "catalogId": "exercises-dataset:1423",
+  "name": "reverse hyper on flat bench",
+  "part": "upper legs",
+  "eq": "body weight",
+  "steps": [
+   "脸朝下躺在平坦的长凳上，臀部位于边缘，双腿悬在长凳上。",
+   "抓住长凳以保持稳定。",
+   "保持双腿伸直，尽可能将它们抬向天花板。",
+   "在动作的最高点挤压臀部。"
+  ]
+ },
+ {
+  "catalogId": "exercises-dataset:1270",
+  "name": "cable upper chest crossovers",
+  "part": "chest",
+  "eq": "cable",
+  "steps": [
+   "将手柄连接到胸部高度的电缆上。",
+   "站在绳索机的中央，一只脚稍微在另一只脚前面。",
+   "手掌朝下抓住手柄，手臂向两侧伸展。",
+   "保持肘部轻微弯曲并启动核心肌群。"
+  ]
+ },
+ {
+  "catalogId": "exercises-dataset:0235",
+  "name": "cable standing shoulder external rotation",
+  "part": "shoulders",
+  "eq": "cable",
+  "steps": [
+   "双脚分开与肩同宽站立，膝盖稍微弯曲。",
+   "将手臂伸向前方，与地面平行，握住电缆手柄。",
+   "保持肘部稍微弯曲，肩胛骨向后拉。",
+   "慢慢地向外旋转手臂，远离身体，同时保持肘部处于同一位置。"
+  ]
+ },
+ {
+  "catalogId": "exercises-dataset:0299",
+  "name": "dumbbell cuban press",
+  "part": "shoulders",
+  "eq": "dumbbell",
+  "steps": [
+   "双脚分开与肩同宽站立，双手各握一个哑铃，与肩同高，手掌朝下。",
+   "保持核心收紧，肘部稍微弯曲，将哑铃向上举过头顶，直到手臂完全伸展。",
+   "旋转手腕，使手掌朝前。",
+   "慢慢地将哑铃放回起始位置，同时将手腕旋转回起始位置。"
+  ]
+ },
+ {
+  "catalogId": "exercises-dataset:3548",
+  "name": "dumbbell single arm overhead carry",
+  "part": "shoulders",
+  "eq": "dumbbell",
+  "steps": [
+   "站直，双脚分开与肩同宽，一手握住哑铃。",
+   "将哑铃举过头顶，充分伸展手臂。",
+   "向前行走时，启动核心肌群并保持背部挺直，将哑铃举过头顶。",
+   "继续步行所需的距离或时间。"
+  ]
+ },
+ {
+  "catalogId": "exercises-dataset:1353",
+  "name": "medicine ball catch and overhead throw",
+  "part": "back",
+  "eq": "medicine ball",
+  "steps": [
+   "双脚分开与肩同宽站立，双手握住健身球，与胸部齐平。",
+   "稍微弯曲膝盖并启动核心。",
+   "将身体降低至蹲姿，保持背部挺直、挺胸。",
+   "爆发性伸展臀部和腿部，同时将药球扔过头顶。"
+  ]
+ },
+ {
+  "catalogId": "exercises-dataset:2139",
+  "name": "hands bike",
+  "part": "chest",
+  "eq": "upper body ergometer",
+  "steps": [
+   "将座椅高度和车把位置调整至舒适的水平。",
+   "坐在测力计上，背部挺直，双脚放在踏板上。",
+   "双手抓住手柄，并将手臂呈 90 度角。",
+   "开始用手踩踏板，以受控的动作推拉手柄。"
+  ]
+ },
+ {
+  "catalogId": "exercises-dataset:1403",
+  "name": "neck side stretch",
+  "part": "neck",
+  "eq": "body weight",
+  "steps": [
+   "站直或坐直，肩膀放松。",
+   "将头向一侧倾斜，将耳朵靠近肩膀。",
+   "保持拉伸 15-30 秒。",
+   "在另一侧重复。"
+  ]
+ }
+]

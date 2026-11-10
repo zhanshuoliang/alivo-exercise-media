@@ -1,0 +1,154 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:0001",
+      "filename": "3_4_sit_up.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3296",
+      "filename": "front_lever.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3297",
+      "filename": "back_lever.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3299",
+      "filename": "full_planche.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3294",
+      "filename": "archer_push_up.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3293",
+      "filename": "archer_pull_up.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0677",
+      "filename": "ring_dips.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0283",
+      "filename": "diamond_push_up.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1273",
+      "filename": "clap_push_up.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0500",
+      "filename": "isometric_wipers.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3217",
+      "filename": "modified_hindu_push_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3418",
+      "filename": "l_pull_up.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3304",
+      "filename": "skin_the_cat.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2963",
+      "filename": "captains_chair_straight_leg_raise.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0127",
+      "filename": "barbell_zercher_squat.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0051",
+      "filename": "barbell_jefferson_squat.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3017",
+      "filename": "barbell_pendlay_row.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0074",
+      "filename": "barbell_rack_pull.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1756",
+      "filename": "barbell_single_leg_deadlift.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0052",
+      "filename": "barbell_jm_bench_press.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1316",
+      "filename": "barbell_bent_arm_pullover.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0521",
+      "filename": "kettlebell_alternating_renegade_row.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1423",
+      "filename": "reverse_hyper_on_flat_bench.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1270",
+      "filename": "cable_upper_chest_crossovers.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0235",
+      "filename": "cable_standing_shoulder_external_rotation.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0299",
+      "filename": "dumbbell_cuban_press.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3548",
+      "filename": "dumbbell_single_arm_overhead_carry.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1353",
+      "filename": "medicine_ball_catch_and_overhead_throw.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2139",
+      "filename": "hands_bike.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1403",
+      "filename": "neck_side_stretch.png",
+      "folder": "new"
+    }
+  ]
+}

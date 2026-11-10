@@ -300,3 +300,38 @@ Generated specifically for ALIVO with OpenAI ImageGen. Editorial illustrations a
 - `exercise_media/medicine_ball_chest_pass.png` — `exercises-dataset:1302`; SHA-256 `442e96bcddc3a82c24e195880a4336d328cb6addb960c4d4ccc44c566f35ff3b`.
 - `exercise_media/balance_board.png` — `exercises-dataset:0020`; SHA-256 `fa9005dea3b88706c437daf6c1ec7863ebf24cde123c87c8d5492f11fbab2dd9`.
 - `exercise_media/scissor_jump.png` — `exercises-dataset:3219`; SHA-256 `1f4741573a4ceb369d90cf4b7976e503ee692caa076827b389ba191c29089ec6`.
+
+## ALIVO editorial illustrations generated 2026-11-10
+
+Generated specifically for ALIVO with OpenAI ImageGen. These are editorial illustrations, not instructional demonstrations. Rights and project usage are managed by ALIVO. The OpenAI link is the service terms, not a Creative Commons license. The bundled files are scaled by the interface. Some illustrations were recolored and given ALIVO clothing wordmarks with OpenAI ImageGen. Author of record for newly integrated records: Paul Leung.
+
+- `exercise_media/3_4_sit_up.png` - `exercises-dataset:0001`; SHA-256 `909460d720c735e0b65240323d892259d771670eacf98b05a27989be03dcc25f`.
+- `exercise_media/front_lever.png` - `exercises-dataset:3296`; SHA-256 `be5ce82ab499c6b4010e63ebed0831cbcf87e2cd8a6ccdbc5a1f8bf567191a4a`.
+- `exercise_media/back_lever.png` - `exercises-dataset:3297`; SHA-256 `befa5a6743a2467b8c668c15b9271e19aaf770385f9966157a073db1f89873bd`.
+- `exercise_media/full_planche.png` - `exercises-dataset:3299`; SHA-256 `28504fac53600aeb7b0d80ae9908676a20fbb430c51e4afbd8826b6cfab3c52b`.
+- `exercise_media/archer_push_up.png` - `exercises-dataset:3294`; SHA-256 `65d1bb76076cc152a7d0053ca885765212f5909709e402ebced22b981b36f073`.
+- `exercise_media/archer_pull_up.png` - `exercises-dataset:3293`; SHA-256 `e180806ba67f204a6c099bc578040445c92d944d8b4f4912d4ab3863b91ead4d`.
+- `exercise_media/ring_dips.png` - `exercises-dataset:0677`; SHA-256 `2a91248bd9549026911a71bc4b12d3e0442429f2da58144199baa484673c870e`.
+- `exercise_media/diamond_push_up.png` - `exercises-dataset:0283`; SHA-256 `148547c3168af18cea8c34df2900ba017f8fc8c998213db4c22028013566316b`.
+- `exercise_media/clap_push_up.png` - `exercises-dataset:1273`; SHA-256 `6697fca6171cc642133358d967191ad8d145a41dd344fa965d97d970ca1cb5f6`.
+- `exercise_media/isometric_wipers.png` - `exercises-dataset:0500`; SHA-256 `4468a4c9bdbea58b0c2b385d72888c18b0fa9c844ac8b15991e08d264366a6a3`.
+- `exercise_media/modified_hindu_push_up_male.png` - `exercises-dataset:3217`; SHA-256 `924172b9a2e120523599520c2b72daab0df7e956e2b905c9f5a7832e36ad7808`.
+- `exercise_media/l_pull_up.png` - `exercises-dataset:3418`; SHA-256 `40a22aac3842af8315ddc0b39c6f2a233d213251bbd8df467f5e9fd9bca85226`.
+- `exercise_media/skin_the_cat.png` - `exercises-dataset:3304`; SHA-256 `eaa51b44ac9a001c3811ad75489f3cbe76f630e58d827fa3ed428188130345c8`.
+- `exercise_media/captains_chair_straight_leg_raise.png` - `exercises-dataset:2963`; SHA-256 `486ebbac67e7571b9720d28b715d7f340d0ef39528e1fc77a4422675635dfda2`.
+- `exercise_media/barbell_zercher_squat.png` - `exercises-dataset:0127`; SHA-256 `574dc89c58e539aaeebb81effefb740cbe083f8fe353ed9241e0641148db1c66`.
+- `exercise_media/barbell_jefferson_squat.png` - `exercises-dataset:0051`; SHA-256 `3ca59f4582dc06d2f5a702d3e509542db9bd353759e4401cf0082949a2ff4962`.
+- `exercise_media/barbell_pendlay_row.png` - `exercises-dataset:3017`; SHA-256 `226a52bd88b1045a19d5a2c0f4bc8328fd14f07cb1f98a8caf4524341e73fe6f`.
+- `exercise_media/barbell_rack_pull.png` - `exercises-dataset:0074`; SHA-256 `50ac7760b4aaeb8a967a9cb81edd23eb14a01fa63008af798dbf837747e685e6`.
+- `exercise_media/barbell_single_leg_deadlift.png` - `exercises-dataset:1756`; SHA-256 `a23b5a597e6c8974b14540ce1a578d9030f319bbf2caabfd080c15ab3c9c73d0`.
+- `exercise_media/barbell_jm_bench_press.png` - `exercises-dataset:0052`; SHA-256 `9c156fa707d963299bd6a3f6da3aba6fc0ecae4df27d25e61174ee0e94add5ea`.
+- `exercise_media/barbell_bent_arm_pullover.png` - `exercises-dataset:1316`; SHA-256 `00446e5acd0e9d6574ddc1db0456bbdf27915fdbe4102bea09d8708893419c91`.
+- `exercise_media/kettlebell_alternating_renegade_row.png` - `exercises-dataset:0521`; SHA-256 `8901f9918e176273355a36db3a760d70c077682af120d9c0b07b831cfa33a9e5`.
+- `exercise_media/reverse_hyper_on_flat_bench.png` - `exercises-dataset:1423`; SHA-256 `dcbf2c296c2c8e8291016618da368786eb28c3d02a14e5eb38254caa06805cfe`.
+- `exercise_media/cable_upper_chest_crossovers.png` - `exercises-dataset:1270`; SHA-256 `9f46eb4722a7e6be945e5f309ad6a662cc39fdbbd9955a721cc446bd2c497421`.
+- `exercise_media/cable_standing_shoulder_external_rotation.png` - `exercises-dataset:0235`; SHA-256 `c988c6367513694d88e623f3624b7f3fd573b70330bca42938910342bfef93fc`.
+- `exercise_media/dumbbell_cuban_press.png` - `exercises-dataset:0299`; SHA-256 `b15a4405dfef250fd5a28da0dd5acca16b35ab744f1ec546b5df232952978874`.
+- `exercise_media/dumbbell_single_arm_overhead_carry.png` - `exercises-dataset:3548`; SHA-256 `92e7b81d4ef7e44cd38fdc04ac4f9a7ed301653d18f6c91dc945ff04a10648f3`.
+- `exercise_media/medicine_ball_catch_and_overhead_throw.png` - `exercises-dataset:1353`; SHA-256 `7ab0f03799bec352969e752f378bf656afcbfd5b6f6fb4cbe6fa84d660ec9ebf`.
+- `exercise_media/hands_bike.png` - `exercises-dataset:2139`; SHA-256 `8c397e02359546d5916e800438b3ada860209368af34adfbacd8613d86f9770b`.
+- `exercise_media/neck_side_stretch.png` - `exercises-dataset:1403`; SHA-256 `9534a663289fee24e23bdf416928c35840b965ea3a2cd5cc0208d6ca20bf2ee1`.
