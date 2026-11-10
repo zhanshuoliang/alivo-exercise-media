@@ -273,11 +273,17 @@ table{border-collapse:collapse;width:100%;font-size:13px}td,th{border-bottom:1px
 .charhead{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}
 .charhead b{font-size:15px}
 .charhead button{border:none;background:none;font-size:24px;cursor:pointer;color:var(--mut);line-height:1;padding:0 4px}
-.charbody{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-@media(max-width:720px){.charbody{grid-template-columns:1fr}}
-.charbody figure{margin:0}
-.charbody img{width:100%;border-radius:8px;background:#ddd;display:block}
-.charbody figcaption{font-size:12px;color:var(--mut);margin-top:6px;text-align:center}
+.charbody{display:flex;flex-direction:column;gap:18px}
+.roster{border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.roster .athhead{display:flex;align-items:baseline;gap:10px;margin-bottom:4px}
+.roster .athname{font-size:15px;font-weight:700}
+.roster .athrole{font-size:12px;color:var(--acc);font-weight:600}
+.roster .athbio{font-size:12px;color:var(--mut);margin-bottom:10px;line-height:1.5}
+.vers{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:720px){.vers{grid-template-columns:1fr}}
+.vers figure{margin:0}
+.vers img{width:100%;border-radius:8px;background:#ddd;display:block}
+.vers figcaption{font-size:12px;color:var(--mut);margin-top:6px;text-align:center}
 </style>
 </head>
 <body>
@@ -314,12 +320,26 @@ table{border-collapse:collapse;width:100%;font-size:13px}td,th{border-bottom:1px
 <div class="export"><button id="subIssue" title="把全部复核决定打包成 GitHub Issue">提交审核到 GitHub（0）</button><button id="expJson">导出我的复核修改</button><button id="impJson">导入复核修改</button><input type="file" id="impFile" accept=".json" hidden></div>
 <div class="charmask" id="charMask" hidden>
  <div class="charcard">
-  <div class="charhead"><b>ALIVO 运动员 · 数字资产三视图</b><button id="charClose" aria-label="关闭">×</button></div>
+  <div class="charhead"><b>ALIVO 运动员名册 · 数字资产三视图</b><button id="charClose" aria-label="关闭">×</button></div>
   <div class="charbody">
-   <figure><img src="character/turnaround_branded.png" alt="ALIVO 运动员三视图（带标版）"><figcaption>带标版 · ALIVO-editorial · 可自由使用</figcaption></figure>
-   <figure><img src="character/turnaround_open.png" alt="ALIVO 运动员三视图（无标开源版）"><figcaption>无标开源版 · CC-BY-4.0 · Paul Leung · 使用须署名</figcaption></figure>
+   <div class="roster">
+    <div class="athhead"><span class="athname">Kai · 凯</span><span class="athrole">首席演示运动员</span></div>
+    <div class="athbio">专长：自重力量、体操类、杠铃与爆发力动作。性格：沉稳自律、动作教科书式严谨。带标版全部插图与无标版力量/器械镜头主角。</div>
+    <div class="vers">
+     <figure><img src="character/turnaround_branded.png" alt="Kai 三视图（带标版）"><figcaption>带标版 · ALIVO-editorial · 可自由使用</figcaption></figure>
+     <figure><img src="character/turnaround_open.png" alt="Kai 三视图（无标开源版）"><figcaption>无标开源版 · CC-BY-4.0 · Paul Leung · 使用须署名</figcaption></figure>
+    </div>
+   </div>
+   <div class="roster">
+    <div class="athhead"><span class="athname">Liv · 莉芙</span><span class="athrole">灵活性与柔韧担当</span></div>
+    <div class="athbio">专长：拉伸、瑜伽、动态热身、瑜伽球与放松类动作。性格：轻快亲和、节奏感强。第 13 轮起无标版柔韧/灵活性镜头主力。</div>
+    <div class="vers">
+     <figure><img src="character/turnaround_female_branded.png" alt="Liv 三视图（带标版）"><figcaption>带标版 · ALIVO-editorial · 可自由使用</figcaption></figure>
+     <figure><img src="character/turnaround_female_open.png" alt="Liv 三视图（无标开源版）"><figcaption>无标开源版 · CC-BY-4.0 · Paul Leung · 使用须署名</figcaption></figure>
+    </div>
+   </div>
   </div>
-  <div class="note" style="margin-top:10px">ALIVO 演示运动员为本项目数字资产：深灰绿背心、炭灰短裤、深色运动鞋、中性灰摄影棚背景，全部自研动作插图沿用同一角色基准。</div>
+  <div class="note" style="margin-top:10px">ALIVO 演示运动员为本项目数字资产：深灰绿背心、炭灰短裤、深色运动鞋、中性灰摄影棚背景，全部自研动作插图沿用同一角色基准。角色外观以服装与风格规范定义，名册见 <code>character/roster.md</code>。</div>
  </div>
 </div>
 <script>

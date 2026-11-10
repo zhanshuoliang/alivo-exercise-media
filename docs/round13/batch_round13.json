@@ -1,0 +1,154 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:1512",
+      "filename": "all_fours_squad_stretch.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1405",
+      "filename": "back_pec_stretch.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1407",
+      "filename": "calf_push_stretch_with_hands_against_wall.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1378",
+      "filename": "calf_stretch_with_rope.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1548",
+      "filename": "chair_leg_extended_stretch.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1272",
+      "filename": "chest_stretch_with_exercise_ball.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1559",
+      "filename": "exercise_ball_hip_flexor_stretch.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1339",
+      "filename": "exercise_ball_lat_stretch.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1341",
+      "filename": "exercise_ball_lower_back_stretch_pyramid.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1342",
+      "filename": "exercise_ball_lying_side_lat_stretch.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1560",
+      "filename": "exercise_ball_seated_hamstring_stretch.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1745",
+      "filename": "exercise_ball_seated_triceps_stretch.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1388",
+      "filename": "peroneals_stretch.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1389",
+      "filename": "posterior_tibialis_stretch.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1582",
+      "filename": "reclining_big_toe_pose_with_rope.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2208",
+      "filename": "roller_back_stretch.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2205",
+      "filename": "roller_hip_lat_stretch.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2202",
+      "filename": "roller_hip_stretch.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2207",
+      "filename": "roller_side_lat_stretch.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0688",
+      "filename": "scapular_pull_up.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1390",
+      "filename": "seated_calf_stretch_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1358",
+      "filename": "side_lying_floor_stretch.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0794",
+      "filename": "standing_lateral_stretch.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0817",
+      "filename": "triceps_stretch.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3642",
+      "filename": "weighted_stretch_lunge.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0513",
+      "filename": "jump_squat_v_2.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0501",
+      "filename": "jack_burpee.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3361",
+      "filename": "skater_hops.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1409",
+      "filename": "barbell_glute_bridge.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3523",
+      "filename": "glute_bridge_two_legs_on_bench_male.png",
+      "folder": "new"
+    }
+  ]
+}
