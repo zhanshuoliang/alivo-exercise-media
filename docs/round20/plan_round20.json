@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:1425",
+    "name": "sled 45 degrees one leg press",
+    "base": "sled_45_degrees_one_leg_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0742",
+    "name": "sled forward angled calf raise",
+    "base": "sled_forward_angled_calf_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:2334",
+    "name": "sled lying calf press",
+    "base": "sled_lying_calf_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0663",
+    "name": "push-up medicine ball",
+    "base": "push_up_medicine_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:1305",
+    "name": "medicine ball chest push single response",
+    "base": "medicine_ball_chest_push_single_response"
+  },
+  {
+    "catalogId": "exercises-dataset:1334",
+    "name": "exercise ball back extension with hands behind head",
+    "base": "exercise_ball_back_extension_with_hands_behind_head"
+  },
+  {
+    "catalogId": "exercises-dataset:1417",
+    "name": "exercise ball one legged diagonal kick hamstring curl",
+    "base": "exercise_ball_one_legged_diagonal_kick_hamstring_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:1744",
+    "name": "exercise ball dip",
+    "base": "exercise_ball_dip"
+  },
+  {
+    "catalogId": "exercises-dataset:2328",
+    "name": "narrow push-up on exercise ball",
+    "base": "narrow_push_up_on_exercise_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:0446",
+    "name": "ez barbell close-grip curl",
+    "base": "ez_barbell_close_grip_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:1458",
+    "name": "ez barbell seated curls",
+    "base": "ez_barbell_seated_curls"
+  },
+  {
+    "catalogId": "exercises-dataset:2432",
+    "name": "ez-bar close-grip bench press",
+    "base": "ez_bar_close_grip_bench_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0993",
+    "name": "band reverse fly",
+    "base": "band_reverse_fly"
+  },
+  {
+    "catalogId": "exercises-dataset:0979",
+    "name": "band horizontal pallof press",
+    "base": "band_horizontal_pallof_press"
+  },
+  {
+    "catalogId": "exercises-dataset:1018",
+    "name": "band shrug",
+    "base": "band_shrug"
+  }
+]

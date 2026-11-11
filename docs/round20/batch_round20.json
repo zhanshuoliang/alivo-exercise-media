@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:1425",
+      "filename": "sled_45_degrees_one_leg_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0742",
+      "filename": "sled_forward_angled_calf_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2334",
+      "filename": "sled_lying_calf_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0663",
+      "filename": "push_up_medicine_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1305",
+      "filename": "medicine_ball_chest_push_single_response_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1334",
+      "filename": "exercise_ball_back_extension_with_hands_behind_head_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1417",
+      "filename": "exercise_ball_one_legged_diagonal_kick_hamstring_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1744",
+      "filename": "exercise_ball_dip_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2328",
+      "filename": "narrow_push_up_on_exercise_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0446",
+      "filename": "ez_barbell_close_grip_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1458",
+      "filename": "ez_barbell_seated_curls_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2432",
+      "filename": "ez_bar_close_grip_bench_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0993",
+      "filename": "band_reverse_fly_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0979",
+      "filename": "band_horizontal_pallof_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1018",
+      "filename": "band_shrug_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:1425",
+      "base": "sled_45_degrees_one_leg_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0742",
+      "base": "sled_forward_angled_calf_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:2334",
+      "base": "sled_lying_calf_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0663",
+      "base": "push_up_medicine_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:1305",
+      "base": "medicine_ball_chest_push_single_response"
+    },
+    {
+      "catalogId": "exercises-dataset:1334",
+      "base": "exercise_ball_back_extension_with_hands_behind_head"
+    },
+    {
+      "catalogId": "exercises-dataset:1417",
+      "base": "exercise_ball_one_legged_diagonal_kick_hamstring_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:1744",
+      "base": "exercise_ball_dip"
+    },
+    {
+      "catalogId": "exercises-dataset:2328",
+      "base": "narrow_push_up_on_exercise_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:0446",
+      "base": "ez_barbell_close_grip_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:1458",
+      "base": "ez_barbell_seated_curls"
+    },
+    {
+      "catalogId": "exercises-dataset:2432",
+      "base": "ez_bar_close_grip_bench_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0993",
+      "base": "band_reverse_fly"
+    },
+    {
+      "catalogId": "exercises-dataset:0979",
+      "base": "band_horizontal_pallof_press"
+    },
+    {
+      "catalogId": "exercises-dataset:1018",
+      "base": "band_shrug"
+    }
+  ]
+}
