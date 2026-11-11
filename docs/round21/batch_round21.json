@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:0014",
+      "filename": "assisted_motion_russian_twist_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1304",
+      "filename": "medicine_ball_chest_push_multiple_response_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0653",
+      "filename": "push_up_bosu_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1335",
+      "filename": "exercise_ball_back_extension_with_knees_off_ground_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1336",
+      "filename": "exercise_ball_back_extension_with_rotation_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1343",
+      "filename": "exercise_ball_prone_leg_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1707",
+      "filename": "prone_twist_on_stability_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0650",
+      "filename": "pull_in_on_stability_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1338",
+      "filename": "exercise_ball_hug_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0535",
+      "filename": "kettlebell_hang_clean_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0538",
+      "filename": "kettlebell_one_arm_jerk_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0546",
+      "filename": "kettlebell_seated_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0524",
+      "filename": "kettlebell_bent_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1438",
+      "filename": "kettlebell_seated_two_arm_military_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1392",
+      "filename": "sled_one_leg_calf_press_on_leg_press_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:0014",
+      "base": "assisted_motion_russian_twist"
+    },
+    {
+      "catalogId": "exercises-dataset:1304",
+      "base": "medicine_ball_chest_push_multiple_response"
+    },
+    {
+      "catalogId": "exercises-dataset:0653",
+      "base": "push_up_bosu_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:1335",
+      "base": "exercise_ball_back_extension_with_knees_off_ground"
+    },
+    {
+      "catalogId": "exercises-dataset:1336",
+      "base": "exercise_ball_back_extension_with_rotation"
+    },
+    {
+      "catalogId": "exercises-dataset:1343",
+      "base": "exercise_ball_prone_leg_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:1707",
+      "base": "prone_twist_on_stability_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:0650",
+      "base": "pull_in_on_stability_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:1338",
+      "base": "exercise_ball_hug"
+    },
+    {
+      "catalogId": "exercises-dataset:0535",
+      "base": "kettlebell_hang_clean"
+    },
+    {
+      "catalogId": "exercises-dataset:0538",
+      "base": "kettlebell_one_arm_jerk"
+    },
+    {
+      "catalogId": "exercises-dataset:0546",
+      "base": "kettlebell_seated_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0524",
+      "base": "kettlebell_bent_press"
+    },
+    {
+      "catalogId": "exercises-dataset:1438",
+      "base": "kettlebell_seated_two_arm_military_press"
+    },
+    {
+      "catalogId": "exercises-dataset:1392",
+      "base": "sled_one_leg_calf_press_on_leg_press"
+    }
+  ]
+}

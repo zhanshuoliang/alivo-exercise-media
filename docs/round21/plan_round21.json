@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:0014",
+    "name": "assisted motion russian twist",
+    "base": "assisted_motion_russian_twist"
+  },
+  {
+    "catalogId": "exercises-dataset:1304",
+    "name": "medicine ball chest push multiple response",
+    "base": "medicine_ball_chest_push_multiple_response"
+  },
+  {
+    "catalogId": "exercises-dataset:0653",
+    "name": "push-up (bosu ball)",
+    "base": "push_up_bosu_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:1335",
+    "name": "exercise ball back extension with knees off ground",
+    "base": "exercise_ball_back_extension_with_knees_off_ground"
+  },
+  {
+    "catalogId": "exercises-dataset:1336",
+    "name": "exercise ball back extension with rotation",
+    "base": "exercise_ball_back_extension_with_rotation"
+  },
+  {
+    "catalogId": "exercises-dataset:1343",
+    "name": "exercise ball prone leg raise",
+    "base": "exercise_ball_prone_leg_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:1707",
+    "name": "prone twist on stability ball",
+    "base": "prone_twist_on_stability_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:0650",
+    "name": "pull-in (on stability ball)",
+    "base": "pull_in_on_stability_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:1338",
+    "name": "exercise ball hug",
+    "base": "exercise_ball_hug"
+  },
+  {
+    "catalogId": "exercises-dataset:0535",
+    "name": "kettlebell hang clean",
+    "base": "kettlebell_hang_clean"
+  },
+  {
+    "catalogId": "exercises-dataset:0538",
+    "name": "kettlebell one arm jerk",
+    "base": "kettlebell_one_arm_jerk"
+  },
+  {
+    "catalogId": "exercises-dataset:0546",
+    "name": "kettlebell seated press",
+    "base": "kettlebell_seated_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0524",
+    "name": "kettlebell bent press",
+    "base": "kettlebell_bent_press"
+  },
+  {
+    "catalogId": "exercises-dataset:1438",
+    "name": "kettlebell seated two arm military press",
+    "base": "kettlebell_seated_two_arm_military_press"
+  },
+  {
+    "catalogId": "exercises-dataset:1392",
+    "name": "sled one leg calf press on leg press",
+    "base": "sled_one_leg_calf_press_on_leg_press"
+  }
+]
