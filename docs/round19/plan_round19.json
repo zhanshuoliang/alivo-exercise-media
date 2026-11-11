@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "extra-007",
+    "name": "jump rope",
+    "base": "jump_rope"
+  },
+  {
+    "catalogId": "exercises-dataset:0609",
+    "name": "london bridge",
+    "base": "london_bridge"
+  },
+  {
+    "catalogId": "exercises-dataset:0637",
+    "name": "olympic barbell triceps extension",
+    "base": "olympic_barbell_triceps_extension"
+  },
+  {
+    "catalogId": "extra-012",
+    "name": "standing split stance single arm landmine press",
+    "base": "standing_split_stance_single_arm_landmine_press"
+  },
+  {
+    "catalogId": "exercises-dataset:2138",
+    "name": "stationary bike run v. 3",
+    "base": "stationary_bike_run_v_3"
+  },
+  {
+    "catalogId": "exercises-dataset:3236",
+    "name": "resistance band hip thrusts on knees",
+    "base": "resistance_band_hip_thrusts_on_knees"
+  },
+  {
+    "catalogId": "exercises-dataset:3007",
+    "name": "resistance band leg extension",
+    "base": "resistance_band_leg_extension"
+  },
+  {
+    "catalogId": "exercises-dataset:2203",
+    "name": "roller seated shoulder flexor depresor retractor",
+    "base": "roller_seated_shoulder_flexor_depresor_retractor"
+  },
+  {
+    "catalogId": "exercises-dataset:2209",
+    "name": "roller seated single leg shoulder flexor depresor retractor",
+    "base": "roller_seated_single_leg_shoulder_flexor_depresor_retractor"
+  },
+  {
+    "catalogId": "exercises-dataset:1384",
+    "name": "hack one leg calf raise",
+    "base": "hack_one_leg_calf_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:0740",
+    "name": "sled 45 degree leg wide press",
+    "base": "sled_45_degree_leg_wide_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0655",
+    "name": "push-up on stability ball",
+    "base": "push_up_on_stability_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:1296",
+    "name": "exercise ball pike push up",
+    "base": "exercise_ball_pike_push_up"
+  },
+  {
+    "catalogId": "exercises-dataset:2297",
+    "name": "stability ball crunch full range hands behind head",
+    "base": "stability_ball_crunch_full_range_hands_behind_head"
+  },
+  {
+    "catalogId": "exercises-dataset:0675",
+    "name": "reverse hyper extension on stability ball",
+    "base": "reverse_hyper_extension_on_stability_ball"
+  }
+]

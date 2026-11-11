@@ -101,10 +101,10 @@ def media_block(cid, mrow, open_items):
     """Per-record media variants: branded bound file + gender variants + open editions."""
     file = mrow["localPath"].split("/", 1)[1] if mrow else ""
     female = ""
-    if file.endswith("_male.png"):
-        cand = file[:-len("_male.png")] + "_female.png"
-        if (ROOT / "media" / cand).exists():
-            female = cand
+    cand = file[:-len("_male.png")] + "_female.png" if file.endswith("_male.png") \
+        else file[:-len(".png")] + "_female.png" if file.endswith(".png") else ""
+    if cand and (ROOT / "media" / cand).exists():
+        female = cand
     open_single, open_m, open_f = "", "", ""
     for item in open_items:
         f = item.get("file", "")

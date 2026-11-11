@@ -1,0 +1,123 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:0609",
+      "filename": "london_bridge_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0637",
+      "filename": "olympic_barbell_triceps_extension_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2138",
+      "filename": "stationary_bike_run_v_3_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3236",
+      "filename": "resistance_band_hip_thrusts_on_knees_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3007",
+      "filename": "resistance_band_leg_extension_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2203",
+      "filename": "roller_seated_shoulder_flexor_depresor_retractor_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2209",
+      "filename": "roller_seated_single_leg_shoulder_flexor_depresor_retractor_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1384",
+      "filename": "hack_one_leg_calf_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0740",
+      "filename": "sled_45_degree_leg_wide_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0655",
+      "filename": "push_up_on_stability_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1296",
+      "filename": "exercise_ball_pike_push_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2297",
+      "filename": "stability_ball_crunch_full_range_hands_behind_head_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0675",
+      "filename": "reverse_hyper_extension_on_stability_ball_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:0609",
+      "base": "london_bridge"
+    },
+    {
+      "catalogId": "exercises-dataset:0637",
+      "base": "olympic_barbell_triceps_extension"
+    },
+    {
+      "catalogId": "exercises-dataset:2138",
+      "base": "stationary_bike_run_v_3"
+    },
+    {
+      "catalogId": "exercises-dataset:3236",
+      "base": "resistance_band_hip_thrusts_on_knees"
+    },
+    {
+      "catalogId": "exercises-dataset:3007",
+      "base": "resistance_band_leg_extension"
+    },
+    {
+      "catalogId": "exercises-dataset:2203",
+      "base": "roller_seated_shoulder_flexor_depresor_retractor"
+    },
+    {
+      "catalogId": "exercises-dataset:2209",
+      "base": "roller_seated_single_leg_shoulder_flexor_depresor_retractor"
+    },
+    {
+      "catalogId": "exercises-dataset:1384",
+      "base": "hack_one_leg_calf_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:0740",
+      "base": "sled_45_degree_leg_wide_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0655",
+      "base": "push_up_on_stability_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:1296",
+      "base": "exercise_ball_pike_push_up"
+    },
+    {
+      "catalogId": "exercises-dataset:2297",
+      "base": "stability_ball_crunch_full_range_hands_behind_head"
+    },
+    {
+      "catalogId": "exercises-dataset:0675",
+      "base": "reverse_hyper_extension_on_stability_ball"
+    }
+  ]
+}
