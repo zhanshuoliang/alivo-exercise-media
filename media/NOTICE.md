@@ -720,3 +720,41 @@ Kai（男）/ Liv（女）双角色同动作四轨批次的带标轨。男版已
 - `kettlebell_bent_press_female.png` — `exercises-dataset:0524`; SHA-256 `59c06ac4877fbeff8ef3ecbafd1691340707fdd877fa2e7ed78daf72ce093379`.
 - `kettlebell_seated_two_arm_military_press_female.png` — `exercises-dataset:1438`; SHA-256 `e3b8d72c26ad31736e2426ae025d24a53b99efaa58350c2ee8be8a858edc9e1c`.
 - `sled_one_leg_calf_press_on_leg_press_female.png` — `exercises-dataset:1392`; SHA-256 `affb1a8027e216b2b1929041a2cf7fdaa1f6f7cf64ec5044b0e33f98e42501c6`.
+
+## Round 22 — dual-athlete edition (2026-11-11)
+
+Kai（男）/ Liv（女）双角色同动作四轨批次的带标轨。男版已绑定入 App 目录数据（exercise_metadata.json）；女版为同动作的性别变体资产，仅入媒体库备用，未绑定。
+
+### Male edition（已绑定 App）
+
+- `exercise_ball_alternating_arm_ups_male.png` — `exercises-dataset:1332`; SHA-256 `1667d302621ae4c6cfa6038b752aa362c92582b5bc8d717ffb7183545d55a8f5`.
+- `exercise_ball_one_leg_prone_lower_body_rotation_male.png` — `exercises-dataset:1416`; SHA-256 `1397aa0933d3fd9695f60f9f9040cabc55b6aa3bfe8d39ec5864c349309a1437`.
+- `sled_45_degrees_calf_press_male.png` — `exercises-dataset:0738`; SHA-256 `8338f428681f35886ef74c4883b31c07a15f912e3fbe2ecc9ef10904c09eecc4`.
+- `sled_lying_squat_male.png` — `exercises-dataset:0744`; SHA-256 `5d6232c43fcddaaa5ef4df87ab6c60f2ffcf2d7d227a28812fe0d7f46081281c`.
+- `medicine_ball_chest_push_with_run_release_male.png` — `exercises-dataset:1312`; SHA-256 `30b4c23466a5db6b6e9c9ab1f6170319d796ab61a6961a9eaeba908f3923c67b`.
+- `kettlebell_advanced_windmill_male.png` — `exercises-dataset:0517`; SHA-256 `de84d640b5ede41f8bf939b9a4c81601dd343dd9f823825e4f98f8a0119a3845`.
+- `kettlebell_arnold_press_male.png` — `exercises-dataset:0523`; SHA-256 `9b1d946f440d4c7ad96cf95feff015958321605a1769a74cb4dc2c1334ed0e0a`.
+- `kettlebell_double_push_press_male.png` — `exercises-dataset:0528`; SHA-256 `866346fc9519d0333569b4e6a6f662f3a498295d669ab574068e0e2e1c516d58`.
+- `kettlebell_two_arm_military_press_male.png` — `exercises-dataset:0553`; SHA-256 `49f56558ec2114bde8ff0bb914aea760dc9bae12e3c8d9af333c66e1354b1264`.
+- `kettlebell_lunge_pass_through_male.png` — `exercises-dataset:0536`; SHA-256 `dd9827f7db6cd5fe2f65ad80502a1e36b1d94d203b069e2e250fa3bd0c28c1f1`.
+- `ez_bar_french_press_on_exercise_ball_male.png` — `exercises-dataset:1747`; SHA-256 `15f93cb2c0f3bffe4060a20e7888f935a41b3fad883c185564c242c1800d87f1`.
+- `ez_barbell_spider_curl_male.png` — `exercises-dataset:1628`; SHA-256 `cf5782f890580985431a8bcd888a18d871c486919e903a21bcf606ea4e9e237f`.
+- `weighted_russian_twist_male.png` — `exercises-dataset:0846`; SHA-256 `cd358861a3065281656a958c7566487ef6f3dba6198e38cd7ca47a7770d15910`.
+- `weighted_squat_male.png` — `exercises-dataset:0852`; SHA-256 `79fc691fd285f9a65c484cdb3a6b6bf86417625dfb024227373ee9e36d824861`.
+
+### Female edition（性别变体，未绑定）
+
+- `exercise_ball_alternating_arm_ups_female.png` — `exercises-dataset:1332`; SHA-256 `07ba53a656bd8eb6ab4d3a2351ce36f732023dc9659772234233bca42b8eb9e0`.
+- `exercise_ball_one_leg_prone_lower_body_rotation_female.png` — `exercises-dataset:1416`; SHA-256 `96eda103fa325ab47b09c894f56ff1d45e7c7cc4e0bcb15cd961361a308919fb`.
+- `sled_45_degrees_calf_press_female.png` — `exercises-dataset:0738`; SHA-256 `65a3487c9b3a26d4bccee20e21d75879c75445d6d2d9325eecac538bcbf6b6a7`.
+- `sled_lying_squat_female.png` — `exercises-dataset:0744`; SHA-256 `7b021d974e160e4c51eb6f56ddba3e2b78e7327ef4faac0200df4a3bcca30b09`.
+- `medicine_ball_chest_push_with_run_release_female.png` — `exercises-dataset:1312`; SHA-256 `75349cbb31e864411b0c6e9cf6590b6086f1f34bb5d51efed9fa2ff7a2b31b36`.
+- `kettlebell_advanced_windmill_female.png` — `exercises-dataset:0517`; SHA-256 `2fa998f6adec54422169a4453e8b4a90d135a9822dc7e0feae5ed9ebc0d35958`.
+- `kettlebell_arnold_press_female.png` — `exercises-dataset:0523`; SHA-256 `04e63600ef61b9c602a23356462e647a4b85abec112cc0491eb0fb6874dc8630`.
+- `kettlebell_double_push_press_female.png` — `exercises-dataset:0528`; SHA-256 `91446ba6469756e02d8c234a25a3e0cb70220e6b00f3be32e5dbfac9e9c83b2d`.
+- `kettlebell_two_arm_military_press_female.png` — `exercises-dataset:0553`; SHA-256 `7bfd3a0f694dd1eefa1fb10f77befcc29da60dc080b55b43e56a2ddd0d661432`.
+- `kettlebell_lunge_pass_through_female.png` — `exercises-dataset:0536`; SHA-256 `dac27fbcdb61fcc54abbaccbd7e97d6e618e6f315431ae60d11929ba19b3abb3`.
+- `ez_bar_french_press_on_exercise_ball_female.png` — `exercises-dataset:1747`; SHA-256 `a67eff3520723b0c5732a7542260acc782188e97d02ba97cf30607ba18e7cb4b`.
+- `ez_barbell_spider_curl_female.png` — `exercises-dataset:1628`; SHA-256 `af638c37480072bbf19a028ac237fa2913191bdc766747e89679a09c943fb6a9`.
+- `weighted_russian_twist_female.png` — `exercises-dataset:0846`; SHA-256 `0c7c83214418d203e7f7a56d7d44831ed999640d3b7fccd9e0112615c69b1c68`.
+- `weighted_squat_female.png` — `exercises-dataset:0852`; SHA-256 `945276006ee6f330d064197cc751e418c664c0ce3d940cb03c974ffe2049e742`.

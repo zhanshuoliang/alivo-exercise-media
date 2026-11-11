@@ -1,0 +1,136 @@
+{
+ "bindings": [
+  {
+   "catalogId": "exercises-dataset:1332",
+   "filename": "exercise_ball_alternating_arm_ups_male.png",
+   "folder": "new"
+  },
+  {
+   "catalogId": "exercises-dataset:1416",
+   "filename": "exercise_ball_one_leg_prone_lower_body_rotation_male.png",
+   "folder": "new"
+  },
+  {
+   "catalogId": "exercises-dataset:0738",
+   "filename": "sled_45_degrees_calf_press_male.png",
+   "folder": "new"
+  },
+  {
+   "catalogId": "exercises-dataset:0744",
+   "filename": "sled_lying_squat_male.png",
+   "folder": "new"
+  },
+  {
+   "catalogId": "exercises-dataset:1312",
+   "filename": "medicine_ball_chest_push_with_run_release_male.png",
+   "folder": "new"
+  },
+  {
+   "catalogId": "exercises-dataset:0517",
+   "filename": "kettlebell_advanced_windmill_male.png",
+   "folder": "new"
+  },
+  {
+   "catalogId": "exercises-dataset:0523",
+   "filename": "kettlebell_arnold_press_male.png",
+   "folder": "new"
+  },
+  {
+   "catalogId": "exercises-dataset:0528",
+   "filename": "kettlebell_double_push_press_male.png",
+   "folder": "new"
+  },
+  {
+   "catalogId": "exercises-dataset:0553",
+   "filename": "kettlebell_two_arm_military_press_male.png",
+   "folder": "new"
+  },
+  {
+   "catalogId": "exercises-dataset:0536",
+   "filename": "kettlebell_lunge_pass_through_male.png",
+   "folder": "new"
+  },
+  {
+   "catalogId": "exercises-dataset:1747",
+   "filename": "ez_bar_french_press_on_exercise_ball_male.png",
+   "folder": "new"
+  },
+  {
+   "catalogId": "exercises-dataset:1628",
+   "filename": "ez_barbell_spider_curl_male.png",
+   "folder": "new"
+  },
+  {
+   "catalogId": "exercises-dataset:0846",
+   "filename": "weighted_russian_twist_male.png",
+   "folder": "new"
+  },
+  {
+   "catalogId": "exercises-dataset:0852",
+   "filename": "weighted_squat_male.png",
+   "folder": "new"
+  }
+ ],
+ "variants": [
+  {
+   "catalogId": "exercises-dataset:1332",
+   "base": "exercise_ball_alternating_arm_ups"
+  },
+  {
+   "catalogId": "exercises-dataset:1416",
+   "base": "exercise_ball_one_leg_prone_lower_body_rotation"
+  },
+  {
+   "catalogId": "exercises-dataset:0656",
+   "base": "push_up_on_stability_ball"
+  },
+  {
+   "catalogId": "exercises-dataset:0738",
+   "base": "sled_45_degrees_calf_press"
+  },
+  {
+   "catalogId": "exercises-dataset:0744",
+   "base": "sled_lying_squat"
+  },
+  {
+   "catalogId": "exercises-dataset:1312",
+   "base": "medicine_ball_chest_push_with_run_release"
+  },
+  {
+   "catalogId": "exercises-dataset:0517",
+   "base": "kettlebell_advanced_windmill"
+  },
+  {
+   "catalogId": "exercises-dataset:0523",
+   "base": "kettlebell_arnold_press"
+  },
+  {
+   "catalogId": "exercises-dataset:0528",
+   "base": "kettlebell_double_push_press"
+  },
+  {
+   "catalogId": "exercises-dataset:0553",
+   "base": "kettlebell_two_arm_military_press"
+  },
+  {
+   "catalogId": "exercises-dataset:0536",
+   "base": "kettlebell_lunge_pass_through"
+  },
+  {
+   "catalogId": "exercises-dataset:1747",
+   "base": "ez_bar_french_press_on_exercise_ball"
+  },
+  {
+   "catalogId": "exercises-dataset:1628",
+   "base": "ez_barbell_spider_curl"
+  },
+  {
+   "catalogId": "exercises-dataset:0846",
+   "base": "weighted_russian_twist"
+  },
+  {
+   "catalogId": "exercises-dataset:0852",
+   "base": "weighted_squat"
+  }
+ ]
+}

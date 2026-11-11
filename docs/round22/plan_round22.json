@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:1332",
+    "name": "exercise ball alternating arm ups",
+    "base": "exercise_ball_alternating_arm_ups"
+  },
+  {
+    "catalogId": "exercises-dataset:1416",
+    "name": "exercise ball one leg prone lower body rotation",
+    "base": "exercise_ball_one_leg_prone_lower_body_rotation"
+  },
+  {
+    "catalogId": "exercises-dataset:0656",
+    "name": "push-up (on stability ball)",
+    "base": "push_up_on_stability_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:0738",
+    "name": "sled 45 degrees calf press",
+    "base": "sled_45_degrees_calf_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0744",
+    "name": "sled lying squat",
+    "base": "sled_lying_squat"
+  },
+  {
+    "catalogId": "exercises-dataset:1312",
+    "name": "medicine ball chest push with run release",
+    "base": "medicine_ball_chest_push_with_run_release"
+  },
+  {
+    "catalogId": "exercises-dataset:0517",
+    "name": "kettlebell advanced windmill",
+    "base": "kettlebell_advanced_windmill"
+  },
+  {
+    "catalogId": "exercises-dataset:0523",
+    "name": "kettlebell arnold press",
+    "base": "kettlebell_arnold_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0528",
+    "name": "kettlebell double push press",
+    "base": "kettlebell_double_push_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0553",
+    "name": "kettlebell two arm military press",
+    "base": "kettlebell_two_arm_military_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0536",
+    "name": "kettlebell lunge pass through",
+    "base": "kettlebell_lunge_pass_through"
+  },
+  {
+    "catalogId": "exercises-dataset:1747",
+    "name": "ez bar french press on exercise ball",
+    "base": "ez_bar_french_press_on_exercise_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:1628",
+    "name": "ez barbell spider curl",
+    "base": "ez_barbell_spider_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0846",
+    "name": "weighted russian twist",
+    "base": "weighted_russian_twist"
+  },
+  {
+    "catalogId": "exercises-dataset:0852",
+    "name": "weighted squat",
+    "base": "weighted_squat"
+  }
+]
