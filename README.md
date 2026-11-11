@@ -1,110 +1,81 @@
-# alivo-exercise-media
+# ALIVO Exercise Media
 
-ALIVO 自研动作编辑插图与动作目录资源库。
+ALIVO 自研健身动作编辑插图库与动作目录数据——1,352 条稳定动作记录，配套自研插图、逐文件 SHA-256 完整性记录与公开审查工具。
 
-- 快照基线：`alivo` 仓库 `origin/main` @ `9d25a98`（含第十轮 30 张动作插图）。
-- 快照日期：2026-11-10（Asia/Taipei）。
-- 图片为静态编辑插图，只表现动作某一瞬间，不是教学示范。
-- **双版本授权**（2026-11-10 起）：
-  - `media/`：带 ALIVO 字标版，`ALIVO-editorial` 许可，可自由使用（字标本身即署名），App 两端生产绑定使用此版本。
-  - `media-open/`：无字标开源版，`CC-BY-4.0` 许可，作者 `Paul Leung`，使用时须署名；独立于 App 生产绑定，不进 App bundle。
+> A curated library of original exercise editorial illustrations for the ALIVO fitness catalog: 1,352 stable exercise records, two licensing tracks (ALIVO-branded editorial / CC-BY-4.0 open edition), per-file SHA-256 integrity records, and a public review tool.
+
+## 在线浏览与审查
+
+**[动作目录审查页](https://zhanshuoliang.github.io/alivo-exercise-media/catalog-review.html)** — 浏览全部动作记录、配图状态与四版本对比；支持逐图判定（通过/拒绝）、导岀审查 JSON、一键生成 GitHub Issue 反馈。
+
+**[动作 GIF 预览](https://zhanshuoliang.github.io/alivo-exercise-media/motion-preview.html)** — 自研动作 GIF 试稿（评审样例）。
+
+## 插图规格
+
+- 1254×1254 PNG，中性灰棚拍背景，统一服装规范（深灰绿背心 + 炭灰短裤 + 深色运动鞋）。
+- **AI 辅助生成 + 逐张人工审核**；同一动作最多四个版本（男/女 × 带标/无标）。
+- 图为静态**编辑插图**，表现动作某一瞬间，不是教学示范。
+- 演示运动员为数字角色 **Kai**（男）与 **Liv**（女），角色基准见 `character/roster.md` 与 `character/` 三视图。
+
+## 双轨授权
+
+| 目录 | 内容 | 许可 |
+|---|---|---|
+| `media/` | 带 ALIVO 字标的编辑插图（男/女版） | `ALIVO-editorial`：可自由使用，字标本身即署名 |
+| `media-open/` | 无字标开源版（男/女版），纯提示词独立生成，全图零文字零标志 | `CC-BY-4.0`，作者 **Paul Leung**，使用须署名 |
+
+### 使用开源版（CC-BY-4.0）署名示例
+
+```
+Paul Leung — ALIVO open exercise illustrations (CC-BY-4.0)
+https://github.com/zhanshuoliang/alivo-exercise-media
+```
+
+### 直接引用图片
+
+图片文件也可通过 GitHub raw 访问（审查页即采用此方式）：
+
+```
+https://raw.githubusercontent.com/zhanshuoliang/alivo-exercise-media/main/media-open/<文件名>.png
+https://raw.githubusercontent.com/zhanshuoliang/alivo-exercise-media/main/media/<文件名>.png
+```
+
+## 完整性与溯源
+
+- `media/NOTICE.md`、`media-open/NOTICE.md`：逐文件记录 catalogId 与 SHA-256，按生成批次分节。
+- `media-open/manifest.json`：开源版的机器可读索引（catalogId、文件名、作者、许可、SHA-256、审核日期）。
+- `docs/round*/`：各批次的选题清单、逐图完整生成提示词、绑定清单与中文报告——每张图可沿 catalogId 溯源。
 
 ## 目录结构
 
 ```text
-media/       两端字节一致的 exercise_media 全量带标图片 + NOTICE.md 署名清单
-media-open/  无字标开源版图片（CC-BY-4.0）+ 独立 NOTICE.md 署名清单
-character/   ALIVO 运动员角色数字资产（三视图：带标 + 无标双版本）+ NOTICE.md
-motion/      独立的自研动作 GIF 试稿、关键帧、许可与校验清单
-catalog/     动作目录与媒体/计量元数据 JSON
-docs/        交接文档、验收清单、历史报告、基线
-docs/round7..10/ 各轮目标清单、生成计划、逐图提示词与审查、绑定/审计脚本
+media/          带标编辑插图（ALIVO-editorial）+ NOTICE.md
+media-open/     无字标开源版（CC-BY-4.0）+ manifest.json + NOTICE.md
+character/      演示运动员角色资产（Kai / Liv 三视图双版本）+ roster.md + NOTICE.md
+motion/         自研动作 GIF 试稿、关键帧与校验清单（评审样例，非生产资产）
+catalog/        动作目录与媒体/计量元数据（生产仓库的镜像快照）
+docs/           交接文档、各批次归档（选题/提示词/报告）、人工参考清单
+tools/          审查页与预览页的生成脚本
+catalog-review.html  动作目录审查页（GitHub Pages 部署）
+motion-preview.html  GIF 预览页
 ```
 
-> Pages 部署说明：整站媒体已超过 GitHub Pages 1 GB 上限，部署 artifact 排除了 `media/*.png` 与 `media-open/*.png`（保留 `NOTICE.md`、`manifest.json` 等索引文件）；`catalog-review.html` 通过 `raw.githubusercontent.com` 从本仓库 main 分支加载图片。
+`catalog/` 为 ALIVO 生产仓库目录数据的镜像快照，权威源以应用仓库为准；目录共 1,352 条稳定 ID，不合并、不改 ID。
 
-### media/（带标版）
+## 当前覆盖
 
-- 245 个文件（244 张图片 + `NOTICE.md`）；其中 243 张为 ALIVO 自研编辑插图，`wger_plank_346.png` 为历史遗留的第三方 wger 文件（保留来源记录，不计入自研数量）。
-- 每张自研图：1254×1254 PNG，中性灰棚拍背景、自然肤色与服装、深色背心短裤、服装带白色 `ALIVO` 字标。
-- 许可 `ALIVO-editorial`，可自由使用；第七轮起新增记录 `author` 为 `Paul Leung`（早期记录仍为 `ALIVO`，历史不改写）。
-- `NOTICE.md` 逐文件记录 catalogId 与 SHA-256；HarmonyOS 与 Flutter 两端图片逐字节相同。
+- 带标插图 **484 个文件**（其中 **408 条**已绑定为 App 生产媒体，HarmonyOS 与 Flutter 两端逐字节一致；含 1 张历史遗留第三方 wger 文件，来源已记录）。
+- 开源版 **270 张**（CC-BY-4.0）。
+- **75 个动作**具备男/女 × 带标/开源四版本，其余动作为男版带标（含历史单版批次）。
+- 配图仍在按批次扩充；各批次进展见 `docs/round*/report.md`。
 
-### media-open/（无标开源版）
+## 审查与反馈
 
-- 与 `media/` 同 catalogId、同文件名的无字标版本，纯色服装，全图无任何文字、标志或水印。
-- 许可 **CC-BY-4.0**（https://creativecommons.org/licenses/by/4.0/），作者 **Paul Leung**；使用须署名 "Paul Leung — ALIVO open exercise illustrations" 并标明许可。
-- `media-open/NOTICE.md` 逐文件记录 catalogId 与 SHA-256；本目录为独立发行物，不写入 App 的 `exercise_metadata.json`，不进入 App bundle。
-- 按生成轮次逐步补齐，不一次性全量重制。
+- 审查页中每张图可独立判定"通过 / 拒绝"，判定结果可导出 JSON 或一键提交 GitHub Issue。
+- 对插图的修改建议、动作姿势指正、授权问题，欢迎在 [Issues](https://github.com/zhanshuoliang/alivo-exercise-media/issues) 反馈。
 
-### character/（运动员角色资产）
+## 约定
 
-- ALIVO 演示运动员的角色三视图（正视 / 侧视 / 背视），为全库自研插图统一使用的角色基准（深灰绿背心、炭灰短裤、深色运动鞋、中性灰棚拍）。
-- 带标版 `turnaround_branded.png`（ALIVO-editorial）与无标开源版 `turnaround_open.png`（CC-BY-4.0 · Paul Leung），SHA-256 与授权见 `character/NOTICE.md`，提示词存档在 `character/prompts/`。
-- 审查页右上角"运动员三视图"按钮可直接查看双版本。
-
-### motion/（GIF 试稿）
-
-- [查看两个动作 GIF 样例](motion-preview.html)：徒手深蹲（`alivo:extra-022`）和俯卧撑（`exercises-dataset:0662`）。动作目录审查页的对应详情也可切换至 GIF。
-- 样例由自研插图作风格参考，经 AI 生成动作关键帧及插帧制作；保留关键帧、提示词和 SHA-256，具体见 `motion/NOTICE.md` 与 `motion/manifest.json`。
-- 样例独立于生产 `media[]` 绑定，供风格及效果评审；“ALIVO 编辑插图，非动作教学示范”。
-- 更新清单后可运行 `python -B tools/build_motion_preview.py` 与 `python -B tools/build_catalog_page.py`，重新生成两个审查页面。
-
-### catalog/
-
-| 文件 | 内容 |
-| --- | --- |
-| `exercises_zh.json` | 主动作目录（`exercises-dataset:ID`，1324 条） |
-| `exercises_extra.json` | 自编补充动作（`alivo:extra-*`，25 条） |
-| `exercises_reviewed.json` | reviewed 补充动作（`free-exercise-db:*`，3 条） |
-| `exercise_metadata.json` | 维护层覆盖（instructionSteps、reviewStatus 等）+ `media[]` 绑定记录（含 SHA-256） |
-| `exercise_measures.json` | 逐条计量方式（次数/时长） |
-
-目录共 1352 条稳定 ID，不合并、不改 ID；`exerciseImageUrl` / `exerciseGifUrl` 保持为空。
-
-### docs/
-
-- `handoff-20261109.md`：第七轮交接文档（风格、限制、流程）。
-- `report-round6.md`：第六轮中文报告（20 张新增、审计与推送记录）。
-- `common-media-checklist.md` / `common-media-selection.json`：100 项人工常用参考清单及其生成结果（当前 100/100 有图）。
-- `media-baseline-153.json`：第六轮末的 153 项媒体基线（用于全量审计比对）。
-- `remaining-common-targets.json`：交接时遗留的两个缺口（0404、0218，已在第七轮补齐）。
-
-### docs/round7/
-
-- `target_selection_round7.md`：第七轮 25 项目标清单与选取依据。
-- `plan_round7.json`：每个目标的文件名、风格参考图、完整动作提示词。
-- `prompts/exec_*.txt`：实际交给 ImageGen 的完整执行提示词。
-- `round7_style_check.md`：0404/0218 两张风格确认稿的审查记录。
-- `targets_round7.json`：本轮累计绑定目标 27 项（审计脚本读取）。
-- `batch_01..04.json`：四批绑定清单（`add_bindings.cjs` 输入）。
-- `../report-round7.md`：第七轮中文报告。
-- `tools/`：`make_prompts.cjs`（生成提示词文件）、`add_bindings.cjs`（双端绑定写入）、`audit_round7.cjs`（全量媒体审计，基线 153）。
-
-## 第八轮（2026-11-09）
-
-- 新增 3 张自研静态图，现有 183 条绑定；catalog 仍为 1352 条；人工 100 项清单仍为 100/100。
-- [逐图与 GIF 审查](docs/round8/review.md)、[本轮绑定与 SHA-256](docs/round8/accepted.json)、[下一批候选](docs/round8/next-targets.json)。
-- [本轮完整提示词](docs/round8/prompts.json)（内置 ImageGen）；[媒体审计结果](docs/round8/audit-result.json)以接手的 `c566345` / 180 条为基线。
-- 重跑审计：`python -B tools/audit_media.py --app-root D:/codex-temp/alivo --baseline c566345 --expected docs/round8/accepted.json`。该工具不写死轮次或旧基线数量。
-- Node 774/774、Flutter 指定媒体和领域测试 28/28、清单、计量及 diff 检查通过。GIF 仍为独立 experimental 试稿，未经用户确认，不绑定生产。
-
-## 第九轮（2026-11-09）
-
-- 新增 30 张自研静态图（主仓库 `ce5799e` + `716696c`），现有 213 条绑定；catalog 仍为 1352 条。
-- [本轮中文报告](docs/round9/report.md)：逐张清单、审核要点与验证结果。
-- `docs/round9/`：`plan_round8.json`（30 项目标与动作描述）、`prompts/`（逐图完整提示词）、`batch_05.json`/`batch_06.json`（两批绑定清单）、`tools/`（`add_bindings.cjs`、`audit_round8.cjs`）、`media-baseline-183.json`（本轮审计基线）。
-- 审计：total=213、183 旧绑定保留、30 新增与审核文件一致、两端字节相同、NOTICE/SHA-256 全有效；Node 774/774、Flutter 媒体测试全过。
-
-## 第十轮（2026-11-10）
-
-- 新增 30 张自研带标静态图（主仓库 `9d25a98`），现有 243 条绑定；catalog 仍为 1352 条。
-- 本轮起确立双版本授权：新绑定记录 `author: Paul Leung`、`license: ALIVO-editorial`；同批动作另生成无字标开源版入 `media-open/`（CC-BY-4.0）。
-- `docs/round10/`：`plan.json`（30 项目标与动作描述）、`prompts/`（无标版逐图提示词）、`bindings.json` / `targets.json`（绑定清单）、`audit_round10.cjs`、`media-baseline-213.json`（本轮审计基线）。
-- 审计：total=243、213 旧绑定保留、30 新增与审核文件一致、两端字节相同、NOTICE/SHA-256 全有效；Node 774/774、Flutter 媒体测试全过。
-
-## 使用约定
-
-- 新增图片文件名规则：`exercise_media/[a-z0-9_-]+.(png|jpg)`。
-- 不接入第三方动作媒体、不扩展 wger；每张图须对照目录维护步骤与器械/握法逐项核验。
-- 生产仓库仍是 `zhanshuoliang/alivo`，本仓库为资源整理快照，不替代生产资源目录。
+- 文件名规则：`[a-z0-9_-]+_(male|female).png`，按 catalogId 稳定对应。
+- 不接入第三方动作媒体；每张图须对照目录动作步骤与器械/握法逐项核验。
+- 历史遗留 `wger_plank_346.png` 保留来源记录，不计入自研数量，不再扩展。

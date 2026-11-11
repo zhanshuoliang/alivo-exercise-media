@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:0548",
+      "filename": "kettlebell_sumo_high_pull_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0552",
+      "filename": "kettlebell_two_arm_clean_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0529",
+      "filename": "kettlebell_double_snatch_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1383",
+      "filename": "hack_calf_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1391",
+      "filename": "sled_calf_press_on_leg_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1701",
+      "filename": "medicine_ball_close_grip_push_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1303",
+      "filename": "medicine_ball_chest_push_from_3_point_stance_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1750",
+      "filename": "medicine_ball_supine_chest_throw_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1627",
+      "filename": "ez_barbell_close_grip_preacher_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1682",
+      "filename": "ez_bar_seated_close_grip_concentration_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2186",
+      "filename": "ez_barbell_decline_triceps_extension_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3122",
+      "filename": "resistance_band_seated_shoulder_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3144",
+      "filename": "resistance_band_seated_straight_back_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3286",
+      "filename": "weighted_muscle_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2206",
+      "filename": "roller_reverse_crunch_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:0548",
+      "base": "kettlebell_sumo_high_pull"
+    },
+    {
+      "catalogId": "exercises-dataset:0552",
+      "base": "kettlebell_two_arm_clean"
+    },
+    {
+      "catalogId": "exercises-dataset:0529",
+      "base": "kettlebell_double_snatch"
+    },
+    {
+      "catalogId": "exercises-dataset:1383",
+      "base": "hack_calf_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:1391",
+      "base": "sled_calf_press_on_leg_press"
+    },
+    {
+      "catalogId": "exercises-dataset:1701",
+      "base": "medicine_ball_close_grip_push_up"
+    },
+    {
+      "catalogId": "exercises-dataset:1303",
+      "base": "medicine_ball_chest_push_from_3_point_stance"
+    },
+    {
+      "catalogId": "exercises-dataset:1750",
+      "base": "medicine_ball_supine_chest_throw"
+    },
+    {
+      "catalogId": "exercises-dataset:1627",
+      "base": "ez_barbell_close_grip_preacher_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:1682",
+      "base": "ez_bar_seated_close_grip_concentration_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:2186",
+      "base": "ez_barbell_decline_triceps_extension"
+    },
+    {
+      "catalogId": "exercises-dataset:3122",
+      "base": "resistance_band_seated_shoulder_press"
+    },
+    {
+      "catalogId": "exercises-dataset:3144",
+      "base": "resistance_band_seated_straight_back_row"
+    },
+    {
+      "catalogId": "exercises-dataset:3286",
+      "base": "weighted_muscle_up"
+    },
+    {
+      "catalogId": "exercises-dataset:2206",
+      "base": "roller_reverse_crunch"
+    }
+  ]
+}

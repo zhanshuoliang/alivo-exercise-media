@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:0548",
+    "name": "kettlebell sumo high pull",
+    "base": "kettlebell_sumo_high_pull"
+  },
+  {
+    "catalogId": "exercises-dataset:0552",
+    "name": "kettlebell two arm clean",
+    "base": "kettlebell_two_arm_clean"
+  },
+  {
+    "catalogId": "exercises-dataset:0529",
+    "name": "kettlebell double snatch",
+    "base": "kettlebell_double_snatch"
+  },
+  {
+    "catalogId": "exercises-dataset:1383",
+    "name": "hack calf raise",
+    "base": "hack_calf_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:1391",
+    "name": "sled calf press on leg press",
+    "base": "sled_calf_press_on_leg_press"
+  },
+  {
+    "catalogId": "exercises-dataset:1701",
+    "name": "medicine ball close grip push up",
+    "base": "medicine_ball_close_grip_push_up"
+  },
+  {
+    "catalogId": "exercises-dataset:1303",
+    "name": "medicine ball chest push from 3 point stance",
+    "base": "medicine_ball_chest_push_from_3_point_stance"
+  },
+  {
+    "catalogId": "exercises-dataset:1750",
+    "name": "medicine ball supine chest throw",
+    "base": "medicine_ball_supine_chest_throw"
+  },
+  {
+    "catalogId": "exercises-dataset:1627",
+    "name": "ez barbell close grip preacher curl",
+    "base": "ez_barbell_close_grip_preacher_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:1682",
+    "name": "ez bar seated close grip concentration curl",
+    "base": "ez_bar_seated_close_grip_concentration_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:2186",
+    "name": "ez barbell decline triceps extension",
+    "base": "ez_barbell_decline_triceps_extension"
+  },
+  {
+    "catalogId": "exercises-dataset:3122",
+    "name": "resistance band seated shoulder press",
+    "base": "resistance_band_seated_shoulder_press"
+  },
+  {
+    "catalogId": "exercises-dataset:3144",
+    "name": "resistance band seated straight back row",
+    "base": "resistance_band_seated_straight_back_row"
+  },
+  {
+    "catalogId": "exercises-dataset:3286",
+    "name": "weighted muscle up",
+    "base": "weighted_muscle_up"
+  },
+  {
+    "catalogId": "exercises-dataset:2206",
+    "name": "roller reverse crunch",
+    "base": "roller_reverse_crunch"
+  }
+]
