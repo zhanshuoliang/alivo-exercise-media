@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:0011",
+    "name": "assisted hanging knee raise",
+    "base": "assisted_hanging_knee_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:1758",
+    "name": "assisted sit-up",
+    "base": "assisted_sit_up"
+  },
+  {
+    "catalogId": "exercises-dataset:0018",
+    "name": "assisted standing triceps extension with towel",
+    "base": "assisted_standing_triceps_extension_with_towel"
+  },
+  {
+    "catalogId": "exercises-dataset:1259",
+    "name": "behind head chest stretch",
+    "base": "behind_head_chest_stretch"
+  },
+  {
+    "catalogId": "exercises-dataset:1713",
+    "name": "assisted prone lying quads stretch",
+    "base": "assisted_prone_lying_quads_stretch"
+  },
+  {
+    "catalogId": "exercises-dataset:0749",
+    "name": "smith bent knee good morning",
+    "base": "smith_bent_knee_good_morning"
+  },
+  {
+    "catalogId": "exercises-dataset:1434",
+    "name": "smith low bar squat",
+    "base": "smith_low_bar_squat"
+  },
+  {
+    "catalogId": "exercises-dataset:1361",
+    "name": "smith reverse grip bent over row",
+    "base": "smith_reverse_grip_bent_over_row"
+  },
+  {
+    "catalogId": "exercises-dataset:1683",
+    "name": "smith machine bicep curl",
+    "base": "smith_machine_bicep_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0768",
+    "name": "smith single leg split squat",
+    "base": "smith_single_leg_split_squat"
+  },
+  {
+    "catalogId": "exercises-dataset:0968",
+    "name": "band alternating biceps curl",
+    "base": "band_alternating_biceps_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0978",
+    "name": "band front raise",
+    "base": "band_front_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:1022",
+    "name": "band standing rear delt row",
+    "base": "band_standing_rear_delt_row"
+  },
+  {
+    "catalogId": "exercises-dataset:0853",
+    "name": "weighted standing curl",
+    "base": "weighted_standing_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0856",
+    "name": "weighted svend press",
+    "base": "weighted_svend_press"
+  }
+]

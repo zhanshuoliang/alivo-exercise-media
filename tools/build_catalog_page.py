@@ -100,6 +100,8 @@ def load_open_media():
 def media_block(cid, mrow, open_items):
     """Per-record media variants: branded bound file + gender variants + open editions."""
     file = mrow["localPath"].split("/", 1)[1] if mrow else ""
+    if file.endswith(".webp"):
+        file = file[:-len(".webp")] + ".png"
     female = ""
     cand = file[:-len("_male.png")] + "_female.png" if file.endswith("_male.png") \
         else file[:-len(".png")] + "_female.png" if file.endswith(".png") else ""

@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:0011",
+      "filename": "assisted_hanging_knee_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1758",
+      "filename": "assisted_sit_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0018",
+      "filename": "assisted_standing_triceps_extension_with_towel_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1259",
+      "filename": "behind_head_chest_stretch_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1713",
+      "filename": "assisted_prone_lying_quads_stretch_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0749",
+      "filename": "smith_bent_knee_good_morning_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1434",
+      "filename": "smith_low_bar_squat_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1361",
+      "filename": "smith_reverse_grip_bent_over_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1683",
+      "filename": "smith_machine_bicep_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0768",
+      "filename": "smith_single_leg_split_squat_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0968",
+      "filename": "band_alternating_biceps_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0978",
+      "filename": "band_front_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1022",
+      "filename": "band_standing_rear_delt_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0853",
+      "filename": "weighted_standing_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0856",
+      "filename": "weighted_svend_press_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:0011",
+      "base": "assisted_hanging_knee_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:1758",
+      "base": "assisted_sit_up"
+    },
+    {
+      "catalogId": "exercises-dataset:0018",
+      "base": "assisted_standing_triceps_extension_with_towel"
+    },
+    {
+      "catalogId": "exercises-dataset:1259",
+      "base": "behind_head_chest_stretch"
+    },
+    {
+      "catalogId": "exercises-dataset:1713",
+      "base": "assisted_prone_lying_quads_stretch"
+    },
+    {
+      "catalogId": "exercises-dataset:0749",
+      "base": "smith_bent_knee_good_morning"
+    },
+    {
+      "catalogId": "exercises-dataset:1434",
+      "base": "smith_low_bar_squat"
+    },
+    {
+      "catalogId": "exercises-dataset:1361",
+      "base": "smith_reverse_grip_bent_over_row"
+    },
+    {
+      "catalogId": "exercises-dataset:1683",
+      "base": "smith_machine_bicep_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0768",
+      "base": "smith_single_leg_split_squat"
+    },
+    {
+      "catalogId": "exercises-dataset:0968",
+      "base": "band_alternating_biceps_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0978",
+      "base": "band_front_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:1022",
+      "base": "band_standing_rear_delt_row"
+    },
+    {
+      "catalogId": "exercises-dataset:0853",
+      "base": "weighted_standing_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0856",
+      "base": "weighted_svend_press"
+    }
+  ]
+}

@@ -30,8 +30,11 @@ def load_motion_samples(root=ROOT):
 
         still = item["sourceStill"]
         expected_still = "media/" + bound[cid]["localPath"].split("/", 1)[1]
-        if (still != expected_still or bound[cid]["license"] != "ALIVO-editorial" or
-                item["sourceStillSha256"] != bound[cid]["sha256"]):
+        if expected_still.endswith(".webp"):
+            expected_still = expected_still[: -len(".webp")] + ".png"
+        # bound sha256 is the packaged (.webp) hash post-migration; the still's
+        # own integrity is verified byte-for-byte against media/ below.
+        if still != expected_still or bound[cid]["license"] != "ALIVO-editorial":
             raise ValueError(f"Invalid reference image: {cid}")
         keyframes = item["keyframes"]
         if not re.fullmatch(r"sources/[a-z0-9_-]+\.png", keyframes):
