@@ -5085,6 +5085,306 @@
       "sha256": "d8632d8dd060c252d83737b3263425092577025db6d39bf755ab86d6a40d54d1",
       "reviewedAt": "2026-11-16",
       "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0758",
+      "file": "smith_incline_reverse_grip_press_male.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "0c9901ded68b8f7fddc1d787e8b773e08c85d00f732357c468a71c650b1389ae",
+      "reviewedAt": "2026-11-16",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0758",
+      "file": "smith_incline_reverse_grip_press_female.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "ab1f66e766e9dc6c534984f051f4cd9745616512d570538a4a2f89b34458228e",
+      "reviewedAt": "2026-11-16",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0764",
+      "file": "smith_reverse_grip_press_male.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "73156f6a2030120b082dca0938f3c9d405f5cbe08f19660e1f23f6c5cae7e970",
+      "reviewedAt": "2026-11-16",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0764",
+      "file": "smith_reverse_grip_press_female.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "04fa983a61cec53652b677305ffbd6b180a0014e6e162838eb94ebd828943016",
+      "reviewedAt": "2026-11-16",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0774",
+      "file": "smith_standing_military_press_male.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "4c892d03435b3cb0c9d80f990b624c1542eff7e8e973e113b0007d60c2438981",
+      "reviewedAt": "2026-11-16",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0774",
+      "file": "smith_standing_military_press_female.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "ed26a429fd14aa2ba2eba42d9152add31d61382493cd9865d2d373bb17e50de5",
+      "reviewedAt": "2026-11-16",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:1426",
+      "file": "smith_seated_wrist_curl_male.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "3eb9eec5f1e5cf0ef0ab9322ef736550092022a492aa5a66cc3f4db131204231",
+      "reviewedAt": "2026-11-16",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:1426",
+      "file": "smith_seated_wrist_curl_female.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "3d2fbe5b528246b62464db0a6f890d83c4b0b6337ff996e0394c2de9e889a0e9",
+      "reviewedAt": "2026-11-16",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0773",
+      "file": "smith_standing_leg_calf_raise_male.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "5fef2a9aaed54f25cb4c3af143c644b76dc42ae770dd559a43041fa575cd5247",
+      "reviewedAt": "2026-11-16",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0773",
+      "file": "smith_standing_leg_calf_raise_female.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "7641187a68768566d63c0fd9d286efe532281dd888e515395883226937e19fa4",
+      "reviewedAt": "2026-11-16",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:1308",
+      "file": "smith_wide_grip_bench_press_male.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "1ec1b23699665c4e1d9a354c94a7d1d1b4d5f7fda398013be5e877d1b02b489f",
+      "reviewedAt": "2026-11-16",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:1308",
+      "file": "smith_wide_grip_bench_press_female.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "14b0643aba07639b3b838176f566d1f61273c0007b17a39ea8926da3422f10bd",
+      "reviewedAt": "2026-11-16",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0974",
+      "file": "band_close_grip_pulldown_male.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "12f2e314497f890ca5e5a4f850fcd9b2f34663491839ee2aeb8ad3d9493a6f21",
+      "reviewedAt": "2026-11-16",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0974",
+      "file": "band_close_grip_pulldown_female.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "1c16c21151185e35808e27044e391076b35e1201b8f1f1c0da27c91581cedce0",
+      "reviewedAt": "2026-11-16",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:1013",
+      "file": "band_underhand_pulldown_male.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "1ce2ef81a711b8fca2d2adfa0eaecca3e3b4beba2ef75465865f7bca59b87120",
+      "reviewedAt": "2026-11-16",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:1013",
+      "file": "band_underhand_pulldown_female.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "efd78307fc601f2ba2da0796db9cb691051011bc9edc16be5fd0890486fd82d8",
+      "reviewedAt": "2026-11-16",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0991",
+      "file": "band_pull_through_male.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "64c711c6dd89ba90600f7bcd471d94975b5b792ade59a0f4ee7f13c293343e5f",
+      "reviewedAt": "2026-11-16",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0991",
+      "file": "band_pull_through_female.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "8d486d8206f7585f294e22fe25ae270fd2909407d78c9471eca5795e8255a5a9",
+      "reviewedAt": "2026-11-16",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0988",
+      "file": "band_one_arm_standing_low_row_male.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "dc868be280534e5bf50614abdba94d7341912a38cc9b3d2fbfa9d2a43f5315c0",
+      "reviewedAt": "2026-11-16",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0988",
+      "file": "band_one_arm_standing_low_row_female.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "a71a61ac38a354c5ac45e4d6f80fd12590b8f186ff226fa43a21e72be60a66ad",
+      "reviewedAt": "2026-11-16",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0976",
+      "file": "band_concentration_curl_male.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "0cefdd36066d7f8b57afefd658629f62b2a86e1074d06a4c1465e007e604720e",
+      "reviewedAt": "2026-11-16",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0976",
+      "file": "band_concentration_curl_female.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "b53aec593fbb25acb038b41d2a4c8b4af32b34a0e1c0519824b069b79b9604c4",
+      "reviewedAt": "2026-11-16",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0832",
+      "file": "weighted_crunch_male.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "841afdcefd036b94b90bea7b10a78833ac1b5267a0afa458b96c07c1703cfe5c",
+      "reviewedAt": "2026-11-16",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0832",
+      "file": "weighted_crunch_female.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "08bc424ae1db628b42aae4f9ec8b5b0cba62e2b0b339b8703893f131fb30daa7",
+      "reviewedAt": "2026-11-16",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:3670",
+      "file": "weighted_decline_sit_up_male.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "ae2cf9c715562a7260d949d12722cdc5dc311b1bc49dcd6b97c6497c36a58a50",
+      "reviewedAt": "2026-11-16",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:3670",
+      "file": "weighted_decline_sit_up_female.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "ccfcbbb3c8fd0ea2cd3958ff682c0ebfc3d626757290d764defe9e32f3fbfb32",
+      "reviewedAt": "2026-11-16",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0851",
+      "file": "weighted_sissy_squat_male.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "b9b1ca5b7a0e1f5182c3940865738987037ecb69bdd297d54bae314312bb6310",
+      "reviewedAt": "2026-11-16",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0851",
+      "file": "weighted_sissy_squat_female.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "c90f55ce4e74288cf273bb869825fc85059ea74702572b9c27c39d5cf3d18964",
+      "reviewedAt": "2026-11-16",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:2135",
+      "file": "weighted_front_plank_male.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "4ce91d1b158fb68223c0b6901ca8f5d7372facb284b7e16def8b7735ccad5768",
+      "reviewedAt": "2026-11-16",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:2135",
+      "file": "weighted_front_plank_female.png",
+      "author": "Paul Leung",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "7b6fe64176c6399350969db0300369166605868959fc5f5e735070fc49dd2fed",
+      "reviewedAt": "2026-11-16",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
     }
   ]
 }

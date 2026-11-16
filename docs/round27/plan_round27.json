@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:0758",
+    "name": "smith incline reverse-grip press",
+    "base": "smith_incline_reverse_grip_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0764",
+    "name": "smith reverse-grip press",
+    "base": "smith_reverse_grip_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0774",
+    "name": "smith standing military press",
+    "base": "smith_standing_military_press"
+  },
+  {
+    "catalogId": "exercises-dataset:1426",
+    "name": "smith seated wrist curl",
+    "base": "smith_seated_wrist_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0773",
+    "name": "smith standing leg calf raise",
+    "base": "smith_standing_leg_calf_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:1308",
+    "name": "smith wide grip bench press",
+    "base": "smith_wide_grip_bench_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0974",
+    "name": "band close-grip pulldown",
+    "base": "band_close_grip_pulldown"
+  },
+  {
+    "catalogId": "exercises-dataset:1013",
+    "name": "band underhand pulldown",
+    "base": "band_underhand_pulldown"
+  },
+  {
+    "catalogId": "exercises-dataset:0991",
+    "name": "band pull through",
+    "base": "band_pull_through"
+  },
+  {
+    "catalogId": "exercises-dataset:0988",
+    "name": "band one arm standing low row",
+    "base": "band_one_arm_standing_low_row"
+  },
+  {
+    "catalogId": "exercises-dataset:0976",
+    "name": "band concentration curl",
+    "base": "band_concentration_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0832",
+    "name": "weighted crunch",
+    "base": "weighted_crunch"
+  },
+  {
+    "catalogId": "exercises-dataset:3670",
+    "name": "weighted decline sit-up",
+    "base": "weighted_decline_sit_up"
+  },
+  {
+    "catalogId": "exercises-dataset:0851",
+    "name": "weighted sissy squat",
+    "base": "weighted_sissy_squat"
+  },
+  {
+    "catalogId": "exercises-dataset:2135",
+    "name": "weighted front plank",
+    "base": "weighted_front_plank"
+  }
+]

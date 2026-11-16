@@ -116,6 +116,10 @@ def media_block(cid, mrow, open_items):
             open_f = f
         else:
             open_single = f
+    if not female and open_m.endswith("_male.png"):
+        cand = open_m[:-len("_male.png")] + "_female.png"
+        if (ROOT / "media" / cand).exists():
+            female = cand
     return {"file": file, "license": mrow["license"] if mrow else "",
             "sha256": mrow["sha256"] if mrow else "",
             "female": female, "open": open_single, "openM": open_m, "openF": open_f}

@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:0758",
+      "filename": "smith_incline_reverse_grip_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0764",
+      "filename": "smith_reverse_grip_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0774",
+      "filename": "smith_standing_military_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1426",
+      "filename": "smith_seated_wrist_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0773",
+      "filename": "smith_standing_leg_calf_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1308",
+      "filename": "smith_wide_grip_bench_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0974",
+      "filename": "band_close_grip_pulldown_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1013",
+      "filename": "band_underhand_pulldown_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0991",
+      "filename": "band_pull_through_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0988",
+      "filename": "band_one_arm_standing_low_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0976",
+      "filename": "band_concentration_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0832",
+      "filename": "weighted_crunch_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3670",
+      "filename": "weighted_decline_sit_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0851",
+      "filename": "weighted_sissy_squat_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2135",
+      "filename": "weighted_front_plank_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:0758",
+      "base": "smith_incline_reverse_grip_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0764",
+      "base": "smith_reverse_grip_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0774",
+      "base": "smith_standing_military_press"
+    },
+    {
+      "catalogId": "exercises-dataset:1426",
+      "base": "smith_seated_wrist_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0773",
+      "base": "smith_standing_leg_calf_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:1308",
+      "base": "smith_wide_grip_bench_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0974",
+      "base": "band_close_grip_pulldown"
+    },
+    {
+      "catalogId": "exercises-dataset:1013",
+      "base": "band_underhand_pulldown"
+    },
+    {
+      "catalogId": "exercises-dataset:0991",
+      "base": "band_pull_through"
+    },
+    {
+      "catalogId": "exercises-dataset:0988",
+      "base": "band_one_arm_standing_low_row"
+    },
+    {
+      "catalogId": "exercises-dataset:0976",
+      "base": "band_concentration_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0832",
+      "base": "weighted_crunch"
+    },
+    {
+      "catalogId": "exercises-dataset:3670",
+      "base": "weighted_decline_sit_up"
+    },
+    {
+      "catalogId": "exercises-dataset:0851",
+      "base": "weighted_sissy_squat"
+    },
+    {
+      "catalogId": "exercises-dataset:2135",
+      "base": "weighted_front_plank"
+    }
+  ]
+}
