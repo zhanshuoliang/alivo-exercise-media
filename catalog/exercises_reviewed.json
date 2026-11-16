@@ -1,1 +1,44 @@
-[{"id":"Kettlebell_Halo","name":"Kettlebell Halo","nz":"壶铃绕头","cat":"shoulders","part":"shoulders","eq":"kettlebell","tg":"delts","mg":"肩部","sm":["traps","triceps","abs"],"st":["站立，双手握住壶铃角柄，将壶铃倒置于胸前。收紧核心，保持躯干稳定。","缓慢将壶铃从一侧耳旁绕过脑后，再从另一侧回到胸前；不随壶铃转动头部或腰部。","完整绕一圈记 1 次，左右方向交替，总次数按两侧合计记录。","先使用能稳定控制的轻重量；动作造成疼痛时停止。"]},{"id":"Kettlebell_Halo_With_Overhead_Extension","name":"Kettlebell Halo with Overhead Extension","nz":"壶铃绕头接臂屈伸","cat":"upper arms","part":"upper arms","eq":"kettlebell","tg":"triceps","mg":"手臂","sm":["delts","traps","abs"],"st":["双手握壶铃角柄，倒置持铃于胸前，保持腰背与头部稳定。","将壶铃沿一侧绕至脑后，保持上臂靠近头部，伸直肘部把壶铃举至头顶。","缓慢屈肘回到脑后，再沿另一侧绕回胸前；这一整套动作记 1 次。","左右绕行方向交替，总次数按两侧合计记录；无法稳定控制头顶位置时改做分开的动作。"]},{"id":"Pallof_Press","name":"Pallof Press","nz":"绳索帕洛夫推","cat":"waist","part":"waist","eq":"cable","tg":"abs","mg":"核心","sm":["pectorals","delts","triceps"],"st":["将绳索手柄调至胸前附近高度，身体侧对器械，双手将手柄握在胸前。","双脚稳定站立，收紧核心，将双手缓慢向前推出，同时抵抗绳索把躯干拉向一侧。","短暂停留后收回胸前，一次推出并收回记 1 次；换面后单独记录另一侧的一组。","本条目记录重复推举，不是持续不动的抗旋转保持。"]}]
+[
+  {
+    "id": "Kettlebell_Halo",
+    "name": "Kettlebell Halo",
+    "nz": "壶铃绕头",
+    "cat": "shoulders", "part": "shoulders", "eq": "kettlebell",
+    "tg": "delts", "mg": "肩部", "sm": ["traps", "triceps", "abs"],
+    "st": [
+      "站立，双手握住壶铃角柄，将壶铃倒置于胸前。收紧核心，保持躯干稳定。",
+      "缓慢将壶铃从一侧耳旁绕过脑后，再从另一侧回到胸前；不随壶铃转动头部或腰部。",
+      "完整绕一圈记 1 次，左右方向交替，总次数按两侧合计记录。",
+      "先使用能稳定控制的轻重量；动作造成疼痛时停止。"
+    ],
+    "im": "", "gf": ""
+  },
+  {
+    "id": "Kettlebell_Halo_With_Overhead_Extension",
+    "name": "Kettlebell Halo with Overhead Extension",
+    "nz": "壶铃绕头接臂屈伸",
+    "cat": "upper arms", "part": "upper arms", "eq": "kettlebell",
+    "tg": "triceps", "mg": "手臂", "sm": ["delts", "traps", "abs"],
+    "st": [
+      "双手握壶铃角柄，倒置持铃于胸前，保持腰背与头部稳定。",
+      "将壶铃沿一侧绕至脑后，保持上臂靠近头部，伸直肘部把壶铃举至头顶。",
+      "缓慢屈肘回到脑后，再沿另一侧绕回胸前；这一整套动作记 1 次。",
+      "左右绕行方向交替，总次数按两侧合计记录；无法稳定控制头顶位置时改做分开的动作。"
+    ],
+    "im": "", "gf": ""
+  },
+  {
+    "id": "Pallof_Press",
+    "name": "Pallof Press",
+    "nz": "绳索帕洛夫推",
+    "cat": "waist", "part": "waist", "eq": "cable",
+    "tg": "abs", "mg": "核心", "sm": ["pectorals", "delts", "triceps"],
+    "st": [
+      "将绳索手柄调至胸前附近高度，身体侧对器械，双手将手柄握在胸前。",
+      "双脚稳定站立，收紧核心，将双手缓慢向前推出，同时抵抗绳索把躯干拉向一侧。",
+      "短暂停留后收回胸前，一次推出并收回记 1 次；换面后单独记录另一侧的一组。",
+      "本条目记录重复推举，不是持续不动的抗旋转保持。"
+    ],
+    "im": "", "gf": ""
+  }
+]

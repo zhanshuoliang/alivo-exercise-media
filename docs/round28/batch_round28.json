@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:0754",
+      "filename": "smith_decline_reverse_grip_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0756",
+      "filename": "smith_hip_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0759",
+      "filename": "smith_incline_shoulder_raises_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1752",
+      "filename": "smith_machine_incline_tricep_extension_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0769",
+      "filename": "smith_sprint_lunge_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0969",
+      "filename": "band_alternating_v_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0972",
+      "filename": "band_bicycle_crunch_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0981",
+      "filename": "band_jack_knife_sit_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1005",
+      "filename": "band_standing_crunch_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1012",
+      "filename": "band_twisting_overhead_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0641",
+      "filename": "otis_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0866",
+      "filename": "weighted_hanging_leg_hip_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3644",
+      "filename": "weighted_lunge_with_swing_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0840",
+      "filename": "weighted_overhead_crunch_on_stability_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0854",
+      "filename": "weighted_standing_hand_squeeze_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:0754",
+      "base": "smith_decline_reverse_grip_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0756",
+      "base": "smith_hip_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:0759",
+      "base": "smith_incline_shoulder_raises"
+    },
+    {
+      "catalogId": "exercises-dataset:1752",
+      "base": "smith_machine_incline_tricep_extension"
+    },
+    {
+      "catalogId": "exercises-dataset:0769",
+      "base": "smith_sprint_lunge"
+    },
+    {
+      "catalogId": "exercises-dataset:0969",
+      "base": "band_alternating_v_up"
+    },
+    {
+      "catalogId": "exercises-dataset:0972",
+      "base": "band_bicycle_crunch"
+    },
+    {
+      "catalogId": "exercises-dataset:0981",
+      "base": "band_jack_knife_sit_up"
+    },
+    {
+      "catalogId": "exercises-dataset:1005",
+      "base": "band_standing_crunch"
+    },
+    {
+      "catalogId": "exercises-dataset:1012",
+      "base": "band_twisting_overhead_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0641",
+      "base": "otis_up"
+    },
+    {
+      "catalogId": "exercises-dataset:0866",
+      "base": "weighted_hanging_leg_hip_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:3644",
+      "base": "weighted_lunge_with_swing"
+    },
+    {
+      "catalogId": "exercises-dataset:0840",
+      "base": "weighted_overhead_crunch_on_stability_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:0854",
+      "base": "weighted_standing_hand_squeeze"
+    }
+  ]
+}
