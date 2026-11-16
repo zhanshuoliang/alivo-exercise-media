@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:3010",
+    "name": "ez bar lying bent arms pullover",
+    "base": "ez_bar_lying_bent_arms_pullover"
+  },
+  {
+    "catalogId": "exercises-dataset:1748",
+    "name": "ez bar lying close grip triceps extension behind head",
+    "base": "ez_bar_lying_close_grip_triceps_extension_behind_head"
+  },
+  {
+    "catalogId": "exercises-dataset:0448",
+    "name": "ez barbell decline close grip face press",
+    "base": "ez_barbell_decline_close_grip_face_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0449",
+    "name": "ez barbell incline triceps extension",
+    "base": "ez_barbell_incline_triceps_extension"
+  },
+  {
+    "catalogId": "exercises-dataset:0450",
+    "name": "ez barbell jm bench press",
+    "base": "ez_barbell_jm_bench_press"
+  },
+  {
+    "catalogId": "exercises-dataset:2404",
+    "name": "ez-bar biceps curl (with arm blaster)",
+    "base": "ez_bar_biceps_curl_with_arm_blaster"
+  },
+  {
+    "catalogId": "exercises-dataset:0520",
+    "name": "kettlebell alternating press",
+    "base": "kettlebell_alternating_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0525",
+    "name": "kettlebell bottoms up clean from the hang position",
+    "base": "kettlebell_bottoms_up_clean_from_the_hang_position"
+  },
+  {
+    "catalogId": "exercises-dataset:0531",
+    "name": "kettlebell extended range one arm press on floor",
+    "base": "kettlebell_extended_range_one_arm_press_on_floor"
+  },
+  {
+    "catalogId": "exercises-dataset:0547",
+    "name": "kettlebell seesaw press",
+    "base": "kettlebell_seesaw_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0545",
+    "name": "kettlebell plyo push-up",
+    "base": "kettlebell_plyo_push_up"
+  },
+  {
+    "catalogId": "exercises-dataset:0746",
+    "name": "smith back shrug",
+    "base": "smith_back_shrug"
+  },
+  {
+    "catalogId": "exercises-dataset:0750",
+    "name": "smith chair squat",
+    "base": "smith_chair_squat"
+  },
+  {
+    "catalogId": "exercises-dataset:1433",
+    "name": "smith front squat (clean grip)",
+    "base": "smith_front_squat_clean_grip"
+  },
+  {
+    "catalogId": "exercises-dataset:0775",
+    "name": "smith upright row",
+    "base": "smith_upright_row"
+  }
+]

@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:3010",
+      "filename": "ez_bar_lying_bent_arms_pullover_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1748",
+      "filename": "ez_bar_lying_close_grip_triceps_extension_behind_head_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0448",
+      "filename": "ez_barbell_decline_close_grip_face_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0449",
+      "filename": "ez_barbell_incline_triceps_extension_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0450",
+      "filename": "ez_barbell_jm_bench_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2404",
+      "filename": "ez_bar_biceps_curl_with_arm_blaster_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0520",
+      "filename": "kettlebell_alternating_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0525",
+      "filename": "kettlebell_bottoms_up_clean_from_the_hang_position_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0531",
+      "filename": "kettlebell_extended_range_one_arm_press_on_floor_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0547",
+      "filename": "kettlebell_seesaw_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0545",
+      "filename": "kettlebell_plyo_push_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0746",
+      "filename": "smith_back_shrug_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0750",
+      "filename": "smith_chair_squat_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1433",
+      "filename": "smith_front_squat_clean_grip_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0775",
+      "filename": "smith_upright_row_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:3010",
+      "base": "ez_bar_lying_bent_arms_pullover"
+    },
+    {
+      "catalogId": "exercises-dataset:1748",
+      "base": "ez_bar_lying_close_grip_triceps_extension_behind_head"
+    },
+    {
+      "catalogId": "exercises-dataset:0448",
+      "base": "ez_barbell_decline_close_grip_face_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0449",
+      "base": "ez_barbell_incline_triceps_extension"
+    },
+    {
+      "catalogId": "exercises-dataset:0450",
+      "base": "ez_barbell_jm_bench_press"
+    },
+    {
+      "catalogId": "exercises-dataset:2404",
+      "base": "ez_bar_biceps_curl_with_arm_blaster"
+    },
+    {
+      "catalogId": "exercises-dataset:0520",
+      "base": "kettlebell_alternating_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0525",
+      "base": "kettlebell_bottoms_up_clean_from_the_hang_position"
+    },
+    {
+      "catalogId": "exercises-dataset:0531",
+      "base": "kettlebell_extended_range_one_arm_press_on_floor"
+    },
+    {
+      "catalogId": "exercises-dataset:0547",
+      "base": "kettlebell_seesaw_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0545",
+      "base": "kettlebell_plyo_push_up"
+    },
+    {
+      "catalogId": "exercises-dataset:0746",
+      "base": "smith_back_shrug"
+    },
+    {
+      "catalogId": "exercises-dataset:0750",
+      "base": "smith_chair_squat"
+    },
+    {
+      "catalogId": "exercises-dataset:1433",
+      "base": "smith_front_squat_clean_grip"
+    },
+    {
+      "catalogId": "exercises-dataset:0775",
+      "base": "smith_upright_row"
+    }
+  ]
+}

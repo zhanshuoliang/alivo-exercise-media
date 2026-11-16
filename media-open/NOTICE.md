@@ -478,3 +478,39 @@ Kai/Liv 双角色同动作四轨批次的开源轨（男/女各 15 张），纯�
 - `sled_45_degrees_leg_press_back_pov_female.png` — `exercises-dataset:1464`; SHA-256 `66a30d1d649767299dc38cd19434f7faa03e0a2c7041c317251c562366ecdd2d`.
 - `weighted_seated_bicep_curl_on_stability_ball_male.png` — `exercises-dataset:0847`; SHA-256 `4dbfcef890248106b6ab2c7cb6d07105239880a7e4c6d32f179752f16ea938e0`.
 - `weighted_seated_bicep_curl_on_stability_ball_female.png` — `exercises-dataset:0847`; SHA-256 `869da24cb7007ddd66e15ce26add8aa9cebd39edacf3de0a2aa606a1d6146bff`.
+
+
+## Round 24 — dual-athlete open edition (2026-11-16)
+
+Kai/Liv 双角色同动作四轨批次的开源轨（男/女各 15 张），纯提示词独立生成，无参考图。
+
+- `ez_bar_lying_bent_arms_pullover_male.png` — `exercises-dataset:3010`; SHA-256 `01234e596d727f91657b23ed4e5876d902a7d9c14e1a3a1c194e8f2e87445713`.
+- `ez_bar_lying_bent_arms_pullover_female.png` — `exercises-dataset:3010`; SHA-256 `d8b8989c2ab18651d81c7871d7ebabb0c9795157c4e60550917f206a00000319`.
+- `ez_bar_lying_close_grip_triceps_extension_behind_head_male.png` — `exercises-dataset:1748`; SHA-256 `84612e9d814bcc599928e8e633f7dcaee3febce887593075bbb8b528332840a3`.
+- `ez_bar_lying_close_grip_triceps_extension_behind_head_female.png` — `exercises-dataset:1748`; SHA-256 `dd460191fed31f2c60b782be0a00cffb188135ff5112a34efd8cb8ce9cfc9516`.
+- `ez_barbell_decline_close_grip_face_press_male.png` — `exercises-dataset:0448`; SHA-256 `5565010eef229d129ffec3dad198c8e4264be7e55b618e98c722baa92255205c`.
+- `ez_barbell_decline_close_grip_face_press_female.png` — `exercises-dataset:0448`; SHA-256 `f26c7fe12e672952bf2ccc2f27f7127da6c064e250c9c35653d10fa0fdda0b31`.
+- `ez_barbell_incline_triceps_extension_male.png` — `exercises-dataset:0449`; SHA-256 `42f59a682d338843a70eeaa019bf9c7a4c080ce40bc6b8a65d84a0bdf462f2eb`.
+- `ez_barbell_incline_triceps_extension_female.png` — `exercises-dataset:0449`; SHA-256 `1d6e426fc06fcb0167b45e754a310fcdfee3bcb9d07435870df30d9ba8b8586d`.
+- `ez_barbell_jm_bench_press_male.png` — `exercises-dataset:0450`; SHA-256 `cbe48c9457df58a970614423ff37ba61bfd29346a84a92f5d5bf2f532747d56f`.
+- `ez_barbell_jm_bench_press_female.png` — `exercises-dataset:0450`; SHA-256 `2aa014236c0673ac5eef77a450b96d4728735b05a132da4765b60082b8a96699`.
+- `ez_bar_biceps_curl_with_arm_blaster_male.png` — `exercises-dataset:2404`; SHA-256 `7d1302b74d297976ba2d5158df3e5b3f1514652fba8eef869eafa703633848fa`.
+- `ez_bar_biceps_curl_with_arm_blaster_female.png` — `exercises-dataset:2404`; SHA-256 `a16661e703ba6e22be8789b69e570d389b69b2459e4c53b32bfca5e290179d68`.
+- `kettlebell_alternating_press_male.png` — `exercises-dataset:0520`; SHA-256 `708bdab3b13ed322eac4809c5d258fb5d1d6917aa8065c1149c439ba969d516b`.
+- `kettlebell_alternating_press_female.png` — `exercises-dataset:0520`; SHA-256 `20d8425bfa06569720c9ad8cd7a0ab837ee636ec9b071bb89361837a0d6a0333`.
+- `kettlebell_bottoms_up_clean_from_the_hang_position_male.png` — `exercises-dataset:0525`; SHA-256 `f5c9f811be7fe70d369bea955174d60e9455a43dccd094f9870adbf17c44a45c`.
+- `kettlebell_bottoms_up_clean_from_the_hang_position_female.png` — `exercises-dataset:0525`; SHA-256 `88fdd4c52004f8452dc3dafa85958f69f2c210503bd3231a491684ec233de571`.
+- `kettlebell_extended_range_one_arm_press_on_floor_male.png` — `exercises-dataset:0531`; SHA-256 `b39da55e2cfd0dbae65a7400bf86a79db6062f794488dc6518fa7d8b6a15dfc9`.
+- `kettlebell_extended_range_one_arm_press_on_floor_female.png` — `exercises-dataset:0531`; SHA-256 `9a994fe2c5b2cae63594d7d1ed7cf74c9737feca5da5bf15079bdaaae809204c`.
+- `kettlebell_seesaw_press_male.png` — `exercises-dataset:0547`; SHA-256 `391a7a2db325ab4cbdfc506af3271e8aae2ee36bceffad664d0d3ac2fd78b951`.
+- `kettlebell_seesaw_press_female.png` — `exercises-dataset:0547`; SHA-256 `ed797ad24c44d1006cb27b0fdbe136a56e4365dddac9550b745ea9af6ec70e04`.
+- `kettlebell_plyo_push_up_male.png` — `exercises-dataset:0545`; SHA-256 `62fd2f42ba49e321d5a684758d922547f064ca5bc57dcabb9f065272933f0c08`.
+- `kettlebell_plyo_push_up_female.png` — `exercises-dataset:0545`; SHA-256 `ff3204d212500c4494556fb06b69bf768ae66350bb063ab4b30be3fb0ff23b46`.
+- `smith_back_shrug_male.png` — `exercises-dataset:0746`; SHA-256 `82b74653550ed876188e1791d3e2a3a0da89fcd34427a886d0608f0808658c77`.
+- `smith_back_shrug_female.png` — `exercises-dataset:0746`; SHA-256 `b9b5272c19b7558252de591da2dccc4bb3cccaf3d0832fd098c162f7e22ff56f`.
+- `smith_chair_squat_male.png` — `exercises-dataset:0750`; SHA-256 `5a852efcbe7e09a4e771f809ab769b5cc9e3cf8f444e9f0e4df2cbc328649434`.
+- `smith_chair_squat_female.png` — `exercises-dataset:0750`; SHA-256 `c1eb1a521fb98b0b32ca518d9b0e6963af21468a85c79f5669cf6685a23d62b6`.
+- `smith_front_squat_clean_grip_male.png` — `exercises-dataset:1433`; SHA-256 `d0531a729f0459048dd49bc55c0328cca54031eee3b5d47340f790fa3b784f3f`.
+- `smith_front_squat_clean_grip_female.png` — `exercises-dataset:1433`; SHA-256 `8bc3bb9b57ca8f579de3c4505557eabfb99e77f67eb508ad2eb8503c19a59685`.
+- `smith_upright_row_male.png` — `exercises-dataset:0775`; SHA-256 `ce497cc6de0c9411f13c3298475bede10b704183bf3958fae1dbcdfacbb1b17a`.
+- `smith_upright_row_female.png` — `exercises-dataset:0775`; SHA-256 `b38e2bac0dd48d0ba56eea1c5cc04d117bb0def552d1f73f274d1a777e080e5f`.
