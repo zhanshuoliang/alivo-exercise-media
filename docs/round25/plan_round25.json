@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:0519",
+    "name": "kettlebell alternating press on floor",
+    "base": "kettlebell_alternating_press_on_floor"
+  },
+  {
+    "catalogId": "exercises-dataset:0526",
+    "name": "kettlebell double alternating hang clean",
+    "base": "kettlebell_double_alternating_hang_clean"
+  },
+  {
+    "catalogId": "exercises-dataset:0539",
+    "name": "kettlebell one arm military press to the side",
+    "base": "kettlebell_one_arm_military_press_to_the_side"
+  },
+  {
+    "catalogId": "exercises-dataset:0543",
+    "name": "kettlebell pirate supper legs",
+    "base": "kettlebell_pirate_supper_legs"
+  },
+  {
+    "catalogId": "exercises-dataset:0747",
+    "name": "smith behind neck press",
+    "base": "smith_behind_neck_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0760",
+    "name": "smith leg press",
+    "base": "smith_leg_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0761",
+    "name": "smith narrow row",
+    "base": "smith_narrow_row"
+  },
+  {
+    "catalogId": "exercises-dataset:0762",
+    "name": "smith rear delt row",
+    "base": "smith_rear_delt_row"
+  },
+  {
+    "catalogId": "exercises-dataset:3142",
+    "name": "smith sumo squat",
+    "base": "smith_sumo_squat"
+  },
+  {
+    "catalogId": "exercises-dataset:0975",
+    "name": "band close-grip push-up",
+    "base": "band_close_grip_push_up"
+  },
+  {
+    "catalogId": "exercises-dataset:1003",
+    "name": "band squat row",
+    "base": "band_squat_row"
+  },
+  {
+    "catalogId": "exercises-dataset:1009",
+    "name": "band stiff leg deadlift",
+    "base": "band_stiff_leg_deadlift"
+  },
+  {
+    "catalogId": "exercises-dataset:1015",
+    "name": "band vertical pallof press",
+    "base": "band_vertical_pallof_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0606",
+    "name": "lever t bar row",
+    "base": "lever_t_bar_row"
+  },
+  {
+    "catalogId": "exercises-dataset:2289",
+    "name": "lever calf press",
+    "base": "lever_calf_press"
+  }
+]

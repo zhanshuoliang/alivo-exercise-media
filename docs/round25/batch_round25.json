@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:0519",
+      "filename": "kettlebell_alternating_press_on_floor_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0526",
+      "filename": "kettlebell_double_alternating_hang_clean_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0539",
+      "filename": "kettlebell_one_arm_military_press_to_the_side_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0543",
+      "filename": "kettlebell_pirate_supper_legs_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0747",
+      "filename": "smith_behind_neck_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0760",
+      "filename": "smith_leg_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0761",
+      "filename": "smith_narrow_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0762",
+      "filename": "smith_rear_delt_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3142",
+      "filename": "smith_sumo_squat_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0975",
+      "filename": "band_close_grip_push_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1003",
+      "filename": "band_squat_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1009",
+      "filename": "band_stiff_leg_deadlift_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1015",
+      "filename": "band_vertical_pallof_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0606",
+      "filename": "lever_t_bar_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2289",
+      "filename": "lever_calf_press_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:0519",
+      "base": "kettlebell_alternating_press_on_floor"
+    },
+    {
+      "catalogId": "exercises-dataset:0526",
+      "base": "kettlebell_double_alternating_hang_clean"
+    },
+    {
+      "catalogId": "exercises-dataset:0539",
+      "base": "kettlebell_one_arm_military_press_to_the_side"
+    },
+    {
+      "catalogId": "exercises-dataset:0543",
+      "base": "kettlebell_pirate_supper_legs"
+    },
+    {
+      "catalogId": "exercises-dataset:0747",
+      "base": "smith_behind_neck_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0760",
+      "base": "smith_leg_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0761",
+      "base": "smith_narrow_row"
+    },
+    {
+      "catalogId": "exercises-dataset:0762",
+      "base": "smith_rear_delt_row"
+    },
+    {
+      "catalogId": "exercises-dataset:3142",
+      "base": "smith_sumo_squat"
+    },
+    {
+      "catalogId": "exercises-dataset:0975",
+      "base": "band_close_grip_push_up"
+    },
+    {
+      "catalogId": "exercises-dataset:1003",
+      "base": "band_squat_row"
+    },
+    {
+      "catalogId": "exercises-dataset:1009",
+      "base": "band_stiff_leg_deadlift"
+    },
+    {
+      "catalogId": "exercises-dataset:1015",
+      "base": "band_vertical_pallof_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0606",
+      "base": "lever_t_bar_row"
+    },
+    {
+      "catalogId": "exercises-dataset:2289",
+      "base": "lever_calf_press"
+    }
+  ]
+}
