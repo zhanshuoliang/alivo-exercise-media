@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:0813",
+      "filename": "triceps_dip_between_benches_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0672",
+      "filename": "reverse_dip_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0126",
+      "filename": "barbell_wrist_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0079",
+      "filename": "barbell_revers_wrist_curl_v_2_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0367",
+      "filename": "dumbbell_over_bench_one_arm_wrist_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1730",
+      "filename": "dumbbell_seated_bent_over_alternate_kickback_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0389",
+      "filename": "dumbbell_seated_bench_extension_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0674",
+      "filename": "reverse_grip_pull_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1763",
+      "filename": "shoulder_grip_pull_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3158",
+      "filename": "bodyweight_standing_close_grip_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3161",
+      "filename": "bodyweight_standing_one_arm_row_with_towel_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1545",
+      "filename": "barbell_full_zercher_squat_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0101",
+      "filename": "barbell_speed_squat_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0456",
+      "filename": "flexion_leg_sit_up_bent_knee_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0697",
+      "filename": "self_assisted_inverse_leg_curl_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:0813",
+      "base": "triceps_dip_between_benches"
+    },
+    {
+      "catalogId": "exercises-dataset:0672",
+      "base": "reverse_dip"
+    },
+    {
+      "catalogId": "exercises-dataset:0126",
+      "base": "barbell_wrist_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0079",
+      "base": "barbell_revers_wrist_curl_v_2"
+    },
+    {
+      "catalogId": "exercises-dataset:0367",
+      "base": "dumbbell_over_bench_one_arm_wrist_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:1730",
+      "base": "dumbbell_seated_bent_over_alternate_kickback"
+    },
+    {
+      "catalogId": "exercises-dataset:0389",
+      "base": "dumbbell_seated_bench_extension"
+    },
+    {
+      "catalogId": "exercises-dataset:0674",
+      "base": "reverse_grip_pull_up"
+    },
+    {
+      "catalogId": "exercises-dataset:1763",
+      "base": "shoulder_grip_pull_up"
+    },
+    {
+      "catalogId": "exercises-dataset:3158",
+      "base": "bodyweight_standing_close_grip_row"
+    },
+    {
+      "catalogId": "exercises-dataset:3161",
+      "base": "bodyweight_standing_one_arm_row_with_towel"
+    },
+    {
+      "catalogId": "exercises-dataset:1545",
+      "base": "barbell_full_zercher_squat"
+    },
+    {
+      "catalogId": "exercises-dataset:0101",
+      "base": "barbell_speed_squat"
+    },
+    {
+      "catalogId": "exercises-dataset:0456",
+      "base": "flexion_leg_sit_up_bent_knee"
+    },
+    {
+      "catalogId": "exercises-dataset:0697",
+      "base": "self_assisted_inverse_leg_curl"
+    }
+  ]
+}

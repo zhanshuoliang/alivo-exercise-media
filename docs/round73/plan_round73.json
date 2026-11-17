@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:0813",
+    "name": "triceps dip (between benches)",
+    "base": "triceps_dip_between_benches"
+  },
+  {
+    "catalogId": "exercises-dataset:0672",
+    "name": "reverse dip",
+    "base": "reverse_dip"
+  },
+  {
+    "catalogId": "exercises-dataset:0126",
+    "name": "barbell wrist curl",
+    "base": "barbell_wrist_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0079",
+    "name": "barbell revers wrist curl v. 2",
+    "base": "barbell_revers_wrist_curl_v_2"
+  },
+  {
+    "catalogId": "exercises-dataset:0367",
+    "name": "dumbbell over bench one arm wrist curl",
+    "base": "dumbbell_over_bench_one_arm_wrist_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:1730",
+    "name": "dumbbell seated bent over alternate kickback",
+    "base": "dumbbell_seated_bent_over_alternate_kickback"
+  },
+  {
+    "catalogId": "exercises-dataset:0389",
+    "name": "dumbbell seated bench extension",
+    "base": "dumbbell_seated_bench_extension"
+  },
+  {
+    "catalogId": "exercises-dataset:0674",
+    "name": "reverse grip pull-up",
+    "base": "reverse_grip_pull_up"
+  },
+  {
+    "catalogId": "exercises-dataset:1763",
+    "name": "shoulder grip pull-up",
+    "base": "shoulder_grip_pull_up"
+  },
+  {
+    "catalogId": "exercises-dataset:3158",
+    "name": "bodyweight standing close-grip row",
+    "base": "bodyweight_standing_close_grip_row"
+  },
+  {
+    "catalogId": "exercises-dataset:3161",
+    "name": "bodyweight standing one arm row (with towel)",
+    "base": "bodyweight_standing_one_arm_row_with_towel"
+  },
+  {
+    "catalogId": "exercises-dataset:1545",
+    "name": "barbell full zercher squat",
+    "base": "barbell_full_zercher_squat"
+  },
+  {
+    "catalogId": "exercises-dataset:0101",
+    "name": "barbell speed squat",
+    "base": "barbell_speed_squat"
+  },
+  {
+    "catalogId": "exercises-dataset:0456",
+    "name": "flexion leg sit up (bent knee)",
+    "base": "flexion_leg_sit_up_bent_knee"
+  },
+  {
+    "catalogId": "exercises-dataset:0697",
+    "name": "self assisted inverse leg curl",
+    "base": "self_assisted_inverse_leg_curl"
+  }
+]
