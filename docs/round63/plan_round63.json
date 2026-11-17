@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:0084",
+    "name": "barbell rollerout",
+    "base": "barbell_rollerout"
+  },
+  {
+    "catalogId": "exercises-dataset:0170",
+    "name": "cable incline fly on stability ball",
+    "base": "cable_incline_fly_on_stability_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:1325",
+    "name": "cable wide grip rear pulldown behind neck",
+    "base": "cable_wide_grip_rear_pulldown_behind_neck"
+  },
+  {
+    "catalogId": "exercises-dataset:0197",
+    "name": "cable pulldown pro lat bar",
+    "base": "cable_pulldown_pro_lat_bar"
+  },
+  {
+    "catalogId": "exercises-dataset:0226",
+    "name": "cable standing crunch",
+    "base": "cable_standing_crunch"
+  },
+  {
+    "catalogId": "exercises-dataset:1724",
+    "name": "cable rope high pulley overhead tricep extension",
+    "base": "cable_rope_high_pulley_overhead_tricep_extension"
+  },
+  {
+    "catalogId": "exercises-dataset:1775",
+    "name": "side plank hip adduction",
+    "base": "side_plank_hip_adduction"
+  },
+  {
+    "catalogId": "exercises-dataset:1278",
+    "name": "dumbbell incline fly on exercise ball",
+    "base": "dumbbell_incline_fly_on_exercise_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:1280",
+    "name": "dumbbell incline one arm fly on exercise ball",
+    "base": "dumbbell_incline_one_arm_fly_on_exercise_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:1283",
+    "name": "dumbbell incline press on exercise ball",
+    "base": "dumbbell_incline_press_on_exercise_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:1293",
+    "name": "dumbbell press on exercise ball",
+    "base": "dumbbell_press_on_exercise_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:1618",
+    "name": "dumbbell incline hammer press on exercise ball",
+    "base": "dumbbell_incline_hammer_press_on_exercise_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:1292",
+    "name": "dumbbell one leg fly on exercise ball",
+    "base": "dumbbell_one_leg_fly_on_exercise_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:2796",
+    "name": "dumbbell step-up lunge",
+    "base": "dumbbell_step_up_lunge"
+  },
+  {
+    "catalogId": "exercises-dataset:0414",
+    "name": "dumbbell standing alternate overhead press",
+    "base": "dumbbell_standing_alternate_overhead_press"
+  }
+]

@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:0084",
+      "filename": "barbell_rollerout_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0170",
+      "filename": "cable_incline_fly_on_stability_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1325",
+      "filename": "cable_wide_grip_rear_pulldown_behind_neck_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0197",
+      "filename": "cable_pulldown_pro_lat_bar_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0226",
+      "filename": "cable_standing_crunch_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1724",
+      "filename": "cable_rope_high_pulley_overhead_tricep_extension_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1775",
+      "filename": "side_plank_hip_adduction_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1278",
+      "filename": "dumbbell_incline_fly_on_exercise_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1280",
+      "filename": "dumbbell_incline_one_arm_fly_on_exercise_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1283",
+      "filename": "dumbbell_incline_press_on_exercise_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1293",
+      "filename": "dumbbell_press_on_exercise_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1618",
+      "filename": "dumbbell_incline_hammer_press_on_exercise_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1292",
+      "filename": "dumbbell_one_leg_fly_on_exercise_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2796",
+      "filename": "dumbbell_step_up_lunge_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0414",
+      "filename": "dumbbell_standing_alternate_overhead_press_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:0084",
+      "base": "barbell_rollerout"
+    },
+    {
+      "catalogId": "exercises-dataset:0170",
+      "base": "cable_incline_fly_on_stability_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:1325",
+      "base": "cable_wide_grip_rear_pulldown_behind_neck"
+    },
+    {
+      "catalogId": "exercises-dataset:0197",
+      "base": "cable_pulldown_pro_lat_bar"
+    },
+    {
+      "catalogId": "exercises-dataset:0226",
+      "base": "cable_standing_crunch"
+    },
+    {
+      "catalogId": "exercises-dataset:1724",
+      "base": "cable_rope_high_pulley_overhead_tricep_extension"
+    },
+    {
+      "catalogId": "exercises-dataset:1775",
+      "base": "side_plank_hip_adduction"
+    },
+    {
+      "catalogId": "exercises-dataset:1278",
+      "base": "dumbbell_incline_fly_on_exercise_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:1280",
+      "base": "dumbbell_incline_one_arm_fly_on_exercise_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:1283",
+      "base": "dumbbell_incline_press_on_exercise_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:1293",
+      "base": "dumbbell_press_on_exercise_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:1618",
+      "base": "dumbbell_incline_hammer_press_on_exercise_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:1292",
+      "base": "dumbbell_one_leg_fly_on_exercise_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:2796",
+      "base": "dumbbell_step_up_lunge"
+    },
+    {
+      "catalogId": "exercises-dataset:0414",
+      "base": "dumbbell_standing_alternate_overhead_press"
+    }
+  ]
+}
