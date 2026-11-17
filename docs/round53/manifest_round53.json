@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:2327",
+      "filename": "dumbbell_reverse_grip_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0429",
+      "filename": "dumbbell_standing_reverse_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1742",
+      "filename": "dumbbell_tricep_kickback_with_stork_stance_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3234",
+      "filename": "hyght_dumbbell_fly_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2293",
+      "filename": "dumbbell_standing_zottman_preacher_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0246",
+      "filename": "cable_upright_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0229",
+      "filename": "cable_standing_inner_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1717",
+      "filename": "cable_squat_row_with_rope_attachment_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0111",
+      "filename": "barbell_standing_rocking_leg_calf_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0105",
+      "filename": "barbell_standing_bradford_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0455",
+      "filename": "finger_curls_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0871",
+      "filename": "tuck_crunch_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0469",
+      "filename": "groin_crunch_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1420",
+      "filename": "kneeling_jump_squat_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0809",
+      "filename": "suspended_split_squat_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:2327",
+      "base": "dumbbell_reverse_grip_row"
+    },
+    {
+      "catalogId": "exercises-dataset:0429",
+      "base": "dumbbell_standing_reverse_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:1742",
+      "base": "dumbbell_tricep_kickback_with_stork_stance"
+    },
+    {
+      "catalogId": "exercises-dataset:3234",
+      "base": "hyght_dumbbell_fly"
+    },
+    {
+      "catalogId": "exercises-dataset:2293",
+      "base": "dumbbell_standing_zottman_preacher_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0246",
+      "base": "cable_upright_row"
+    },
+    {
+      "catalogId": "exercises-dataset:0229",
+      "base": "cable_standing_inner_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:1717",
+      "base": "cable_squat_row_with_rope_attachment"
+    },
+    {
+      "catalogId": "exercises-dataset:0111",
+      "base": "barbell_standing_rocking_leg_calf_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:0105",
+      "base": "barbell_standing_bradford_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0455",
+      "base": "finger_curls"
+    },
+    {
+      "catalogId": "exercises-dataset:0871",
+      "base": "tuck_crunch"
+    },
+    {
+      "catalogId": "exercises-dataset:0469",
+      "base": "groin_crunch"
+    },
+    {
+      "catalogId": "exercises-dataset:1420",
+      "base": "kneeling_jump_squat"
+    },
+    {
+      "catalogId": "exercises-dataset:0809",
+      "base": "suspended_split_squat"
+    }
+  ]
+}

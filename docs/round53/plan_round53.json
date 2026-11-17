@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:2327",
+    "name": "dumbbell reverse grip row",
+    "base": "dumbbell_reverse_grip_row"
+  },
+  {
+    "catalogId": "exercises-dataset:0429",
+    "name": "dumbbell standing reverse curl",
+    "base": "dumbbell_standing_reverse_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:1742",
+    "name": "dumbbell tricep kickback with stork stance",
+    "base": "dumbbell_tricep_kickback_with_stork_stance"
+  },
+  {
+    "catalogId": "exercises-dataset:3234",
+    "name": "hyght dumbbell fly",
+    "base": "hyght_dumbbell_fly"
+  },
+  {
+    "catalogId": "exercises-dataset:2293",
+    "name": "dumbbell standing zottman preacher curl",
+    "base": "dumbbell_standing_zottman_preacher_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0246",
+    "name": "cable upright row",
+    "base": "cable_upright_row"
+  },
+  {
+    "catalogId": "exercises-dataset:0229",
+    "name": "cable standing inner curl",
+    "base": "cable_standing_inner_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:1717",
+    "name": "cable squat row (with rope attachment)",
+    "base": "cable_squat_row_with_rope_attachment"
+  },
+  {
+    "catalogId": "exercises-dataset:0111",
+    "name": "barbell standing rocking leg calf raise",
+    "base": "barbell_standing_rocking_leg_calf_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:0105",
+    "name": "barbell standing bradford press",
+    "base": "barbell_standing_bradford_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0455",
+    "name": "finger curls",
+    "base": "finger_curls"
+  },
+  {
+    "catalogId": "exercises-dataset:0871",
+    "name": "tuck crunch",
+    "base": "tuck_crunch"
+  },
+  {
+    "catalogId": "exercises-dataset:0469",
+    "name": "groin crunch",
+    "base": "groin_crunch"
+  },
+  {
+    "catalogId": "exercises-dataset:1420",
+    "name": "kneeling jump squat",
+    "base": "kneeling_jump_squat"
+  },
+  {
+    "catalogId": "exercises-dataset:0809",
+    "name": "suspended split squat",
+    "base": "suspended_split_squat"
+  }
+]
