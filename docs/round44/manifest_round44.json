@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:2331",
+      "filename": "cycle_cross_trainer_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0591",
+      "filename": "lever_overhand_triceps_dip_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2335",
+      "filename": "lever_seated_calf_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1385",
+      "filename": "lever_seated_squat_calf_raise_on_leg_press_machine_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1351",
+      "filename": "lever_t_bar_reverse_grip_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0673",
+      "filename": "reverse_grip_machine_lat_pulldown_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3641",
+      "filename": "weighted_kneeling_step_with_swing_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3545",
+      "filename": "dumbbell_incline_alternate_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0318",
+      "filename": "dumbbell_incline_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0322",
+      "filename": "dumbbell_incline_inner_biceps_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0173",
+      "filename": "cable_incline_triceps_extension_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1633",
+      "filename": "cable_one_arm_preacher_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0024",
+      "filename": "barbell_bench_front_squat_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0284",
+      "filename": "donkey_calf_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3292",
+      "filename": "elevator_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:2331",
+      "base": "cycle_cross_trainer"
+    },
+    {
+      "catalogId": "exercises-dataset:0591",
+      "base": "lever_overhand_triceps_dip"
+    },
+    {
+      "catalogId": "exercises-dataset:2335",
+      "base": "lever_seated_calf_press"
+    },
+    {
+      "catalogId": "exercises-dataset:1385",
+      "base": "lever_seated_squat_calf_raise_on_leg_press_machine"
+    },
+    {
+      "catalogId": "exercises-dataset:1351",
+      "base": "lever_t_bar_reverse_grip_row"
+    },
+    {
+      "catalogId": "exercises-dataset:0673",
+      "base": "reverse_grip_machine_lat_pulldown"
+    },
+    {
+      "catalogId": "exercises-dataset:3641",
+      "base": "weighted_kneeling_step_with_swing"
+    },
+    {
+      "catalogId": "exercises-dataset:3545",
+      "base": "dumbbell_incline_alternate_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0318",
+      "base": "dumbbell_incline_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0322",
+      "base": "dumbbell_incline_inner_biceps_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0173",
+      "base": "cable_incline_triceps_extension"
+    },
+    {
+      "catalogId": "exercises-dataset:1633",
+      "base": "cable_one_arm_preacher_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0024",
+      "base": "barbell_bench_front_squat"
+    },
+    {
+      "catalogId": "exercises-dataset:0284",
+      "base": "donkey_calf_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:3292",
+      "base": "elevator"
+    }
+  ]
+}

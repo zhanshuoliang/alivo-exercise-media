@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:2331",
+    "name": "cycle cross trainer",
+    "base": "cycle_cross_trainer"
+  },
+  {
+    "catalogId": "exercises-dataset:0591",
+    "name": "lever overhand triceps dip",
+    "base": "lever_overhand_triceps_dip"
+  },
+  {
+    "catalogId": "exercises-dataset:2335",
+    "name": "lever seated calf press",
+    "base": "lever_seated_calf_press"
+  },
+  {
+    "catalogId": "exercises-dataset:1385",
+    "name": "lever seated squat calf raise on leg press machine",
+    "base": "lever_seated_squat_calf_raise_on_leg_press_machine"
+  },
+  {
+    "catalogId": "exercises-dataset:1351",
+    "name": "lever t-bar reverse grip row",
+    "base": "lever_t_bar_reverse_grip_row"
+  },
+  {
+    "catalogId": "exercises-dataset:0673",
+    "name": "reverse grip machine lat pulldown",
+    "base": "reverse_grip_machine_lat_pulldown"
+  },
+  {
+    "catalogId": "exercises-dataset:3641",
+    "name": "weighted kneeling step with swing",
+    "base": "weighted_kneeling_step_with_swing"
+  },
+  {
+    "catalogId": "exercises-dataset:3545",
+    "name": "dumbbell incline alternate press",
+    "base": "dumbbell_incline_alternate_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0318",
+    "name": "dumbbell incline curl",
+    "base": "dumbbell_incline_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0322",
+    "name": "dumbbell incline inner biceps curl",
+    "base": "dumbbell_incline_inner_biceps_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0173",
+    "name": "cable incline triceps extension",
+    "base": "cable_incline_triceps_extension"
+  },
+  {
+    "catalogId": "exercises-dataset:1633",
+    "name": "cable one arm preacher curl",
+    "base": "cable_one_arm_preacher_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0024",
+    "name": "barbell bench front squat",
+    "base": "barbell_bench_front_squat"
+  },
+  {
+    "catalogId": "exercises-dataset:0284",
+    "name": "donkey calf raise",
+    "base": "donkey_calf_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:3292",
+    "name": "elevator",
+    "base": "elevator"
+  }
+]
