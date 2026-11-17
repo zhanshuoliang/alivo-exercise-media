@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:2136",
+      "filename": "dumbbell_cuban_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0864",
+      "filename": "dumbbell_upright_shoulder_external_rotation_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0438",
+      "filename": "dumbbell_w_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0777",
+      "filename": "spell_caster_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3635",
+      "filename": "dumbbell_contralateral_forward_lunge_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1297",
+      "filename": "isometric_chest_squeeze_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3663",
+      "filename": "reverse_plank_with_leg_lift_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3667",
+      "filename": "side_lying_hip_adduction_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0795",
+      "filename": "standing_single_leg_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1362",
+      "filename": "sphinx_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0188",
+      "filename": "cable_middle_fly_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0230",
+      "filename": "cable_standing_lift_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0873",
+      "filename": "cable_reverse_crunch_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1462",
+      "filename": "barbell_full_squat_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0788",
+      "filename": "standing_behind_neck_press_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:2136",
+      "base": "dumbbell_cuban_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0864",
+      "base": "dumbbell_upright_shoulder_external_rotation"
+    },
+    {
+      "catalogId": "exercises-dataset:0438",
+      "base": "dumbbell_w_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0777",
+      "base": "spell_caster"
+    },
+    {
+      "catalogId": "exercises-dataset:3635",
+      "base": "dumbbell_contralateral_forward_lunge"
+    },
+    {
+      "catalogId": "exercises-dataset:1297",
+      "base": "isometric_chest_squeeze"
+    },
+    {
+      "catalogId": "exercises-dataset:3663",
+      "base": "reverse_plank_with_leg_lift"
+    },
+    {
+      "catalogId": "exercises-dataset:3667",
+      "base": "side_lying_hip_adduction"
+    },
+    {
+      "catalogId": "exercises-dataset:0795",
+      "base": "standing_single_leg_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:1362",
+      "base": "sphinx"
+    },
+    {
+      "catalogId": "exercises-dataset:0188",
+      "base": "cable_middle_fly"
+    },
+    {
+      "catalogId": "exercises-dataset:0230",
+      "base": "cable_standing_lift"
+    },
+    {
+      "catalogId": "exercises-dataset:0873",
+      "base": "cable_reverse_crunch"
+    },
+    {
+      "catalogId": "exercises-dataset:1462",
+      "base": "barbell_full_squat"
+    },
+    {
+      "catalogId": "exercises-dataset:0788",
+      "base": "standing_behind_neck_press"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:2136",
+    "name": "dumbbell cuban press",
+    "base": "dumbbell_cuban_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0864",
+    "name": "dumbbell upright shoulder external rotation",
+    "base": "dumbbell_upright_shoulder_external_rotation"
+  },
+  {
+    "catalogId": "exercises-dataset:0438",
+    "name": "dumbbell w-press",
+    "base": "dumbbell_w_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0777",
+    "name": "spell caster",
+    "base": "spell_caster"
+  },
+  {
+    "catalogId": "exercises-dataset:3635",
+    "name": "dumbbell contralateral forward lunge",
+    "base": "dumbbell_contralateral_forward_lunge"
+  },
+  {
+    "catalogId": "exercises-dataset:1297",
+    "name": "isometric chest squeeze",
+    "base": "isometric_chest_squeeze"
+  },
+  {
+    "catalogId": "exercises-dataset:3663",
+    "name": "reverse plank with leg lift",
+    "base": "reverse_plank_with_leg_lift"
+  },
+  {
+    "catalogId": "exercises-dataset:3667",
+    "name": "side lying hip adduction",
+    "base": "side_lying_hip_adduction"
+  },
+  {
+    "catalogId": "exercises-dataset:0795",
+    "name": "standing single leg curl",
+    "base": "standing_single_leg_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:1362",
+    "name": "sphinx",
+    "base": "sphinx"
+  },
+  {
+    "catalogId": "exercises-dataset:0188",
+    "name": "cable middle fly",
+    "base": "cable_middle_fly"
+  },
+  {
+    "catalogId": "exercises-dataset:0230",
+    "name": "cable standing lift",
+    "base": "cable_standing_lift"
+  },
+  {
+    "catalogId": "exercises-dataset:0873",
+    "name": "cable reverse crunch",
+    "base": "cable_reverse_crunch"
+  },
+  {
+    "catalogId": "exercises-dataset:1462",
+    "name": "barbell full squat",
+    "base": "barbell_full_squat"
+  },
+  {
+    "catalogId": "exercises-dataset:0788",
+    "name": "standing behind neck press",
+    "base": "standing_behind_neck_press"
+  }
+]
