@@ -1,0 +1,114 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:0689",
+      "filename": "seated_leg_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1364",
+      "filename": "standing_pelvic_tilt_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0685",
+      "filename": "run_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0696",
+      "filename": "self_assisted_inverse_leg_curl_on_floor_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3132",
+      "filename": "potty_squat_with_support_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0401",
+      "filename": "dumbbell_seated_palms_up_wrist_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2414",
+      "filename": "barbell_standing_concentration_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0473",
+      "filename": "hanging_pike_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0490",
+      "filename": "incline_close_grip_push_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1321",
+      "filename": "cable_rope_elevated_seated_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0199",
+      "filename": "cable_pushdown_straight_arm_v_2_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1255",
+      "filename": "barbell_decline_pullover_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:0689",
+      "base": "seated_leg_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:1364",
+      "base": "standing_pelvic_tilt"
+    },
+    {
+      "catalogId": "exercises-dataset:0685",
+      "base": "run"
+    },
+    {
+      "catalogId": "exercises-dataset:0696",
+      "base": "self_assisted_inverse_leg_curl_on_floor"
+    },
+    {
+      "catalogId": "exercises-dataset:3132",
+      "base": "potty_squat_with_support"
+    },
+    {
+      "catalogId": "exercises-dataset:0401",
+      "base": "dumbbell_seated_palms_up_wrist_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:2414",
+      "base": "barbell_standing_concentration_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0473",
+      "base": "hanging_pike"
+    },
+    {
+      "catalogId": "exercises-dataset:0490",
+      "base": "incline_close_grip_push_up"
+    },
+    {
+      "catalogId": "exercises-dataset:1321",
+      "base": "cable_rope_elevated_seated_row"
+    },
+    {
+      "catalogId": "exercises-dataset:0199",
+      "base": "cable_pushdown_straight_arm_v_2"
+    },
+    {
+      "catalogId": "exercises-dataset:1255",
+      "base": "barbell_decline_pullover"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "catalogId": "exercises-dataset:0689",
+    "name": "seated leg raise",
+    "base": "seated_leg_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:1364",
+    "name": "standing pelvic tilt",
+    "base": "standing_pelvic_tilt"
+  },
+  {
+    "catalogId": "exercises-dataset:0685",
+    "name": "run",
+    "base": "run"
+  },
+  {
+    "catalogId": "exercises-dataset:0696",
+    "name": "self assisted inverse leg curl (on floor)",
+    "base": "self_assisted_inverse_leg_curl_on_floor"
+  },
+  {
+    "catalogId": "exercises-dataset:3132",
+    "name": "potty squat with support",
+    "base": "potty_squat_with_support"
+  },
+  {
+    "catalogId": "exercises-dataset:0401",
+    "name": "dumbbell seated palms up wrist curl",
+    "base": "dumbbell_seated_palms_up_wrist_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:2414",
+    "name": "barbell standing concentration curl",
+    "base": "barbell_standing_concentration_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0473",
+    "name": "hanging pike",
+    "base": "hanging_pike"
+  },
+  {
+    "catalogId": "exercises-dataset:0490",
+    "name": "incline close-grip push-up",
+    "base": "incline_close_grip_push_up"
+  },
+  {
+    "catalogId": "exercises-dataset:1321",
+    "name": "cable rope elevated seated row",
+    "base": "cable_rope_elevated_seated_row"
+  },
+  {
+    "catalogId": "exercises-dataset:0199",
+    "name": "cable pushdown (straight arm) v. 2",
+    "base": "cable_pushdown_straight_arm_v_2"
+  },
+  {
+    "catalogId": "exercises-dataset:1255",
+    "name": "barbell decline pullover",
+    "base": "barbell_decline_pullover"
+  }
+]

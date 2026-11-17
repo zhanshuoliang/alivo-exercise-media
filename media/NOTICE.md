@@ -2315,3 +2315,38 @@ Kai（男）/ Liv（女）双角色带标轨批次（开源轨本轮暂停，后
 - `stalder_press_female.png` — `exercises-dataset:3291`; SHA-256 `5c672092b1d5c431f6fcd00641d74d0e5c7b1dbcee6ad2a1ed25f903797f83c9`.
 - `straight_leg_outer_hip_abductor_female.png` — `exercises-dataset:1427`; SHA-256 `0133a42bf4de4307252b17de9c8df980800d7acec5b866fd49a86c772d9cd713`.
 - `side_to_side_toe_touch_female.png` — `exercises-dataset:3213`; SHA-256 `cc825dbc96a470545bec91b4db618c488316b18dced2ba4d428f1081deced35d`.
+
+
+## Round 61 — branded-only edition (2026-11-17)
+
+Kai（男）/ Liv（女）双角色带标轨批次（开源轨本轮暂停，后续独立补生成）。男版已绑定入 App 目录数据（exercise_metadata.json）；女版为同动作的性别变体资产，仅入媒体库备用，未绑定。
+
+### Male edition（已绑定 App）
+
+- `seated_leg_raise_male.png` — `exercises-dataset:0689`; SHA-256 `fd15162a3a950640345a20ae6da0d539338ba234c05f9ed96be1528552b91b5f`.
+- `standing_pelvic_tilt_male.png` — `exercises-dataset:1364`; SHA-256 `a7fb4b3788e8de0f9a40228e93879c9d36633ca16e748eddbc97d987bc0672ec`.
+- `run_male.png` — `exercises-dataset:0685`; SHA-256 `f4ce7462a2871df59934280f9f2b7b40bbed787aab51c40269231a32e042be31`.
+- `self_assisted_inverse_leg_curl_on_floor_male.png` — `exercises-dataset:0696`; SHA-256 `e4ca536696a557710dce8b3406085908a567a75392a1d1a675199b07569dc40f`.
+- `potty_squat_with_support_male.png` — `exercises-dataset:3132`; SHA-256 `e0ba3ea351ac445708b6a99be613d1821bff7c5abf116ca836b500de8bb6ebb2`.
+- `dumbbell_seated_palms_up_wrist_curl_male.png` — `exercises-dataset:0401`; SHA-256 `35ce9c1304e40d4ab2cfa1708af37e17cfa0144f29ed38ec8a1eb38cb9e9f4ac`.
+- `barbell_standing_concentration_curl_male.png` — `exercises-dataset:2414`; SHA-256 `775949f9f51fee3aa657259f6ed3c69b7be23d6007dc55000911fabadd3bf14e`.
+- `hanging_pike_male.png` — `exercises-dataset:0473`; SHA-256 `4800aacbabeeb946224dfaabe9d7d29add9034f20ca32974a3b05c4115df1867`.
+- `incline_close_grip_push_up_male.png` — `exercises-dataset:0490`; SHA-256 `12bf39a6a5648f95dfae23224c5e1e1d186170622ce58f4c7931bbc57de5eb0f`.
+- `cable_rope_elevated_seated_row_male.png` — `exercises-dataset:1321`; SHA-256 `b317be5ff1def45c6cd813e7636330d7ad1d28ec96ed3f7c4e9a525356830fd2`.
+- `cable_pushdown_straight_arm_v_2_male.png` — `exercises-dataset:0199`; SHA-256 `c7cde3348a7d54b3600661ea218f92e074ecfd35fdef0d66204d0dab897b0862`.
+- `barbell_decline_pullover_male.png` — `exercises-dataset:1255`; SHA-256 `da08ce4f9cb0c78f6be69a0826d611fe93620b1b3f5af48d018a8ef2b71f607f`.
+
+### Female edition（性别变体，未绑定）
+
+- `seated_leg_raise_female.png` — `exercises-dataset:0689`; SHA-256 `fc56f0e0cef1691f6a570fa48c546375f956c191e6c5b97e291bcf2d04bef6e0`.
+- `standing_pelvic_tilt_female.png` — `exercises-dataset:1364`; SHA-256 `64d496f2336900d8b49514e40e65c4c1746f8412de4097c78ddb36d41174473d`.
+- `run_female.png` — `exercises-dataset:0685`; SHA-256 `4df7153c8e39b136fdda477fff75629d876ae829b876f524e7d1bad494a4ec5e`.
+- `self_assisted_inverse_leg_curl_on_floor_female.png` — `exercises-dataset:0696`; SHA-256 `3163b874c00aea232ef9de01fce14e69bda9095f024ac9b100e3322e9c3206d4`.
+- `potty_squat_with_support_female.png` — `exercises-dataset:3132`; SHA-256 `8a61883ff535006f1824462c8862e9f41a5ce34689bd1bfc86df0765b1672dff`.
+- `dumbbell_seated_palms_up_wrist_curl_female.png` — `exercises-dataset:0401`; SHA-256 `c078f086eaf44bdef616b3f39811cc454b2cfb0caf4e238d9acdf57ea5fcd779`.
+- `barbell_standing_concentration_curl_female.png` — `exercises-dataset:2414`; SHA-256 `72ad7538b37e2e19df9d63aeac677ecc49cb950f3aa7d6538d8fbe7d8e5e31f1`.
+- `hanging_pike_female.png` — `exercises-dataset:0473`; SHA-256 `67161b1fe8ee2f37143a818e5ff33d14d531463ecc1cc7b10c826310214fcfc7`.
+- `incline_close_grip_push_up_female.png` — `exercises-dataset:0490`; SHA-256 `fd571bf83b7550c0828bb074bff6d8ba39448626a5980c7dec355b03eca25a87`.
+- `cable_rope_elevated_seated_row_female.png` — `exercises-dataset:1321`; SHA-256 `3f18ab7e606f9213a8d0d8367f77ee4a65d7bdbc26315a49f0a659ee9d926e5f`.
+- `cable_pushdown_straight_arm_v_2_female.png` — `exercises-dataset:0199`; SHA-256 `f95c744a57ba36a269c6950e9846ffd34c036712301a40c2ed66721bbfd75dcd`.
+- `barbell_decline_pullover_female.png` — `exercises-dataset:1255`; SHA-256 `cacdd74fb8635c3efc34efe17f565db2965ac68fd1b18998a2f6e7254422430f`.
