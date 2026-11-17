@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:2400",
+      "filename": "inverse_leg_curl_on_pull_up_cable_machine_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3167",
+      "filename": "bodyweight_squatting_row_with_towel_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3165",
+      "filename": "bodyweight_standing_row_with_towel_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1773",
+      "filename": "one_arm_towel_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0651",
+      "filename": "pull_up_neutral_grip_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3315",
+      "filename": "full_maltese_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1656",
+      "filename": "dumbbell_biceps_curl_v_sit_on_bosu_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1649",
+      "filename": "dumbbell_alternating_bicep_curl_with_leg_raised_on_exercise_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1652",
+      "filename": "dumbbell_bicep_curl_on_exercise_ball_with_leg_raised_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0427",
+      "filename": "dumbbell_standing_palms_in_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "free-exercise-db:Kettlebell_Halo_With_Overhead_Extension",
+      "filename": "kettlebell_halo_with_overhead_extension_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0709",
+      "filename": "side_hip_on_parallel_bars_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3291",
+      "filename": "stalder_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1427",
+      "filename": "straight_leg_outer_hip_abductor_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3213",
+      "filename": "side_to_side_toe_touch_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:2400",
+      "base": "inverse_leg_curl_on_pull_up_cable_machine"
+    },
+    {
+      "catalogId": "exercises-dataset:3167",
+      "base": "bodyweight_squatting_row_with_towel"
+    },
+    {
+      "catalogId": "exercises-dataset:3165",
+      "base": "bodyweight_standing_row_with_towel"
+    },
+    {
+      "catalogId": "exercises-dataset:1773",
+      "base": "one_arm_towel_row"
+    },
+    {
+      "catalogId": "exercises-dataset:0651",
+      "base": "pull_up_neutral_grip"
+    },
+    {
+      "catalogId": "exercises-dataset:3315",
+      "base": "full_maltese"
+    },
+    {
+      "catalogId": "exercises-dataset:1656",
+      "base": "dumbbell_biceps_curl_v_sit_on_bosu_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:1649",
+      "base": "dumbbell_alternating_bicep_curl_with_leg_raised_on_exercise_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:1652",
+      "base": "dumbbell_bicep_curl_on_exercise_ball_with_leg_raised"
+    },
+    {
+      "catalogId": "exercises-dataset:0427",
+      "base": "dumbbell_standing_palms_in_press"
+    },
+    {
+      "catalogId": "free-exercise-db:Kettlebell_Halo_With_Overhead_Extension",
+      "base": "kettlebell_halo_with_overhead_extension"
+    },
+    {
+      "catalogId": "exercises-dataset:0709",
+      "base": "side_hip_on_parallel_bars"
+    },
+    {
+      "catalogId": "exercises-dataset:3291",
+      "base": "stalder_press"
+    },
+    {
+      "catalogId": "exercises-dataset:1427",
+      "base": "straight_leg_outer_hip_abductor"
+    },
+    {
+      "catalogId": "exercises-dataset:3213",
+      "base": "side_to_side_toe_touch"
+    }
+  ]
+}
