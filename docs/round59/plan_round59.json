@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:1673",
+    "name": "dumbbell preacher curl over exercise ball",
+    "base": "dumbbell_preacher_curl_over_exercise_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:1294",
+    "name": "dumbbell pullover hip extension on exercise ball",
+    "base": "dumbbell_pullover_hip_extension_on_exercise_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:1746",
+    "name": "exercise ball supine triceps extension",
+    "base": "exercise_ball_supine_triceps_extension"
+  },
+  {
+    "catalogId": "exercises-dataset:1734",
+    "name": "dumbbell kickbacks on exercise ball",
+    "base": "dumbbell_kickbacks_on_exercise_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:3546",
+    "name": "dumbbell seated alternate shoulder",
+    "base": "dumbbell_seated_alternate_shoulder"
+  },
+  {
+    "catalogId": "exercises-dataset:1725",
+    "name": "cable rope incline tricep extension",
+    "base": "cable_rope_incline_tricep_extension"
+  },
+  {
+    "catalogId": "exercises-dataset:1726",
+    "name": "cable rope lying on floor tricep extension",
+    "base": "cable_rope_lying_on_floor_tricep_extension"
+  },
+  {
+    "catalogId": "exercises-dataset:3218",
+    "name": "hands clasped circular toe touch",
+    "base": "hands_clasped_circular_toe_touch"
+  },
+  {
+    "catalogId": "exercises-dataset:0492",
+    "name": "incline push up depth jump",
+    "base": "incline_push_up_depth_jump"
+  },
+  {
+    "catalogId": "exercises-dataset:0730",
+    "name": "single leg platform slide",
+    "base": "single_leg_platform_slide"
+  },
+  {
+    "catalogId": "exercises-dataset:3318",
+    "name": "swing 360",
+    "base": "swing_360"
+  },
+  {
+    "catalogId": "exercises-dataset:1355",
+    "name": "one arm against wall",
+    "base": "one_arm_against_wall"
+  },
+  {
+    "catalogId": "exercises-dataset:0570",
+    "name": "leg pull in flat bench",
+    "base": "leg_pull_in_flat_bench"
+  },
+  {
+    "catalogId": "exercises-dataset:2802",
+    "name": "twisted leg raise",
+    "base": "twisted_leg_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:3433",
+    "name": "swimmer kicks v. 2",
+    "base": "swimmer_kicks_v_2"
+  }
+]

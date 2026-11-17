@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:1673",
+      "filename": "dumbbell_preacher_curl_over_exercise_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1294",
+      "filename": "dumbbell_pullover_hip_extension_on_exercise_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1746",
+      "filename": "exercise_ball_supine_triceps_extension_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1734",
+      "filename": "dumbbell_kickbacks_on_exercise_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3546",
+      "filename": "dumbbell_seated_alternate_shoulder_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1725",
+      "filename": "cable_rope_incline_tricep_extension_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1726",
+      "filename": "cable_rope_lying_on_floor_tricep_extension_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3218",
+      "filename": "hands_clasped_circular_toe_touch_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0492",
+      "filename": "incline_push_up_depth_jump_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0730",
+      "filename": "single_leg_platform_slide_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3318",
+      "filename": "swing_360_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1355",
+      "filename": "one_arm_against_wall_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0570",
+      "filename": "leg_pull_in_flat_bench_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2802",
+      "filename": "twisted_leg_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3433",
+      "filename": "swimmer_kicks_v_2_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:1673",
+      "base": "dumbbell_preacher_curl_over_exercise_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:1294",
+      "base": "dumbbell_pullover_hip_extension_on_exercise_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:1746",
+      "base": "exercise_ball_supine_triceps_extension"
+    },
+    {
+      "catalogId": "exercises-dataset:1734",
+      "base": "dumbbell_kickbacks_on_exercise_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:3546",
+      "base": "dumbbell_seated_alternate_shoulder"
+    },
+    {
+      "catalogId": "exercises-dataset:1725",
+      "base": "cable_rope_incline_tricep_extension"
+    },
+    {
+      "catalogId": "exercises-dataset:1726",
+      "base": "cable_rope_lying_on_floor_tricep_extension"
+    },
+    {
+      "catalogId": "exercises-dataset:3218",
+      "base": "hands_clasped_circular_toe_touch"
+    },
+    {
+      "catalogId": "exercises-dataset:0492",
+      "base": "incline_push_up_depth_jump"
+    },
+    {
+      "catalogId": "exercises-dataset:0730",
+      "base": "single_leg_platform_slide"
+    },
+    {
+      "catalogId": "exercises-dataset:3318",
+      "base": "swing_360"
+    },
+    {
+      "catalogId": "exercises-dataset:1355",
+      "base": "one_arm_against_wall"
+    },
+    {
+      "catalogId": "exercises-dataset:0570",
+      "base": "leg_pull_in_flat_bench"
+    },
+    {
+      "catalogId": "exercises-dataset:2802",
+      "base": "twisted_leg_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:3433",
+      "base": "swimmer_kicks_v_2"
+    }
+  ]
+}
