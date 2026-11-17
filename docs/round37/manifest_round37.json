@@ -1,0 +1,79 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:0045",
+      "filename": "barbell_guillotine_bench_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0065",
+      "filename": "barbell_one_arm_floor_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0083",
+      "filename": "barbell_rollerout_from_bench_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1751",
+      "filename": "barbell_pin_presses_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2187",
+      "filename": "barbell_reverse_close_grip_bench_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0185",
+      "filename": "cable_lying_fly_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0189",
+      "filename": "cable_one_arm_bent_over_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0204",
+      "filename": "cable_rear_drive_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1319",
+      "filename": "cable_palm_rotational_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1261",
+      "filename": "cable_decline_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0496",
+      "filename": "inverse_leg_curl_bench_support_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0464",
+      "filename": "front_plank_with_twist_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1771",
+      "filename": "bodyweight_kneeling_triceps_extension_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3214",
+      "filename": "arms_apart_circular_toe_touch_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3168",
+      "filename": "bodyweight_squatting_row_male.png",
+      "folder": "new"
+    }
+  ]
+}

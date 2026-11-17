@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:0045",
+    "name": "barbell guillotine bench press",
+    "base": "barbell_guillotine_bench_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0065",
+    "name": "barbell one arm floor press",
+    "base": "barbell_one_arm_floor_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0083",
+    "name": "barbell rollerout from bench",
+    "base": "barbell_rollerout_from_bench"
+  },
+  {
+    "catalogId": "exercises-dataset:1751",
+    "name": "barbell pin presses",
+    "base": "barbell_pin_presses"
+  },
+  {
+    "catalogId": "exercises-dataset:2187",
+    "name": "barbell reverse close-grip bench press",
+    "base": "barbell_reverse_close_grip_bench_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0185",
+    "name": "cable lying fly",
+    "base": "cable_lying_fly"
+  },
+  {
+    "catalogId": "exercises-dataset:0189",
+    "name": "cable one arm bent over row",
+    "base": "cable_one_arm_bent_over_row"
+  },
+  {
+    "catalogId": "exercises-dataset:0204",
+    "name": "cable rear drive",
+    "base": "cable_rear_drive"
+  },
+  {
+    "catalogId": "exercises-dataset:1319",
+    "name": "cable palm rotational row",
+    "base": "cable_palm_rotational_row"
+  },
+  {
+    "catalogId": "exercises-dataset:1261",
+    "name": "cable decline press",
+    "base": "cable_decline_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0496",
+    "name": "inverse leg curl bench support",
+    "base": "inverse_leg_curl_bench_support"
+  },
+  {
+    "catalogId": "exercises-dataset:0464",
+    "name": "front plank with twist",
+    "base": "front_plank_with_twist"
+  },
+  {
+    "catalogId": "exercises-dataset:1771",
+    "name": "bodyweight kneeling triceps extension",
+    "base": "bodyweight_kneeling_triceps_extension"
+  },
+  {
+    "catalogId": "exercises-dataset:3214",
+    "name": "arms apart circular toe touch",
+    "base": "arms_apart_circular_toe_touch"
+  },
+  {
+    "catalogId": "exercises-dataset:3168",
+    "name": "bodyweight squatting row",
+    "base": "bodyweight_squatting_row"
+  }
+]
