@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:3541",
+    "name": "dumbbell incline y-raise",
+    "base": "dumbbell_incline_y_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:1658",
+    "name": "dumbbell lunge with bicep curl",
+    "base": "dumbbell_lunge_with_bicep_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:2470",
+    "name": "dumbbell lying on floor rear delt raise",
+    "base": "dumbbell_lying_on_floor_rear_delt_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:0358",
+    "name": "dumbbell one arm reverse wrist curl",
+    "base": "dumbbell_one_arm_reverse_wrist_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:1414",
+    "name": "dumbbell one arm reverse preacher curl",
+    "base": "dumbbell_one_arm_reverse_preacher_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:1476",
+    "name": "one leg squat",
+    "base": "one_leg_squat"
+  },
+  {
+    "catalogId": "exercises-dataset:1366",
+    "name": "upward facing dog",
+    "base": "upward_facing_dog"
+  },
+  {
+    "catalogId": "exercises-dataset:3012",
+    "name": "scapula dips",
+    "base": "scapula_dips"
+  },
+  {
+    "catalogId": "exercises-dataset:0699",
+    "name": "shoulder tap push-up",
+    "base": "shoulder_tap_push_up"
+  },
+  {
+    "catalogId": "exercises-dataset:0220",
+    "name": "cable shrug",
+    "base": "cable_shrug"
+  },
+  {
+    "catalogId": "exercises-dataset:2464",
+    "name": "cable thibaudeau kayak row",
+    "base": "cable_thibaudeau_kayak_row"
+  },
+  {
+    "catalogId": "exercises-dataset:0874",
+    "name": "cable standing crunch (with rope attachment)",
+    "base": "cable_standing_crunch_with_rope_attachment"
+  },
+  {
+    "catalogId": "exercises-dataset:0100",
+    "name": "barbell skier",
+    "base": "barbell_skier"
+  },
+  {
+    "catalogId": "exercises-dataset:0087",
+    "name": "barbell seated bradford rocky press",
+    "base": "barbell_seated_bradford_rocky_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0786",
+    "name": "squat jerk",
+    "base": "squat_jerk"
+  }
+]

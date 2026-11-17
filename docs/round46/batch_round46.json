@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:3541",
+      "filename": "dumbbell_incline_y_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1658",
+      "filename": "dumbbell_lunge_with_bicep_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2470",
+      "filename": "dumbbell_lying_on_floor_rear_delt_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0358",
+      "filename": "dumbbell_one_arm_reverse_wrist_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1414",
+      "filename": "dumbbell_one_arm_reverse_preacher_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1476",
+      "filename": "one_leg_squat_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1366",
+      "filename": "upward_facing_dog_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3012",
+      "filename": "scapula_dips_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0699",
+      "filename": "shoulder_tap_push_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0220",
+      "filename": "cable_shrug_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2464",
+      "filename": "cable_thibaudeau_kayak_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0874",
+      "filename": "cable_standing_crunch_with_rope_attachment_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0100",
+      "filename": "barbell_skier_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0087",
+      "filename": "barbell_seated_bradford_rocky_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0786",
+      "filename": "squat_jerk_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:3541",
+      "base": "dumbbell_incline_y_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:1658",
+      "base": "dumbbell_lunge_with_bicep_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:2470",
+      "base": "dumbbell_lying_on_floor_rear_delt_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:0358",
+      "base": "dumbbell_one_arm_reverse_wrist_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:1414",
+      "base": "dumbbell_one_arm_reverse_preacher_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:1476",
+      "base": "one_leg_squat"
+    },
+    {
+      "catalogId": "exercises-dataset:1366",
+      "base": "upward_facing_dog"
+    },
+    {
+      "catalogId": "exercises-dataset:3012",
+      "base": "scapula_dips"
+    },
+    {
+      "catalogId": "exercises-dataset:0699",
+      "base": "shoulder_tap_push_up"
+    },
+    {
+      "catalogId": "exercises-dataset:0220",
+      "base": "cable_shrug"
+    },
+    {
+      "catalogId": "exercises-dataset:2464",
+      "base": "cable_thibaudeau_kayak_row"
+    },
+    {
+      "catalogId": "exercises-dataset:0874",
+      "base": "cable_standing_crunch_with_rope_attachment"
+    },
+    {
+      "catalogId": "exercises-dataset:0100",
+      "base": "barbell_skier"
+    },
+    {
+      "catalogId": "exercises-dataset:0087",
+      "base": "barbell_seated_bradford_rocky_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0786",
+      "base": "squat_jerk"
+    }
+  ]
+}
