@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:0595",
+      "filename": "lever_seated_crunch_chest_pad_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1616",
+      "filename": "lever_reverse_grip_preacher_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2736",
+      "filename": "lever_reverse_grip_lateral_pulldown_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2364",
+      "filename": "assisted_wide_grip_chest_dip_kneeling_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0869",
+      "filename": "lever_shoulder_press_v_2_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0186",
+      "filename": "cable_lying_triceps_extension_v_2_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1643",
+      "filename": "cable_seated_overhead_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2405",
+      "filename": "cable_triceps_pushdown_v_bar_with_arm_blaster_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1023",
+      "filename": "band_straight_back_stiff_leg_deadlift_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2371",
+      "filename": "weighted_russian_twist_v_2_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1733",
+      "filename": "dumbbell_incline_two_arm_extension_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0379",
+      "filename": "dumbbell_rear_lateral_raise_support_head_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1666",
+      "filename": "dumbbell_one_arm_prone_hammer_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0138",
+      "filename": "bottoms_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0508",
+      "filename": "janda_sit_up_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:0595",
+      "base": "lever_seated_crunch_chest_pad"
+    },
+    {
+      "catalogId": "exercises-dataset:1616",
+      "base": "lever_reverse_grip_preacher_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:2736",
+      "base": "lever_reverse_grip_lateral_pulldown"
+    },
+    {
+      "catalogId": "exercises-dataset:2364",
+      "base": "assisted_wide_grip_chest_dip_kneeling"
+    },
+    {
+      "catalogId": "exercises-dataset:0869",
+      "base": "lever_shoulder_press_v_2"
+    },
+    {
+      "catalogId": "exercises-dataset:0186",
+      "base": "cable_lying_triceps_extension_v_2"
+    },
+    {
+      "catalogId": "exercises-dataset:1643",
+      "base": "cable_seated_overhead_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:2405",
+      "base": "cable_triceps_pushdown_v_bar_with_arm_blaster"
+    },
+    {
+      "catalogId": "exercises-dataset:1023",
+      "base": "band_straight_back_stiff_leg_deadlift"
+    },
+    {
+      "catalogId": "exercises-dataset:2371",
+      "base": "weighted_russian_twist_v_2"
+    },
+    {
+      "catalogId": "exercises-dataset:1733",
+      "base": "dumbbell_incline_two_arm_extension"
+    },
+    {
+      "catalogId": "exercises-dataset:0379",
+      "base": "dumbbell_rear_lateral_raise_support_head"
+    },
+    {
+      "catalogId": "exercises-dataset:1666",
+      "base": "dumbbell_one_arm_prone_hammer_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0138",
+      "base": "bottoms_up"
+    },
+    {
+      "catalogId": "exercises-dataset:0508",
+      "base": "janda_sit_up"
+    }
+  ]
+}

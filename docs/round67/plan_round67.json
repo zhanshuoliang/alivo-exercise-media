@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:0595",
+    "name": "lever seated crunch (chest pad)",
+    "base": "lever_seated_crunch_chest_pad"
+  },
+  {
+    "catalogId": "exercises-dataset:1616",
+    "name": "lever reverse grip preacher curl",
+    "base": "lever_reverse_grip_preacher_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:2736",
+    "name": "lever reverse grip lateral pulldown",
+    "base": "lever_reverse_grip_lateral_pulldown"
+  },
+  {
+    "catalogId": "exercises-dataset:2364",
+    "name": "assisted wide-grip chest dip (kneeling)",
+    "base": "assisted_wide_grip_chest_dip_kneeling"
+  },
+  {
+    "catalogId": "exercises-dataset:0869",
+    "name": "lever shoulder press v. 2",
+    "base": "lever_shoulder_press_v_2"
+  },
+  {
+    "catalogId": "exercises-dataset:0186",
+    "name": "cable lying triceps extension v. 2",
+    "base": "cable_lying_triceps_extension_v_2"
+  },
+  {
+    "catalogId": "exercises-dataset:1643",
+    "name": "cable seated overhead curl",
+    "base": "cable_seated_overhead_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:2405",
+    "name": "cable triceps pushdown (v-bar) (with arm blaster)",
+    "base": "cable_triceps_pushdown_v_bar_with_arm_blaster"
+  },
+  {
+    "catalogId": "exercises-dataset:1023",
+    "name": "band straight back stiff leg deadlift",
+    "base": "band_straight_back_stiff_leg_deadlift"
+  },
+  {
+    "catalogId": "exercises-dataset:2371",
+    "name": "weighted russian twist v. 2",
+    "base": "weighted_russian_twist_v_2"
+  },
+  {
+    "catalogId": "exercises-dataset:1733",
+    "name": "dumbbell incline two arm extension",
+    "base": "dumbbell_incline_two_arm_extension"
+  },
+  {
+    "catalogId": "exercises-dataset:0379",
+    "name": "dumbbell rear lateral raise (support head)",
+    "base": "dumbbell_rear_lateral_raise_support_head"
+  },
+  {
+    "catalogId": "exercises-dataset:1666",
+    "name": "dumbbell one arm prone hammer curl",
+    "base": "dumbbell_one_arm_prone_hammer_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0138",
+    "name": "bottoms-up",
+    "base": "bottoms_up"
+  },
+  {
+    "catalogId": "exercises-dataset:0508",
+    "name": "janda sit-up",
+    "base": "janda_sit_up"
+  }
+]
