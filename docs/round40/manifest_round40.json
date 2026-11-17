@@ -1,0 +1,79 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:2403",
+      "filename": "dumbbell_alternate_biceps_curl_with_arm_blaster_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1651",
+      "filename": "dumbbell_bicep_curl_lunge_with_bowling_motion_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1276",
+      "filename": "dumbbell_decline_one_arm_fly_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1653",
+      "filename": "dumbbell_bicep_curl_with_stork_stance_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1770",
+      "filename": "biceps_leg_concentration_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3166",
+      "filename": "bodyweight_standing_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3216",
+      "filename": "chest_tap_push_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0002",
+      "filename": "45_degree_side_bend_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3235",
+      "filename": "cable_assisted_inverse_leg_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0184",
+      "filename": "cable_lying_extension_pullover_with_rope_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0190",
+      "filename": "cable_one_arm_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3759",
+      "filename": "lever_seated_good_morning_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0071",
+      "filename": "barbell_press_sit_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0072",
+      "filename": "barbell_prone_incline_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0066",
+      "filename": "barbell_one_arm_side_deadlift_male.png",
+      "folder": "new"
+    }
+  ]
+}

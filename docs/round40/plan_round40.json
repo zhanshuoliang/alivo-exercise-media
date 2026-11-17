@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:2403",
+    "name": "dumbbell alternate biceps curl with arm blaster",
+    "base": "dumbbell_alternate_biceps_curl_with_arm_blaster"
+  },
+  {
+    "catalogId": "exercises-dataset:1651",
+    "name": "dumbbell bicep curl lunge with bowling motion",
+    "base": "dumbbell_bicep_curl_lunge_with_bowling_motion"
+  },
+  {
+    "catalogId": "exercises-dataset:1276",
+    "name": "dumbbell decline one arm fly",
+    "base": "dumbbell_decline_one_arm_fly"
+  },
+  {
+    "catalogId": "exercises-dataset:1653",
+    "name": "dumbbell bicep curl with stork stance",
+    "base": "dumbbell_bicep_curl_with_stork_stance"
+  },
+  {
+    "catalogId": "exercises-dataset:1770",
+    "name": "biceps leg concentration curl",
+    "base": "biceps_leg_concentration_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:3166",
+    "name": "bodyweight standing row",
+    "base": "bodyweight_standing_row"
+  },
+  {
+    "catalogId": "exercises-dataset:3216",
+    "name": "chest tap push-up",
+    "base": "chest_tap_push_up"
+  },
+  {
+    "catalogId": "exercises-dataset:0002",
+    "name": "45 degree side bend",
+    "base": "45_degree_side_bend"
+  },
+  {
+    "catalogId": "exercises-dataset:3235",
+    "name": "cable assisted inverse leg curl",
+    "base": "cable_assisted_inverse_leg_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0184",
+    "name": "cable lying extension pullover with rope",
+    "base": "cable_lying_extension_pullover_with_rope"
+  },
+  {
+    "catalogId": "exercises-dataset:0190",
+    "name": "cable one arm curl",
+    "base": "cable_one_arm_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:3759",
+    "name": "lever seated good morning",
+    "base": "lever_seated_good_morning"
+  },
+  {
+    "catalogId": "exercises-dataset:0071",
+    "name": "barbell press sit-up",
+    "base": "barbell_press_sit_up"
+  },
+  {
+    "catalogId": "exercises-dataset:0072",
+    "name": "barbell prone incline curl",
+    "base": "barbell_prone_incline_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0066",
+    "name": "barbell one arm side deadlift",
+    "base": "barbell_one_arm_side_deadlift"
+  }
+]
