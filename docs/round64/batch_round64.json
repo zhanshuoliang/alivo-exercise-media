@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:0034",
+      "filename": "barbell_decline_bent_arm_pullover_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0036",
+      "filename": "barbell_decline_wide_grip_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0177",
+      "filename": "cable_lateral_pulldown_with_rope_attachment_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1287",
+      "filename": "dumbbell_one_arm_decline_chest_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1289",
+      "filename": "dumbbell_one_arm_incline_chest_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1282",
+      "filename": "dumbbell_incline_one_arm_press_on_exercise_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1621",
+      "filename": "dumbbell_one_arm_hammer_press_on_exercise_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1290",
+      "filename": "dumbbell_one_arm_press_on_exercise_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1286",
+      "filename": "dumbbell_one_arm_chest_fly_on_exercise_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1331",
+      "filename": "dumbbell_reverse_grip_incline_bench_two_arm_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1330",
+      "filename": "dumbbell_reverse_grip_incline_bench_one_arm_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0635",
+      "filename": "oblique_crunches_floor_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0491",
+      "filename": "incline_leg_hip_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0727",
+      "filename": "single_leg_calf_raise_on_a_dumbbell_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3211",
+      "filename": "kneeling_push_up_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:0034",
+      "base": "barbell_decline_bent_arm_pullover"
+    },
+    {
+      "catalogId": "exercises-dataset:0036",
+      "base": "barbell_decline_wide_grip_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0177",
+      "base": "cable_lateral_pulldown_with_rope_attachment"
+    },
+    {
+      "catalogId": "exercises-dataset:1287",
+      "base": "dumbbell_one_arm_decline_chest_press"
+    },
+    {
+      "catalogId": "exercises-dataset:1289",
+      "base": "dumbbell_one_arm_incline_chest_press"
+    },
+    {
+      "catalogId": "exercises-dataset:1282",
+      "base": "dumbbell_incline_one_arm_press_on_exercise_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:1621",
+      "base": "dumbbell_one_arm_hammer_press_on_exercise_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:1290",
+      "base": "dumbbell_one_arm_press_on_exercise_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:1286",
+      "base": "dumbbell_one_arm_chest_fly_on_exercise_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:1331",
+      "base": "dumbbell_reverse_grip_incline_bench_two_arm_row"
+    },
+    {
+      "catalogId": "exercises-dataset:1330",
+      "base": "dumbbell_reverse_grip_incline_bench_one_arm_row"
+    },
+    {
+      "catalogId": "exercises-dataset:0635",
+      "base": "oblique_crunches_floor"
+    },
+    {
+      "catalogId": "exercises-dataset:0491",
+      "base": "incline_leg_hip_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:0727",
+      "base": "single_leg_calf_raise_on_a_dumbbell"
+    },
+    {
+      "catalogId": "exercises-dataset:3211",
+      "base": "kneeling_push_up"
+    }
+  ]
+}

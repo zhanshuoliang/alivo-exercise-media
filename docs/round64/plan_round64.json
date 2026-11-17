@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:0034",
+    "name": "barbell decline bent arm pullover",
+    "base": "barbell_decline_bent_arm_pullover"
+  },
+  {
+    "catalogId": "exercises-dataset:0036",
+    "name": "barbell decline wide-grip press",
+    "base": "barbell_decline_wide_grip_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0177",
+    "name": "cable lateral pulldown with rope attachment",
+    "base": "cable_lateral_pulldown_with_rope_attachment"
+  },
+  {
+    "catalogId": "exercises-dataset:1287",
+    "name": "dumbbell one arm decline chest press",
+    "base": "dumbbell_one_arm_decline_chest_press"
+  },
+  {
+    "catalogId": "exercises-dataset:1289",
+    "name": "dumbbell one arm incline chest press",
+    "base": "dumbbell_one_arm_incline_chest_press"
+  },
+  {
+    "catalogId": "exercises-dataset:1282",
+    "name": "dumbbell incline one arm press on exercise ball",
+    "base": "dumbbell_incline_one_arm_press_on_exercise_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:1621",
+    "name": "dumbbell one arm hammer press on exercise ball",
+    "base": "dumbbell_one_arm_hammer_press_on_exercise_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:1290",
+    "name": "dumbbell one arm press on exercise ball",
+    "base": "dumbbell_one_arm_press_on_exercise_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:1286",
+    "name": "dumbbell one arm chest fly on exercise ball",
+    "base": "dumbbell_one_arm_chest_fly_on_exercise_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:1331",
+    "name": "dumbbell reverse grip incline bench two arm row",
+    "base": "dumbbell_reverse_grip_incline_bench_two_arm_row"
+  },
+  {
+    "catalogId": "exercises-dataset:1330",
+    "name": "dumbbell reverse grip incline bench one arm row",
+    "base": "dumbbell_reverse_grip_incline_bench_one_arm_row"
+  },
+  {
+    "catalogId": "exercises-dataset:0635",
+    "name": "oblique crunches floor",
+    "base": "oblique_crunches_floor"
+  },
+  {
+    "catalogId": "exercises-dataset:0491",
+    "name": "incline leg hip raise",
+    "base": "incline_leg_hip_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:0727",
+    "name": "single leg calf raise on a dumbbell",
+    "base": "single_leg_calf_raise_on_a_dumbbell"
+  },
+  {
+    "catalogId": "exercises-dataset:3211",
+    "name": "kneeling push-up",
+    "base": "kneeling_push_up"
+  }
+]
