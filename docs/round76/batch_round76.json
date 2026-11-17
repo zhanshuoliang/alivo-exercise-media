@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:0376",
+      "filename": "dumbbell_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0416",
+      "filename": "dumbbell_standing_biceps_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0392",
+      "filename": "dumbbell_seated_front_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0396",
+      "filename": "dumbbell_seated_lateral_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1648",
+      "filename": "dumbbell_alternate_seated_hammer_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1650",
+      "filename": "dumbbell_alternating_seated_bicep_curl_on_exercise_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1676",
+      "filename": "dumbbell_seated_alternate_hammer_curl_on_exercise_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1671",
+      "filename": "dumbbell_one_arm_standing_hammer_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1672",
+      "filename": "dumbbell_one_arm_zottman_preacher_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1295",
+      "filename": "dumbbell_pullover_on_exercise_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1741",
+      "filename": "dumbbell_standing_bent_over_two_arm_triceps_extension_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1739",
+      "filename": "dumbbell_standing_alternating_tricep_kickback_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2803",
+      "filename": "dumbbell_supported_squat_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3221",
+      "filename": "half_knee_bends_male_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3638",
+      "filename": "push_to_run_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:0376",
+      "base": "dumbbell_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:0416",
+      "base": "dumbbell_standing_biceps_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0392",
+      "base": "dumbbell_seated_front_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:0396",
+      "base": "dumbbell_seated_lateral_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:1648",
+      "base": "dumbbell_alternate_seated_hammer_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:1650",
+      "base": "dumbbell_alternating_seated_bicep_curl_on_exercise_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:1676",
+      "base": "dumbbell_seated_alternate_hammer_curl_on_exercise_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:1671",
+      "base": "dumbbell_one_arm_standing_hammer_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:1672",
+      "base": "dumbbell_one_arm_zottman_preacher_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:1295",
+      "base": "dumbbell_pullover_on_exercise_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:1741",
+      "base": "dumbbell_standing_bent_over_two_arm_triceps_extension"
+    },
+    {
+      "catalogId": "exercises-dataset:1739",
+      "base": "dumbbell_standing_alternating_tricep_kickback"
+    },
+    {
+      "catalogId": "exercises-dataset:2803",
+      "base": "dumbbell_supported_squat"
+    },
+    {
+      "catalogId": "exercises-dataset:3221",
+      "base": "half_knee_bends_male"
+    },
+    {
+      "catalogId": "exercises-dataset:3638",
+      "base": "push_to_run"
+    }
+  ]
+}
