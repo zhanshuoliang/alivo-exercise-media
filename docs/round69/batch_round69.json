@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:0056",
+      "filename": "barbell_lying_close_grip_triceps_extension_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0089",
+      "filename": "barbell_seated_close_grip_concentration_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0108",
+      "filename": "barbell_standing_leg_calf_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1640",
+      "filename": "cable_rope_one_arm_hammer_preacher_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0239",
+      "filename": "cable_straight_back_seated_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2406",
+      "filename": "cable_reverse_grip_triceps_pushdown_sz_bar_with_arm_blaster_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0475",
+      "filename": "hanging_straight_leg_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1327",
+      "filename": "close_grip_chin_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2363",
+      "filename": "wide_grip_chest_dip_on_high_parallel_bars_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3147",
+      "filename": "pelvic_tilt_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0498",
+      "filename": "inverted_row_with_straps_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3239",
+      "filename": "kneeling_plank_tap_shoulder_male_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1619",
+      "filename": "dumbbell_incline_one_arm_hammer_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1291",
+      "filename": "dumbbell_one_arm_pullover_on_exercise_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0348",
+      "filename": "dumbbell_lying_rear_lateral_raise_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:0056",
+      "base": "barbell_lying_close_grip_triceps_extension"
+    },
+    {
+      "catalogId": "exercises-dataset:0089",
+      "base": "barbell_seated_close_grip_concentration_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0108",
+      "base": "barbell_standing_leg_calf_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:1640",
+      "base": "cable_rope_one_arm_hammer_preacher_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0239",
+      "base": "cable_straight_back_seated_row"
+    },
+    {
+      "catalogId": "exercises-dataset:2406",
+      "base": "cable_reverse_grip_triceps_pushdown_sz_bar_with_arm_blaster"
+    },
+    {
+      "catalogId": "exercises-dataset:0475",
+      "base": "hanging_straight_leg_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:1327",
+      "base": "close_grip_chin_up"
+    },
+    {
+      "catalogId": "exercises-dataset:2363",
+      "base": "wide_grip_chest_dip_on_high_parallel_bars"
+    },
+    {
+      "catalogId": "exercises-dataset:3147",
+      "base": "pelvic_tilt"
+    },
+    {
+      "catalogId": "exercises-dataset:0498",
+      "base": "inverted_row_with_straps"
+    },
+    {
+      "catalogId": "exercises-dataset:3239",
+      "base": "kneeling_plank_tap_shoulder_male"
+    },
+    {
+      "catalogId": "exercises-dataset:1619",
+      "base": "dumbbell_incline_one_arm_hammer_press"
+    },
+    {
+      "catalogId": "exercises-dataset:1291",
+      "base": "dumbbell_one_arm_pullover_on_exercise_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:0348",
+      "base": "dumbbell_lying_rear_lateral_raise"
+    }
+  ]
+}
