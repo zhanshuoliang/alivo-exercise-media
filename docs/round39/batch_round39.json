@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:0300",
+      "filename": "dumbbell_deadlift_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0303",
+      "filename": "dumbbell_decline_hammer_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0307",
+      "filename": "dumbbell_decline_twist_fly_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1274",
+      "filename": "deep_push_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2355",
+      "filename": "arm_slingers_hanging_bent_knee_legs_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3220",
+      "filename": "astride_jumps_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1769",
+      "filename": "bodyweight_side_lying_biceps_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1260",
+      "filename": "cable_decline_one_arm_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0159",
+      "filename": "cable_decline_seated_wide_grip_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0161",
+      "filename": "cable_forward_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3697",
+      "filename": "cable_kneeling_rear_delt_row_with_rope_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0050",
+      "filename": "barbell_incline_shoulder_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0064",
+      "filename": "barbell_one_arm_bent_over_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1615",
+      "filename": "lever_hammer_grip_preacher_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1625",
+      "filename": "smith_machine_decline_close_grip_bench_press_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:0300",
+      "base": "dumbbell_deadlift"
+    },
+    {
+      "catalogId": "exercises-dataset:0303",
+      "base": "dumbbell_decline_hammer_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0307",
+      "base": "dumbbell_decline_twist_fly"
+    },
+    {
+      "catalogId": "exercises-dataset:1274",
+      "base": "deep_push_up"
+    },
+    {
+      "catalogId": "exercises-dataset:2355",
+      "base": "arm_slingers_hanging_bent_knee_legs"
+    },
+    {
+      "catalogId": "exercises-dataset:3220",
+      "base": "astride_jumps"
+    },
+    {
+      "catalogId": "exercises-dataset:1769",
+      "base": "bodyweight_side_lying_biceps_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:1260",
+      "base": "cable_decline_one_arm_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0159",
+      "base": "cable_decline_seated_wide_grip_row"
+    },
+    {
+      "catalogId": "exercises-dataset:0161",
+      "base": "cable_forward_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:3697",
+      "base": "cable_kneeling_rear_delt_row_with_rope"
+    },
+    {
+      "catalogId": "exercises-dataset:0050",
+      "base": "barbell_incline_shoulder_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:0064",
+      "base": "barbell_one_arm_bent_over_row"
+    },
+    {
+      "catalogId": "exercises-dataset:1615",
+      "base": "lever_hammer_grip_preacher_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:1625",
+      "base": "smith_machine_decline_close_grip_bench_press"
+    }
+  ]
+}

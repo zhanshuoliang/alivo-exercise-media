@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:0300",
+    "name": "dumbbell deadlift",
+    "base": "dumbbell_deadlift"
+  },
+  {
+    "catalogId": "exercises-dataset:0303",
+    "name": "dumbbell decline hammer press",
+    "base": "dumbbell_decline_hammer_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0307",
+    "name": "dumbbell decline twist fly",
+    "base": "dumbbell_decline_twist_fly"
+  },
+  {
+    "catalogId": "exercises-dataset:1274",
+    "name": "deep push up",
+    "base": "deep_push_up"
+  },
+  {
+    "catalogId": "exercises-dataset:2355",
+    "name": "arm slingers hanging bent knee legs",
+    "base": "arm_slingers_hanging_bent_knee_legs"
+  },
+  {
+    "catalogId": "exercises-dataset:3220",
+    "name": "astride jumps",
+    "base": "astride_jumps"
+  },
+  {
+    "catalogId": "exercises-dataset:1769",
+    "name": "bodyweight side lying biceps curl",
+    "base": "bodyweight_side_lying_biceps_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:1260",
+    "name": "cable decline one arm press",
+    "base": "cable_decline_one_arm_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0159",
+    "name": "cable decline seated wide-grip row",
+    "base": "cable_decline_seated_wide_grip_row"
+  },
+  {
+    "catalogId": "exercises-dataset:0161",
+    "name": "cable forward raise",
+    "base": "cable_forward_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:3697",
+    "name": "cable kneeling rear delt row with rope",
+    "base": "cable_kneeling_rear_delt_row_with_rope"
+  },
+  {
+    "catalogId": "exercises-dataset:0050",
+    "name": "barbell incline shoulder raise",
+    "base": "barbell_incline_shoulder_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:0064",
+    "name": "barbell one arm bent over row",
+    "base": "barbell_one_arm_bent_over_row"
+  },
+  {
+    "catalogId": "exercises-dataset:1615",
+    "name": "lever hammer grip preacher curl",
+    "base": "lever_hammer_grip_preacher_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:1625",
+    "name": "smith machine decline close grip bench press",
+    "base": "smith_machine_decline_close_grip_bench_press"
+  }
+]
