@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:1674",
+      "filename": "dumbbell_prone_incline_hammer_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1680",
+      "filename": "dumbbell_standing_one_arm_curl_over_incline_bench_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0369",
+      "filename": "dumbbell_over_bench_wrist_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1441",
+      "filename": "dumbbell_over_bench_one_arm_reverse_wrist_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0366",
+      "filename": "dumbbell_over_bench_one_arm_neutral_wrist_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1263",
+      "filename": "cable_one_arm_fly_on_exercise_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0213",
+      "filename": "cable_seated_high_row_v_bar_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0234",
+      "filename": "cable_standing_row_v_bar_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1637",
+      "filename": "cable_overhead_curl_on_exercise_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0058",
+      "filename": "barbell_lying_lifting_on_hip_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3562",
+      "filename": "barbell_glute_bridge_two_legs_on_bench_male_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3019",
+      "filename": "bench_pull_ups_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1275",
+      "filename": "drop_push_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3582",
+      "filename": "lunge_with_jump_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1466",
+      "filename": "twist_hip_lift_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:1674",
+      "base": "dumbbell_prone_incline_hammer_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:1680",
+      "base": "dumbbell_standing_one_arm_curl_over_incline_bench"
+    },
+    {
+      "catalogId": "exercises-dataset:0369",
+      "base": "dumbbell_over_bench_wrist_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:1441",
+      "base": "dumbbell_over_bench_one_arm_reverse_wrist_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0366",
+      "base": "dumbbell_over_bench_one_arm_neutral_wrist_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:1263",
+      "base": "cable_one_arm_fly_on_exercise_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:0213",
+      "base": "cable_seated_high_row_v_bar"
+    },
+    {
+      "catalogId": "exercises-dataset:0234",
+      "base": "cable_standing_row_v_bar"
+    },
+    {
+      "catalogId": "exercises-dataset:1637",
+      "base": "cable_overhead_curl_on_exercise_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:0058",
+      "base": "barbell_lying_lifting_on_hip"
+    },
+    {
+      "catalogId": "exercises-dataset:3562",
+      "base": "barbell_glute_bridge_two_legs_on_bench_male"
+    },
+    {
+      "catalogId": "exercises-dataset:3019",
+      "base": "bench_pull_ups"
+    },
+    {
+      "catalogId": "exercises-dataset:1275",
+      "base": "drop_push_up"
+    },
+    {
+      "catalogId": "exercises-dataset:3582",
+      "base": "lunge_with_jump"
+    },
+    {
+      "catalogId": "exercises-dataset:1466",
+      "base": "twist_hip_lift"
+    }
+  ]
+}

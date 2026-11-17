@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:1674",
+    "name": "dumbbell prone incline hammer curl",
+    "base": "dumbbell_prone_incline_hammer_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:1680",
+    "name": "dumbbell standing one arm curl over incline bench",
+    "base": "dumbbell_standing_one_arm_curl_over_incline_bench"
+  },
+  {
+    "catalogId": "exercises-dataset:0369",
+    "name": "dumbbell over bench wrist curl",
+    "base": "dumbbell_over_bench_wrist_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:1441",
+    "name": "dumbbell over bench one arm reverse wrist curl",
+    "base": "dumbbell_over_bench_one_arm_reverse_wrist_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0366",
+    "name": "dumbbell over bench one arm neutral wrist curl",
+    "base": "dumbbell_over_bench_one_arm_neutral_wrist_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:1263",
+    "name": "cable one arm fly on exercise ball",
+    "base": "cable_one_arm_fly_on_exercise_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:0213",
+    "name": "cable seated high row (v-bar)",
+    "base": "cable_seated_high_row_v_bar"
+  },
+  {
+    "catalogId": "exercises-dataset:0234",
+    "name": "cable standing row (v-bar)",
+    "base": "cable_standing_row_v_bar"
+  },
+  {
+    "catalogId": "exercises-dataset:1637",
+    "name": "cable overhead curl on exercise ball",
+    "base": "cable_overhead_curl_on_exercise_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:0058",
+    "name": "barbell lying lifting (on hip)",
+    "base": "barbell_lying_lifting_on_hip"
+  },
+  {
+    "catalogId": "exercises-dataset:3562",
+    "name": "barbell glute bridge two legs on bench (male)",
+    "base": "barbell_glute_bridge_two_legs_on_bench_male"
+  },
+  {
+    "catalogId": "exercises-dataset:3019",
+    "name": "bench pull-ups",
+    "base": "bench_pull_ups"
+  },
+  {
+    "catalogId": "exercises-dataset:1275",
+    "name": "drop push up",
+    "base": "drop_push_up"
+  },
+  {
+    "catalogId": "exercises-dataset:3582",
+    "name": "lunge with jump",
+    "base": "lunge_with_jump"
+  },
+  {
+    "catalogId": "exercises-dataset:1466",
+    "name": "twist hip lift",
+    "base": "twist_hip_lift"
+  }
+]
