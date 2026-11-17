@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:0039",
+    "name": "barbell front chest squat",
+    "base": "barbell_front_chest_squat"
+  },
+  {
+    "catalogId": "exercises-dataset:1461",
+    "name": "barbell full squat (back pov)",
+    "base": "barbell_full_squat_back_pov"
+  },
+  {
+    "catalogId": "exercises-dataset:0059",
+    "name": "barbell lying preacher curl",
+    "base": "barbell_lying_preacher_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0081",
+    "name": "barbell reverse preacher curl",
+    "base": "barbell_reverse_preacher_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:1320",
+    "name": "cable rope crossover seated row",
+    "base": "cable_rope_crossover_seated_row"
+  },
+  {
+    "catalogId": "exercises-dataset:1642",
+    "name": "cable seated one arm concentration curl",
+    "base": "cable_seated_one_arm_concentration_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0242",
+    "name": "cable tuck reverse crunch",
+    "base": "cable_tuck_reverse_crunch"
+  },
+  {
+    "catalogId": "exercises-dataset:0678",
+    "name": "rocky pull-up pulldown",
+    "base": "rocky_pull_up_pulldown"
+  },
+  {
+    "catalogId": "exercises-dataset:0558",
+    "name": "kipping muscle up",
+    "base": "kipping_muscle_up"
+  },
+  {
+    "catalogId": "exercises-dataset:1367",
+    "name": "wide grip rear pull-up",
+    "base": "wide_grip_rear_pull_up"
+  },
+  {
+    "catalogId": "exercises-dataset:0282",
+    "name": "decline sit-up",
+    "base": "decline_sit_up"
+  },
+  {
+    "catalogId": "exercises-dataset:3679",
+    "name": "sit-up with arms on chest",
+    "base": "sit_up_with_arms_on_chest"
+  },
+  {
+    "catalogId": "exercises-dataset:2333",
+    "name": "arm slingers hanging straight legs",
+    "base": "arm_slingers_hanging_straight_legs"
+  },
+  {
+    "catalogId": "exercises-dataset:0338",
+    "name": "dumbbell lying elbow press",
+    "base": "dumbbell_lying_elbow_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0374",
+    "name": "dumbbell prone incline curl",
+    "base": "dumbbell_prone_incline_curl"
+  }
+]

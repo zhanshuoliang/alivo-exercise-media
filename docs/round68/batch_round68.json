@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:0039",
+      "filename": "barbell_front_chest_squat_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1461",
+      "filename": "barbell_full_squat_back_pov_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0059",
+      "filename": "barbell_lying_preacher_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0081",
+      "filename": "barbell_reverse_preacher_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1320",
+      "filename": "cable_rope_crossover_seated_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1642",
+      "filename": "cable_seated_one_arm_concentration_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0242",
+      "filename": "cable_tuck_reverse_crunch_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0678",
+      "filename": "rocky_pull_up_pulldown_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0558",
+      "filename": "kipping_muscle_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1367",
+      "filename": "wide_grip_rear_pull_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0282",
+      "filename": "decline_sit_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3679",
+      "filename": "sit_up_with_arms_on_chest_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2333",
+      "filename": "arm_slingers_hanging_straight_legs_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0338",
+      "filename": "dumbbell_lying_elbow_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0374",
+      "filename": "dumbbell_prone_incline_curl_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:0039",
+      "base": "barbell_front_chest_squat"
+    },
+    {
+      "catalogId": "exercises-dataset:1461",
+      "base": "barbell_full_squat_back_pov"
+    },
+    {
+      "catalogId": "exercises-dataset:0059",
+      "base": "barbell_lying_preacher_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0081",
+      "base": "barbell_reverse_preacher_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:1320",
+      "base": "cable_rope_crossover_seated_row"
+    },
+    {
+      "catalogId": "exercises-dataset:1642",
+      "base": "cable_seated_one_arm_concentration_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0242",
+      "base": "cable_tuck_reverse_crunch"
+    },
+    {
+      "catalogId": "exercises-dataset:0678",
+      "base": "rocky_pull_up_pulldown"
+    },
+    {
+      "catalogId": "exercises-dataset:0558",
+      "base": "kipping_muscle_up"
+    },
+    {
+      "catalogId": "exercises-dataset:1367",
+      "base": "wide_grip_rear_pull_up"
+    },
+    {
+      "catalogId": "exercises-dataset:0282",
+      "base": "decline_sit_up"
+    },
+    {
+      "catalogId": "exercises-dataset:3679",
+      "base": "sit_up_with_arms_on_chest"
+    },
+    {
+      "catalogId": "exercises-dataset:2333",
+      "base": "arm_slingers_hanging_straight_legs"
+    },
+    {
+      "catalogId": "exercises-dataset:0338",
+      "base": "dumbbell_lying_elbow_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0374",
+      "base": "dumbbell_prone_incline_curl"
+    }
+  ]
+}
