@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:1467",
+    "name": "push-up on lower arms",
+    "base": "push_up_on_lower_arms"
+  },
+  {
+    "catalogId": "exercises-dataset:0666",
+    "name": "raise single arm push-up",
+    "base": "raise_single_arm_push_up"
+  },
+  {
+    "catalogId": "exercises-dataset:3699",
+    "name": "shoulder tap",
+    "base": "shoulder_tap"
+  },
+  {
+    "catalogId": "exercises-dataset:0341",
+    "name": "dumbbell lying one arm deltoid rear",
+    "base": "dumbbell_lying_one_arm_deltoid_rear"
+  },
+  {
+    "catalogId": "exercises-dataset:0433",
+    "name": "dumbbell straight arm pullover",
+    "base": "dumbbell_straight_arm_pullover"
+  },
+  {
+    "catalogId": "exercises-dataset:0410",
+    "name": "dumbbell single leg split squat",
+    "base": "dumbbell_single_leg_split_squat"
+  },
+  {
+    "catalogId": "exercises-dataset:0037",
+    "name": "barbell decline wide-grip pullover",
+    "base": "barbell_decline_wide_grip_pullover"
+  },
+  {
+    "catalogId": "exercises-dataset:1720",
+    "name": "barbell lying back of the head tricep extension",
+    "base": "barbell_lying_back_of_the_head_tricep_extension"
+  },
+  {
+    "catalogId": "exercises-dataset:2800",
+    "name": "barbell sitted alternate leg raise",
+    "base": "barbell_sitted_alternate_leg_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:1269",
+    "name": "cable standing up straight crossovers",
+    "base": "cable_standing_up_straight_crossovers"
+  },
+  {
+    "catalogId": "exercises-dataset:2616",
+    "name": "cable lateral pulldown with v-bar",
+    "base": "cable_lateral_pulldown_with_v_bar"
+  },
+  {
+    "catalogId": "exercises-dataset:1639",
+    "name": "cable rope hammer preacher curl",
+    "base": "cable_rope_hammer_preacher_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0211",
+    "name": "cable russian twists on stability ball",
+    "base": "cable_russian_twists_on_stability_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:0772",
+    "name": "smith standing behind head military press",
+    "base": "smith_standing_behind_head_military_press"
+  },
+  {
+    "catalogId": "exercises-dataset:3241",
+    "name": "exercise ball on the wall calf raise (tennis ball between ankles)",
+    "base": "exercise_ball_on_the_wall_calf_raise_tennis_ball_between_ankles"
+  }
+]

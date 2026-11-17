@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:1467",
+      "filename": "push_up_on_lower_arms_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0666",
+      "filename": "raise_single_arm_push_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3699",
+      "filename": "shoulder_tap_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0341",
+      "filename": "dumbbell_lying_one_arm_deltoid_rear_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0433",
+      "filename": "dumbbell_straight_arm_pullover_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0410",
+      "filename": "dumbbell_single_leg_split_squat_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0037",
+      "filename": "barbell_decline_wide_grip_pullover_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1720",
+      "filename": "barbell_lying_back_of_the_head_tricep_extension_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2800",
+      "filename": "barbell_sitted_alternate_leg_raise_female_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1269",
+      "filename": "cable_standing_up_straight_crossovers_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2616",
+      "filename": "cable_lateral_pulldown_with_v_bar_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1639",
+      "filename": "cable_rope_hammer_preacher_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0211",
+      "filename": "cable_russian_twists_on_stability_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0772",
+      "filename": "smith_standing_behind_head_military_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3241",
+      "filename": "exercise_ball_on_the_wall_calf_raise_tennis_ball_between_ankles_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:1467",
+      "base": "push_up_on_lower_arms"
+    },
+    {
+      "catalogId": "exercises-dataset:0666",
+      "base": "raise_single_arm_push_up"
+    },
+    {
+      "catalogId": "exercises-dataset:3699",
+      "base": "shoulder_tap"
+    },
+    {
+      "catalogId": "exercises-dataset:0341",
+      "base": "dumbbell_lying_one_arm_deltoid_rear"
+    },
+    {
+      "catalogId": "exercises-dataset:0433",
+      "base": "dumbbell_straight_arm_pullover"
+    },
+    {
+      "catalogId": "exercises-dataset:0410",
+      "base": "dumbbell_single_leg_split_squat"
+    },
+    {
+      "catalogId": "exercises-dataset:0037",
+      "base": "barbell_decline_wide_grip_pullover"
+    },
+    {
+      "catalogId": "exercises-dataset:1720",
+      "base": "barbell_lying_back_of_the_head_tricep_extension"
+    },
+    {
+      "catalogId": "exercises-dataset:2800",
+      "base": "barbell_sitted_alternate_leg_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:1269",
+      "base": "cable_standing_up_straight_crossovers"
+    },
+    {
+      "catalogId": "exercises-dataset:2616",
+      "base": "cable_lateral_pulldown_with_v_bar"
+    },
+    {
+      "catalogId": "exercises-dataset:1639",
+      "base": "cable_rope_hammer_preacher_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0211",
+      "base": "cable_russian_twists_on_stability_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:0772",
+      "base": "smith_standing_behind_head_military_press"
+    },
+    {
+      "catalogId": "exercises-dataset:3241",
+      "base": "exercise_ball_on_the_wall_calf_raise_tennis_ball_between_ankles"
+    }
+  ]
+}
