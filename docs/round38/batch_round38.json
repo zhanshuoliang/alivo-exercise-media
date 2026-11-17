@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:0286",
+      "filename": "dumbbell_alternate_side_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1646",
+      "filename": "dumbbell_alternate_hammer_preacher_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0306",
+      "filename": "dumbbell_decline_triceps_extension_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0311",
+      "filename": "dumbbell_full_can_lateral_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0137",
+      "filename": "body_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2466",
+      "filename": "bridge_mountain_climber_cross_body_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0258",
+      "filename": "clock_push_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3544",
+      "filename": "bodyweight_incline_side_plank_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3204",
+      "filename": "arms_overhead_full_sit_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0153",
+      "filename": "cable_cross_over_lateral_pulldown_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0171",
+      "filename": "cable_incline_fly_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0172",
+      "filename": "cable_incline_pushdown_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0590",
+      "filename": "lever_one_arm_shoulder_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2315",
+      "filename": "lever_rotary_calf_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1396",
+      "filename": "smith_toe_raise_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:0286",
+      "base": "dumbbell_alternate_side_press"
+    },
+    {
+      "catalogId": "exercises-dataset:1646",
+      "base": "dumbbell_alternate_hammer_preacher_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0306",
+      "base": "dumbbell_decline_triceps_extension"
+    },
+    {
+      "catalogId": "exercises-dataset:0311",
+      "base": "dumbbell_full_can_lateral_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:0137",
+      "base": "body_up"
+    },
+    {
+      "catalogId": "exercises-dataset:2466",
+      "base": "bridge_mountain_climber_cross_body"
+    },
+    {
+      "catalogId": "exercises-dataset:0258",
+      "base": "clock_push_up"
+    },
+    {
+      "catalogId": "exercises-dataset:3544",
+      "base": "bodyweight_incline_side_plank"
+    },
+    {
+      "catalogId": "exercises-dataset:3204",
+      "base": "arms_overhead_full_sit_up"
+    },
+    {
+      "catalogId": "exercises-dataset:0153",
+      "base": "cable_cross_over_lateral_pulldown"
+    },
+    {
+      "catalogId": "exercises-dataset:0171",
+      "base": "cable_incline_fly"
+    },
+    {
+      "catalogId": "exercises-dataset:0172",
+      "base": "cable_incline_pushdown"
+    },
+    {
+      "catalogId": "exercises-dataset:0590",
+      "base": "lever_one_arm_shoulder_press"
+    },
+    {
+      "catalogId": "exercises-dataset:2315",
+      "base": "lever_rotary_calf"
+    },
+    {
+      "catalogId": "exercises-dataset:1396",
+      "base": "smith_toe_raise"
+    }
+  ]
+}

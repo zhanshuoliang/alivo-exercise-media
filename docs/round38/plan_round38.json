@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:0286",
+    "name": "dumbbell alternate side press",
+    "base": "dumbbell_alternate_side_press"
+  },
+  {
+    "catalogId": "exercises-dataset:1646",
+    "name": "dumbbell alternate hammer preacher curl",
+    "base": "dumbbell_alternate_hammer_preacher_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0306",
+    "name": "dumbbell decline triceps extension",
+    "base": "dumbbell_decline_triceps_extension"
+  },
+  {
+    "catalogId": "exercises-dataset:0311",
+    "name": "dumbbell full can lateral raise",
+    "base": "dumbbell_full_can_lateral_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:0137",
+    "name": "body-up",
+    "base": "body_up"
+  },
+  {
+    "catalogId": "exercises-dataset:2466",
+    "name": "bridge mountain climber cross body",
+    "base": "bridge_mountain_climber_cross_body"
+  },
+  {
+    "catalogId": "exercises-dataset:0258",
+    "name": "clock push-up",
+    "base": "clock_push_up"
+  },
+  {
+    "catalogId": "exercises-dataset:3544",
+    "name": "bodyweight incline side plank",
+    "base": "bodyweight_incline_side_plank"
+  },
+  {
+    "catalogId": "exercises-dataset:3204",
+    "name": "arms overhead full sit-up",
+    "base": "arms_overhead_full_sit_up"
+  },
+  {
+    "catalogId": "exercises-dataset:0153",
+    "name": "cable cross-over lateral pulldown",
+    "base": "cable_cross_over_lateral_pulldown"
+  },
+  {
+    "catalogId": "exercises-dataset:0171",
+    "name": "cable incline fly",
+    "base": "cable_incline_fly"
+  },
+  {
+    "catalogId": "exercises-dataset:0172",
+    "name": "cable incline pushdown",
+    "base": "cable_incline_pushdown"
+  },
+  {
+    "catalogId": "exercises-dataset:0590",
+    "name": "lever one arm shoulder press",
+    "base": "lever_one_arm_shoulder_press"
+  },
+  {
+    "catalogId": "exercises-dataset:2315",
+    "name": "lever rotary calf",
+    "base": "lever_rotary_calf"
+  },
+  {
+    "catalogId": "exercises-dataset:1396",
+    "name": "smith toe raise",
+    "base": "smith_toe_raise"
+  }
+]
