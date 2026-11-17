@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:0384",
+    "name": "dumbbell reverse preacher curl",
+    "base": "dumbbell_reverse_preacher_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0386",
+    "name": "dumbbell rotation reverse fly",
+    "base": "dumbbell_rotation_reverse_fly"
+  },
+  {
+    "catalogId": "exercises-dataset:1684",
+    "name": "dumbbell step up single leg balance with bicep curl",
+    "base": "dumbbell_step_up_single_leg_balance_with_bicep_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:1277",
+    "name": "dumbbell fly on exercise ball",
+    "base": "dumbbell_fly_on_exercise_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:0321",
+    "name": "dumbbell incline hammer press",
+    "base": "dumbbell_incline_hammer_press"
+  },
+  {
+    "catalogId": "exercises-dataset:1641",
+    "name": "cable seated curl",
+    "base": "cable_seated_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:1322",
+    "name": "cable rope extension incline bench row",
+    "base": "cable_rope_extension_incline_bench_row"
+  },
+  {
+    "catalogId": "exercises-dataset:1727",
+    "name": "cable standing reverse grip one arm overhead tricep extension",
+    "base": "cable_standing_reverse_grip_one_arm_overhead_tricep_extension"
+  },
+  {
+    "catalogId": "exercises-dataset:1265",
+    "name": "cable one arm incline press",
+    "base": "cable_one_arm_incline_press"
+  },
+  {
+    "catalogId": "exercises-dataset:2799",
+    "name": "barbell sitted alternate leg raise",
+    "base": "barbell_sitted_alternate_leg_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:0806",
+    "name": "suspended push-up",
+    "base": "suspended_push_up"
+  },
+  {
+    "catalogId": "exercises-dataset:0807",
+    "name": "suspended reverse crunch",
+    "base": "suspended_reverse_crunch"
+  },
+  {
+    "catalogId": "exercises-dataset:0476",
+    "name": "hanging straight twisting leg hip raise",
+    "base": "hanging_straight_twisting_leg_hip_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:3665",
+    "name": "power point plank",
+    "base": "power_point_plank"
+  },
+  {
+    "catalogId": "exercises-dataset:3301",
+    "name": "frog planche",
+    "base": "frog_planche"
+  }
+]

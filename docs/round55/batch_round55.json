@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:0384",
+      "filename": "dumbbell_reverse_preacher_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0386",
+      "filename": "dumbbell_rotation_reverse_fly_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1684",
+      "filename": "dumbbell_step_up_single_leg_balance_with_bicep_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1277",
+      "filename": "dumbbell_fly_on_exercise_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0321",
+      "filename": "dumbbell_incline_hammer_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1641",
+      "filename": "cable_seated_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1322",
+      "filename": "cable_rope_extension_incline_bench_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1727",
+      "filename": "cable_standing_reverse_grip_one_arm_overhead_tricep_extension_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1265",
+      "filename": "cable_one_arm_incline_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2799",
+      "filename": "barbell_sitted_alternate_leg_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0806",
+      "filename": "suspended_push_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0807",
+      "filename": "suspended_reverse_crunch_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0476",
+      "filename": "hanging_straight_twisting_leg_hip_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3665",
+      "filename": "power_point_plank_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3301",
+      "filename": "frog_planche_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:0384",
+      "base": "dumbbell_reverse_preacher_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0386",
+      "base": "dumbbell_rotation_reverse_fly"
+    },
+    {
+      "catalogId": "exercises-dataset:1684",
+      "base": "dumbbell_step_up_single_leg_balance_with_bicep_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:1277",
+      "base": "dumbbell_fly_on_exercise_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:0321",
+      "base": "dumbbell_incline_hammer_press"
+    },
+    {
+      "catalogId": "exercises-dataset:1641",
+      "base": "cable_seated_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:1322",
+      "base": "cable_rope_extension_incline_bench_row"
+    },
+    {
+      "catalogId": "exercises-dataset:1727",
+      "base": "cable_standing_reverse_grip_one_arm_overhead_tricep_extension"
+    },
+    {
+      "catalogId": "exercises-dataset:1265",
+      "base": "cable_one_arm_incline_press"
+    },
+    {
+      "catalogId": "exercises-dataset:2799",
+      "base": "barbell_sitted_alternate_leg_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:0806",
+      "base": "suspended_push_up"
+    },
+    {
+      "catalogId": "exercises-dataset:0807",
+      "base": "suspended_reverse_crunch"
+    },
+    {
+      "catalogId": "exercises-dataset:0476",
+      "base": "hanging_straight_twisting_leg_hip_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:3665",
+      "base": "power_point_plank"
+    },
+    {
+      "catalogId": "exercises-dataset:3301",
+      "base": "frog_planche"
+    }
+  ]
+}
