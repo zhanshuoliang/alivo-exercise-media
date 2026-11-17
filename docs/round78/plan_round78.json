@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:0139",
+    "name": "biceps narrow pull-ups",
+    "base": "biceps_narrow_pull_ups"
+  },
+  {
+    "catalogId": "exercises-dataset:0474",
+    "name": "hanging straight leg hip raise",
+    "base": "hanging_straight_leg_hip_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:2318",
+    "name": "lever shoulder press v. 3",
+    "base": "lever_shoulder_press_v_3"
+  },
+  {
+    "catalogId": "exercises-dataset:3637",
+    "name": "wheel run",
+    "base": "wheel_run"
+  },
+  {
+    "catalogId": "exercises-dataset:0350",
+    "name": "dumbbell lying supine curl",
+    "base": "dumbbell_lying_supine_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0328",
+    "name": "dumbbell incline shoulder raise",
+    "base": "dumbbell_incline_shoulder_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:0398",
+    "name": "dumbbell seated one arm kickback",
+    "base": "dumbbell_seated_one_arm_kickback"
+  },
+  {
+    "catalogId": "exercises-dataset:1380",
+    "name": "dumbbell seated one leg calf raise - hammer grip",
+    "base": "dumbbell_seated_one_leg_calf_raise_hammer_grip"
+  },
+  {
+    "catalogId": "exercises-dataset:1381",
+    "name": "dumbbell seated one leg calf raise - palm up",
+    "base": "dumbbell_seated_one_leg_calf_raise_palm_up"
+  },
+  {
+    "catalogId": "exercises-dataset:1386",
+    "name": "one leg donkey calf raise",
+    "base": "one_leg_donkey_calf_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:1679",
+    "name": "dumbbell seated one arm bicep curl on exercise ball with leg raised",
+    "base": "dumbbell_seated_one_arm_bicep_curl_on_exercise_ball_with_leg_raised"
+  },
+  {
+    "catalogId": "exercises-dataset:0634",
+    "name": "negative crunch",
+    "base": "negative_crunch"
+  },
+  {
+    "catalogId": "exercises-dataset:3156",
+    "name": "bodyweight standing close-grip one arm row",
+    "base": "bodyweight_standing_close_grip_one_arm_row"
+  },
+  {
+    "catalogId": "exercises-dataset:0422",
+    "name": "dumbbell standing one arm curl (over incline bench)",
+    "base": "dumbbell_standing_one_arm_curl_over_incline_bench_v2"
+  },
+  {
+    "catalogId": "exercises-dataset:0377",
+    "name": "dumbbell rear delt row_shoulder",
+    "base": "dumbbell_rear_delt_row_shoulder"
+  }
+]

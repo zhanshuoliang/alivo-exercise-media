@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:0139",
+      "filename": "biceps_narrow_pull_ups_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0474",
+      "filename": "hanging_straight_leg_hip_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2318",
+      "filename": "lever_shoulder_press_v_3_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3637",
+      "filename": "wheel_run_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0350",
+      "filename": "dumbbell_lying_supine_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0328",
+      "filename": "dumbbell_incline_shoulder_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0398",
+      "filename": "dumbbell_seated_one_arm_kickback_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1380",
+      "filename": "dumbbell_seated_one_leg_calf_raise_hammer_grip_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1381",
+      "filename": "dumbbell_seated_one_leg_calf_raise_palm_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1386",
+      "filename": "one_leg_donkey_calf_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1679",
+      "filename": "dumbbell_seated_one_arm_bicep_curl_on_exercise_ball_with_leg_raised_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0634",
+      "filename": "negative_crunch_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3156",
+      "filename": "bodyweight_standing_close_grip_one_arm_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0422",
+      "filename": "dumbbell_standing_one_arm_curl_over_incline_bench_v2_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0377",
+      "filename": "dumbbell_rear_delt_row_shoulder_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:0139",
+      "base": "biceps_narrow_pull_ups"
+    },
+    {
+      "catalogId": "exercises-dataset:0474",
+      "base": "hanging_straight_leg_hip_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:2318",
+      "base": "lever_shoulder_press_v_3"
+    },
+    {
+      "catalogId": "exercises-dataset:3637",
+      "base": "wheel_run"
+    },
+    {
+      "catalogId": "exercises-dataset:0350",
+      "base": "dumbbell_lying_supine_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0328",
+      "base": "dumbbell_incline_shoulder_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:0398",
+      "base": "dumbbell_seated_one_arm_kickback"
+    },
+    {
+      "catalogId": "exercises-dataset:1380",
+      "base": "dumbbell_seated_one_leg_calf_raise_hammer_grip"
+    },
+    {
+      "catalogId": "exercises-dataset:1381",
+      "base": "dumbbell_seated_one_leg_calf_raise_palm_up"
+    },
+    {
+      "catalogId": "exercises-dataset:1386",
+      "base": "one_leg_donkey_calf_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:1679",
+      "base": "dumbbell_seated_one_arm_bicep_curl_on_exercise_ball_with_leg_raised"
+    },
+    {
+      "catalogId": "exercises-dataset:0634",
+      "base": "negative_crunch"
+    },
+    {
+      "catalogId": "exercises-dataset:3156",
+      "base": "bodyweight_standing_close_grip_one_arm_row"
+    },
+    {
+      "catalogId": "exercises-dataset:0422",
+      "base": "dumbbell_standing_one_arm_curl_over_incline_bench_v2"
+    },
+    {
+      "catalogId": "exercises-dataset:0377",
+      "base": "dumbbell_rear_delt_row_shoulder"
+    }
+  ]
+}
