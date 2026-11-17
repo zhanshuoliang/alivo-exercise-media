@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:1757",
+    "name": "dumbbell single leg deadlift",
+    "base": "dumbbell_single_leg_deadlift"
+  },
+  {
+    "catalogId": "exercises-dataset:0436",
+    "name": "dumbbell tate press",
+    "base": "dumbbell_tate_press"
+  },
+  {
+    "catalogId": "exercises-dataset:2143",
+    "name": "dumbbell standing around world",
+    "base": "dumbbell_standing_around_world"
+  },
+  {
+    "catalogId": "exercises-dataset:0863",
+    "name": "dumbbell lying external shoulder rotation",
+    "base": "dumbbell_lying_external_shoulder_rotation"
+  },
+  {
+    "catalogId": "exercises-dataset:2808",
+    "name": "dumbbell sumo pull through",
+    "base": "dumbbell_sumo_pull_through"
+  },
+  {
+    "catalogId": "exercises-dataset:3664",
+    "name": "dumbbell side plank with rear fly",
+    "base": "dumbbell_side_plank_with_rear_fly"
+  },
+  {
+    "catalogId": "exercises-dataset:0006",
+    "name": "alternate heel touchers",
+    "base": "alternate_heel_touchers"
+  },
+  {
+    "catalogId": "exercises-dataset:3769",
+    "name": "curtsey squat",
+    "base": "curtsey_squat"
+  },
+  {
+    "catalogId": "exercises-dataset:3639",
+    "name": "bent knee lying twist",
+    "base": "bent_knee_lying_twist"
+  },
+  {
+    "catalogId": "exercises-dataset:1418",
+    "name": "hug knees to chest",
+    "base": "hug_knees_to_chest"
+  },
+  {
+    "catalogId": "exercises-dataset:0562",
+    "name": "landmine 180",
+    "base": "landmine_180"
+  },
+  {
+    "catalogId": "exercises-dataset:3237",
+    "name": "landmine lateral raise",
+    "base": "landmine_lateral_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:3194",
+    "name": "frankenstein squat",
+    "base": "frankenstein_squat"
+  },
+  {
+    "catalogId": "exercises-dataset:0174",
+    "name": "cable judo flip",
+    "base": "cable_judo_flip"
+  },
+  {
+    "catalogId": "exercises-dataset:0212",
+    "name": "cable seated crunch",
+    "base": "cable_seated_crunch"
+  }
+]

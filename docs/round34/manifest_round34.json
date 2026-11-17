@@ -1,0 +1,79 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:1757",
+      "filename": "dumbbell_single_leg_deadlift_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0436",
+      "filename": "dumbbell_tate_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2143",
+      "filename": "dumbbell_standing_around_world_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0863",
+      "filename": "dumbbell_lying_external_shoulder_rotation_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2808",
+      "filename": "dumbbell_sumo_pull_through_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3664",
+      "filename": "dumbbell_side_plank_with_rear_fly_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0006",
+      "filename": "alternate_heel_touchers_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3769",
+      "filename": "curtsey_squat_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3639",
+      "filename": "bent_knee_lying_twist_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1418",
+      "filename": "hug_knees_to_chest_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0562",
+      "filename": "landmine_180_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3237",
+      "filename": "landmine_lateral_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3194",
+      "filename": "frankenstein_squat_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0174",
+      "filename": "cable_judo_flip_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0212",
+      "filename": "cable_seated_crunch_male.png",
+      "folder": "new"
+    }
+  ]
+}
