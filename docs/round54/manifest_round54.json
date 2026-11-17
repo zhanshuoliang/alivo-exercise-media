@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:0363",
+      "filename": "dumbbell_one_arm_upright_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0361",
+      "filename": "dumbbell_one_arm_shoulder_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0423",
+      "filename": "dumbbell_standing_one_arm_extension_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0331",
+      "filename": "dumbbell_incline_twisted_flyes_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0660",
+      "filename": "push_up_close_grip_off_dumbbell_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1635",
+      "filename": "cable_one_arm_reverse_preacher_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0205",
+      "filename": "cable_rear_pulldown_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0210",
+      "filename": "cable_reverse_wrist_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1456",
+      "filename": "barbell_standing_close_grip_military_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0112",
+      "filename": "barbell_standing_twist_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1718",
+      "filename": "barbell_seated_close_grip_behind_neck_triceps_extension_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0805",
+      "filename": "suspended_abdominal_fallout_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1422",
+      "filename": "pelvic_tilt_into_bridge_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0627",
+      "filename": "mixed_grip_chin_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0720",
+      "filename": "side_to_side_chin_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:0363",
+      "base": "dumbbell_one_arm_upright_row"
+    },
+    {
+      "catalogId": "exercises-dataset:0361",
+      "base": "dumbbell_one_arm_shoulder_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0423",
+      "base": "dumbbell_standing_one_arm_extension"
+    },
+    {
+      "catalogId": "exercises-dataset:0331",
+      "base": "dumbbell_incline_twisted_flyes"
+    },
+    {
+      "catalogId": "exercises-dataset:0660",
+      "base": "push_up_close_grip_off_dumbbell"
+    },
+    {
+      "catalogId": "exercises-dataset:1635",
+      "base": "cable_one_arm_reverse_preacher_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0205",
+      "base": "cable_rear_pulldown"
+    },
+    {
+      "catalogId": "exercises-dataset:0210",
+      "base": "cable_reverse_wrist_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:1456",
+      "base": "barbell_standing_close_grip_military_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0112",
+      "base": "barbell_standing_twist"
+    },
+    {
+      "catalogId": "exercises-dataset:1718",
+      "base": "barbell_seated_close_grip_behind_neck_triceps_extension"
+    },
+    {
+      "catalogId": "exercises-dataset:0805",
+      "base": "suspended_abdominal_fallout"
+    },
+    {
+      "catalogId": "exercises-dataset:1422",
+      "base": "pelvic_tilt_into_bridge"
+    },
+    {
+      "catalogId": "exercises-dataset:0627",
+      "base": "mixed_grip_chin_up"
+    },
+    {
+      "catalogId": "exercises-dataset:0720",
+      "base": "side_to_side_chin"
+    }
+  ]
+}

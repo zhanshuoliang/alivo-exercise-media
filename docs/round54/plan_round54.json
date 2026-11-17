@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:0363",
+    "name": "dumbbell one arm upright row",
+    "base": "dumbbell_one_arm_upright_row"
+  },
+  {
+    "catalogId": "exercises-dataset:0361",
+    "name": "dumbbell one arm shoulder press",
+    "base": "dumbbell_one_arm_shoulder_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0423",
+    "name": "dumbbell standing one arm extension",
+    "base": "dumbbell_standing_one_arm_extension"
+  },
+  {
+    "catalogId": "exercises-dataset:0331",
+    "name": "dumbbell incline twisted flyes",
+    "base": "dumbbell_incline_twisted_flyes"
+  },
+  {
+    "catalogId": "exercises-dataset:0660",
+    "name": "push-up close-grip off dumbbell",
+    "base": "push_up_close_grip_off_dumbbell"
+  },
+  {
+    "catalogId": "exercises-dataset:1635",
+    "name": "cable one arm reverse preacher curl",
+    "base": "cable_one_arm_reverse_preacher_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0205",
+    "name": "cable rear pulldown",
+    "base": "cable_rear_pulldown"
+  },
+  {
+    "catalogId": "exercises-dataset:0210",
+    "name": "cable reverse wrist curl",
+    "base": "cable_reverse_wrist_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:1456",
+    "name": "barbell standing close grip military press",
+    "base": "barbell_standing_close_grip_military_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0112",
+    "name": "barbell standing twist",
+    "base": "barbell_standing_twist"
+  },
+  {
+    "catalogId": "exercises-dataset:1718",
+    "name": "barbell seated close grip behind neck triceps extension",
+    "base": "barbell_seated_close_grip_behind_neck_triceps_extension"
+  },
+  {
+    "catalogId": "exercises-dataset:0805",
+    "name": "suspended abdominal fallout",
+    "base": "suspended_abdominal_fallout"
+  },
+  {
+    "catalogId": "exercises-dataset:1422",
+    "name": "pelvic tilt into bridge",
+    "base": "pelvic_tilt_into_bridge"
+  },
+  {
+    "catalogId": "exercises-dataset:0627",
+    "name": "mixed grip chin-up",
+    "base": "mixed_grip_chin_up"
+  },
+  {
+    "catalogId": "exercises-dataset:0720",
+    "name": "side-to-side chin",
+    "base": "side_to_side_chin"
+  }
+]
