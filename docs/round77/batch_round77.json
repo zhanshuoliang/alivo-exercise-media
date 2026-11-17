@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:0355",
+      "filename": "dumbbell_one_arm_lateral_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1668",
+      "filename": "dumbbell_one_arm_seated_bicep_curl_on_exercise_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0390",
+      "filename": "dumbbell_seated_biceps_curl_on_stability_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0391",
+      "filename": "dumbbell_seated_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0393",
+      "filename": "dumbbell_seated_inner_biceps_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0415",
+      "filename": "dumbbell_standing_alternate_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1740",
+      "filename": "dumbbell_standing_bent_over_one_arm_triceps_extension_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2321",
+      "filename": "dumbbell_standing_inner_biceps_curl_v_2_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0221",
+      "filename": "cable_side_bend_crunch_bosu_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0262",
+      "filename": "cross_body_crunch_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3119",
+      "filename": "potty_squat_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0684",
+      "filename": "run_equipment_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1766",
+      "filename": "self_assisted_inverse_leg_curl_v2_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1737",
+      "filename": "dumbbell_seated_bent_over_triceps_extension_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0394",
+      "filename": "dumbbell_seated_kickback_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:0355",
+      "base": "dumbbell_one_arm_lateral_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:1668",
+      "base": "dumbbell_one_arm_seated_bicep_curl_on_exercise_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:0390",
+      "base": "dumbbell_seated_biceps_curl_on_stability_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:0391",
+      "base": "dumbbell_seated_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0393",
+      "base": "dumbbell_seated_inner_biceps_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0415",
+      "base": "dumbbell_standing_alternate_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:1740",
+      "base": "dumbbell_standing_bent_over_one_arm_triceps_extension"
+    },
+    {
+      "catalogId": "exercises-dataset:2321",
+      "base": "dumbbell_standing_inner_biceps_curl_v_2"
+    },
+    {
+      "catalogId": "exercises-dataset:0221",
+      "base": "cable_side_bend_crunch_bosu_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:0262",
+      "base": "cross_body_crunch"
+    },
+    {
+      "catalogId": "exercises-dataset:3119",
+      "base": "potty_squat"
+    },
+    {
+      "catalogId": "exercises-dataset:0684",
+      "base": "run_equipment"
+    },
+    {
+      "catalogId": "exercises-dataset:1766",
+      "base": "self_assisted_inverse_leg_curl_v2"
+    },
+    {
+      "catalogId": "exercises-dataset:1737",
+      "base": "dumbbell_seated_bent_over_triceps_extension"
+    },
+    {
+      "catalogId": "exercises-dataset:0394",
+      "base": "dumbbell_seated_kickback"
+    }
+  ]
+}

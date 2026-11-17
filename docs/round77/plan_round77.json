@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:0355",
+    "name": "dumbbell one arm lateral raise",
+    "base": "dumbbell_one_arm_lateral_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:1668",
+    "name": "dumbbell one arm seated bicep curl on exercise ball",
+    "base": "dumbbell_one_arm_seated_bicep_curl_on_exercise_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:0390",
+    "name": "dumbbell seated biceps curl (on stability ball)",
+    "base": "dumbbell_seated_biceps_curl_on_stability_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:0391",
+    "name": "dumbbell seated curl",
+    "base": "dumbbell_seated_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0393",
+    "name": "dumbbell seated inner biceps curl",
+    "base": "dumbbell_seated_inner_biceps_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0415",
+    "name": "dumbbell standing alternate raise",
+    "base": "dumbbell_standing_alternate_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:1740",
+    "name": "dumbbell standing bent over one arm triceps extension",
+    "base": "dumbbell_standing_bent_over_one_arm_triceps_extension"
+  },
+  {
+    "catalogId": "exercises-dataset:2321",
+    "name": "dumbbell standing inner biceps curl v. 2",
+    "base": "dumbbell_standing_inner_biceps_curl_v_2"
+  },
+  {
+    "catalogId": "exercises-dataset:0221",
+    "name": "cable side bend crunch (bosu ball)",
+    "base": "cable_side_bend_crunch_bosu_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:0262",
+    "name": "cross body crunch",
+    "base": "cross_body_crunch"
+  },
+  {
+    "catalogId": "exercises-dataset:3119",
+    "name": "potty squat",
+    "base": "potty_squat"
+  },
+  {
+    "catalogId": "exercises-dataset:0684",
+    "name": "run (equipment)",
+    "base": "run_equipment"
+  },
+  {
+    "catalogId": "exercises-dataset:1766",
+    "name": "self assisted inverse leg curl",
+    "base": "self_assisted_inverse_leg_curl_v2"
+  },
+  {
+    "catalogId": "exercises-dataset:1737",
+    "name": "dumbbell seated bent over triceps extension",
+    "base": "dumbbell_seated_bent_over_triceps_extension"
+  },
+  {
+    "catalogId": "exercises-dataset:0394",
+    "name": "dumbbell seated kickback",
+    "base": "dumbbell_seated_kickback"
+  }
+]
