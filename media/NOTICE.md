@@ -1905,3 +1905,44 @@ Kai（男）/ Liv（女）双角色带标轨批次（开源轨本轮暂停，后
 - `elbow_lift_reverse_push_up_female.png` — `exercises-dataset:1772`; SHA-256 `3cd328540f336ce2aef7c407355d7776e92d0b52a49786564af08f68ee0aa059`.
 - `triceps_dips_floor_female.png` — `exercises-dataset:0815`; SHA-256 `122fe429e91d7a928b287c8d48f11b84d57756c335e7fbff11b9c40243457ea7`.
 - `side_push_up_female.png` — `exercises-dataset:0717`; SHA-256 `e202cfa407e1d9ace730d2863f2ca3ab1f4cff22ea69ebc61f4fbd238c6b3597`.
+
+
+## Round 51 — branded-only edition (2026-11-17)
+
+Kai（男）/ Liv（女）双角色带标轨批次（开源轨本轮暂停，后续独立补生成）。男版已绑定入 App 目录数据（exercise_metadata.json）；女版为同动作的性别变体资产，仅入媒体库备用，未绑定。
+
+### Male edition（已绑定 App）
+
+- `dumbbell_biceps_curl_reverse_male.png` — `exercises-dataset:1654`; SHA-256 `cd1f1c3aa6ef7f60779bd06f450ba9d52a9d0eba7e60a52e2b8313dcc2b36242`.
+- `dumbbell_close_grip_press_male.png` — `exercises-dataset:0296`; SHA-256 `2c4d5244c31684323eeb6695a21f4fdd575a09e36aefda76fefbdfcd4b7df5ba`.
+- `dumbbell_lying_hammer_press_male.png` — `exercises-dataset:0340`; SHA-256 `95043d979dd20a6e1230b9fd02ef3d25027e79530794bab8ba5a73dda865f988`.
+- `dumbbell_lying_femoral_male.png` — `exercises-dataset:0339`; SHA-256 `3464905b9a0fb9c45e40ece1a4afc18dfbcda4395c23d2e5ccd35bd0268abc5a`.
+- `cable_lying_close_grip_curl_male.png` — `exercises-dataset:0182`; SHA-256 `9ceb82ed78f3f4c2ad7defc6d42813f3d2d0bd985d9d4e453a6ffaa33e99464c`.
+- `cable_reverse_grip_pushdown_male.png` — `exercises-dataset:0207`; SHA-256 `38e795833be5abf9084996ac69be0dbf5aa02b130ab02dd95e501ed13a12d092`.
+- `cable_one_arm_pulldown_male.png` — `exercises-dataset:3563`; SHA-256 `c12b20735c1b78e692671729819e3c2736e3f3caa1053bfaca5a7449a1313d78`.
+- `barbell_reverse_grip_incline_bench_press_male.png` — `exercises-dataset:1257`; SHA-256 `86788a4ecc8847ded3e46a4638458e2c2d3b30c240cecdf863365a0b4c09b4fe`.
+- `barbell_reverse_grip_skullcrusher_male.png` — `exercises-dataset:1721`; SHA-256 `b470004c438a1bd1d81f32b25454309dca28abab40238d7df5d0c32b8abf8c90`.
+- `flag_male.png` — `exercises-dataset:3303`; SHA-256 `7367cdef59b1d85f67a55f3ad4d9bb992e919640e03203e5aa40d470fbbad688`.
+- `one_arm_chin_up_male.png` — `exercises-dataset:0638`; SHA-256 `fa465786b4b411e6f7009604cdd009cbfced23ec07d48e7dd462478a71e6549d`.
+- `single_arm_push_up_male.png` — `exercises-dataset:0725`; SHA-256 `cce37d85de9c71da960e3be7c3c3f8f986db6413fbc6c2d5a79c5dd34164f27f`.
+- `impossible_dips_male.png` — `exercises-dataset:3289`; SHA-256 `0ced41de76b72aa57876849a057194d51a31b975f5387f6fd2c77f63bbc6143b`.
+- `v_sit_on_floor_male.png` — `exercises-dataset:3420`; SHA-256 `f5a2e57ad233883afdf6d4784576ab32c88033a93cc58c3fffb976339a058e1b`.
+- `gironda_sternum_chin_male.png` — `exercises-dataset:0466`; SHA-256 `50d0cacf569108d15b81e981d853ef7c8017d0102822e232c67f9a64112501cf`.
+
+### Female edition（性别变体，未绑定）
+
+- `dumbbell_biceps_curl_reverse_female.png` — `exercises-dataset:1654`; SHA-256 `8bfc29dc684e393bea9fb7490b79f7c5960c3791bec395c8f3504317805902eb`.
+- `dumbbell_close_grip_press_female.png` — `exercises-dataset:0296`; SHA-256 `e15c026b636f22a572e1adbf62b9cfbb35d38bf8010c2b9c160faf726b63067a`.
+- `dumbbell_lying_hammer_press_female.png` — `exercises-dataset:0340`; SHA-256 `f945953a9ffe6e26a26af0ba3f67383ea4951cdf78e4d0d9de4b15397cafcbdc`.
+- `dumbbell_lying_femoral_female.png` — `exercises-dataset:0339`; SHA-256 `9557bbecc7cb96533c54fd3f8cbe5ffd53d631b3b59583beb3c2b2b34c152fb8`.
+- `cable_lying_close_grip_curl_female.png` — `exercises-dataset:0182`; SHA-256 `41bf1f5c3871a83031394e3b40f481f62b88b3bfa44809799e93c676ba033f42`.
+- `cable_reverse_grip_pushdown_female.png` — `exercises-dataset:0207`; SHA-256 `852bdf9960729fd534f5bea2a8505ca6143d122f3fcd98c4e7d013caa16fe415`.
+- `cable_one_arm_pulldown_female.png` — `exercises-dataset:3563`; SHA-256 `4c88c49e07b28d826aaa773aadd714034875559d37a56b4e519ab3e1a7048ff5`.
+- `barbell_reverse_grip_incline_bench_press_female.png` — `exercises-dataset:1257`; SHA-256 `3e68ebbd712fe4d339b6e02d0294e9164906776d2880e27fc97aa19ad0d49058`.
+- `barbell_reverse_grip_skullcrusher_female.png` — `exercises-dataset:1721`; SHA-256 `c4dca3f9edca3daba819f56d9df0c24225d834658899d6245a64efb9545bf950`.
+- `flag_female.png` — `exercises-dataset:3303`; SHA-256 `68059f58bb1ff084d35e7ff539a6cb041083fd30552f366a04fa67226ad7344e`.
+- `one_arm_chin_up_female.png` — `exercises-dataset:0638`; SHA-256 `9d12b73a46713bcb9de41af6fb3cfb9d730be852b761834d9d1c451893f99f6e`.
+- `single_arm_push_up_female.png` — `exercises-dataset:0725`; SHA-256 `db83a51eb08bc1ccf94bc7474944c5eb9d39901509f00081a899ea6d9a7f9021`.
+- `impossible_dips_female.png` — `exercises-dataset:3289`; SHA-256 `875ca759a6e9efa8e4eef1d948745545d801e1187e6d15054ed7d6d0fadd835e`.
+- `v_sit_on_floor_female.png` — `exercises-dataset:3420`; SHA-256 `1a2e01839b8fc4e91c22b25b22e26e78e71023191bec251820928a8c0994e920`.
+- `gironda_sternum_chin_female.png` — `exercises-dataset:0466`; SHA-256 `dbd6dec2ce231e379c9b4bb4c3c175db24a8bca574cfc97881b74e31a55605fa`.

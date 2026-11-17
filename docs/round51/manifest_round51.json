@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:1654",
+      "filename": "dumbbell_biceps_curl_reverse_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0296",
+      "filename": "dumbbell_close_grip_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0340",
+      "filename": "dumbbell_lying_hammer_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0339",
+      "filename": "dumbbell_lying_femoral_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0182",
+      "filename": "cable_lying_close_grip_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0207",
+      "filename": "cable_reverse_grip_pushdown_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3563",
+      "filename": "cable_one_arm_pulldown_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1257",
+      "filename": "barbell_reverse_grip_incline_bench_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1721",
+      "filename": "barbell_reverse_grip_skullcrusher_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3303",
+      "filename": "flag_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0638",
+      "filename": "one_arm_chin_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0725",
+      "filename": "single_arm_push_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3289",
+      "filename": "impossible_dips_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3420",
+      "filename": "v_sit_on_floor_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0466",
+      "filename": "gironda_sternum_chin_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:1654",
+      "base": "dumbbell_biceps_curl_reverse"
+    },
+    {
+      "catalogId": "exercises-dataset:0296",
+      "base": "dumbbell_close_grip_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0340",
+      "base": "dumbbell_lying_hammer_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0339",
+      "base": "dumbbell_lying_femoral"
+    },
+    {
+      "catalogId": "exercises-dataset:0182",
+      "base": "cable_lying_close_grip_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0207",
+      "base": "cable_reverse_grip_pushdown"
+    },
+    {
+      "catalogId": "exercises-dataset:3563",
+      "base": "cable_one_arm_pulldown"
+    },
+    {
+      "catalogId": "exercises-dataset:1257",
+      "base": "barbell_reverse_grip_incline_bench_press"
+    },
+    {
+      "catalogId": "exercises-dataset:1721",
+      "base": "barbell_reverse_grip_skullcrusher"
+    },
+    {
+      "catalogId": "exercises-dataset:3303",
+      "base": "flag"
+    },
+    {
+      "catalogId": "exercises-dataset:0638",
+      "base": "one_arm_chin_up"
+    },
+    {
+      "catalogId": "exercises-dataset:0725",
+      "base": "single_arm_push_up"
+    },
+    {
+      "catalogId": "exercises-dataset:3289",
+      "base": "impossible_dips"
+    },
+    {
+      "catalogId": "exercises-dataset:3420",
+      "base": "v_sit_on_floor"
+    },
+    {
+      "catalogId": "exercises-dataset:0466",
+      "base": "gironda_sternum_chin"
+    }
+  ]
+}

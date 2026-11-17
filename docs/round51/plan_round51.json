@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:1654",
+    "name": "dumbbell biceps curl reverse",
+    "base": "dumbbell_biceps_curl_reverse"
+  },
+  {
+    "catalogId": "exercises-dataset:0296",
+    "name": "dumbbell close-grip press",
+    "base": "dumbbell_close_grip_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0340",
+    "name": "dumbbell lying hammer press",
+    "base": "dumbbell_lying_hammer_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0339",
+    "name": "dumbbell lying femoral",
+    "base": "dumbbell_lying_femoral"
+  },
+  {
+    "catalogId": "exercises-dataset:0182",
+    "name": "cable lying close-grip curl",
+    "base": "cable_lying_close_grip_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0207",
+    "name": "cable reverse-grip pushdown",
+    "base": "cable_reverse_grip_pushdown"
+  },
+  {
+    "catalogId": "exercises-dataset:3563",
+    "name": "cable one arm pulldown",
+    "base": "cable_one_arm_pulldown"
+  },
+  {
+    "catalogId": "exercises-dataset:1257",
+    "name": "barbell reverse grip incline bench press",
+    "base": "barbell_reverse_grip_incline_bench_press"
+  },
+  {
+    "catalogId": "exercises-dataset:1721",
+    "name": "barbell reverse grip skullcrusher",
+    "base": "barbell_reverse_grip_skullcrusher"
+  },
+  {
+    "catalogId": "exercises-dataset:3303",
+    "name": "flag",
+    "base": "flag"
+  },
+  {
+    "catalogId": "exercises-dataset:0638",
+    "name": "one arm chin-up",
+    "base": "one_arm_chin_up"
+  },
+  {
+    "catalogId": "exercises-dataset:0725",
+    "name": "single arm push-up",
+    "base": "single_arm_push_up"
+  },
+  {
+    "catalogId": "exercises-dataset:3289",
+    "name": "impossible dips",
+    "base": "impossible_dips"
+  },
+  {
+    "catalogId": "exercises-dataset:3420",
+    "name": "v-sit on floor",
+    "base": "v_sit_on_floor"
+  },
+  {
+    "catalogId": "exercises-dataset:0466",
+    "name": "gironda sternum chin",
+    "base": "gironda_sternum_chin"
+  }
+]
