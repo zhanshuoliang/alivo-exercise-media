@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:3295",
+    "name": "front lever reps",
+    "base": "front_lever_reps"
+  },
+  {
+    "catalogId": "exercises-dataset:3300",
+    "name": "lean planche",
+    "base": "lean_planche"
+  },
+  {
+    "catalogId": "exercises-dataset:3298",
+    "name": "straddle planche",
+    "base": "straddle_planche"
+  },
+  {
+    "catalogId": "exercises-dataset:3314",
+    "name": "straddle maltese",
+    "base": "straddle_maltese"
+  },
+  {
+    "catalogId": "exercises-dataset:1429",
+    "name": "wide grip pull-up",
+    "base": "wide_grip_pull_up"
+  },
+  {
+    "catalogId": "exercises-dataset:1686",
+    "name": "squat to overhead reach with twist",
+    "base": "squat_to_overhead_reach_with_twist"
+  },
+  {
+    "catalogId": "exercises-dataset:0372",
+    "name": "dumbbell preacher curl",
+    "base": "dumbbell_preacher_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0353",
+    "name": "dumbbell one arm concentration curl on stability ball",
+    "base": "dumbbell_one_arm_concentration_curl_on_stability_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:1285",
+    "name": "dumbbell one arm bench fly",
+    "base": "dumbbell_one_arm_bench_fly"
+  },
+  {
+    "catalogId": "exercises-dataset:3560",
+    "name": "dumbbell standing alternate hammer curl and press",
+    "base": "dumbbell_standing_alternate_hammer_curl_and_press"
+  },
+  {
+    "catalogId": "exercises-dataset:3215",
+    "name": "hands reversed clasped circular toe touch",
+    "base": "hands_reversed_clasped_circular_toe_touch"
+  },
+  {
+    "catalogId": "exercises-dataset:0661",
+    "name": "push-up inside leg kick",
+    "base": "push_up_inside_leg_kick"
+  },
+  {
+    "catalogId": "exercises-dataset:0419",
+    "name": "dumbbell standing front raise above head",
+    "base": "dumbbell_standing_front_raise_above_head"
+  },
+  {
+    "catalogId": "exercises-dataset:0267",
+    "name": "crunch hands overhead",
+    "base": "crunch_hands_overhead"
+  },
+  {
+    "catalogId": "exercises-dataset:1306",
+    "name": "plyo push up",
+    "base": "plyo_push_up"
+  }
+]
