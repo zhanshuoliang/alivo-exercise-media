@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:0349",
+    "name": "dumbbell lying supination",
+    "base": "dumbbell_lying_supination"
+  },
+  {
+    "catalogId": "exercises-dataset:2705",
+    "name": "dumbbell lying pronation on floor",
+    "base": "dumbbell_lying_pronation_on_floor"
+  },
+  {
+    "catalogId": "exercises-dataset:1415",
+    "name": "dumbbell one arm seated neutral wrist curl",
+    "base": "dumbbell_one_arm_seated_neutral_wrist_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:1670",
+    "name": "dumbbell one arm standing curl",
+    "base": "dumbbell_one_arm_standing_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:2805",
+    "name": "dumbbell single leg deadlift with stepbox support",
+    "base": "dumbbell_single_leg_deadlift_with_stepbox_support"
+  },
+  {
+    "catalogId": "exercises-dataset:0403",
+    "name": "dumbbell seated revers grip concentration curl",
+    "base": "dumbbell_seated_revers_grip_concentration_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:1267",
+    "name": "cable one arm press on exercise ball",
+    "base": "cable_one_arm_press_on_exercise_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:1268",
+    "name": "cable press on exercise ball",
+    "base": "cable_press_on_exercise_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:0110",
+    "name": "barbell standing reverse grip curl",
+    "base": "barbell_standing_reverse_grip_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0467",
+    "name": "gorilla chin",
+    "base": "gorilla_chin"
+  },
+  {
+    "catalogId": "exercises-dataset:1774",
+    "name": "side bridge hip abduction",
+    "base": "side_bridge_hip_abduction"
+  },
+  {
+    "catalogId": "exercises-dataset:0642",
+    "name": "outside leg kick push-up",
+    "base": "outside_leg_kick_push_up"
+  },
+  {
+    "catalogId": "exercises-dataset:1421",
+    "name": "modified push up to lower arms",
+    "base": "modified_push_up_to_lower_arms"
+  },
+  {
+    "catalogId": "exercises-dataset:1687",
+    "name": "posterior step to overhead reach",
+    "base": "posterior_step_to_overhead_reach"
+  },
+  {
+    "catalogId": "exercises-dataset:3552",
+    "name": "quick feet v. 2",
+    "base": "quick_feet_v_2"
+  }
+]

@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:0349",
+      "filename": "dumbbell_lying_supination_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2705",
+      "filename": "dumbbell_lying_pronation_on_floor_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1415",
+      "filename": "dumbbell_one_arm_seated_neutral_wrist_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1670",
+      "filename": "dumbbell_one_arm_standing_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2805",
+      "filename": "dumbbell_single_leg_deadlift_with_stepbox_support_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0403",
+      "filename": "dumbbell_seated_revers_grip_concentration_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1267",
+      "filename": "cable_one_arm_press_on_exercise_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1268",
+      "filename": "cable_press_on_exercise_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0110",
+      "filename": "barbell_standing_reverse_grip_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0467",
+      "filename": "gorilla_chin_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1774",
+      "filename": "side_bridge_hip_abduction_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0642",
+      "filename": "outside_leg_kick_push_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1421",
+      "filename": "modified_push_up_to_lower_arms_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1687",
+      "filename": "posterior_step_to_overhead_reach_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3552",
+      "filename": "quick_feet_v_2_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:0349",
+      "base": "dumbbell_lying_supination"
+    },
+    {
+      "catalogId": "exercises-dataset:2705",
+      "base": "dumbbell_lying_pronation_on_floor"
+    },
+    {
+      "catalogId": "exercises-dataset:1415",
+      "base": "dumbbell_one_arm_seated_neutral_wrist_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:1670",
+      "base": "dumbbell_one_arm_standing_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:2805",
+      "base": "dumbbell_single_leg_deadlift_with_stepbox_support"
+    },
+    {
+      "catalogId": "exercises-dataset:0403",
+      "base": "dumbbell_seated_revers_grip_concentration_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:1267",
+      "base": "cable_one_arm_press_on_exercise_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:1268",
+      "base": "cable_press_on_exercise_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:0110",
+      "base": "barbell_standing_reverse_grip_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0467",
+      "base": "gorilla_chin"
+    },
+    {
+      "catalogId": "exercises-dataset:1774",
+      "base": "side_bridge_hip_abduction"
+    },
+    {
+      "catalogId": "exercises-dataset:0642",
+      "base": "outside_leg_kick_push_up"
+    },
+    {
+      "catalogId": "exercises-dataset:1421",
+      "base": "modified_push_up_to_lower_arms"
+    },
+    {
+      "catalogId": "exercises-dataset:1687",
+      "base": "posterior_step_to_overhead_reach"
+    },
+    {
+      "catalogId": "exercises-dataset:3552",
+      "base": "quick_feet_v_2"
+    }
+  ]
+}
