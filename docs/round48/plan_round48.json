@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:1647",
+    "name": "dumbbell alternate preacher curl",
+    "base": "dumbbell_alternate_preacher_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0337",
+    "name": "dumbbell lying extension (across face)",
+    "base": "dumbbell_lying_extension_across_face"
+  },
+  {
+    "catalogId": "exercises-dataset:0371",
+    "name": "dumbbell plyo squat",
+    "base": "dumbbell_plyo_squat"
+  },
+  {
+    "catalogId": "exercises-dataset:1329",
+    "name": "dumbbell palm rotational bent over row",
+    "base": "dumbbell_palm_rotational_bent_over_row"
+  },
+  {
+    "catalogId": "exercises-dataset:0373",
+    "name": "dumbbell pronate-grip triceps extension",
+    "base": "dumbbell_pronate_grip_triceps_extension"
+  },
+  {
+    "catalogId": "exercises-dataset:1375",
+    "name": "cable standing calf raise",
+    "base": "cable_standing_calf_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:1376",
+    "name": "cable standing one leg calf raise",
+    "base": "cable_standing_one_leg_calf_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:0236",
+    "name": "cable standing twist row (v-bar)",
+    "base": "cable_standing_twist_row_v_bar"
+  },
+  {
+    "catalogId": "exercises-dataset:0026",
+    "name": "barbell bench squat",
+    "base": "barbell_bench_squat"
+  },
+  {
+    "catalogId": "exercises-dataset:0086",
+    "name": "barbell seated behind head military press",
+    "base": "barbell_seated_behind_head_military_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0115",
+    "name": "barbell stiff leg good morning",
+    "base": "barbell_stiff_leg_good_morning"
+  },
+  {
+    "catalogId": "exercises-dataset:1688",
+    "name": "lunge with twist",
+    "base": "lunge_with_twist"
+  },
+  {
+    "catalogId": "exercises-dataset:1685",
+    "name": "squat to overhead reach",
+    "base": "squat_to_overhead_reach"
+  },
+  {
+    "catalogId": "exercises-dataset:1689",
+    "name": "push and pull bodyweight",
+    "base": "push_and_pull_bodyweight"
+  },
+  {
+    "catalogId": "exercises-dataset:3021",
+    "name": "scapula push-up",
+    "base": "scapula_push_up"
+  }
+]

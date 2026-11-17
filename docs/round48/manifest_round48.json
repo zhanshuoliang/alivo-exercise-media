@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:1647",
+      "filename": "dumbbell_alternate_preacher_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0337",
+      "filename": "dumbbell_lying_extension_across_face_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0371",
+      "filename": "dumbbell_plyo_squat_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1329",
+      "filename": "dumbbell_palm_rotational_bent_over_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0373",
+      "filename": "dumbbell_pronate_grip_triceps_extension_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1375",
+      "filename": "cable_standing_calf_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1376",
+      "filename": "cable_standing_one_leg_calf_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0236",
+      "filename": "cable_standing_twist_row_v_bar_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0026",
+      "filename": "barbell_bench_squat_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0086",
+      "filename": "barbell_seated_behind_head_military_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0115",
+      "filename": "barbell_stiff_leg_good_morning_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1688",
+      "filename": "lunge_with_twist_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1685",
+      "filename": "squat_to_overhead_reach_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1689",
+      "filename": "push_and_pull_bodyweight_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3021",
+      "filename": "scapula_push_up_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:1647",
+      "base": "dumbbell_alternate_preacher_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0337",
+      "base": "dumbbell_lying_extension_across_face"
+    },
+    {
+      "catalogId": "exercises-dataset:0371",
+      "base": "dumbbell_plyo_squat"
+    },
+    {
+      "catalogId": "exercises-dataset:1329",
+      "base": "dumbbell_palm_rotational_bent_over_row"
+    },
+    {
+      "catalogId": "exercises-dataset:0373",
+      "base": "dumbbell_pronate_grip_triceps_extension"
+    },
+    {
+      "catalogId": "exercises-dataset:1375",
+      "base": "cable_standing_calf_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:1376",
+      "base": "cable_standing_one_leg_calf_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:0236",
+      "base": "cable_standing_twist_row_v_bar"
+    },
+    {
+      "catalogId": "exercises-dataset:0026",
+      "base": "barbell_bench_squat"
+    },
+    {
+      "catalogId": "exercises-dataset:0086",
+      "base": "barbell_seated_behind_head_military_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0115",
+      "base": "barbell_stiff_leg_good_morning"
+    },
+    {
+      "catalogId": "exercises-dataset:1688",
+      "base": "lunge_with_twist"
+    },
+    {
+      "catalogId": "exercises-dataset:1685",
+      "base": "squat_to_overhead_reach"
+    },
+    {
+      "catalogId": "exercises-dataset:1689",
+      "base": "push_and_pull_bodyweight"
+    },
+    {
+      "catalogId": "exercises-dataset:3021",
+      "base": "scapula_push_up"
+    }
+  ]
+}
