@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:0984",
+    "name": "band lying hip internal rotation",
+    "base": "band_lying_hip_internal_rotation"
+  },
+  {
+    "catalogId": "exercises-dataset:0987",
+    "name": "band one arm single leg split squat",
+    "base": "band_one_arm_single_leg_split_squat"
+  },
+  {
+    "catalogId": "exercises-dataset:0994",
+    "name": "band reverse wrist curl",
+    "base": "band_reverse_wrist_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0999",
+    "name": "band single leg calf raise",
+    "base": "band_single_leg_calf_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:1011",
+    "name": "band seated twist",
+    "base": "band_seated_twist"
+  },
+  {
+    "catalogId": "exercises-dataset:0015",
+    "name": "assisted parallel close grip pull-up",
+    "base": "assisted_parallel_close_grip_pull_up"
+  },
+  {
+    "catalogId": "exercises-dataset:0019",
+    "name": "assisted triceps dip (kneeling)",
+    "base": "assisted_triceps_dip_kneeling"
+  },
+  {
+    "catalogId": "exercises-dataset:1479",
+    "name": "lever incline chest press v. 2",
+    "base": "lever_incline_chest_press_v_2"
+  },
+  {
+    "catalogId": "exercises-dataset:3200",
+    "name": "lever bent-over row with v-bar",
+    "base": "lever_bent_over_row_with_v_bar"
+  },
+  {
+    "catalogId": "exercises-dataset:0582",
+    "name": "lever kneeling leg curl",
+    "base": "lever_kneeling_leg_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0007",
+    "name": "alternate lateral pulldown",
+    "base": "alternate_lateral_pulldown"
+  },
+  {
+    "catalogId": "exercises-dataset:0151",
+    "name": "cable bench press",
+    "base": "cable_bench_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0167",
+    "name": "cable high row (kneeling)",
+    "base": "cable_high_row_kneeling"
+  },
+  {
+    "catalogId": "exercises-dataset:1632",
+    "name": "cable drag curl",
+    "base": "cable_drag_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0162",
+    "name": "cable front raise",
+    "base": "cable_front_raise"
+  }
+]

@@ -1,0 +1,79 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:0984",
+      "filename": "band_lying_hip_internal_rotation_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0987",
+      "filename": "band_one_arm_single_leg_split_squat_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0994",
+      "filename": "band_reverse_wrist_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0999",
+      "filename": "band_single_leg_calf_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1011",
+      "filename": "band_seated_twist_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0015",
+      "filename": "assisted_parallel_close_grip_pull_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0019",
+      "filename": "assisted_triceps_dip_kneeling_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1479",
+      "filename": "lever_incline_chest_press_v_2_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3200",
+      "filename": "lever_bent_over_row_with_v_bar_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0582",
+      "filename": "lever_kneeling_leg_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0007",
+      "filename": "alternate_lateral_pulldown_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0151",
+      "filename": "cable_bench_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0167",
+      "filename": "cable_high_row_kneeling_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1632",
+      "filename": "cable_drag_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0162",
+      "filename": "cable_front_raise_male.png",
+      "folder": "new"
+    }
+  ]
+}
