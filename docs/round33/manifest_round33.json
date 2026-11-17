@@ -1,0 +1,79 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:0158",
+      "filename": "cable_decline_fly_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0169",
+      "filename": "cable_incline_bench_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1318",
+      "filename": "cable_incline_bench_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0168",
+      "filename": "cable_hip_adduction_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0152",
+      "filename": "cable_concentration_extension_on_knee_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2285",
+      "filename": "lever_pullover_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0583",
+      "filename": "lever_kneeling_twist_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0593",
+      "filename": "lever_reverse_hyperextension_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1452",
+      "filename": "lever_seated_crunch_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2286",
+      "filename": "lever_hip_extension_v_2_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0048",
+      "filename": "barbell_incline_reverse_grip_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0049",
+      "filename": "barbell_incline_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1370",
+      "filename": "barbell_floor_calf_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1437",
+      "filename": "dumbbell_finger_curls_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1732",
+      "filename": "dumbbell_forward_lunge_triceps_extension_male.png",
+      "folder": "new"
+    }
+  ]
+}

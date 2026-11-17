@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:0158",
+    "name": "cable decline fly",
+    "base": "cable_decline_fly"
+  },
+  {
+    "catalogId": "exercises-dataset:0169",
+    "name": "cable incline bench press",
+    "base": "cable_incline_bench_press"
+  },
+  {
+    "catalogId": "exercises-dataset:1318",
+    "name": "cable incline bench row",
+    "base": "cable_incline_bench_row"
+  },
+  {
+    "catalogId": "exercises-dataset:0168",
+    "name": "cable hip adduction",
+    "base": "cable_hip_adduction"
+  },
+  {
+    "catalogId": "exercises-dataset:0152",
+    "name": "cable concentration extension on knee",
+    "base": "cable_concentration_extension_on_knee"
+  },
+  {
+    "catalogId": "exercises-dataset:2285",
+    "name": "lever pullover",
+    "base": "lever_pullover"
+  },
+  {
+    "catalogId": "exercises-dataset:0583",
+    "name": "lever kneeling twist",
+    "base": "lever_kneeling_twist"
+  },
+  {
+    "catalogId": "exercises-dataset:0593",
+    "name": "lever reverse hyperextension",
+    "base": "lever_reverse_hyperextension"
+  },
+  {
+    "catalogId": "exercises-dataset:1452",
+    "name": "lever seated crunch",
+    "base": "lever_seated_crunch"
+  },
+  {
+    "catalogId": "exercises-dataset:2286",
+    "name": "lever hip extension v. 2",
+    "base": "lever_hip_extension_v_2"
+  },
+  {
+    "catalogId": "exercises-dataset:0048",
+    "name": "barbell incline reverse-grip press",
+    "base": "barbell_incline_reverse_grip_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0049",
+    "name": "barbell incline row",
+    "base": "barbell_incline_row"
+  },
+  {
+    "catalogId": "exercises-dataset:1370",
+    "name": "barbell floor calf raise",
+    "base": "barbell_floor_calf_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:1437",
+    "name": "dumbbell finger curls",
+    "base": "dumbbell_finger_curls"
+  },
+  {
+    "catalogId": "exercises-dataset:1732",
+    "name": "dumbbell forward lunge triceps extension",
+    "base": "dumbbell_forward_lunge_triceps_extension"
+  }
+]
