@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:5201",
+    "name": "dumbbell waiter biceps curl",
+    "base": "dumbbell_waiter_biceps_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:3547",
+    "name": "dumbbell seated biceps curl to shoulder press",
+    "base": "dumbbell_seated_biceps_curl_to_shoulder_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0408",
+    "name": "dumbbell side lying one hand raise",
+    "base": "dumbbell_side_lying_one_hand_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:2317",
+    "name": "dumbbell seated bent arm lateral raise",
+    "base": "dumbbell_seated_bent_arm_lateral_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:0195",
+    "name": "cable preacher curl",
+    "base": "cable_preacher_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0208",
+    "name": "cable reverse-grip straight back seated high row",
+    "base": "cable_reverse_grip_straight_back_seated_high_row"
+  },
+  {
+    "catalogId": "exercises-dataset:2144",
+    "name": "cable seated chest press",
+    "base": "cable_seated_chest_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0458",
+    "name": "floor fly (with barbell)",
+    "base": "floor_fly_with_barbell"
+  },
+  {
+    "catalogId": "exercises-dataset:0578",
+    "name": "lever deadlift",
+    "base": "lever_deadlift"
+  },
+  {
+    "catalogId": "exercises-dataset:0104",
+    "name": "barbell standing back wrist curl",
+    "base": "barbell_standing_back_wrist_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0639",
+    "name": "one arm dip",
+    "base": "one_arm_dip"
+  },
+  {
+    "catalogId": "exercises-dataset:2271",
+    "name": "left hook. boxing",
+    "base": "left_hook_boxing"
+  },
+  {
+    "catalogId": "exercises-dataset:0858",
+    "name": "wind sprints",
+    "base": "wind_sprints"
+  },
+  {
+    "catalogId": "exercises-dataset:0494",
+    "name": "incline reverse grip push-up",
+    "base": "incline_reverse_grip_push_up"
+  },
+  {
+    "catalogId": "exercises-dataset:0808",
+    "name": "suspended row",
+    "base": "suspended_row"
+  }
+]

@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:5201",
+      "filename": "dumbbell_waiter_biceps_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3547",
+      "filename": "dumbbell_seated_biceps_curl_to_shoulder_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0408",
+      "filename": "dumbbell_side_lying_one_hand_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2317",
+      "filename": "dumbbell_seated_bent_arm_lateral_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0195",
+      "filename": "cable_preacher_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0208",
+      "filename": "cable_reverse_grip_straight_back_seated_high_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2144",
+      "filename": "cable_seated_chest_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0458",
+      "filename": "floor_fly_with_barbell_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0578",
+      "filename": "lever_deadlift_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0104",
+      "filename": "barbell_standing_back_wrist_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0639",
+      "filename": "one_arm_dip_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2271",
+      "filename": "left_hook_boxing_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0858",
+      "filename": "wind_sprints_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0494",
+      "filename": "incline_reverse_grip_push_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0808",
+      "filename": "suspended_row_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:5201",
+      "base": "dumbbell_waiter_biceps_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:3547",
+      "base": "dumbbell_seated_biceps_curl_to_shoulder_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0408",
+      "base": "dumbbell_side_lying_one_hand_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:2317",
+      "base": "dumbbell_seated_bent_arm_lateral_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:0195",
+      "base": "cable_preacher_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0208",
+      "base": "cable_reverse_grip_straight_back_seated_high_row"
+    },
+    {
+      "catalogId": "exercises-dataset:2144",
+      "base": "cable_seated_chest_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0458",
+      "base": "floor_fly_with_barbell"
+    },
+    {
+      "catalogId": "exercises-dataset:0578",
+      "base": "lever_deadlift"
+    },
+    {
+      "catalogId": "exercises-dataset:0104",
+      "base": "barbell_standing_back_wrist_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0639",
+      "base": "one_arm_dip"
+    },
+    {
+      "catalogId": "exercises-dataset:2271",
+      "base": "left_hook_boxing"
+    },
+    {
+      "catalogId": "exercises-dataset:0858",
+      "base": "wind_sprints"
+    },
+    {
+      "catalogId": "exercises-dataset:0494",
+      "base": "incline_reverse_grip_push_up"
+    },
+    {
+      "catalogId": "exercises-dataset:0808",
+      "base": "suspended_row"
+    }
+  ]
+}
