@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:0437",
+    "name": "dumbbell upright row",
+    "base": "dumbbell_upright_row"
+  },
+  {
+    "catalogId": "exercises-dataset:0382",
+    "name": "dumbbell revers grip biceps curl",
+    "base": "dumbbell_revers_grip_biceps_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:1624",
+    "name": "dumbbell reverse bench press",
+    "base": "dumbbell_reverse_bench_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0364",
+    "name": "dumbbell one arm wrist curl",
+    "base": "dumbbell_one_arm_wrist_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0343",
+    "name": "dumbbell lying one arm press",
+    "base": "dumbbell_lying_one_arm_press"
+  },
+  {
+    "catalogId": "exercises-dataset:3212",
+    "name": "basic toe touch (male)",
+    "base": "basic_toe_touch_male"
+  },
+  {
+    "catalogId": "exercises-dataset:2329",
+    "name": "spine twist",
+    "base": "spine_twist"
+  },
+  {
+    "catalogId": "exercises-dataset:3669",
+    "name": "standing archer",
+    "base": "standing_archer"
+  },
+  {
+    "catalogId": "exercises-dataset:1472",
+    "name": "forward jump",
+    "base": "forward_jump"
+  },
+  {
+    "catalogId": "exercises-dataset:0222",
+    "name": "cable side bend",
+    "base": "cable_side_bend"
+  },
+  {
+    "catalogId": "exercises-dataset:1638",
+    "name": "cable pulldown bicep curl",
+    "base": "cable_pulldown_bicep_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:1728",
+    "name": "cable two arm tricep kickback",
+    "base": "cable_two_arm_tricep_kickback"
+  },
+  {
+    "catalogId": "exercises-dataset:0103",
+    "name": "barbell standing ab rollerout",
+    "base": "barbell_standing_ab_rollerout"
+  },
+  {
+    "catalogId": "exercises-dataset:0092",
+    "name": "barbell seated overhead triceps extension",
+    "base": "barbell_seated_overhead_triceps_extension"
+  },
+  {
+    "catalogId": "exercises-dataset:0094",
+    "name": "barbell seated twist",
+    "base": "barbell_seated_twist"
+  }
+]
