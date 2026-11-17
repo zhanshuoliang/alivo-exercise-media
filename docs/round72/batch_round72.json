@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:1279",
+      "filename": "dumbbell_incline_one_arm_fly_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1281",
+      "filename": "dumbbell_incline_one_arm_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0323",
+      "filename": "dumbbell_incline_one_arm_lateral_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1284",
+      "filename": "dumbbell_lying_pullover_on_exercise_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0342",
+      "filename": "dumbbell_lying_one_arm_press_v_2_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1729",
+      "filename": "dumbbell_lying_alternate_extension_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1663",
+      "filename": "dumbbell_one_arm_hammer_preacher_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2294",
+      "filename": "dumbbell_zottman_preacher_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0424",
+      "filename": "dumbbell_standing_one_arm_palm_in_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0378",
+      "filename": "dumbbell_rear_fly_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0232",
+      "filename": "cable_standing_pulldown_with_rope_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1439",
+      "filename": "lever_gripless_shrug_v_2_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1614",
+      "filename": "lever_preacher_curl_v_2_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2298",
+      "filename": "inverted_row_on_bench_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0457",
+      "filename": "flexion_leg_sit_up_straight_arm_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:1279",
+      "base": "dumbbell_incline_one_arm_fly"
+    },
+    {
+      "catalogId": "exercises-dataset:1281",
+      "base": "dumbbell_incline_one_arm_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0323",
+      "base": "dumbbell_incline_one_arm_lateral_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:1284",
+      "base": "dumbbell_lying_pullover_on_exercise_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:0342",
+      "base": "dumbbell_lying_one_arm_press_v_2"
+    },
+    {
+      "catalogId": "exercises-dataset:1729",
+      "base": "dumbbell_lying_alternate_extension"
+    },
+    {
+      "catalogId": "exercises-dataset:1663",
+      "base": "dumbbell_one_arm_hammer_preacher_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:2294",
+      "base": "dumbbell_zottman_preacher_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0424",
+      "base": "dumbbell_standing_one_arm_palm_in_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0378",
+      "base": "dumbbell_rear_fly"
+    },
+    {
+      "catalogId": "exercises-dataset:0232",
+      "base": "cable_standing_pulldown_with_rope"
+    },
+    {
+      "catalogId": "exercises-dataset:1439",
+      "base": "lever_gripless_shrug_v_2"
+    },
+    {
+      "catalogId": "exercises-dataset:1614",
+      "base": "lever_preacher_curl_v_2"
+    },
+    {
+      "catalogId": "exercises-dataset:2298",
+      "base": "inverted_row_on_bench"
+    },
+    {
+      "catalogId": "exercises-dataset:0457",
+      "base": "flexion_leg_sit_up_straight_arm"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:1279",
+    "name": "dumbbell incline one arm fly",
+    "base": "dumbbell_incline_one_arm_fly"
+  },
+  {
+    "catalogId": "exercises-dataset:1281",
+    "name": "dumbbell incline one arm press",
+    "base": "dumbbell_incline_one_arm_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0323",
+    "name": "dumbbell incline one arm lateral raise",
+    "base": "dumbbell_incline_one_arm_lateral_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:1284",
+    "name": "dumbbell lying pullover on exercise ball",
+    "base": "dumbbell_lying_pullover_on_exercise_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:0342",
+    "name": "dumbbell lying one arm press v. 2",
+    "base": "dumbbell_lying_one_arm_press_v_2"
+  },
+  {
+    "catalogId": "exercises-dataset:1729",
+    "name": "dumbbell lying alternate extension",
+    "base": "dumbbell_lying_alternate_extension"
+  },
+  {
+    "catalogId": "exercises-dataset:1663",
+    "name": "dumbbell one arm hammer preacher curl",
+    "base": "dumbbell_one_arm_hammer_preacher_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:2294",
+    "name": "dumbbell zottman preacher curl",
+    "base": "dumbbell_zottman_preacher_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0424",
+    "name": "dumbbell standing one arm palm in press",
+    "base": "dumbbell_standing_one_arm_palm_in_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0378",
+    "name": "dumbbell rear fly",
+    "base": "dumbbell_rear_fly"
+  },
+  {
+    "catalogId": "exercises-dataset:0232",
+    "name": "cable standing pulldown (with rope)",
+    "base": "cable_standing_pulldown_with_rope"
+  },
+  {
+    "catalogId": "exercises-dataset:1439",
+    "name": "lever gripless shrug v. 2",
+    "base": "lever_gripless_shrug_v_2"
+  },
+  {
+    "catalogId": "exercises-dataset:1614",
+    "name": "lever preacher curl v. 2",
+    "base": "lever_preacher_curl_v_2"
+  },
+  {
+    "catalogId": "exercises-dataset:2298",
+    "name": "inverted row on bench",
+    "base": "inverted_row_on_bench"
+  },
+  {
+    "catalogId": "exercises-dataset:0457",
+    "name": "flexion leg sit up (straight arm)",
+    "base": "flexion_leg_sit_up_straight_arm"
+  }
+]
