@@ -1,0 +1,79 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:0178",
+      "filename": "cable_lateral_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0202",
+      "filename": "cable_rear_delt_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0216",
+      "filename": "cable_seated_shoulder_internal_rotation_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0228",
+      "filename": "cable_standing_hip_extension_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0240",
+      "filename": "cable_supine_reverse_fly_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0288",
+      "filename": "dumbbell_around_pullover_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0291",
+      "filename": "dumbbell_bench_squat_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2706",
+      "filename": "dumbbell_lying_supination_on_floor_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0411",
+      "filename": "dumbbell_single_leg_squat_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1743",
+      "filename": "dumbbell_twisting_bench_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3671",
+      "filename": "ski_step_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3672",
+      "filename": "back_and_forth_step_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3645",
+      "filename": "single_leg_bridge_with_outstretched_leg_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0778",
+      "filename": "spider_crawl_push_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0691",
+      "filename": "seated_side_crunch_male.png",
+      "folder": "new"
+    }
+  ]
+}

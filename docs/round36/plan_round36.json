@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:0178",
+    "name": "cable lateral raise",
+    "base": "cable_lateral_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:0202",
+    "name": "cable rear delt row",
+    "base": "cable_rear_delt_row"
+  },
+  {
+    "catalogId": "exercises-dataset:0216",
+    "name": "cable seated shoulder internal rotation",
+    "base": "cable_seated_shoulder_internal_rotation"
+  },
+  {
+    "catalogId": "exercises-dataset:0228",
+    "name": "cable standing hip extension",
+    "base": "cable_standing_hip_extension"
+  },
+  {
+    "catalogId": "exercises-dataset:0240",
+    "name": "cable supine reverse fly",
+    "base": "cable_supine_reverse_fly"
+  },
+  {
+    "catalogId": "exercises-dataset:0288",
+    "name": "dumbbell around pullover",
+    "base": "dumbbell_around_pullover"
+  },
+  {
+    "catalogId": "exercises-dataset:0291",
+    "name": "dumbbell bench squat",
+    "base": "dumbbell_bench_squat"
+  },
+  {
+    "catalogId": "exercises-dataset:2706",
+    "name": "dumbbell lying supination on floor",
+    "base": "dumbbell_lying_supination_on_floor"
+  },
+  {
+    "catalogId": "exercises-dataset:0411",
+    "name": "dumbbell single leg squat",
+    "base": "dumbbell_single_leg_squat"
+  },
+  {
+    "catalogId": "exercises-dataset:1743",
+    "name": "dumbbell twisting bench press",
+    "base": "dumbbell_twisting_bench_press"
+  },
+  {
+    "catalogId": "exercises-dataset:3671",
+    "name": "ski step",
+    "base": "ski_step"
+  },
+  {
+    "catalogId": "exercises-dataset:3672",
+    "name": "back and forth step",
+    "base": "back_and_forth_step"
+  },
+  {
+    "catalogId": "exercises-dataset:3645",
+    "name": "single leg bridge with outstretched leg",
+    "base": "single_leg_bridge_with_outstretched_leg"
+  },
+  {
+    "catalogId": "exercises-dataset:0778",
+    "name": "spider crawl push up",
+    "base": "spider_crawl_push_up"
+  },
+  {
+    "catalogId": "exercises-dataset:0691",
+    "name": "seated side crunch",
+    "base": "seated_side_crunch"
+  }
+]
