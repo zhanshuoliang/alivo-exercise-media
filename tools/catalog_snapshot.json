@@ -14394,18 +14394,6 @@
       "reviewedAt": "2026-11-17"
     },
     {
-      "catalogId": "free-exercise-db:Kettlebell_Halo_With_Overhead_Extension",
-      "sourceRecordId": "alivo:editorial:kettlebell_halo_with_overhead_extension_male.png",
-      "localPath": "exercise_media/kettlebell_halo_with_overhead_extension_male.webp",
-      "sourceUrl": "https://openai.com/policies/terms-of-use/",
-      "author": "Paul Leung",
-      "license": "ALIVO-editorial",
-      "licenseUrl": "https://openai.com/policies/terms-of-use/",
-      "changes": "ALIVO 原创彩色编辑插图，服装带 ALIVO 品牌字标; resized to 1024px and encoded as lossy WebP quality 82",
-      "sha256": "15c3eeaf498c1121c9d1985c6284a9c5f4f55fee2877eff61b2e789cce6066dd",
-      "reviewedAt": "2026-11-17"
-    },
-    {
       "catalogId": "exercises-dataset:0709",
       "sourceRecordId": "alivo:editorial:side_hip_on_parallel_bars_male.png",
       "localPath": "exercise_media/side_hip_on_parallel_bars_male.webp",
@@ -14451,6 +14439,18 @@
       "licenseUrl": "https://openai.com/policies/terms-of-use/",
       "changes": "ALIVO 原创彩色编辑插图，服装带 ALIVO 品牌字标; resized to 1024px and encoded as lossy WebP quality 82",
       "sha256": "7c8c1bd5d1332a517fd1638388f745ac49bc3930d8ffb901d163a269917f323c",
+      "reviewedAt": "2026-11-17"
+    },
+    {
+      "catalogId": "exercises-dataset:1382",
+      "sourceRecordId": "alivo:editorial:exercise_ball_on_the_wall_calf_raise_male.png",
+      "localPath": "exercise_media/exercise_ball_on_the_wall_calf_raise_male.webp",
+      "sourceUrl": "https://openai.com/policies/terms-of-use/",
+      "author": "Paul Leung",
+      "license": "ALIVO-editorial",
+      "licenseUrl": "https://openai.com/policies/terms-of-use/",
+      "changes": "ALIVO 原创彩色编辑插图，服装带 ALIVO 品牌字标; resized to 1024px and encoded as lossy WebP quality 82",
+      "sha256": "eede5829b41d075ceaf5edfc66c67195b2e08b41d6733e4c23442d26838627cc",
       "reviewedAt": "2026-11-17"
     }
   ]

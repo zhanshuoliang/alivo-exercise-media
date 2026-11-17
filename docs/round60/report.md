@@ -20,7 +20,7 @@ screening against all previously bound records; forbidden/conflicting identity
 | `exercises-dataset:1649` | dumbbell alternating bicep curl with leg raised on exercise ball | dumbbell |
 | `exercises-dataset:1652` | dumbbell bicep curl on exercise ball with leg raised | dumbbell |
 | `exercises-dataset:0427` | dumbbell standing palms in press | dumbbell |
-| `free-exercise-db:Kettlebell_Halo_With_Overhead_Extension` | kettlebell halo with overhead extension | kettlebell |
+| `exercises-dataset:1382` | exercise ball on the wall calf raise | dumbbell |
 | `exercises-dataset:0709` | side hip (on parallel bars) | body weight |
 | `exercises-dataset:3291` | stalder press | body weight |
 | `exercises-dataset:1427` | straight leg outer hip abductor | body weight |
@@ -30,7 +30,13 @@ screening against all previously bound records; forbidden/conflicting identity
 
 - 30 images (15 Kai male + 15 Liv female branded variants), photorealistic-natural
   editorial style, neutral gray studio, single small white `ALIVO` wordmark.
-- All 30 passed first-pass semantic review — **zero rework this round**.
+- All 30 final images passed semantic review.
+- **Late swap:** `free-exercise-db:Kettlebell_Halo_With_Overhead_Extension` was
+  generated and briefly bound, then removed — `tests/regression.cjs` asserts that
+  catalog identity must remain media-less (its canonical sibling `Kettlebell_Halo`
+  is already bound). Replaced by `exercises-dataset:1382` exercise ball on the
+  wall calf raise, generated and reviewed as a clean substitute. The KB images
+  were deleted from `media/` and its NOTICE rows retracted.
 - Male WebP (1024px, q82, method 4) bound into both app bundles
   (`entry/src/main/resources/rawfile`, `mobile/alivo_app/assets/catalog`).
 - Female PNGs retained in `media/` only (not bound).
@@ -38,7 +44,8 @@ screening against all previously bound records; forbidden/conflicting identity
 ## Verification
 
 - `exercise_metadata.json` identical across both platform roots; 1035 media records.
-- No duplicate `localPath` / `sha256` / `catalogId`; `3562` remains unbound.
+- No duplicate `localPath` / `sha256` / `catalogId`; `3562` and the KB supplement
+  identity both remain unbound.
 - `NOTICE.md` / `PROVENANCE.csv` byte-identical across platforms; 1035 WebP each side.
 - `catalog/exercise_metadata.json` + `tools/catalog_snapshot.json` synced to 1035.
 - `catalog-review.html` rebuilt: 1352 records, all 15 Round-60 slugs bound-marked.

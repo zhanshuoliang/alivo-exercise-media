@@ -1,77 +1,77 @@
 [
-  {
-    "catalogId": "exercises-dataset:2400",
-    "name": "inverse leg curl (on pull-up cable machine",
-    "base": "inverse_leg_curl_on_pull_up_cable_machine"
-  },
-  {
-    "catalogId": "exercises-dataset:3167",
-    "name": "bodyweight squatting row (with towel",
-    "base": "bodyweight_squatting_row_with_towel"
-  },
-  {
-    "catalogId": "exercises-dataset:3165",
-    "name": "bodyweight standing row (with towel",
-    "base": "bodyweight_standing_row_with_towel"
-  },
-  {
-    "catalogId": "exercises-dataset:1773",
-    "name": "one arm towel row",
-    "base": "one_arm_towel_row"
-  },
-  {
-    "catalogId": "exercises-dataset:0651",
-    "name": "pull up (neutral grip",
-    "base": "pull_up_neutral_grip"
-  },
-  {
-    "catalogId": "exercises-dataset:3315",
-    "name": "full maltese",
-    "base": "full_maltese"
-  },
-  {
-    "catalogId": "exercises-dataset:1656",
-    "name": "dumbbell biceps curl v sit on bosu ball",
-    "base": "dumbbell_biceps_curl_v_sit_on_bosu_ball"
-  },
-  {
-    "catalogId": "exercises-dataset:1649",
-    "name": "dumbbell alternating bicep curl with leg raised on exercise ball",
-    "base": "dumbbell_alternating_bicep_curl_with_leg_raised_on_exercise_ball"
-  },
-  {
-    "catalogId": "exercises-dataset:1652",
-    "name": "dumbbell bicep curl on exercise ball with leg raised",
-    "base": "dumbbell_bicep_curl_on_exercise_ball_with_leg_raised"
-  },
-  {
-    "catalogId": "exercises-dataset:0427",
-    "name": "dumbbell standing palms in press",
-    "base": "dumbbell_standing_palms_in_press"
-  },
-  {
-    "catalogId": "free-exercise-db:Kettlebell_Halo_With_Overhead_Extension",
-    "name": "kettlebell halo with overhead extension",
-    "base": "kettlebell_halo_with_overhead_extension"
-  },
-  {
-    "catalogId": "exercises-dataset:0709",
-    "name": "side hip (on parallel bars",
-    "base": "side_hip_on_parallel_bars"
-  },
-  {
-    "catalogId": "exercises-dataset:3291",
-    "name": "stalder press",
-    "base": "stalder_press"
-  },
-  {
-    "catalogId": "exercises-dataset:1427",
-    "name": "straight leg outer hip abductor",
-    "base": "straight_leg_outer_hip_abductor"
-  },
-  {
-    "catalogId": "exercises-dataset:3213",
-    "name": "side-to-side toe touch",
-    "base": "side_to_side_toe_touch"
-  }
+ {
+  "catalogId": "exercises-dataset:2400",
+  "name": "inverse leg curl (on pull-up cable machine",
+  "base": "inverse_leg_curl_on_pull_up_cable_machine"
+ },
+ {
+  "catalogId": "exercises-dataset:3167",
+  "name": "bodyweight squatting row (with towel",
+  "base": "bodyweight_squatting_row_with_towel"
+ },
+ {
+  "catalogId": "exercises-dataset:3165",
+  "name": "bodyweight standing row (with towel",
+  "base": "bodyweight_standing_row_with_towel"
+ },
+ {
+  "catalogId": "exercises-dataset:1773",
+  "name": "one arm towel row",
+  "base": "one_arm_towel_row"
+ },
+ {
+  "catalogId": "exercises-dataset:0651",
+  "name": "pull up (neutral grip",
+  "base": "pull_up_neutral_grip"
+ },
+ {
+  "catalogId": "exercises-dataset:3315",
+  "name": "full maltese",
+  "base": "full_maltese"
+ },
+ {
+  "catalogId": "exercises-dataset:1656",
+  "name": "dumbbell biceps curl v sit on bosu ball",
+  "base": "dumbbell_biceps_curl_v_sit_on_bosu_ball"
+ },
+ {
+  "catalogId": "exercises-dataset:1649",
+  "name": "dumbbell alternating bicep curl with leg raised on exercise ball",
+  "base": "dumbbell_alternating_bicep_curl_with_leg_raised_on_exercise_ball"
+ },
+ {
+  "catalogId": "exercises-dataset:1652",
+  "name": "dumbbell bicep curl on exercise ball with leg raised",
+  "base": "dumbbell_bicep_curl_on_exercise_ball_with_leg_raised"
+ },
+ {
+  "catalogId": "exercises-dataset:0427",
+  "name": "dumbbell standing palms in press",
+  "base": "dumbbell_standing_palms_in_press"
+ },
+ {
+  "catalogId": "exercises-dataset:1382",
+  "name": "exercise ball on the wall calf raise",
+  "base": "exercise_ball_on_the_wall_calf_raise"
+ },
+ {
+  "catalogId": "exercises-dataset:0709",
+  "name": "side hip (on parallel bars",
+  "base": "side_hip_on_parallel_bars"
+ },
+ {
+  "catalogId": "exercises-dataset:3291",
+  "name": "stalder press",
+  "base": "stalder_press"
+ },
+ {
+  "catalogId": "exercises-dataset:1427",
+  "name": "straight leg outer hip abductor",
+  "base": "straight_leg_outer_hip_abductor"
+ },
+ {
+  "catalogId": "exercises-dataset:3213",
+  "name": "side-to-side toe touch",
+  "base": "side_to_side_toe_touch"
+ }
 ]
