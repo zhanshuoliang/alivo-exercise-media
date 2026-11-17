@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:0631",
+    "name": "muscle up",
+    "base": "muscle_up"
+  },
+  {
+    "catalogId": "exercises-dataset:0710",
+    "name": "side hip abduction",
+    "base": "side_hip_abduction"
+  },
+  {
+    "catalogId": "exercises-dataset:3202",
+    "name": "half sit-up (male)",
+    "base": "half_sit_up_male"
+  },
+  {
+    "catalogId": "exercises-dataset:1311",
+    "name": "wide hand push up",
+    "base": "wide_hand_push_up"
+  },
+  {
+    "catalogId": "exercises-dataset:0574",
+    "name": "lever bent over row",
+    "base": "lever_bent_over_row"
+  },
+  {
+    "catalogId": "exercises-dataset:0209",
+    "name": "cable reverse preacher curl",
+    "base": "cable_reverse_preacher_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0243",
+    "name": "cable twist",
+    "base": "cable_twist"
+  },
+  {
+    "catalogId": "exercises-dataset:2189",
+    "name": "dumbbells seated triceps extension",
+    "base": "dumbbells_seated_triceps_extension"
+  },
+  {
+    "catalogId": "exercises-dataset:1620",
+    "name": "dumbbell incline one arm hammer press on exercise ball",
+    "base": "dumbbell_incline_one_arm_hammer_press_on_exercise_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:1736",
+    "name": "dumbbell one arm french press on exercise ball",
+    "base": "dumbbell_one_arm_french_press_on_exercise_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:1661",
+    "name": "dumbbell lying supine biceps curl",
+    "base": "dumbbell_lying_supine_biceps_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:1765",
+    "name": "dumbbell upright row (back pov)",
+    "base": "dumbbell_upright_row_back_pov"
+  },
+  {
+    "catalogId": "exercises-dataset:0495",
+    "name": "incline twisting sit-up",
+    "base": "incline_twisting_sit_up"
+  },
+  {
+    "catalogId": "exercises-dataset:1387",
+    "name": "one leg floor calf raise",
+    "base": "one_leg_floor_calf_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:2801",
+    "name": "twisted leg raise (female)",
+    "base": "twisted_leg_raise_female"
+  }
+]

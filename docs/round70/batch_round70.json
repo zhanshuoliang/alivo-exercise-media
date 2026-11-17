@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:0631",
+      "filename": "muscle_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0710",
+      "filename": "side_hip_abduction_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3202",
+      "filename": "half_sit_up_male_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1311",
+      "filename": "wide_hand_push_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0574",
+      "filename": "lever_bent_over_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0209",
+      "filename": "cable_reverse_preacher_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0243",
+      "filename": "cable_twist_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2189",
+      "filename": "dumbbells_seated_triceps_extension_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1620",
+      "filename": "dumbbell_incline_one_arm_hammer_press_on_exercise_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1736",
+      "filename": "dumbbell_one_arm_french_press_on_exercise_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1661",
+      "filename": "dumbbell_lying_supine_biceps_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1765",
+      "filename": "dumbbell_upright_row_back_pov_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0495",
+      "filename": "incline_twisting_sit_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1387",
+      "filename": "one_leg_floor_calf_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2801",
+      "filename": "twisted_leg_raise_female_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:0631",
+      "base": "muscle_up"
+    },
+    {
+      "catalogId": "exercises-dataset:0710",
+      "base": "side_hip_abduction"
+    },
+    {
+      "catalogId": "exercises-dataset:3202",
+      "base": "half_sit_up_male"
+    },
+    {
+      "catalogId": "exercises-dataset:1311",
+      "base": "wide_hand_push_up"
+    },
+    {
+      "catalogId": "exercises-dataset:0574",
+      "base": "lever_bent_over_row"
+    },
+    {
+      "catalogId": "exercises-dataset:0209",
+      "base": "cable_reverse_preacher_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0243",
+      "base": "cable_twist"
+    },
+    {
+      "catalogId": "exercises-dataset:2189",
+      "base": "dumbbells_seated_triceps_extension"
+    },
+    {
+      "catalogId": "exercises-dataset:1620",
+      "base": "dumbbell_incline_one_arm_hammer_press_on_exercise_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:1736",
+      "base": "dumbbell_one_arm_french_press_on_exercise_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:1661",
+      "base": "dumbbell_lying_supine_biceps_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:1765",
+      "base": "dumbbell_upright_row_back_pov"
+    },
+    {
+      "catalogId": "exercises-dataset:0495",
+      "base": "incline_twisting_sit_up"
+    },
+    {
+      "catalogId": "exercises-dataset:1387",
+      "base": "one_leg_floor_calf_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:2801",
+      "base": "twisted_leg_raise_female"
+    }
+  ]
+}
