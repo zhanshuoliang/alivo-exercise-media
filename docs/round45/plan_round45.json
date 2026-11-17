@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:0329",
+    "name": "dumbbell incline shrug",
+    "base": "dumbbell_incline_shrug"
+  },
+  {
+    "catalogId": "exercises-dataset:3542",
+    "name": "dumbbell incline t-raise",
+    "base": "dumbbell_incline_t_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:0332",
+    "name": "dumbbell iron cross",
+    "base": "dumbbell_iron_cross"
+  },
+  {
+    "catalogId": "exercises-dataset:0335",
+    "name": "dumbbell lateral to front raise",
+    "base": "dumbbell_lateral_to_front_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:1328",
+    "name": "dumbbell lying rear delt row",
+    "base": "dumbbell_lying_rear_delt_row"
+  },
+  {
+    "catalogId": "exercises-dataset:0624",
+    "name": "march sit (wall)",
+    "base": "march_sit_wall"
+  },
+  {
+    "catalogId": "exercises-dataset:0555",
+    "name": "kick out sit",
+    "base": "kick_out_sit"
+  },
+  {
+    "catalogId": "exercises-dataset:3288",
+    "name": "korean dips",
+    "base": "korean_dips"
+  },
+  {
+    "catalogId": "exercises-dataset:3011",
+    "name": "incline scapula push up",
+    "base": "incline_scapula_push_up"
+  },
+  {
+    "catalogId": "exercises-dataset:1636",
+    "name": "cable overhead curl",
+    "base": "cable_overhead_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0206",
+    "name": "cable reverse curl",
+    "base": "cable_reverse_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:1723",
+    "name": "cable one arm tricep pushdown",
+    "base": "cable_one_arm_tricep_pushdown"
+  },
+  {
+    "catalogId": "exercises-dataset:0776",
+    "name": "snatch pull",
+    "base": "snatch_pull"
+  },
+  {
+    "catalogId": "exercises-dataset:0248",
+    "name": "cambered bar lying row",
+    "base": "cambered_bar_lying_row"
+  },
+  {
+    "catalogId": "exercises-dataset:0035",
+    "name": "barbell decline close grip to skull press",
+    "base": "barbell_decline_close_grip_to_skull_press"
+  }
+]

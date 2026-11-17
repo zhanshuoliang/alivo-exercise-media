@@ -1,0 +1,41 @@
+const fs=require('fs'),path=require('path');
+// Round 45: 15 exercises x 2 branded tracks — dumbbell x5 + bodyweight x4 + cable x3 + barbell x3
+const T=[
+['exercises-dataset:0329','dumbbell incline shrug','DUMBBELL INCLINE SHRUG. The athlete sits on a 45-degree incline bench holding a dumbbell in each hand with arms hanging straight down palms facing the body, elevating both shoulders straight up toward the ears in a shrug — captured at the shrugged top. Front three-quarter view showing the incline bench and raised shoulders.'],
+['exercises-dataset:3542','dumbbell incline t-raise','DUMBBELL INCLINE T-RAISE. The athlete leans chest-down on a 45-degree incline bench holding a dumbbell in each hand palms facing inward, raising both arms straight out to the sides until the body forms a T shape — captured at the raised top. Rear three-quarter view showing the incline bench and arms in a T.'],
+['exercises-dataset:0332','dumbbell iron cross','DUMBBELL IRON CROSS. The athlete stands with feet shoulder-width apart holding a dumbbell in each hand, arms raised straight out to the sides parallel to the floor forming a T/iron-cross static hold — captured at the hold. Front view showing the horizontal arm position.'],
+['exercises-dataset:0335','dumbbell lateral to front raise','DUMBBELL LATERAL-TO-FRONT RAISE. The athlete stands holding a dumbbell in each hand palms facing the body, moving both arms from a side-raised position forward to meet in front of the chest — captured mid-transition with arms sweeping toward the front. Front three-quarter view showing the arc path between lateral and front raise.'],
+['exercises-dataset:1328','dumbbell lying rear delt row','DUMBBELL LYING REAR DELT ROW. The athlete lies face-down on a flat bench holding a dumbbell in each hand palms facing inward, rowing both dumbbells upward with elbows flaring out to the sides squeezing the shoulder blades — captured at the rowed top. Rear three-quarter view showing the bench and flared-elbow row.'],
+['exercises-dataset:0624','march sit (wall)','WALL MARCH SIT. The athlete is in a wall sit with back flat against a wall and knees bent at 90 degrees, lifting ONE knee upward in a marching motion while the other foot stays planted — captured mid-march with one knee raised. Front three-quarter view showing the wall sit with the marching leg.'],
+['exercises-dataset:0555','kick out sit','KICK-OUT SIT. The athlete sits on the edge of a flat bench leaning slightly back with hands gripping the bench sides for support, kicking both legs forward and upward until nearly straight in front of the body — captured at the kicked-out top. Side three-quarter view showing the V-shape between torso and extended legs.'],
+['exercises-dataset:3288','korean dips','KOREAN DIP. The athlete supports themself on a single straight bar positioned behind the back with both hands gripping it palms down arms extended, legs extended forward with heels on the ground, lowering the body by bending the elbows — captured mid-dip. Side three-quarter view showing the bar behind the back and dipped torso.'],
+['exercises-dataset:3011','incline scapula push up','INCLINE SCAPULA PUSH-UP. The athlete is in a plank position with hands on a 45-degree incline bench arms fully straight, performing a scapular protraction-retraction — pushing the upper back away from the bench by spreading the shoulder blades WITHOUT bending the elbows — captured at the protracted position. Side three-quarter view showing straight arms and the hollowed upper back.'],
+['exercises-dataset:1636','cable overhead curl','CABLE OVERHEAD CURL. The athlete stands facing a high-pulley cable machine holding a straight bar attached overhead with an underhand grip, curling the bar down toward the forehead by bending the elbows keeping the upper arms raised — captured mid-curl. Front three-quarter view showing the high pulley line and biceps curl overhead.'],
+['exercises-dataset:0206','cable reverse curl','CABLE REVERSE CURL. The athlete stands facing a low-pulley cable machine holding a straight bar attached with an OVERHAND grip palms down, curling the bar up toward the shoulders keeping the elbows pinned at the sides — captured at the curled top. Front view showing the overhand grip on the low-pulley bar.'],
+['exercises-dataset:1723','cable one arm tricep pushdown','CABLE ONE-ARM TRICEPS PUSHDOWN. The athlete stands facing a cable machine gripping a single handle attached at chest height with one hand, pushing the handle down until the arm is fully extended keeping the elbow pinned at the side — captured at the pressed-down bottom. Side three-quarter view showing the single-arm pushdown.'],
+['exercises-dataset:0776','snatch pull','BARBELL SNATCH PULL. The athlete is mid-pull on a barbell deadlift-to-high-pull: hinged at the hips extending explosively, gripping the bar with a WIDE overhand snatch grip, bar rising past the knees as the body drives upward — captured at the powerful extension moment. Side three-quarter view showing the wide grip and extended body.'],
+['exercises-dataset:0248','cambered bar lying row','CAMBERED BAR LYING ROW. The athlete lies face-down on a flat bench with chest just past the edge, gripping a CAMBERED bar (bent/curved specialty bar) on the floor below with an overhand grip slightly wider than shoulders, rowing it up toward the bench — captured at the pulled-in top. Side three-quarter view showing the bench and the cambered bar.'],
+['exercises-dataset:0035','barbell decline close grip to skull press','BARBELL DECLINE CLOSE-GRIP SKULL PRESS. The athlete lies on a decline bench gripping a barbell with a narrow close grip, bending the elbows to lower the bar toward the forehead keeping the upper arms stationary — captured at the lowered bottom near the forehead. Side three-quarter view showing the decline bench and close grip.'],
+];
+const M='adult athletic man with short dark wavy hair',F='adult athletic woman with brown hair tied in a low ponytail';
+const FRAME='ONE single square photograph capturing ONE continuous moment — absolutely no split screen, no collage, no side-by-side or stacked panels, exactly one frame.';
+const branded=(scene,who)=>`Use the image generation tool to create exactly one image now. Include the image attached to this prompt as the tool's reference image input. Call the tool with use case "photorealistic-natural" and pass the following prompt text to it VERBATIM, without rewriting or shortening:
+
+BEGIN TOOL PROMPT
+Use case: photorealistic-natural. Asset type: ALIVO fitness editorial illustration. The attached photo is a STYLE reference only: create the DIFFERENT exercise described below, never copy its pose. ${FRAME} Neutral gray seamless studio backdrop and floor, soft editorial lighting, natural realistic skin and hair, one ${who} wearing a dark muted forest-green tank top, charcoal shorts and dark athletic shoes. Print exactly one small white wordmark "ALIVO" (letters A L I V O) on the clothing in a clean sans-serif font; no other text, branding or watermark. Exercise: ${scene} Keep the whole athlete, head, hands, feet and all equipment entirely inside the square frame. Realistic anatomy and hand placement, one person only, no mirrors, no gym background clutter, no extra lettering.
+END TOOL PROMPT
+
+After the image is generated, reply with only the absolute path of the saved PNG file. Do not edit files, do not review the image, do not generate more than one image.
+`;
+function slug(name){return name.toLowerCase().replace(/[^a-z0-9]+/g,'_').replace(/^_+|_+$/g,'')}
+for(const d of ['prompts45_m','prompts45_f']) fs.mkdirSync(d,{recursive:true});
+const map=[];
+for(const [id,name,scene] of T){
+  const eid=id.split(':')[1],s=slug(name);
+  fs.writeFileSync(path.join('prompts45_m',`exec_${eid}.txt`),branded(scene,M));
+  fs.writeFileSync(path.join('prompts45_f',`exec_${eid}.txt`),branded(scene,F));
+  map.push({catalogId:id,name,base:s});
+}
+fs.writeFileSync('plan_round45.json',JSON.stringify(map.map(({catalogId,name,base})=>({catalogId,name,base})),null,2));
+fs.writeFileSync('batch_round45.json',JSON.stringify({bindings:map.map(m=>({catalogId:m.catalogId,filename:m.base+'_male.png',folder:'new'})),variants:map.map(m=>({catalogId:m.catalogId,base:m.base}))},null,2));
+console.log('wrote',T.length,'x2 branded prompts + plan/batch_round45');
