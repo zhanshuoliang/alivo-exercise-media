@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:0580",
+      "filename": "lever_gripless_shrug_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0607",
+      "filename": "lever_triceps_extension_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3758",
+      "filename": "lever_standing_chest_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1348",
+      "filename": "lever_reverse_grip_vertical_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2407",
+      "filename": "barbell_biceps_curl_with_arm_blaster_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0076",
+      "filename": "barbell_rear_delt_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0082",
+      "filename": "barbell_reverse_wrist_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0088",
+      "filename": "barbell_seated_calf_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0022",
+      "filename": "barbell_pullover_to_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1630",
+      "filename": "cable_close_grip_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1262",
+      "filename": "cable_one_arm_decline_chest_fly_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0191",
+      "filename": "cable_one_arm_lateral_bent_over_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1473",
+      "filename": "backward_jump_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2398",
+      "filename": "close_grip_push_up_on_knees_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0130",
+      "filename": "bench_hip_extension_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:0580",
+      "base": "lever_gripless_shrug"
+    },
+    {
+      "catalogId": "exercises-dataset:0607",
+      "base": "lever_triceps_extension"
+    },
+    {
+      "catalogId": "exercises-dataset:3758",
+      "base": "lever_standing_chest_press"
+    },
+    {
+      "catalogId": "exercises-dataset:1348",
+      "base": "lever_reverse_grip_vertical_row"
+    },
+    {
+      "catalogId": "exercises-dataset:2407",
+      "base": "barbell_biceps_curl_with_arm_blaster"
+    },
+    {
+      "catalogId": "exercises-dataset:0076",
+      "base": "barbell_rear_delt_row"
+    },
+    {
+      "catalogId": "exercises-dataset:0082",
+      "base": "barbell_reverse_wrist_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0088",
+      "base": "barbell_seated_calf_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:0022",
+      "base": "barbell_pullover_to_press"
+    },
+    {
+      "catalogId": "exercises-dataset:1630",
+      "base": "cable_close_grip_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:1262",
+      "base": "cable_one_arm_decline_chest_fly"
+    },
+    {
+      "catalogId": "exercises-dataset:0191",
+      "base": "cable_one_arm_lateral_bent_over"
+    },
+    {
+      "catalogId": "exercises-dataset:1473",
+      "base": "backward_jump"
+    },
+    {
+      "catalogId": "exercises-dataset:2398",
+      "base": "close_grip_push_up_on_knees"
+    },
+    {
+      "catalogId": "exercises-dataset:0130",
+      "base": "bench_hip_extension"
+    }
+  ]
+}

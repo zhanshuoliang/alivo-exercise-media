@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:0580",
+    "name": "lever gripless shrug",
+    "base": "lever_gripless_shrug"
+  },
+  {
+    "catalogId": "exercises-dataset:0607",
+    "name": "lever triceps extension",
+    "base": "lever_triceps_extension"
+  },
+  {
+    "catalogId": "exercises-dataset:3758",
+    "name": "lever standing chest press",
+    "base": "lever_standing_chest_press"
+  },
+  {
+    "catalogId": "exercises-dataset:1348",
+    "name": "lever reverse grip vertical row",
+    "base": "lever_reverse_grip_vertical_row"
+  },
+  {
+    "catalogId": "exercises-dataset:2407",
+    "name": "barbell biceps curl with arm blaster",
+    "base": "barbell_biceps_curl_with_arm_blaster"
+  },
+  {
+    "catalogId": "exercises-dataset:0076",
+    "name": "barbell rear delt row",
+    "base": "barbell_rear_delt_row"
+  },
+  {
+    "catalogId": "exercises-dataset:0082",
+    "name": "barbell reverse wrist curl",
+    "base": "barbell_reverse_wrist_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0088",
+    "name": "barbell seated calf raise",
+    "base": "barbell_seated_calf_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:0022",
+    "name": "barbell pullover to press",
+    "base": "barbell_pullover_to_press"
+  },
+  {
+    "catalogId": "exercises-dataset:1630",
+    "name": "cable close grip curl",
+    "base": "cable_close_grip_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:1262",
+    "name": "cable one arm decline chest fly",
+    "base": "cable_one_arm_decline_chest_fly"
+  },
+  {
+    "catalogId": "exercises-dataset:0191",
+    "name": "cable one arm lateral bent-over",
+    "base": "cable_one_arm_lateral_bent_over"
+  },
+  {
+    "catalogId": "exercises-dataset:1473",
+    "name": "backward jump",
+    "base": "backward_jump"
+  },
+  {
+    "catalogId": "exercises-dataset:2398",
+    "name": "close-grip push-up on knees",
+    "base": "close_grip_push_up_on_knees"
+  },
+  {
+    "catalogId": "exercises-dataset:0130",
+    "name": "bench hip extension",
+    "base": "bench_hip_extension"
+  }
+]

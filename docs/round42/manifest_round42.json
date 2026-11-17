@@ -1,0 +1,80 @@
+{
+  "round": 42,
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:0580",
+      "filename": "lever_gripless_shrug_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0607",
+      "filename": "lever_triceps_extension_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3758",
+      "filename": "lever_standing_chest_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1348",
+      "filename": "lever_reverse_grip_vertical_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2407",
+      "filename": "barbell_biceps_curl_with_arm_blaster_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0076",
+      "filename": "barbell_rear_delt_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0082",
+      "filename": "barbell_reverse_wrist_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0088",
+      "filename": "barbell_seated_calf_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0022",
+      "filename": "barbell_pullover_to_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1630",
+      "filename": "cable_close_grip_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1262",
+      "filename": "cable_one_arm_decline_chest_fly_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0191",
+      "filename": "cable_one_arm_lateral_bent_over_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1473",
+      "filename": "backward_jump_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2398",
+      "filename": "close_grip_push_up_on_knees_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0130",
+      "filename": "bench_hip_extension_male.png",
+      "folder": "new"
+    }
+  ]
+}
