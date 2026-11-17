@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-17T20:30:34.119Z",
-  "bound": 1182,
+  "generatedAt": "2026-11-17T20:44:32.950Z",
+  "bound": 1197,
   "records": [
     {
       "catalogId": "exercises-dataset:0025",
@@ -5911,6 +5911,81 @@
       "catalogId": "exercises-dataset:2801",
       "localPath": "exercise_media/twisted_leg_raise_female_male.webp",
       "sha256": "bfdf707f58c2eb4f2c9d85db02c1d221d45414fcd87341f55163e1aee1d89ea3"
+    },
+    {
+      "catalogId": "exercises-dataset:3287",
+      "localPath": "exercise_media/elbow_dips_male.webp",
+      "sha256": "eb912bb2615eed4a42caa9a886bdef5f1ee98403caf2702ccc608c2ac572bfa9"
+    },
+    {
+      "catalogId": "exercises-dataset:0658",
+      "localPath": "exercise_media/push_up_wall_v_2_male.webp",
+      "sha256": "46ad282f48b4e229036d8c12f586c0602114aa5c0ab1744114aeee88d581a76d"
+    },
+    {
+      "catalogId": "exercises-dataset:3785",
+      "localPath": "exercise_media/incline_push_up_on_box_male.webp",
+      "sha256": "a16e2786f61759d7e0bc448fa427aa821fe45e3cb28be6e8f92855c550a3e316"
+    },
+    {
+      "catalogId": "exercises-dataset:3223",
+      "localPath": "exercise_media/star_jump_male_male.webp",
+      "sha256": "dce8845b3466c7b6c07204d92bdd727439d490ca0a5960c8c2a906f37111bad7"
+    },
+    {
+      "catalogId": "exercises-dataset:0705",
+      "localPath": "exercise_media/side_bridge_v_2_male.webp",
+      "sha256": "d0d38fb0b72f0193d603df673b11dfb3eb77d42a3efce61189e59d223655a5a1"
+    },
+    {
+      "catalogId": "exercises-dataset:0865",
+      "localPath": "exercise_media/lying_leg_hip_raise_male.webp",
+      "sha256": "4aca2f09cb23207fe6845fffff46254e8c2319632f7626d5121f9a5e1c3fcbb3"
+    },
+    {
+      "catalogId": "exercises-dataset:2312",
+      "localPath": "exercise_media/lying_elbow_to_knee_male.webp",
+      "sha256": "69a28fac7e2db7ed40d0459cad00c8ff3c186a00ff98291e90cc5c1dd610d995"
+    },
+    {
+      "catalogId": "exercises-dataset:0862",
+      "localPath": "exercise_media/cable_twist_up_down_male.webp",
+      "sha256": "c840ef7ecf06cc10fe5a32796a38bfe5f776b10825f058b8781220eb3ac3944a"
+    },
+    {
+      "catalogId": "exercises-dataset:1323",
+      "localPath": "exercise_media/cable_rope_seated_row_male.webp",
+      "sha256": "320b82b978f4a52372ab6986dffe144097ef6eb38d842f8222a2b1534f24453a"
+    },
+    {
+      "catalogId": "exercises-dataset:0233",
+      "localPath": "exercise_media/cable_standing_rear_delt_row_with_rope_male.webp",
+      "sha256": "e99ea6de8a97746296bdfbb8b136b7e80611aef1ae11f1f51142d58f22f41fcb"
+    },
+    {
+      "catalogId": "exercises-dataset:0224",
+      "localPath": "exercise_media/cable_standing_back_wrist_curl_male.webp",
+      "sha256": "5ba0a965e6bf6506a392ca3fce8313db5fd0e239890a06e9e69708e9bee794a0"
+    },
+    {
+      "catalogId": "exercises-dataset:2300",
+      "localPath": "exercise_media/inverted_row_bent_knees_male.webp",
+      "sha256": "6416a8862b29b98a1477313003319b6525c6f523480595ecfc10873cfb303de7"
+    },
+    {
+      "catalogId": "exercises-dataset:0164",
+      "localPath": "exercise_media/cable_front_shoulder_raise_male.webp",
+      "sha256": "308157011a14926065fbcef6d6afd42120fa2f682a6ba203ae076797e73604dc"
+    },
+    {
+      "catalogId": "exercises-dataset:1623",
+      "localPath": "exercise_media/dumbbell_palms_in_incline_bench_press_male.webp",
+      "sha256": "387c934de937d343f46f8d7ed0257622952ea1c162df5bf05c767c66b33ca90e"
+    },
+    {
+      "catalogId": "exercises-dataset:2812",
+      "localPath": "exercise_media/dumbbell_step_up_split_squat_male.webp",
+      "sha256": "ff284007f67dde7cfdf5376da44000d745985ed711dc7c222f5d4dc810b4655b"
     }
   ]
 }

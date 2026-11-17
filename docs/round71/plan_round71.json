@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:3287",
+    "name": "elbow dips",
+    "base": "elbow_dips"
+  },
+  {
+    "catalogId": "exercises-dataset:0658",
+    "name": "push-up (wall) v. 2",
+    "base": "push_up_wall_v_2"
+  },
+  {
+    "catalogId": "exercises-dataset:3785",
+    "name": "incline push-up (on box)",
+    "base": "incline_push_up_on_box"
+  },
+  {
+    "catalogId": "exercises-dataset:3223",
+    "name": "star jump (male)",
+    "base": "star_jump_male"
+  },
+  {
+    "catalogId": "exercises-dataset:0705",
+    "name": "side bridge v. 2",
+    "base": "side_bridge_v_2"
+  },
+  {
+    "catalogId": "exercises-dataset:0865",
+    "name": "lying leg-hip raise",
+    "base": "lying_leg_hip_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:2312",
+    "name": "lying elbow to knee",
+    "base": "lying_elbow_to_knee"
+  },
+  {
+    "catalogId": "exercises-dataset:0862",
+    "name": "cable twist (up-down)",
+    "base": "cable_twist_up_down"
+  },
+  {
+    "catalogId": "exercises-dataset:1323",
+    "name": "cable rope seated row",
+    "base": "cable_rope_seated_row"
+  },
+  {
+    "catalogId": "exercises-dataset:0233",
+    "name": "cable standing rear delt row (with rope)",
+    "base": "cable_standing_rear_delt_row_with_rope"
+  },
+  {
+    "catalogId": "exercises-dataset:0224",
+    "name": "cable standing back wrist curl",
+    "base": "cable_standing_back_wrist_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:2300",
+    "name": "inverted row bent knees",
+    "base": "inverted_row_bent_knees"
+  },
+  {
+    "catalogId": "exercises-dataset:0164",
+    "name": "cable front shoulder raise",
+    "base": "cable_front_shoulder_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:1623",
+    "name": "dumbbell palms in incline bench press",
+    "base": "dumbbell_palms_in_incline_bench_press"
+  },
+  {
+    "catalogId": "exercises-dataset:2812",
+    "name": "dumbbell step-up split squat",
+    "base": "dumbbell_step_up_split_squat"
+  }
+]

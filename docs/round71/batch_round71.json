@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:3287",
+      "filename": "elbow_dips_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0658",
+      "filename": "push_up_wall_v_2_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3785",
+      "filename": "incline_push_up_on_box_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3223",
+      "filename": "star_jump_male_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0705",
+      "filename": "side_bridge_v_2_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0865",
+      "filename": "lying_leg_hip_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2312",
+      "filename": "lying_elbow_to_knee_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0862",
+      "filename": "cable_twist_up_down_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1323",
+      "filename": "cable_rope_seated_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0233",
+      "filename": "cable_standing_rear_delt_row_with_rope_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0224",
+      "filename": "cable_standing_back_wrist_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2300",
+      "filename": "inverted_row_bent_knees_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0164",
+      "filename": "cable_front_shoulder_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1623",
+      "filename": "dumbbell_palms_in_incline_bench_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2812",
+      "filename": "dumbbell_step_up_split_squat_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:3287",
+      "base": "elbow_dips"
+    },
+    {
+      "catalogId": "exercises-dataset:0658",
+      "base": "push_up_wall_v_2"
+    },
+    {
+      "catalogId": "exercises-dataset:3785",
+      "base": "incline_push_up_on_box"
+    },
+    {
+      "catalogId": "exercises-dataset:3223",
+      "base": "star_jump_male"
+    },
+    {
+      "catalogId": "exercises-dataset:0705",
+      "base": "side_bridge_v_2"
+    },
+    {
+      "catalogId": "exercises-dataset:0865",
+      "base": "lying_leg_hip_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:2312",
+      "base": "lying_elbow_to_knee"
+    },
+    {
+      "catalogId": "exercises-dataset:0862",
+      "base": "cable_twist_up_down"
+    },
+    {
+      "catalogId": "exercises-dataset:1323",
+      "base": "cable_rope_seated_row"
+    },
+    {
+      "catalogId": "exercises-dataset:0233",
+      "base": "cable_standing_rear_delt_row_with_rope"
+    },
+    {
+      "catalogId": "exercises-dataset:0224",
+      "base": "cable_standing_back_wrist_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:2300",
+      "base": "inverted_row_bent_knees"
+    },
+    {
+      "catalogId": "exercises-dataset:0164",
+      "base": "cable_front_shoulder_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:1623",
+      "base": "dumbbell_palms_in_incline_bench_press"
+    },
+    {
+      "catalogId": "exercises-dataset:2812",
+      "base": "dumbbell_step_up_split_squat"
+    }
+  ]
+}
