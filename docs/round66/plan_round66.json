@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:1435",
+    "name": "barbell low bar squat",
+    "base": "barbell_low_bar_squat"
+  },
+  {
+    "catalogId": "exercises-dataset:1436",
+    "name": "barbell high bar squat",
+    "base": "barbell_high_bar_squat"
+  },
+  {
+    "catalogId": "exercises-dataset:0063",
+    "name": "barbell narrow stance squat",
+    "base": "barbell_narrow_stance_squat"
+  },
+  {
+    "catalogId": "exercises-dataset:0124",
+    "name": "barbell wide squat",
+    "base": "barbell_wide_squat"
+  },
+  {
+    "catalogId": "exercises-dataset:0099",
+    "name": "barbell single leg split squat",
+    "base": "barbell_single_leg_split_squat"
+  },
+  {
+    "catalogId": "exercises-dataset:0107",
+    "name": "barbell standing front raise over head",
+    "base": "barbell_standing_front_raise_over_head"
+  },
+  {
+    "catalogId": "exercises-dataset:0106",
+    "name": "barbell standing close grip curl",
+    "base": "barbell_standing_close_grip_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0113",
+    "name": "barbell standing wide-grip curl",
+    "base": "barbell_standing_wide_grip_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0589",
+    "name": "lever one arm bent over row",
+    "base": "lever_one_arm_bent_over_row"
+  },
+  {
+    "catalogId": "exercises-dataset:1264",
+    "name": "cable one arm incline fly on exercise ball",
+    "base": "cable_one_arm_incline_fly_on_exercise_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:1266",
+    "name": "cable one arm incline press on exercise ball",
+    "base": "cable_one_arm_incline_press_on_exercise_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:2399",
+    "name": "cable seated twist",
+    "base": "cable_seated_twist"
+  },
+  {
+    "catalogId": "exercises-dataset:0223",
+    "name": "cable side crunch",
+    "base": "cable_side_crunch"
+  },
+  {
+    "catalogId": "exercises-dataset:2429",
+    "name": "frog crunch",
+    "base": "frog_crunch"
+  },
+  {
+    "catalogId": "exercises-dataset:0260",
+    "name": "cocoons",
+    "base": "cocoons"
+  }
+]
