@@ -1,0 +1,42 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:3016",
+      "filename": "curl_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1753",
+      "filename": "three_bench_dip_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0814",
+      "filename": "triceps_dip_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0812",
+      "filename": "triceps_dip_bench_leg_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:3016",
+      "base": "curl_up"
+    },
+    {
+      "catalogId": "exercises-dataset:1753",
+      "base": "three_bench_dip"
+    },
+    {
+      "catalogId": "exercises-dataset:0814",
+      "base": "triceps_dip"
+    },
+    {
+      "catalogId": "exercises-dataset:0812",
+      "base": "triceps_dip_bench_leg"
+    }
+  ]
+}

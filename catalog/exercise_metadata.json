@@ -17836,6 +17836,54 @@
       "changes": "ALIVO 原创彩色编辑插图，服装带 ALIVO 品牌字标; resized to 1024px and encoded as lossy WebP quality 82",
       "sha256": "f5d3efa57b464c0e1a627966ba56d70d446e7a2aa175bae775d3af699d2c6195",
       "reviewedAt": "2026-11-18"
+    },
+    {
+      "catalogId": "exercises-dataset:3016",
+      "sourceRecordId": "alivo:editorial:curl_up_male.png",
+      "localPath": "exercise_media/curl_up_male.webp",
+      "sourceUrl": "https://openai.com/policies/terms-of-use/",
+      "author": "Paul Leung",
+      "license": "ALIVO-editorial",
+      "licenseUrl": "https://openai.com/policies/terms-of-use/",
+      "changes": "ALIVO 原创彩色编辑插图，服装带 ALIVO 品牌字标; resized to 1024px and encoded as lossy WebP quality 82",
+      "sha256": "104ba45003cbf047e0ef24dc72d7b6fa896d6217c3122e03d3a236cd17a09998",
+      "reviewedAt": "2026-11-18"
+    },
+    {
+      "catalogId": "exercises-dataset:1753",
+      "sourceRecordId": "alivo:editorial:three_bench_dip_male.png",
+      "localPath": "exercise_media/three_bench_dip_male.webp",
+      "sourceUrl": "https://openai.com/policies/terms-of-use/",
+      "author": "Paul Leung",
+      "license": "ALIVO-editorial",
+      "licenseUrl": "https://openai.com/policies/terms-of-use/",
+      "changes": "ALIVO 原创彩色编辑插图，服装带 ALIVO 品牌字标; resized to 1024px and encoded as lossy WebP quality 82",
+      "sha256": "9115be080b5b2b86d331c17a41e027fa92850e249de31b879008a5d54731ff6d",
+      "reviewedAt": "2026-11-18"
+    },
+    {
+      "catalogId": "exercises-dataset:0814",
+      "sourceRecordId": "alivo:editorial:triceps_dip_male.png",
+      "localPath": "exercise_media/triceps_dip_male.webp",
+      "sourceUrl": "https://openai.com/policies/terms-of-use/",
+      "author": "Paul Leung",
+      "license": "ALIVO-editorial",
+      "licenseUrl": "https://openai.com/policies/terms-of-use/",
+      "changes": "ALIVO 原创彩色编辑插图，服装带 ALIVO 品牌字标; resized to 1024px and encoded as lossy WebP quality 82",
+      "sha256": "dee8cbcf38a5414d7ea54d5b161b2a77164d03c06fa2a09ba6a12f76ea320535",
+      "reviewedAt": "2026-11-18"
+    },
+    {
+      "catalogId": "exercises-dataset:0812",
+      "sourceRecordId": "alivo:editorial:triceps_dip_bench_leg_male.png",
+      "localPath": "exercise_media/triceps_dip_bench_leg_male.webp",
+      "sourceUrl": "https://openai.com/policies/terms-of-use/",
+      "author": "Paul Leung",
+      "license": "ALIVO-editorial",
+      "licenseUrl": "https://openai.com/policies/terms-of-use/",
+      "changes": "ALIVO 原创彩色编辑插图，服装带 ALIVO 品牌字标; resized to 1024px and encoded as lossy WebP quality 82",
+      "sha256": "21428b5ad2c6f5c3291874567a0b9bac4f9b5ebc50cc4f1c1d3501807efbcf98",
+      "reviewedAt": "2026-11-18"
     }
   ]
 }

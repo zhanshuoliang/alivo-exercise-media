@@ -3088,3 +3088,22 @@ Kai（男）/ Liv（女）双角色带标轨批次（开源轨本轮暂停，后
 - `short_stride_run_female.png` — `exercises-dataset:3656`; SHA-256 `e63a1e1b498646885b22b42406c4be282069b4c772a30f0589f6bd2919ec686e`.
 - `sit_up_v_2_female.png` — `exercises-dataset:0735`; SHA-256 `edc21b4d7f6579b4ef73140853b43ceab5b4860cdaee25d265a68d999e35a02e`.
 - `triceps_press_female.png` — `exercises-dataset:0816`; SHA-256 `db36cb6f2e21cf7a6398d9d8c431bd52d434aba95b0d24e71bd422073a986115`.
+
+
+## Round 80 — branded-only edition (2026-11-18)
+
+Kai（男）/ Liv（女）双角色带标轨批次（开源轨本轮暂停，后续独立补生成）。男版已绑定入 App 目录数据（exercise_metadata.json）；女版为同动作的性别变体资产，仅入媒体库备用，未绑定。
+
+### Male edition（已绑定 App）
+
+- `curl_up_male.png` — `exercises-dataset:3016`; SHA-256 `2d3e711ed8d7e5b1f891a335bafab90e96918ae3b1a195b762faf9d30c9ae0fb`.
+- `three_bench_dip_male.png` — `exercises-dataset:1753`; SHA-256 `325a13528b89198e87559265ec27cd58074d00810abbf24df39b91af42ec0bde`.
+- `triceps_dip_male.png` — `exercises-dataset:0814`; SHA-256 `473b6669adcbda90c08f1401381f08122ca2c0630d31ef51a3422e4c2aa1498a`.
+- `triceps_dip_bench_leg_male.png` — `exercises-dataset:0812`; SHA-256 `c9ba777857bf407d24991485d78db5f3150dba547a5bb4d84839c524378e03c5`.
+
+### Female edition（性别变体，未绑定）
+
+- `curl_up_female.png` — `exercises-dataset:3016`; SHA-256 `80e952fd8bf0796eb3532e3dbce5982bf7a1e585657ae79530361ea53754a388`.
+- `three_bench_dip_female.png` — `exercises-dataset:1753`; SHA-256 `b708f7988fccdbe290c9d00c4e849f6a797ed719fe1bc83723887c539aeac9b1`.
+- `triceps_dip_female.png` — `exercises-dataset:0814`; SHA-256 `81eec6940ef7b672a8316ad31cabf780f741bf13160fab727d8841acdf2b1a12`.
+- `triceps_dip_bench_leg_female.png` — `exercises-dataset:0812`; SHA-256 `64b313246f70575d77097d59f034c5d0765ebfbe2b368492afcd1a004634a312`.

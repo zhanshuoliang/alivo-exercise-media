@@ -1,0 +1,22 @@
+[
+  {
+    "catalogId": "exercises-dataset:3016",
+    "name": "curl-up",
+    "base": "curl_up"
+  },
+  {
+    "catalogId": "exercises-dataset:1753",
+    "name": "three bench dip",
+    "base": "three_bench_dip"
+  },
+  {
+    "catalogId": "exercises-dataset:0814",
+    "name": "triceps dip",
+    "base": "triceps_dip"
+  },
+  {
+    "catalogId": "exercises-dataset:0812",
+    "name": "triceps dip (bench leg)",
+    "base": "triceps_dip_bench_leg"
+  }
+]
