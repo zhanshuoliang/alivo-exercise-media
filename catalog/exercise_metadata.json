@@ -13854,18 +13854,6 @@
       "reviewedAt": "2026-11-17"
     },
     {
-      "catalogId": "exercises-dataset:3562",
-      "sourceRecordId": "alivo:editorial:barbell_glute_bridge_two_legs_on_bench_male_male.png",
-      "localPath": "exercise_media/barbell_glute_bridge_two_legs_on_bench_male_male.webp",
-      "sourceUrl": "https://openai.com/policies/terms-of-use/",
-      "author": "Paul Leung",
-      "license": "ALIVO-editorial",
-      "licenseUrl": "https://openai.com/policies/terms-of-use/",
-      "changes": "ALIVO 原创彩色编辑插图，服装带 ALIVO 品牌字标; resized to 1024px and encoded as lossy WebP quality 82",
-      "sha256": "322322f522282ce42ff9fc8e6b74cf06e2bcc5543052868d483ae9492e85ebbd",
-      "reviewedAt": "2026-11-17"
-    },
-    {
       "catalogId": "exercises-dataset:3019",
       "sourceRecordId": "alivo:editorial:bench_pull_ups_male.png",
       "localPath": "exercise_media/bench_pull_ups_male.webp",
@@ -13911,6 +13899,18 @@
       "licenseUrl": "https://openai.com/policies/terms-of-use/",
       "changes": "ALIVO 原创彩色编辑插图，服装带 ALIVO 品牌字标; resized to 1024px and encoded as lossy WebP quality 82",
       "sha256": "09e2d4f9f4855e13d5dad04fe323ad59378196ff5443df1dfc95450b99de190b",
+      "reviewedAt": "2026-11-17"
+    },
+    {
+      "catalogId": "exercises-dataset:0096",
+      "sourceRecordId": "alivo:editorial:barbell_side_bent_v_2_male.png",
+      "localPath": "exercise_media/barbell_side_bent_v_2_male.webp",
+      "sourceUrl": "https://openai.com/policies/terms-of-use/",
+      "author": "Paul Leung",
+      "license": "ALIVO-editorial",
+      "licenseUrl": "https://openai.com/policies/terms-of-use/",
+      "changes": "ALIVO 原创彩色编辑插图，服装带 ALIVO 品牌字标; resized to 1024px and encoded as lossy WebP quality 82",
+      "sha256": "33cb5e1ddf44fbf690cab0b9ada1213d1a45fb612904c28f914d3eddd05ce70f",
       "reviewedAt": "2026-11-17"
     }
   ]

@@ -51,11 +51,6 @@
       "folder": "new"
     },
     {
-      "catalogId": "exercises-dataset:3562",
-      "filename": "barbell_glute_bridge_two_legs_on_bench_male_male.png",
-      "folder": "new"
-    },
-    {
       "catalogId": "exercises-dataset:3019",
       "filename": "bench_pull_ups_male.png",
       "folder": "new"
@@ -73,6 +68,11 @@
     {
       "catalogId": "exercises-dataset:1466",
       "filename": "twist_hip_lift_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0096",
+      "filename": "barbell_side_bent_v_2_male.png",
       "folder": "new"
     }
   ],
@@ -118,10 +118,6 @@
       "base": "barbell_lying_lifting_on_hip"
     },
     {
-      "catalogId": "exercises-dataset:3562",
-      "base": "barbell_glute_bridge_two_legs_on_bench_male"
-    },
-    {
       "catalogId": "exercises-dataset:3019",
       "base": "bench_pull_ups"
     },
@@ -136,6 +132,10 @@
     {
       "catalogId": "exercises-dataset:1466",
       "base": "twist_hip_lift"
+    },
+    {
+      "catalogId": "exercises-dataset:0096",
+      "base": "barbell_side_bent_v_2"
     }
   ]
 }
