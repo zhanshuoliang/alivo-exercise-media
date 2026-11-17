@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:0368",
+      "filename": "dumbbell_over_bench_revers_wrist_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0397",
+      "filename": "dumbbell_seated_neutral_wrist_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0155",
+      "filename": "cable_cross_over_variation_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0434",
+      "filename": "dumbbell_straight_leg_deadlift_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0484",
+      "filename": "hip_raise_bent_knee_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1764",
+      "filename": "hanging_leg_hip_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1495",
+      "filename": "oblique_crunch_v_2_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2397",
+      "filename": "dumbbell_scott_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3760",
+      "filename": "lever_seated_crunch_v_2_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1397",
+      "filename": "standing_calves_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1659",
+      "filename": "dumbbell_hammer_curl_on_exercise_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1288",
+      "filename": "dumbbell_one_arm_fly_on_exercise_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0425",
+      "filename": "dumbbell_standing_one_arm_reverse_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0409",
+      "filename": "dumbbell_single_leg_calf_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3222",
+      "filename": "semi_squat_jump_male_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:0368",
+      "base": "dumbbell_over_bench_revers_wrist_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0397",
+      "base": "dumbbell_seated_neutral_wrist_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0155",
+      "base": "cable_cross_over_variation"
+    },
+    {
+      "catalogId": "exercises-dataset:0434",
+      "base": "dumbbell_straight_leg_deadlift"
+    },
+    {
+      "catalogId": "exercises-dataset:0484",
+      "base": "hip_raise_bent_knee"
+    },
+    {
+      "catalogId": "exercises-dataset:1764",
+      "base": "hanging_leg_hip_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:1495",
+      "base": "oblique_crunch_v_2"
+    },
+    {
+      "catalogId": "exercises-dataset:2397",
+      "base": "dumbbell_scott_press"
+    },
+    {
+      "catalogId": "exercises-dataset:3760",
+      "base": "lever_seated_crunch_v_2"
+    },
+    {
+      "catalogId": "exercises-dataset:1397",
+      "base": "standing_calves"
+    },
+    {
+      "catalogId": "exercises-dataset:1659",
+      "base": "dumbbell_hammer_curl_on_exercise_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:1288",
+      "base": "dumbbell_one_arm_fly_on_exercise_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:0425",
+      "base": "dumbbell_standing_one_arm_reverse_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0409",
+      "base": "dumbbell_single_leg_calf_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:3222",
+      "base": "semi_squat_jump_male"
+    }
+  ]
+}

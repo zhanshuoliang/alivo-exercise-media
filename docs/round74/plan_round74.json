@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:0368",
+    "name": "dumbbell over bench revers wrist curl",
+    "base": "dumbbell_over_bench_revers_wrist_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0397",
+    "name": "dumbbell seated neutral wrist curl",
+    "base": "dumbbell_seated_neutral_wrist_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0155",
+    "name": "cable cross-over variation",
+    "base": "cable_cross_over_variation"
+  },
+  {
+    "catalogId": "exercises-dataset:0434",
+    "name": "dumbbell straight leg deadlift",
+    "base": "dumbbell_straight_leg_deadlift"
+  },
+  {
+    "catalogId": "exercises-dataset:0484",
+    "name": "hip raise (bent knee)",
+    "base": "hip_raise_bent_knee"
+  },
+  {
+    "catalogId": "exercises-dataset:1764",
+    "name": "hanging leg hip raise",
+    "base": "hanging_leg_hip_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:1495",
+    "name": "oblique crunch v. 2",
+    "base": "oblique_crunch_v_2"
+  },
+  {
+    "catalogId": "exercises-dataset:2397",
+    "name": "dumbbell scott press",
+    "base": "dumbbell_scott_press"
+  },
+  {
+    "catalogId": "exercises-dataset:3760",
+    "name": "lever seated crunch v. 2",
+    "base": "lever_seated_crunch_v_2"
+  },
+  {
+    "catalogId": "exercises-dataset:1397",
+    "name": "standing calves",
+    "base": "standing_calves"
+  },
+  {
+    "catalogId": "exercises-dataset:1659",
+    "name": "dumbbell hammer curl on exercise ball",
+    "base": "dumbbell_hammer_curl_on_exercise_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:1288",
+    "name": "dumbbell one arm fly on exercise ball",
+    "base": "dumbbell_one_arm_fly_on_exercise_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:0425",
+    "name": "dumbbell standing one arm reverse curl",
+    "base": "dumbbell_standing_one_arm_reverse_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0409",
+    "name": "dumbbell single leg calf raise",
+    "base": "dumbbell_single_leg_calf_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:3222",
+    "name": "semi squat jump (male)",
+    "base": "semi_squat_jump_male"
+  }
+]
