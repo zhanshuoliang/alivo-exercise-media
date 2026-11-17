@@ -1587,8 +1587,8 @@ Kai（男）/ Liv（女）双角色带标轨批次（开源轨本轮暂停，后
 
 - `band_straight_leg_deadlift_male.png` — `exercises-dataset:1010`; SHA-256 `a5cce24c74a63a429adb8cb8e69c7817dfc4cc29e558283dc37be9ecc681bb7c`.
 - `kettlebell_double_windmill_male.png` — `exercises-dataset:0530`; SHA-256 `c85c9e4afb636ccc0e3d1c2895828960e93d38b443e4a234fc9c858019696928`.
-- `kettlebell_halo_with_overhead_extension_male.png` — `free-exercise-db:Kettlebell_Halo_With_Overhead_Extension`; SHA-256 `53a350e45c8aaf7110928fe73dce985ce4cef97879254c74bc2425a6fa196288`.
-- `push_up_on_stability_ball_male.png` — `exercises-dataset:0656`; SHA-256 `72523dc02cd4ee1965379711234423f124d5a4fd7f5113eb02380748bd039a00`.
+- `cable_lying_bicep_curl_male.png` — `exercises-dataset:1634`; SHA-256 `16b96dc38780d3751351a16eab96e0dd65939970b574d66238a97455c6eba8e1`.
+- `dumbbell_decline_shrug_male.png` — `exercises-dataset:0305`; SHA-256 `29a689eeb071c8c6d0215b2e0327983e5fe64b6511e18cd6bec510fabfa9ecbd`.
 - `smith_machine_reverse_decline_close_grip_bench_press_male.png` — `exercises-dataset:1626`; SHA-256 `52097565b6f57e75c351b470b4e7325674d27ffc2e31c04421d3118ec8f6517e`.
 - `smith_reverse_calf_raises_male.png` — `exercises-dataset:0763`; SHA-256 `7f166220d7d6ad2a5c13619e84ab358d72145a49c1a3a60527e300dd9217a8eb`.
 - `weighted_straight_bar_dip_male.png` — `exercises-dataset:3313`; SHA-256 `0280a88f8abd06563c40e78461c13fb86b29e7dcfc2a7796b4d292bbb390c0a9`.
@@ -1605,8 +1605,8 @@ Kai（男）/ Liv（女）双角色带标轨批次（开源轨本轮暂停，后
 
 - `band_straight_leg_deadlift_female.png` — `exercises-dataset:1010`; SHA-256 `b039cbe700f6ab766c2a8695fbb168c4db3c9bad3209fa5f746cf28dcef35f6b`.
 - `kettlebell_double_windmill_female.png` — `exercises-dataset:0530`; SHA-256 `215449a9e27c71b1c44ff4364aef1d3e69c6b8c116de5db61ba26410820179c4`.
-- `kettlebell_halo_with_overhead_extension_female.png` — `free-exercise-db:Kettlebell_Halo_With_Overhead_Extension`; SHA-256 `c9fc6672c42e504c7090483c757b6fd9b9593349a952c66f6e10ce06453f31bf`.
-- `push_up_on_stability_ball_female.png` — `exercises-dataset:0656`; SHA-256 `e31702fe6ccc0ccf21ea7637244a76963b7de47b37b254ecebd7265b7dcfdc68`.
+- `cable_lying_bicep_curl_female.png` — `exercises-dataset:1634`; SHA-256 `721d4b48d2899c90b4460c124bd00d082447cc45ebd8147f7028b097ef0856ad`.
+- `dumbbell_decline_shrug_female.png` — `exercises-dataset:0305`; SHA-256 `a7a050eaa0b4d44a26bd17aa3b7f5f6bf280e7805202e48beeee0a932e28548c`.
 - `smith_machine_reverse_decline_close_grip_bench_press_female.png` — `exercises-dataset:1626`; SHA-256 `cbf2b905025323474ff7089f21e66e90eef041c851abb9667884d0c33478d4fa`.
 - `smith_reverse_calf_raises_female.png` — `exercises-dataset:0763`; SHA-256 `6bc1a136e6a8bae1481e8f6425bff7898c4199b08dbf47f2c01dd97e6c544cb5`.
 - `weighted_straight_bar_dip_female.png` — `exercises-dataset:3313`; SHA-256 `87ac3eef9596c84efc451bcc88b8490453344296abb6bd5a852a8e663074c393`.

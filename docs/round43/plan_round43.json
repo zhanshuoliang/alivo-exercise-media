@@ -10,9 +10,9 @@
     "base": "kettlebell_double_windmill"
   },
   {
-    "catalogId": "free-exercise-db:Kettlebell_Halo_With_Overhead_Extension",
-    "name": "kettlebell halo with overhead extension",
-    "base": "kettlebell_halo_with_overhead_extension"
+    "catalogId": "exercises-dataset:0305",
+    "name": "dumbbell decline shrug",
+    "base": "dumbbell_decline_shrug"
   },
   {
     "catalogId": "exercises-dataset:1634",
