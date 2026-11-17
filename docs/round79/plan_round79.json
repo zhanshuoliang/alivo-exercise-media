@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:0140",
+    "name": "biceps pull-up",
+    "base": "biceps_pull_up"
+  },
+  {
+    "catalogId": "exercises-dataset:3162",
+    "name": "bodyweight standing one arm row",
+    "base": "bodyweight_standing_one_arm_row"
+  },
+  {
+    "catalogId": "exercises-dataset:0316",
+    "name": "dumbbell incline breeding",
+    "base": "dumbbell_incline_breeding"
+  },
+  {
+    "catalogId": "exercises-dataset:1667",
+    "name": "dumbbell one arm reverse spider curl",
+    "base": "dumbbell_one_arm_reverse_spider_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0370",
+    "name": "dumbbell peacher hammer curl",
+    "base": "dumbbell_peacher_hammer_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0380",
+    "name": "dumbbell rear lateral raise",
+    "base": "dumbbell_rear_lateral_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:1675",
+    "name": "dumbbell reverse spider curl",
+    "base": "dumbbell_reverse_spider_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0418",
+    "name": "dumbbell standing concentration curl",
+    "base": "dumbbell_standing_concentration_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:3203",
+    "name": "prisoner half sit-up (male)",
+    "base": "prisoner_half_sit_up_male"
+  },
+  {
+    "catalogId": "exercises-dataset:3533",
+    "name": "quads",
+    "base": "quads"
+  },
+  {
+    "catalogId": "exercises-dataset:3201",
+    "name": "quarter sit-up",
+    "base": "quarter_sit_up"
+  },
+  {
+    "catalogId": "exercises-dataset:0668",
+    "name": "rear decline bridge",
+    "base": "rear_decline_bridge"
+  },
+  {
+    "catalogId": "exercises-dataset:3656",
+    "name": "short stride run",
+    "base": "short_stride_run"
+  },
+  {
+    "catalogId": "exercises-dataset:0735",
+    "name": "sit-up v. 2",
+    "base": "sit_up_v_2"
+  },
+  {
+    "catalogId": "exercises-dataset:0816",
+    "name": "triceps press",
+    "base": "triceps_press"
+  }
+]

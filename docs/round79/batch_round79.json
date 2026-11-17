@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:0140",
+      "filename": "biceps_pull_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3162",
+      "filename": "bodyweight_standing_one_arm_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0316",
+      "filename": "dumbbell_incline_breeding_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1667",
+      "filename": "dumbbell_one_arm_reverse_spider_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0370",
+      "filename": "dumbbell_peacher_hammer_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0380",
+      "filename": "dumbbell_rear_lateral_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1675",
+      "filename": "dumbbell_reverse_spider_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0418",
+      "filename": "dumbbell_standing_concentration_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3203",
+      "filename": "prisoner_half_sit_up_male_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3533",
+      "filename": "quads_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3201",
+      "filename": "quarter_sit_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0668",
+      "filename": "rear_decline_bridge_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3656",
+      "filename": "short_stride_run_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0735",
+      "filename": "sit_up_v_2_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0816",
+      "filename": "triceps_press_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:0140",
+      "base": "biceps_pull_up"
+    },
+    {
+      "catalogId": "exercises-dataset:3162",
+      "base": "bodyweight_standing_one_arm_row"
+    },
+    {
+      "catalogId": "exercises-dataset:0316",
+      "base": "dumbbell_incline_breeding"
+    },
+    {
+      "catalogId": "exercises-dataset:1667",
+      "base": "dumbbell_one_arm_reverse_spider_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0370",
+      "base": "dumbbell_peacher_hammer_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0380",
+      "base": "dumbbell_rear_lateral_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:1675",
+      "base": "dumbbell_reverse_spider_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0418",
+      "base": "dumbbell_standing_concentration_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:3203",
+      "base": "prisoner_half_sit_up_male"
+    },
+    {
+      "catalogId": "exercises-dataset:3533",
+      "base": "quads"
+    },
+    {
+      "catalogId": "exercises-dataset:3201",
+      "base": "quarter_sit_up"
+    },
+    {
+      "catalogId": "exercises-dataset:0668",
+      "base": "rear_decline_bridge"
+    },
+    {
+      "catalogId": "exercises-dataset:3656",
+      "base": "short_stride_run"
+    },
+    {
+      "catalogId": "exercises-dataset:0735",
+      "base": "sit_up_v_2"
+    },
+    {
+      "catalogId": "exercises-dataset:0816",
+      "base": "triceps_press"
+    }
+  ]
+}
