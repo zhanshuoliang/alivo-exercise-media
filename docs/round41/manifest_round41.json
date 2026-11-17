@@ -1,0 +1,79 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:1000",
+      "filename": "band_single_leg_reverse_calf_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1001",
+      "filename": "band_single_leg_split_squat_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1369",
+      "filename": "band_two_legs_calf_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1016",
+      "filename": "band_wrist_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0844",
+      "filename": "weighted_round_arm_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0193",
+      "filename": "cable_one_arm_straight_back_high_row_kneeling_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1754",
+      "filename": "weighted_three_bench_dips_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1313",
+      "filename": "lever_unilateral_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1301",
+      "filename": "machine_inner_chest_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0600",
+      "filename": "lever_seated_leg_raise_crunch_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2288",
+      "filename": "lever_gripper_hands_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0055",
+      "filename": "barbell_lying_close_grip_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0073",
+      "filename": "barbell_pullover_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0068",
+      "filename": "barbell_one_leg_squat_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0040",
+      "filename": "barbell_front_raise_and_pullover_male.png",
+      "folder": "new"
+    }
+  ]
+}

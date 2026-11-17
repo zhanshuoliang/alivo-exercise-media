@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:1000",
+    "name": "band single leg reverse calf raise",
+    "base": "band_single_leg_reverse_calf_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:1001",
+    "name": "band single leg split squat",
+    "base": "band_single_leg_split_squat"
+  },
+  {
+    "catalogId": "exercises-dataset:1369",
+    "name": "band two legs calf raise",
+    "base": "band_two_legs_calf_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:1016",
+    "name": "band wrist curl",
+    "base": "band_wrist_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0844",
+    "name": "weighted round arm",
+    "base": "weighted_round_arm"
+  },
+  {
+    "catalogId": "exercises-dataset:0193",
+    "name": "cable one arm straight back high row (kneeling)",
+    "base": "cable_one_arm_straight_back_high_row_kneeling"
+  },
+  {
+    "catalogId": "exercises-dataset:1754",
+    "name": "weighted three bench dips",
+    "base": "weighted_three_bench_dips"
+  },
+  {
+    "catalogId": "exercises-dataset:1313",
+    "name": "lever unilateral row",
+    "base": "lever_unilateral_row"
+  },
+  {
+    "catalogId": "exercises-dataset:1301",
+    "name": "machine inner chest press",
+    "base": "machine_inner_chest_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0600",
+    "name": "lever seated leg raise crunch",
+    "base": "lever_seated_leg_raise_crunch"
+  },
+  {
+    "catalogId": "exercises-dataset:2288",
+    "name": "lever gripper hands",
+    "base": "lever_gripper_hands"
+  },
+  {
+    "catalogId": "exercises-dataset:0055",
+    "name": "barbell lying close-grip press",
+    "base": "barbell_lying_close_grip_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0073",
+    "name": "barbell pullover",
+    "base": "barbell_pullover"
+  },
+  {
+    "catalogId": "exercises-dataset:0068",
+    "name": "barbell one leg squat",
+    "base": "barbell_one_leg_squat"
+  },
+  {
+    "catalogId": "exercises-dataset:0040",
+    "name": "barbell front raise and pullover",
+    "base": "barbell_front_raise_and_pullover"
+  }
+]
