@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:0097",
+    "name": "barbell side split squat v. 2",
+    "base": "barbell_side_split_squat_v_2"
+  },
+  {
+    "catalogId": "exercises-dataset:2810",
+    "name": "barbell split squat v. 2",
+    "base": "barbell_split_squat_v_2"
+  },
+  {
+    "catalogId": "exercises-dataset:0385",
+    "name": "dumbbell reverse wrist curl",
+    "base": "dumbbell_reverse_wrist_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0400",
+    "name": "dumbbell seated one leg calf raise",
+    "base": "dumbbell_seated_one_leg_calf_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:0402",
+    "name": "dumbbell seated preacher curl",
+    "base": "dumbbell_seated_preacher_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0428",
+    "name": "dumbbell standing preacher curl",
+    "base": "dumbbell_standing_preacher_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0421",
+    "name": "dumbbell standing one arm concentration curl",
+    "base": "dumbbell_standing_one_arm_concentration_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0387",
+    "name": "dumbbell seated alternate front raise",
+    "base": "dumbbell_seated_alternate_front_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:0388",
+    "name": "dumbbell seated alternate press",
+    "base": "dumbbell_seated_alternate_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0325",
+    "name": "dumbbell incline raise",
+    "base": "dumbbell_incline_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:1660",
+    "name": "dumbbell kneeling bicep curl exercise ball",
+    "base": "dumbbell_kneeling_bicep_curl_exercise_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:1669",
+    "name": "dumbbell one arm seated hammer curl",
+    "base": "dumbbell_one_arm_seated_hammer_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:1735",
+    "name": "dumbbell lying single extension",
+    "base": "dumbbell_lying_single_extension"
+  },
+  {
+    "catalogId": "exercises-dataset:3240",
+    "name": "exercise ball on the wall calf raise (tennis ball between knees)",
+    "base": "exercise_ball_on_the_wall_calf_raise_tennis_ball_between_knees"
+  },
+  {
+    "catalogId": "exercises-dataset:3231",
+    "name": "two toe touch (male)",
+    "base": "two_toe_touch_male"
+  }
+]
