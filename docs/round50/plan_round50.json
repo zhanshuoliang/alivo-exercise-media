@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:0345",
+    "name": "dumbbell lying one arm rear lateral raise",
+    "base": "dumbbell_lying_one_arm_rear_lateral_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:0346",
+    "name": "dumbbell lying one arm supinated triceps extension",
+    "base": "dumbbell_lying_one_arm_supinated_triceps_extension"
+  },
+  {
+    "catalogId": "exercises-dataset:0347",
+    "name": "dumbbell lying pronation",
+    "base": "dumbbell_lying_pronation"
+  },
+  {
+    "catalogId": "exercises-dataset:0362",
+    "name": "dumbbell one arm triceps extension (on bench)",
+    "base": "dumbbell_one_arm_triceps_extension_on_bench"
+  },
+  {
+    "catalogId": "exercises-dataset:1617",
+    "name": "dumbbell decline one arm hammer press",
+    "base": "dumbbell_decline_one_arm_hammer_press"
+  },
+  {
+    "catalogId": "exercises-dataset:1413",
+    "name": "cable reverse one arm curl",
+    "base": "cable_reverse_one_arm_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:1644",
+    "name": "cable squatting curl",
+    "base": "cable_squatting_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0215",
+    "name": "cable seated rear lateral raise",
+    "base": "cable_seated_rear_lateral_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:0244",
+    "name": "cable twisting pull",
+    "base": "cable_twisting_pull"
+  },
+  {
+    "catalogId": "exercises-dataset:1256",
+    "name": "barbell reverse grip decline bench press",
+    "base": "barbell_reverse_grip_decline_bench_press"
+  },
+  {
+    "catalogId": "exercises-dataset:1317",
+    "name": "barbell reverse grip incline bench row",
+    "base": "barbell_reverse_grip_incline_bench_row"
+  },
+  {
+    "catalogId": "exercises-dataset:1719",
+    "name": "barbell incline close grip bench press",
+    "base": "barbell_incline_close_grip_bench_press"
+  },
+  {
+    "catalogId": "exercises-dataset:1772",
+    "name": "elbow lift - reverse push-up",
+    "base": "elbow_lift_reverse_push_up"
+  },
+  {
+    "catalogId": "exercises-dataset:0815",
+    "name": "triceps dips floor",
+    "base": "triceps_dips_floor"
+  },
+  {
+    "catalogId": "exercises-dataset:0717",
+    "name": "side push-up",
+    "base": "side_push_up"
+  }
+]

@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:0345",
+      "filename": "dumbbell_lying_one_arm_rear_lateral_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0346",
+      "filename": "dumbbell_lying_one_arm_supinated_triceps_extension_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0347",
+      "filename": "dumbbell_lying_pronation_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0362",
+      "filename": "dumbbell_one_arm_triceps_extension_on_bench_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1617",
+      "filename": "dumbbell_decline_one_arm_hammer_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1413",
+      "filename": "cable_reverse_one_arm_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1644",
+      "filename": "cable_squatting_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0215",
+      "filename": "cable_seated_rear_lateral_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0244",
+      "filename": "cable_twisting_pull_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1256",
+      "filename": "barbell_reverse_grip_decline_bench_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1317",
+      "filename": "barbell_reverse_grip_incline_bench_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1719",
+      "filename": "barbell_incline_close_grip_bench_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1772",
+      "filename": "elbow_lift_reverse_push_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0815",
+      "filename": "triceps_dips_floor_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0717",
+      "filename": "side_push_up_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:0345",
+      "base": "dumbbell_lying_one_arm_rear_lateral_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:0346",
+      "base": "dumbbell_lying_one_arm_supinated_triceps_extension"
+    },
+    {
+      "catalogId": "exercises-dataset:0347",
+      "base": "dumbbell_lying_pronation"
+    },
+    {
+      "catalogId": "exercises-dataset:0362",
+      "base": "dumbbell_one_arm_triceps_extension_on_bench"
+    },
+    {
+      "catalogId": "exercises-dataset:1617",
+      "base": "dumbbell_decline_one_arm_hammer_press"
+    },
+    {
+      "catalogId": "exercises-dataset:1413",
+      "base": "cable_reverse_one_arm_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:1644",
+      "base": "cable_squatting_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0215",
+      "base": "cable_seated_rear_lateral_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:0244",
+      "base": "cable_twisting_pull"
+    },
+    {
+      "catalogId": "exercises-dataset:1256",
+      "base": "barbell_reverse_grip_decline_bench_press"
+    },
+    {
+      "catalogId": "exercises-dataset:1317",
+      "base": "barbell_reverse_grip_incline_bench_row"
+    },
+    {
+      "catalogId": "exercises-dataset:1719",
+      "base": "barbell_incline_close_grip_bench_press"
+    },
+    {
+      "catalogId": "exercises-dataset:1772",
+      "base": "elbow_lift_reverse_push_up"
+    },
+    {
+      "catalogId": "exercises-dataset:0815",
+      "base": "triceps_dips_floor"
+    },
+    {
+      "catalogId": "exercises-dataset:0717",
+      "base": "side_push_up"
+    }
+  ]
+}
