@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:3290",
+      "filename": "weighted_one_hand_pull_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3312",
+      "filename": "weighted_muscle_up_on_bar_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1767",
+      "filename": "weighted_triceps_dip_on_high_parallel_bars_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1310",
+      "filename": "weighted_drop_push_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0833",
+      "filename": "weighted_donkey_calf_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1002",
+      "filename": "band_lying_straight_leg_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0986",
+      "filename": "band_one_arm_overhead_biceps_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0990",
+      "filename": "band_one_arm_twisting_seated_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0992",
+      "filename": "band_push_sit_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0998",
+      "filename": "band_side_triceps_extension_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1300",
+      "filename": "lever_decline_chest_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0604",
+      "filename": "lever_shrug_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0601",
+      "filename": "lever_seated_reverse_fly_parallel_grip_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0592",
+      "filename": "lever_preacher_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2611",
+      "filename": "lever_horizontal_one_leg_press_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:3290",
+      "base": "weighted_one_hand_pull_up"
+    },
+    {
+      "catalogId": "exercises-dataset:3312",
+      "base": "weighted_muscle_up_on_bar"
+    },
+    {
+      "catalogId": "exercises-dataset:1767",
+      "base": "weighted_triceps_dip_on_high_parallel_bars"
+    },
+    {
+      "catalogId": "exercises-dataset:1310",
+      "base": "weighted_drop_push_up"
+    },
+    {
+      "catalogId": "exercises-dataset:0833",
+      "base": "weighted_donkey_calf_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:1002",
+      "base": "band_lying_straight_leg_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:0986",
+      "base": "band_one_arm_overhead_biceps_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:0990",
+      "base": "band_one_arm_twisting_seated_row"
+    },
+    {
+      "catalogId": "exercises-dataset:0992",
+      "base": "band_push_sit_up"
+    },
+    {
+      "catalogId": "exercises-dataset:0998",
+      "base": "band_side_triceps_extension"
+    },
+    {
+      "catalogId": "exercises-dataset:1300",
+      "base": "lever_decline_chest_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0604",
+      "base": "lever_shrug"
+    },
+    {
+      "catalogId": "exercises-dataset:0601",
+      "base": "lever_seated_reverse_fly_parallel_grip"
+    },
+    {
+      "catalogId": "exercises-dataset:0592",
+      "base": "lever_preacher_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:2611",
+      "base": "lever_horizontal_one_leg_press"
+    }
+  ]
+}

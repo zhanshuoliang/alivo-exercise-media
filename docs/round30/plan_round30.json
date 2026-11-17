@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:3290",
+    "name": "weighted one hand pull up",
+    "base": "weighted_one_hand_pull_up"
+  },
+  {
+    "catalogId": "exercises-dataset:3312",
+    "name": "weighted muscle up (on bar)",
+    "base": "weighted_muscle_up_on_bar"
+  },
+  {
+    "catalogId": "exercises-dataset:1767",
+    "name": "weighted triceps dip on high parallel bars",
+    "base": "weighted_triceps_dip_on_high_parallel_bars"
+  },
+  {
+    "catalogId": "exercises-dataset:1310",
+    "name": "weighted drop push up",
+    "base": "weighted_drop_push_up"
+  },
+  {
+    "catalogId": "exercises-dataset:0833",
+    "name": "weighted donkey calf raise",
+    "base": "weighted_donkey_calf_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:1002",
+    "name": "band lying straight leg raise",
+    "base": "band_lying_straight_leg_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:0986",
+    "name": "band one arm overhead biceps curl",
+    "base": "band_one_arm_overhead_biceps_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:0990",
+    "name": "band one arm twisting seated row",
+    "base": "band_one_arm_twisting_seated_row"
+  },
+  {
+    "catalogId": "exercises-dataset:0992",
+    "name": "band push sit-up",
+    "base": "band_push_sit_up"
+  },
+  {
+    "catalogId": "exercises-dataset:0998",
+    "name": "band side triceps extension",
+    "base": "band_side_triceps_extension"
+  },
+  {
+    "catalogId": "exercises-dataset:1300",
+    "name": "lever decline chest press",
+    "base": "lever_decline_chest_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0604",
+    "name": "lever shrug",
+    "base": "lever_shrug"
+  },
+  {
+    "catalogId": "exercises-dataset:0601",
+    "name": "lever seated reverse fly (parallel grip)",
+    "base": "lever_seated_reverse_fly_parallel_grip"
+  },
+  {
+    "catalogId": "exercises-dataset:0592",
+    "name": "lever preacher curl",
+    "base": "lever_preacher_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:2611",
+    "name": "lever horizontal one leg press",
+    "base": "lever_horizontal_one_leg_press"
+  }
+]
