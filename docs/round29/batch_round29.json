@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:1309",
+      "filename": "smith_wide_grip_decline_bench_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1395",
+      "filename": "smith_seated_one_leg_calf_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0771",
+      "filename": "smith_standing_back_wrist_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2987",
+      "filename": "weighted_close_grip_chin_up_on_dip_cage_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0845",
+      "filename": "weighted_russian_twist_legs_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0849",
+      "filename": "weighted_seated_twist_on_stability_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0850",
+      "filename": "weighted_side_bend_on_stability_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1755",
+      "filename": "weighted_tricep_dips_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0971",
+      "filename": "band_assisted_wheel_rollerout_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0980",
+      "filename": "band_bent_over_hip_extension_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0985",
+      "filename": "band_kneeling_twisting_crunch_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0989",
+      "filename": "band_one_arm_twisting_chest_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1008",
+      "filename": "band_step_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0587",
+      "filename": "lever_military_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1349",
+      "filename": "lever_reverse_t_bar_row_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:1309",
+      "base": "smith_wide_grip_decline_bench_press"
+    },
+    {
+      "catalogId": "exercises-dataset:1395",
+      "base": "smith_seated_one_leg_calf_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:0771",
+      "base": "smith_standing_back_wrist_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:2987",
+      "base": "weighted_close_grip_chin_up_on_dip_cage"
+    },
+    {
+      "catalogId": "exercises-dataset:0845",
+      "base": "weighted_russian_twist_legs_up"
+    },
+    {
+      "catalogId": "exercises-dataset:0849",
+      "base": "weighted_seated_twist_on_stability_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:0850",
+      "base": "weighted_side_bend_on_stability_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:1755",
+      "base": "weighted_tricep_dips"
+    },
+    {
+      "catalogId": "exercises-dataset:0971",
+      "base": "band_assisted_wheel_rollerout"
+    },
+    {
+      "catalogId": "exercises-dataset:0980",
+      "base": "band_bent_over_hip_extension"
+    },
+    {
+      "catalogId": "exercises-dataset:0985",
+      "base": "band_kneeling_twisting_crunch"
+    },
+    {
+      "catalogId": "exercises-dataset:0989",
+      "base": "band_one_arm_twisting_chest_press"
+    },
+    {
+      "catalogId": "exercises-dataset:1008",
+      "base": "band_step_up"
+    },
+    {
+      "catalogId": "exercises-dataset:0587",
+      "base": "lever_military_press"
+    },
+    {
+      "catalogId": "exercises-dataset:1349",
+      "base": "lever_reverse_t_bar_row"
+    }
+  ]
+}

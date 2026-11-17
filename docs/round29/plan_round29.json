@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:1309",
+    "name": "smith wide grip decline bench press",
+    "base": "smith_wide_grip_decline_bench_press"
+  },
+  {
+    "catalogId": "exercises-dataset:1395",
+    "name": "smith seated one leg calf raise",
+    "base": "smith_seated_one_leg_calf_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:0771",
+    "name": "smith standing back wrist curl",
+    "base": "smith_standing_back_wrist_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:2987",
+    "name": "weighted close grip chin-up on dip cage",
+    "base": "weighted_close_grip_chin_up_on_dip_cage"
+  },
+  {
+    "catalogId": "exercises-dataset:0845",
+    "name": "weighted russian twist (legs up)",
+    "base": "weighted_russian_twist_legs_up"
+  },
+  {
+    "catalogId": "exercises-dataset:0849",
+    "name": "weighted seated twist (on stability ball)",
+    "base": "weighted_seated_twist_on_stability_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:0850",
+    "name": "weighted side bend (on stability ball)",
+    "base": "weighted_side_bend_on_stability_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:1755",
+    "name": "weighted tricep dips",
+    "base": "weighted_tricep_dips"
+  },
+  {
+    "catalogId": "exercises-dataset:0971",
+    "name": "band assisted wheel rollerout",
+    "base": "band_assisted_wheel_rollerout"
+  },
+  {
+    "catalogId": "exercises-dataset:0980",
+    "name": "band bent-over hip extension",
+    "base": "band_bent_over_hip_extension"
+  },
+  {
+    "catalogId": "exercises-dataset:0985",
+    "name": "band kneeling twisting crunch",
+    "base": "band_kneeling_twisting_crunch"
+  },
+  {
+    "catalogId": "exercises-dataset:0989",
+    "name": "band one arm twisting chest press",
+    "base": "band_one_arm_twisting_chest_press"
+  },
+  {
+    "catalogId": "exercises-dataset:1008",
+    "name": "band step-up",
+    "base": "band_step_up"
+  },
+  {
+    "catalogId": "exercises-dataset:0587",
+    "name": "lever military press",
+    "base": "lever_military_press"
+  },
+  {
+    "catalogId": "exercises-dataset:1349",
+    "name": "lever reverse t-bar row",
+    "base": "lever_reverse_t_bar_row"
+  }
+]
