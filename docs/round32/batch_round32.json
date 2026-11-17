@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:3117",
+      "filename": "band_fixed_back_close_grip_pulldown_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3116",
+      "filename": "band_fixed_back_underhand_pulldown_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0983",
+      "filename": "band_kneeling_one_arm_pulldown_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0996",
+      "filename": "band_seated_hip_internal_rotation_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1007",
+      "filename": "band_standing_twisting_crunch_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1431",
+      "filename": "assisted_standing_chin_up_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0573",
+      "filename": "lever_back_extension_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1253",
+      "filename": "lever_donkey_calf_raise_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3195",
+      "filename": "lever_lying_two_one_leg_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1356",
+      "filename": "lever_one_arm_lateral_high_row_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0148",
+      "filename": "cable_alternate_shoulder_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0149",
+      "filename": "cable_alternate_triceps_extension_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0150",
+      "filename": "cable_bar_lateral_pulldown_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0154",
+      "filename": "cable_cross_over_reverse_fly_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0157",
+      "filename": "cable_deadlift_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:3117",
+      "base": "band_fixed_back_close_grip_pulldown"
+    },
+    {
+      "catalogId": "exercises-dataset:3116",
+      "base": "band_fixed_back_underhand_pulldown"
+    },
+    {
+      "catalogId": "exercises-dataset:0983",
+      "base": "band_kneeling_one_arm_pulldown"
+    },
+    {
+      "catalogId": "exercises-dataset:0996",
+      "base": "band_seated_hip_internal_rotation"
+    },
+    {
+      "catalogId": "exercises-dataset:1007",
+      "base": "band_standing_twisting_crunch"
+    },
+    {
+      "catalogId": "exercises-dataset:1431",
+      "base": "assisted_standing_chin_up"
+    },
+    {
+      "catalogId": "exercises-dataset:0573",
+      "base": "lever_back_extension"
+    },
+    {
+      "catalogId": "exercises-dataset:1253",
+      "base": "lever_donkey_calf_raise"
+    },
+    {
+      "catalogId": "exercises-dataset:3195",
+      "base": "lever_lying_two_one_leg_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:1356",
+      "base": "lever_one_arm_lateral_high_row"
+    },
+    {
+      "catalogId": "exercises-dataset:0148",
+      "base": "cable_alternate_shoulder_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0149",
+      "base": "cable_alternate_triceps_extension"
+    },
+    {
+      "catalogId": "exercises-dataset:0150",
+      "base": "cable_bar_lateral_pulldown"
+    },
+    {
+      "catalogId": "exercises-dataset:0154",
+      "base": "cable_cross_over_reverse_fly"
+    },
+    {
+      "catalogId": "exercises-dataset:0157",
+      "base": "cable_deadlift"
+    }
+  ]
+}

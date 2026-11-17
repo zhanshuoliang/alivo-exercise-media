@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:3117",
+    "name": "band fixed back close grip pulldown",
+    "base": "band_fixed_back_close_grip_pulldown"
+  },
+  {
+    "catalogId": "exercises-dataset:3116",
+    "name": "band fixed back underhand pulldown",
+    "base": "band_fixed_back_underhand_pulldown"
+  },
+  {
+    "catalogId": "exercises-dataset:0983",
+    "name": "band kneeling one arm pulldown",
+    "base": "band_kneeling_one_arm_pulldown"
+  },
+  {
+    "catalogId": "exercises-dataset:0996",
+    "name": "band seated hip internal rotation",
+    "base": "band_seated_hip_internal_rotation"
+  },
+  {
+    "catalogId": "exercises-dataset:1007",
+    "name": "band standing twisting crunch",
+    "base": "band_standing_twisting_crunch"
+  },
+  {
+    "catalogId": "exercises-dataset:1431",
+    "name": "assisted standing chin-up",
+    "base": "assisted_standing_chin_up"
+  },
+  {
+    "catalogId": "exercises-dataset:0573",
+    "name": "lever back extension",
+    "base": "lever_back_extension"
+  },
+  {
+    "catalogId": "exercises-dataset:1253",
+    "name": "lever donkey calf raise",
+    "base": "lever_donkey_calf_raise"
+  },
+  {
+    "catalogId": "exercises-dataset:3195",
+    "name": "lever lying two-one leg curl",
+    "base": "lever_lying_two_one_leg_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:1356",
+    "name": "lever one arm lateral high row",
+    "base": "lever_one_arm_lateral_high_row"
+  },
+  {
+    "catalogId": "exercises-dataset:0148",
+    "name": "cable alternate shoulder press",
+    "base": "cable_alternate_shoulder_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0149",
+    "name": "cable alternate triceps extension",
+    "base": "cable_alternate_triceps_extension"
+  },
+  {
+    "catalogId": "exercises-dataset:0150",
+    "name": "cable bar lateral pulldown",
+    "base": "cable_bar_lateral_pulldown"
+  },
+  {
+    "catalogId": "exercises-dataset:0154",
+    "name": "cable cross-over reverse fly",
+    "base": "cable_cross_over_reverse_fly"
+  },
+  {
+    "catalogId": "exercises-dataset:0157",
+    "name": "cable deadlift",
+    "base": "cable_deadlift"
+  }
+]
