@@ -1,0 +1,77 @@
+[
+  {
+    "catalogId": "exercises-dataset:1010",
+    "name": "band straight leg deadlift",
+    "base": "band_straight_leg_deadlift"
+  },
+  {
+    "catalogId": "exercises-dataset:0530",
+    "name": "kettlebell double windmill",
+    "base": "kettlebell_double_windmill"
+  },
+  {
+    "catalogId": "free-exercise-db:Kettlebell_Halo_With_Overhead_Extension",
+    "name": "kettlebell halo with overhead extension",
+    "base": "kettlebell_halo_with_overhead_extension"
+  },
+  {
+    "catalogId": "exercises-dataset:1634",
+    "name": "cable lying bicep curl",
+    "base": "cable_lying_bicep_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:1626",
+    "name": "smith machine reverse decline close grip bench press",
+    "base": "smith_machine_reverse_decline_close_grip_bench_press"
+  },
+  {
+    "catalogId": "exercises-dataset:0763",
+    "name": "smith reverse calf raises",
+    "base": "smith_reverse_calf_raises"
+  },
+  {
+    "catalogId": "exercises-dataset:3313",
+    "name": "weighted straight bar dip",
+    "base": "weighted_straight_bar_dip"
+  },
+  {
+    "catalogId": "exercises-dataset:2401",
+    "name": "dumbbell biceps curl with arm blaster",
+    "base": "dumbbell_biceps_curl_with_arm_blaster"
+  },
+  {
+    "catalogId": "exercises-dataset:2402",
+    "name": "dumbbell hammer curls with arm blaster",
+    "base": "dumbbell_hammer_curls_with_arm_blaster"
+  },
+  {
+    "catalogId": "exercises-dataset:1655",
+    "name": "dumbbell biceps curl squat",
+    "base": "dumbbell_biceps_curl_squat"
+  },
+  {
+    "catalogId": "exercises-dataset:0298",
+    "name": "dumbbell cross body hammer curl",
+    "base": "dumbbell_cross_body_hammer_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:1664",
+    "name": "dumbbell high curl",
+    "base": "dumbbell_high_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:1631",
+    "name": "cable concentration curl",
+    "base": "cable_concentration_curl"
+  },
+  {
+    "catalogId": "exercises-dataset:1722",
+    "name": "cable high pulley overhead tricep extension",
+    "base": "cable_high_pulley_overhead_tricep_extension"
+  },
+  {
+    "catalogId": "exercises-dataset:0203",
+    "name": "cable rear delt row with rope",
+    "base": "cable_rear_delt_row_with_rope"
+  }
+]

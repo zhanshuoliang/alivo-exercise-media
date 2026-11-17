@@ -1577,3 +1577,44 @@ Kai（男）/ Liv（女）双角色带标轨批次（开源轨本轮暂停，后
 - `backward_jump_female.png` — `exercises-dataset:1473`; SHA-256 `a7574496984ba36913a7bd3e135d1268eb546f1df6f3b0da7c0fbc2df6efb59e`.
 - `close_grip_push_up_on_knees_female.png` — `exercises-dataset:2398`; SHA-256 `c598fe43fd45d81511627cad1c53199f34a5f7aed058ff76d09e15e6d03fdb43`.
 - `bench_hip_extension_female.png` — `exercises-dataset:0130`; SHA-256 `b0048faf327fcd77134aca1763f73a77aa4a7229db21047c22684f570ec1d8e9`.
+
+
+## Round 43 — branded-only edition (2026-11-17)
+
+Kai（男）/ Liv（女）双角色带标轨批次（开源轨本轮暂停，后续独立补生成）。男版已绑定入 App 目录数据（exercise_metadata.json）；女版为同动作的性别变体资产，仅入媒体库备用，未绑定。
+
+### Male edition（已绑定 App）
+
+- `band_straight_leg_deadlift_male.png` — `exercises-dataset:1010`; SHA-256 `a5cce24c74a63a429adb8cb8e69c7817dfc4cc29e558283dc37be9ecc681bb7c`.
+- `kettlebell_double_windmill_male.png` — `exercises-dataset:0530`; SHA-256 `c85c9e4afb636ccc0e3d1c2895828960e93d38b443e4a234fc9c858019696928`.
+- `kettlebell_halo_with_overhead_extension_male.png` — `free-exercise-db:Kettlebell_Halo_With_Overhead_Extension`; SHA-256 `53a350e45c8aaf7110928fe73dce985ce4cef97879254c74bc2425a6fa196288`.
+- `push_up_on_stability_ball_male.png` — `exercises-dataset:0656`; SHA-256 `72523dc02cd4ee1965379711234423f124d5a4fd7f5113eb02380748bd039a00`.
+- `smith_machine_reverse_decline_close_grip_bench_press_male.png` — `exercises-dataset:1626`; SHA-256 `52097565b6f57e75c351b470b4e7325674d27ffc2e31c04421d3118ec8f6517e`.
+- `smith_reverse_calf_raises_male.png` — `exercises-dataset:0763`; SHA-256 `7f166220d7d6ad2a5c13619e84ab358d72145a49c1a3a60527e300dd9217a8eb`.
+- `weighted_straight_bar_dip_male.png` — `exercises-dataset:3313`; SHA-256 `0280a88f8abd06563c40e78461c13fb86b29e7dcfc2a7796b4d292bbb390c0a9`.
+- `dumbbell_biceps_curl_with_arm_blaster_male.png` — `exercises-dataset:2401`; SHA-256 `7522daf73aac6505a1c9e097fb6d0105f3e2a33c05c53bca8cb537e3404f8827`.
+- `dumbbell_hammer_curls_with_arm_blaster_male.png` — `exercises-dataset:2402`; SHA-256 `6ad85edc15fd3ab756cf3b6139605475273b5a23ae4337015262987a379b63c3`.
+- `dumbbell_biceps_curl_squat_male.png` — `exercises-dataset:1655`; SHA-256 `ce4126ebb5d435d6d225cd5509305ee38724d1776558449b6aa0fc63154929bd`.
+- `dumbbell_cross_body_hammer_curl_male.png` — `exercises-dataset:0298`; SHA-256 `3f833234cd680a2298b7253ac2ab0f30ae526b004e48bc5b81a56880c600c469`.
+- `dumbbell_high_curl_male.png` — `exercises-dataset:1664`; SHA-256 `b7ea7617c36a51b8aca69e531928e8dd21ec2165546ca16c34fe5c4b5b413811`.
+- `cable_concentration_curl_male.png` — `exercises-dataset:1631`; SHA-256 `ebacf8e25f3daf6af5758547a9243fcc8fa78cba777748fb316f72498d6de8f0`.
+- `cable_high_pulley_overhead_tricep_extension_male.png` — `exercises-dataset:1722`; SHA-256 `24f474541f709d40fc37e6a6d1d97b51de9e8f33e2b0bf56fb8f558f00fc4933`.
+- `cable_rear_delt_row_with_rope_male.png` — `exercises-dataset:0203`; SHA-256 `ff862e11615137a363aba88793b300705f2883653b118c69713139f2aad0b638`.
+
+### Female edition（性别变体，未绑定）
+
+- `band_straight_leg_deadlift_female.png` — `exercises-dataset:1010`; SHA-256 `b039cbe700f6ab766c2a8695fbb168c4db3c9bad3209fa5f746cf28dcef35f6b`.
+- `kettlebell_double_windmill_female.png` — `exercises-dataset:0530`; SHA-256 `215449a9e27c71b1c44ff4364aef1d3e69c6b8c116de5db61ba26410820179c4`.
+- `kettlebell_halo_with_overhead_extension_female.png` — `free-exercise-db:Kettlebell_Halo_With_Overhead_Extension`; SHA-256 `c9fc6672c42e504c7090483c757b6fd9b9593349a952c66f6e10ce06453f31bf`.
+- `push_up_on_stability_ball_female.png` — `exercises-dataset:0656`; SHA-256 `e31702fe6ccc0ccf21ea7637244a76963b7de47b37b254ecebd7265b7dcfdc68`.
+- `smith_machine_reverse_decline_close_grip_bench_press_female.png` — `exercises-dataset:1626`; SHA-256 `cbf2b905025323474ff7089f21e66e90eef041c851abb9667884d0c33478d4fa`.
+- `smith_reverse_calf_raises_female.png` — `exercises-dataset:0763`; SHA-256 `6bc1a136e6a8bae1481e8f6425bff7898c4199b08dbf47f2c01dd97e6c544cb5`.
+- `weighted_straight_bar_dip_female.png` — `exercises-dataset:3313`; SHA-256 `87ac3eef9596c84efc451bcc88b8490453344296abb6bd5a852a8e663074c393`.
+- `dumbbell_biceps_curl_with_arm_blaster_female.png` — `exercises-dataset:2401`; SHA-256 `e90b8cb3d3b46c676d25de9bad05701f9330fb6f9d8809128aa1d4b32a495c39`.
+- `dumbbell_hammer_curls_with_arm_blaster_female.png` — `exercises-dataset:2402`; SHA-256 `9b6a24a7b695589321953608053b866b687c9404f8a375e7d806226974942f8e`.
+- `dumbbell_biceps_curl_squat_female.png` — `exercises-dataset:1655`; SHA-256 `873a1840e94fd7e54b62b8aa7fee4da46b1eaf4120e8ca45bb8980235d47beaf`.
+- `dumbbell_cross_body_hammer_curl_female.png` — `exercises-dataset:0298`; SHA-256 `22dbd63d6ddbc2452ac695b1ab4494efa1176316afa3dd195c854dd0b785d9e5`.
+- `dumbbell_high_curl_female.png` — `exercises-dataset:1664`; SHA-256 `37c92d48ebf9ff365004f3e0ba244ae15857587399d5f8331cb0a7108e1ea9fb`.
+- `cable_concentration_curl_female.png` — `exercises-dataset:1631`; SHA-256 `6540a21ed827741c3d0ced68ff9c452e5df218cd3c9482c4746326d6cbc91d23`.
+- `cable_high_pulley_overhead_tricep_extension_female.png` — `exercises-dataset:1722`; SHA-256 `f280bc3a90550e8eb8f8b183ade2be28fa46774b1c2ce3d1a7510cdeb3ccee16`.
+- `cable_rear_delt_row_with_rope_female.png` — `exercises-dataset:0203`; SHA-256 `0c0fb65007109d2633347fec0ade82aa6432fe5814051b2e90d7ba5fad70a6b8`.

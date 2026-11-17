@@ -1,0 +1,141 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:1010",
+      "filename": "band_straight_leg_deadlift_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0530",
+      "filename": "kettlebell_double_windmill_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "free-exercise-db:Kettlebell_Halo_With_Overhead_Extension",
+      "filename": "kettlebell_halo_with_overhead_extension_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1634",
+      "filename": "cable_lying_bicep_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1626",
+      "filename": "smith_machine_reverse_decline_close_grip_bench_press_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0763",
+      "filename": "smith_reverse_calf_raises_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3313",
+      "filename": "weighted_straight_bar_dip_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2401",
+      "filename": "dumbbell_biceps_curl_with_arm_blaster_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:2402",
+      "filename": "dumbbell_hammer_curls_with_arm_blaster_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1655",
+      "filename": "dumbbell_biceps_curl_squat_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0298",
+      "filename": "dumbbell_cross_body_hammer_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1664",
+      "filename": "dumbbell_high_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1631",
+      "filename": "cable_concentration_curl_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1722",
+      "filename": "cable_high_pulley_overhead_tricep_extension_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0203",
+      "filename": "cable_rear_delt_row_with_rope_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:1010",
+      "base": "band_straight_leg_deadlift"
+    },
+    {
+      "catalogId": "exercises-dataset:0530",
+      "base": "kettlebell_double_windmill"
+    },
+    {
+      "catalogId": "free-exercise-db:Kettlebell_Halo_With_Overhead_Extension",
+      "base": "kettlebell_halo_with_overhead_extension"
+    },
+    {
+      "catalogId": "exercises-dataset:1634",
+      "base": "cable_lying_bicep_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:1626",
+      "base": "smith_machine_reverse_decline_close_grip_bench_press"
+    },
+    {
+      "catalogId": "exercises-dataset:0763",
+      "base": "smith_reverse_calf_raises"
+    },
+    {
+      "catalogId": "exercises-dataset:3313",
+      "base": "weighted_straight_bar_dip"
+    },
+    {
+      "catalogId": "exercises-dataset:2401",
+      "base": "dumbbell_biceps_curl_with_arm_blaster"
+    },
+    {
+      "catalogId": "exercises-dataset:2402",
+      "base": "dumbbell_hammer_curls_with_arm_blaster"
+    },
+    {
+      "catalogId": "exercises-dataset:1655",
+      "base": "dumbbell_biceps_curl_squat"
+    },
+    {
+      "catalogId": "exercises-dataset:0298",
+      "base": "dumbbell_cross_body_hammer_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:1664",
+      "base": "dumbbell_high_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:1631",
+      "base": "cable_concentration_curl"
+    },
+    {
+      "catalogId": "exercises-dataset:1722",
+      "base": "cable_high_pulley_overhead_tricep_extension"
+    },
+    {
+      "catalogId": "exercises-dataset:0203",
+      "base": "cable_rear_delt_row_with_rope"
+    }
+  ]
+}
