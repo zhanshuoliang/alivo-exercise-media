@@ -7485,6 +7485,306 @@
       "sha256": "de5eb8416e3c28f1379a89312de3c28dad2f3180c46d1f8b2bf5cbe190ed50f6",
       "reviewedAt": "2026-11-18",
       "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0212",
+      "file": "cable_seated_crunch_male.png",
+      "author": "Paul Leung",
+      "license": "ALIVO-Commercial",
+      "licenseUrl": "mailto:licensing@alivo.kuaige.cloud",
+      "sha256": "5f4d46b3d96426440dec2dfd76a4ea18028affb8fdb695cd57f90187f9723dfc",
+      "reviewedAt": "2026-11-18",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0212",
+      "file": "cable_seated_crunch_female.png",
+      "author": "Paul Leung",
+      "license": "ALIVO-Commercial",
+      "licenseUrl": "mailto:licensing@alivo.kuaige.cloud",
+      "sha256": "70bff01e53c43048507224dd835be9a7ab66916726df3ced0da8940464954558",
+      "reviewedAt": "2026-11-18",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:2136",
+      "file": "dumbbell_cuban_press_male.png",
+      "author": "Paul Leung",
+      "license": "ALIVO-Commercial",
+      "licenseUrl": "mailto:licensing@alivo.kuaige.cloud",
+      "sha256": "3a5e9ca7b3c32815dab36dd768da247f946100645287a587c31f15736dd21dd9",
+      "reviewedAt": "2026-11-18",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:2136",
+      "file": "dumbbell_cuban_press_female.png",
+      "author": "Paul Leung",
+      "license": "ALIVO-Commercial",
+      "licenseUrl": "mailto:licensing@alivo.kuaige.cloud",
+      "sha256": "7212b10703d3961c6ecf234b9cab61d37dea019140245a8ecc259184d1157802",
+      "reviewedAt": "2026-11-18",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0864",
+      "file": "dumbbell_upright_shoulder_external_rotation_male.png",
+      "author": "Paul Leung",
+      "license": "ALIVO-Commercial",
+      "licenseUrl": "mailto:licensing@alivo.kuaige.cloud",
+      "sha256": "68c93d424319391e748d28d6dbd340cb31cb91f6ec6963620f64af828a27fdfe",
+      "reviewedAt": "2026-11-18",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0864",
+      "file": "dumbbell_upright_shoulder_external_rotation_female.png",
+      "author": "Paul Leung",
+      "license": "ALIVO-Commercial",
+      "licenseUrl": "mailto:licensing@alivo.kuaige.cloud",
+      "sha256": "76d66f5f9b1c08eb467accecf204c0b702a9f79fc5d077c5c6d39fc4c6ffc659",
+      "reviewedAt": "2026-11-18",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0438",
+      "file": "dumbbell_w_press_male.png",
+      "author": "Paul Leung",
+      "license": "ALIVO-Commercial",
+      "licenseUrl": "mailto:licensing@alivo.kuaige.cloud",
+      "sha256": "4cc49c014d171d38083b9026a4d08a46e1c13f772a812a9e9691d32866f352e5",
+      "reviewedAt": "2026-11-18",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0438",
+      "file": "dumbbell_w_press_female.png",
+      "author": "Paul Leung",
+      "license": "ALIVO-Commercial",
+      "licenseUrl": "mailto:licensing@alivo.kuaige.cloud",
+      "sha256": "6de5fad539ed63986904d22ed8352b2c3df5e2be91c8f46b80ff9b91f4ecb124",
+      "reviewedAt": "2026-11-18",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0777",
+      "file": "spell_caster_male.png",
+      "author": "Paul Leung",
+      "license": "ALIVO-Commercial",
+      "licenseUrl": "mailto:licensing@alivo.kuaige.cloud",
+      "sha256": "bcd99805e46adff7483c64f7a84c9544202eaa34cd79f5a1e4c2630ecd7729b5",
+      "reviewedAt": "2026-11-18",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0777",
+      "file": "spell_caster_female.png",
+      "author": "Paul Leung",
+      "license": "ALIVO-Commercial",
+      "licenseUrl": "mailto:licensing@alivo.kuaige.cloud",
+      "sha256": "f6e0db81c8d904502b217ac03c3946cf17938c1daa1cef734816621b41dcc480",
+      "reviewedAt": "2026-11-18",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:3635",
+      "file": "dumbbell_contralateral_forward_lunge_male.png",
+      "author": "Paul Leung",
+      "license": "ALIVO-Commercial",
+      "licenseUrl": "mailto:licensing@alivo.kuaige.cloud",
+      "sha256": "a56682da9ea42ee526918a037c0f6fee5d08a49ef63cd81d6f8db146990584da",
+      "reviewedAt": "2026-11-18",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:3635",
+      "file": "dumbbell_contralateral_forward_lunge_female.png",
+      "author": "Paul Leung",
+      "license": "ALIVO-Commercial",
+      "licenseUrl": "mailto:licensing@alivo.kuaige.cloud",
+      "sha256": "13e866897ead38a93ffb39b60d2ae9ace6d5bb4a2135e5e637ce14d243f4f01c",
+      "reviewedAt": "2026-11-18",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:1297",
+      "file": "isometric_chest_squeeze_male.png",
+      "author": "Paul Leung",
+      "license": "ALIVO-Commercial",
+      "licenseUrl": "mailto:licensing@alivo.kuaige.cloud",
+      "sha256": "8f251def6aa83afd93159c7152366a12a01cd4c7e2bdb9475078816bb7890b32",
+      "reviewedAt": "2026-11-18",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:1297",
+      "file": "isometric_chest_squeeze_female.png",
+      "author": "Paul Leung",
+      "license": "ALIVO-Commercial",
+      "licenseUrl": "mailto:licensing@alivo.kuaige.cloud",
+      "sha256": "4d664d347f37c8945192eb89170b3f1bb6406b98d094531674c88be72c3c3d05",
+      "reviewedAt": "2026-11-18",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:3663",
+      "file": "reverse_plank_with_leg_lift_male.png",
+      "author": "Paul Leung",
+      "license": "ALIVO-Commercial",
+      "licenseUrl": "mailto:licensing@alivo.kuaige.cloud",
+      "sha256": "fb16a0c1eaebfbcb57cd4ae6780ad8385dffe71416864404cf9504ed63c6e8f5",
+      "reviewedAt": "2026-11-18",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:3663",
+      "file": "reverse_plank_with_leg_lift_female.png",
+      "author": "Paul Leung",
+      "license": "ALIVO-Commercial",
+      "licenseUrl": "mailto:licensing@alivo.kuaige.cloud",
+      "sha256": "54e75dca3d58ef4755f9dec0fa4ff15c823b11747dbd9e720df283b3144cdaae",
+      "reviewedAt": "2026-11-18",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:3667",
+      "file": "side_lying_hip_adduction_male.png",
+      "author": "Paul Leung",
+      "license": "ALIVO-Commercial",
+      "licenseUrl": "mailto:licensing@alivo.kuaige.cloud",
+      "sha256": "c149fe2bf2dba24125b44480bd1c6430c05a47637a41facf9ef7a2185ebe01fc",
+      "reviewedAt": "2026-11-18",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:3667",
+      "file": "side_lying_hip_adduction_female.png",
+      "author": "Paul Leung",
+      "license": "ALIVO-Commercial",
+      "licenseUrl": "mailto:licensing@alivo.kuaige.cloud",
+      "sha256": "42b3bf573f7111415a57f59f61f7a956f7a09bafe52e66655393aafdd03a93d7",
+      "reviewedAt": "2026-11-18",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0795",
+      "file": "standing_single_leg_curl_male.png",
+      "author": "Paul Leung",
+      "license": "ALIVO-Commercial",
+      "licenseUrl": "mailto:licensing@alivo.kuaige.cloud",
+      "sha256": "485434af031a51f98a6d56dd281cab82614e33b52d980b6de6dabe112d2a8e90",
+      "reviewedAt": "2026-11-18",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0795",
+      "file": "standing_single_leg_curl_female.png",
+      "author": "Paul Leung",
+      "license": "ALIVO-Commercial",
+      "licenseUrl": "mailto:licensing@alivo.kuaige.cloud",
+      "sha256": "34c8dd431eabb470358d6f123a56588d87121fd3621c6d9af1b0f28ee0b78450",
+      "reviewedAt": "2026-11-18",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:1362",
+      "file": "sphinx_male.png",
+      "author": "Paul Leung",
+      "license": "ALIVO-Commercial",
+      "licenseUrl": "mailto:licensing@alivo.kuaige.cloud",
+      "sha256": "4d1da7fab36015e2e6322f824e423edfc58133f3ab7714824e3acff319c32880",
+      "reviewedAt": "2026-11-18",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:1362",
+      "file": "sphinx_female.png",
+      "author": "Paul Leung",
+      "license": "ALIVO-Commercial",
+      "licenseUrl": "mailto:licensing@alivo.kuaige.cloud",
+      "sha256": "a0fa3add1ee6660b341508781865d274d611c4e845981947d8451768fbce2fe3",
+      "reviewedAt": "2026-11-18",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0188",
+      "file": "cable_middle_fly_male.png",
+      "author": "Paul Leung",
+      "license": "ALIVO-Commercial",
+      "licenseUrl": "mailto:licensing@alivo.kuaige.cloud",
+      "sha256": "8a1a0f96232d1fd31db98c60a75acd050f720bad255341c1049be4164985b9f7",
+      "reviewedAt": "2026-11-18",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0188",
+      "file": "cable_middle_fly_female.png",
+      "author": "Paul Leung",
+      "license": "ALIVO-Commercial",
+      "licenseUrl": "mailto:licensing@alivo.kuaige.cloud",
+      "sha256": "cac237c2a62aad0bcbd5215b54f94797cc2dd6e1c70ed2fbcf2de29280337689",
+      "reviewedAt": "2026-11-18",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0230",
+      "file": "cable_standing_lift_male.png",
+      "author": "Paul Leung",
+      "license": "ALIVO-Commercial",
+      "licenseUrl": "mailto:licensing@alivo.kuaige.cloud",
+      "sha256": "2bd3a4d3890c836f23e1a97601b40c29390dcba5e28823532602514e6a5eeb34",
+      "reviewedAt": "2026-11-18",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0230",
+      "file": "cable_standing_lift_female.png",
+      "author": "Paul Leung",
+      "license": "ALIVO-Commercial",
+      "licenseUrl": "mailto:licensing@alivo.kuaige.cloud",
+      "sha256": "d3e476d2f797a02c9edbe92875da755f125ba20150794923d9914f4225bc55c8",
+      "reviewedAt": "2026-11-18",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0873",
+      "file": "cable_reverse_crunch_male.png",
+      "author": "Paul Leung",
+      "license": "ALIVO-Commercial",
+      "licenseUrl": "mailto:licensing@alivo.kuaige.cloud",
+      "sha256": "4b9c54b7860840e0a29b431684c0afd621075d18646fd3277782ab6dec684eef",
+      "reviewedAt": "2026-11-18",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:0873",
+      "file": "cable_reverse_crunch_female.png",
+      "author": "Paul Leung",
+      "license": "ALIVO-Commercial",
+      "licenseUrl": "mailto:licensing@alivo.kuaige.cloud",
+      "sha256": "64676772b1ca9c30866f3c1b8aae6c474cdacef1948aead407f36ec14d4e042b",
+      "reviewedAt": "2026-11-18",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:1462",
+      "file": "barbell_full_squat_male.png",
+      "author": "Paul Leung",
+      "license": "ALIVO-Commercial",
+      "licenseUrl": "mailto:licensing@alivo.kuaige.cloud",
+      "sha256": "a1f62d8ee5194bf38fb4c63f433889b09a5324142f81e7f26f9fc49c8bdd4bd1",
+      "reviewedAt": "2026-11-18",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
+    },
+    {
+      "catalogId": "exercises-dataset:1462",
+      "file": "barbell_full_squat_female.png",
+      "author": "Paul Leung",
+      "license": "ALIVO-Commercial",
+      "licenseUrl": "mailto:licensing@alivo.kuaige.cloud",
+      "sha256": "911b9a33024a8f341c19e09bf6ce842ba34fd3c7f8e9498108ba4e3617953bde",
+      "reviewedAt": "2026-11-18",
+      "changes": "原创开源编辑插图，纯色服装无品牌字标（AI 辅助生成，人工审核）"
     }
   ],
   "licenseContact": "licensing@alivo.kuaige.cloud"
