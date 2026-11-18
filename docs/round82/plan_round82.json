@@ -1,0 +1,62 @@
+[
+  {
+    "catalogId": "exercises-dataset:0010",
+    "name": "assisted hanging knee raise with throw down",
+    "base": "assisted_hanging_knee_raise_throwdown"
+  },
+  {
+    "catalogId": "exercises-dataset:0012",
+    "name": "assisted lying leg raise with lateral throw down",
+    "base": "assisted_lying_leg_raise_lateral_throwdown"
+  },
+  {
+    "catalogId": "exercises-dataset:0013",
+    "name": "assisted lying leg raise with throw down",
+    "base": "assisted_lying_leg_raise_throwdown"
+  },
+  {
+    "catalogId": "exercises-dataset:0016",
+    "name": "assisted prone hamstring",
+    "base": "assisted_prone_hamstring"
+  },
+  {
+    "catalogId": "exercises-dataset:1708",
+    "name": "assisted lying calves stretch",
+    "base": "assisted_lying_calves_stretch"
+  },
+  {
+    "catalogId": "exercises-dataset:1709",
+    "name": "assisted lying glutes stretch",
+    "base": "assisted_lying_glutes_stretch"
+  },
+  {
+    "catalogId": "exercises-dataset:1710",
+    "name": "assisted lying gluteus and piriformis stretch",
+    "base": "assisted_lying_gluteus_piriformis_stretch"
+  },
+  {
+    "catalogId": "exercises-dataset:1714",
+    "name": "assisted prone rectus femoris stretch",
+    "base": "assisted_prone_rectus_femoris_stretch"
+  },
+  {
+    "catalogId": "exercises-dataset:1716",
+    "name": "assisted seated pectoralis major stretch with stability ball",
+    "base": "assisted_seated_pec_stretch_ball"
+  },
+  {
+    "catalogId": "exercises-dataset:1712",
+    "name": "assisted side lying adductor stretch",
+    "base": "assisted_side_lying_adductor_stretch"
+  },
+  {
+    "catalogId": "exercises-dataset:3562",
+    "name": "barbell glute bridge two legs on bench",
+    "base": "barbell_glute_bridge_two_legs_on_bench"
+  },
+  {
+    "catalogId": "free-exercise-db:Kettlebell_Halo_With_Overhead_Extension",
+    "name": "kettlebell halo with overhead extension",
+    "base": "kettlebell_halo_with_overhead_extension"
+  }
+]

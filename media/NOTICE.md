@@ -3099,3 +3099,38 @@ Kai（男）/ Liv（女）双角色带标轨批次（开源轨本轮暂停，后
 - `three_bench_dip_female.png` — `exercises-dataset:1753`; SHA-256 `b708f7988fccdbe290c9d00c4e849f6a797ed719fe1bc83723887c539aeac9b1`.
 - `triceps_dip_female.png` — `exercises-dataset:0814`; SHA-256 `81eec6940ef7b672a8316ad31cabf780f741bf13160fab727d8841acdf2b1a12`.
 - `triceps_dip_bench_leg_female.png` — `exercises-dataset:0812`; SHA-256 `64b313246f70575d77097d59f034c5d0765ebfbe2b368492afcd1a004634a312`.
+
+
+## Round 82 — branded-only edition (2026-11-18)
+
+Kai（男）/ Liv（女）双角色带标轨批次（开源轨本轮暂停，后续独立补生成）。男版已绑定入 App 目录数据（exercise_metadata.json）；女版为同动作的性别变体资产，仅入媒体库备用，未绑定。本轮补绑此前策略性留白的 12 条：10 条自辅助动作（弹力带/毛巾/凳/瑜伽球辅助，单人构图）、`3562` 杠铃臀桥、`Kettlebell_Halo_With_Overhead_Extension`。
+
+### Male edition（已绑定 App）
+
+- `assisted_hanging_knee_raise_throwdown_male.png` — `exercises-dataset:0010`; SHA-256 `671e2ad00b3cd87c35f0f002d047b4d5c98974bb08acf1f4793d7b4ff4e7203f`.
+- `assisted_lying_leg_raise_lateral_throwdown_male.png` — `exercises-dataset:0012`; SHA-256 `69aa7ebf0fc8928fa18ce78e6f9d0bfbefa274f1de90fe9479b2d048e34c116c`.
+- `assisted_lying_leg_raise_throwdown_male.png` — `exercises-dataset:0013`; SHA-256 `788d2bd7c3c3a75551a328a18dea9999c2ef7616b637f2b68003fa0ffb4db83d`.
+- `assisted_prone_hamstring_male.png` — `exercises-dataset:0016`; SHA-256 `07bf5fa1fae52365fed6f88fe8c2791b67626598e8b41cba17731393daf8d8ca`.
+- `assisted_lying_calves_stretch_male.png` — `exercises-dataset:1708`; SHA-256 `c3460d1034d378b78875014326079d7d71033062a02605e8679d7cf179459a42`.
+- `assisted_lying_glutes_stretch_male.png` — `exercises-dataset:1709`; SHA-256 `685a28a8770d5ada0b7039e8be97a3548b0941e14bb8bba96fdfca25af2a4a04`.
+- `assisted_lying_gluteus_piriformis_stretch_male.png` — `exercises-dataset:1710`; SHA-256 `fc586ea665ab5346ba9586d1e7e8588685565b6605e2edbb4531f8f9689eb305`.
+- `assisted_prone_rectus_femoris_stretch_male.png` — `exercises-dataset:1714`; SHA-256 `dc04405c14755bd90eed0f36fb00a7bab3405cb2b4b28ff5bc14ebdbf95919ec`.
+- `assisted_seated_pec_stretch_ball_male.png` — `exercises-dataset:1716`; SHA-256 `8afd0d3fa7180f814e79be83efcf81898ef85c6820c06d13f267d17861a05d28`.
+- `assisted_side_lying_adductor_stretch_male.png` — `exercises-dataset:1712`; SHA-256 `431a585a048f0be216e3232962be236c64409d6a799b51a501161a6f5ae97578`.
+- `barbell_glute_bridge_two_legs_on_bench_male.png` — `exercises-dataset:3562`; SHA-256 `4c1dcc05e49b1d345b1c583a8f583f82def3f2c0469b4d4643071960eeaee40c`.
+- `kettlebell_halo_with_overhead_extension_male.png` — `free-exercise-db:Kettlebell_Halo_With_Overhead_Extension`; SHA-256 `f5b8efb83c55cda96063ee959361cd8045b67e714f61b88c244c33eb5b388f87`.
+
+### Female edition（性别变体，未绑定）
+
+- `assisted_hanging_knee_raise_throwdown_female.png` — `exercises-dataset:0010`; SHA-256 `8d0b5ae5277ede64e312481cfb6e740b920a6f0f8b24a736eb5aee8df195c08f`.
+- `assisted_lying_leg_raise_lateral_throwdown_female.png` — `exercises-dataset:0012`; SHA-256 `ef397eeb267c207d9a1b4cbbcfeed5a12a4fb8a128326cc54577f3670377d37a`.
+- `assisted_lying_leg_raise_throwdown_female.png` — `exercises-dataset:0013`; SHA-256 `98c61da3a5adf0a6f81bb646059368665993b289cd2de3287b9bcdb529da6900`.
+- `assisted_prone_hamstring_female.png` — `exercises-dataset:0016`; SHA-256 `3304c06994560e6516593492d1ef35590c739f87b4d715f6ea671d3f457b6125`.
+- `assisted_lying_calves_stretch_female.png` — `exercises-dataset:1708`; SHA-256 `592d42dfe03bebbb82e201b13896d6723df612cbede7bf0707fbf5be8a127593`.
+- `assisted_lying_glutes_stretch_female.png` — `exercises-dataset:1709`; SHA-256 `acff9b63bc82eb16763e6de0b9291285788db034873b349ccbf14ec139fd00ab`.
+- `assisted_lying_gluteus_piriformis_stretch_female.png` — `exercises-dataset:1710`; SHA-256 `4b0505c9062878d9e9993d305d8a7639d0351f251dc114ea1a29906cdafc4997`.
+- `assisted_prone_rectus_femoris_stretch_female.png` — `exercises-dataset:1714`; SHA-256 `a7402e8a891a29245f8d2d46f253205408d74340b6f283c830bae0876bd82829`.
+- `assisted_seated_pec_stretch_ball_female.png` — `exercises-dataset:1716`; SHA-256 `cfd0fa0a3183acabbbe6e34cff0b17e298c5220e2cd84f2870637da34fe1eb4e`.
+- `assisted_side_lying_adductor_stretch_female.png` — `exercises-dataset:1712`; SHA-256 `f2279905eb1f55b9c84e8b2371b30a1ecd869d74aef668007162978c3267bd89`.
+- `barbell_glute_bridge_two_legs_on_bench_female.png` — `exercises-dataset:3562`; SHA-256 `f963855a4dfde8f9d99961b50872f0028e7c1a2a013c459a88d0650dadabb761`.
+- `kettlebell_halo_with_overhead_extension_female.png` — `free-exercise-db:Kettlebell_Halo_With_Overhead_Extension`; SHA-256 `f2782a36a55b12d00273f6d5d739e414e45170e4369870ba19b3b9b9a46f910c`.

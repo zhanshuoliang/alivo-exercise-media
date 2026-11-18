@@ -1,0 +1,114 @@
+{
+  "bindings": [
+    {
+      "catalogId": "exercises-dataset:0010",
+      "filename": "assisted_hanging_knee_raise_throwdown_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0012",
+      "filename": "assisted_lying_leg_raise_lateral_throwdown_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0013",
+      "filename": "assisted_lying_leg_raise_throwdown_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:0016",
+      "filename": "assisted_prone_hamstring_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1708",
+      "filename": "assisted_lying_calves_stretch_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1709",
+      "filename": "assisted_lying_glutes_stretch_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1710",
+      "filename": "assisted_lying_gluteus_piriformis_stretch_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1714",
+      "filename": "assisted_prone_rectus_femoris_stretch_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1716",
+      "filename": "assisted_seated_pec_stretch_ball_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:1712",
+      "filename": "assisted_side_lying_adductor_stretch_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "exercises-dataset:3562",
+      "filename": "barbell_glute_bridge_two_legs_on_bench_male.png",
+      "folder": "new"
+    },
+    {
+      "catalogId": "free-exercise-db:Kettlebell_Halo_With_Overhead_Extension",
+      "filename": "kettlebell_halo_with_overhead_extension_male.png",
+      "folder": "new"
+    }
+  ],
+  "variants": [
+    {
+      "catalogId": "exercises-dataset:0010",
+      "base": "assisted_hanging_knee_raise_throwdown"
+    },
+    {
+      "catalogId": "exercises-dataset:0012",
+      "base": "assisted_lying_leg_raise_lateral_throwdown"
+    },
+    {
+      "catalogId": "exercises-dataset:0013",
+      "base": "assisted_lying_leg_raise_throwdown"
+    },
+    {
+      "catalogId": "exercises-dataset:0016",
+      "base": "assisted_prone_hamstring"
+    },
+    {
+      "catalogId": "exercises-dataset:1708",
+      "base": "assisted_lying_calves_stretch"
+    },
+    {
+      "catalogId": "exercises-dataset:1709",
+      "base": "assisted_lying_glutes_stretch"
+    },
+    {
+      "catalogId": "exercises-dataset:1710",
+      "base": "assisted_lying_gluteus_piriformis_stretch"
+    },
+    {
+      "catalogId": "exercises-dataset:1714",
+      "base": "assisted_prone_rectus_femoris_stretch"
+    },
+    {
+      "catalogId": "exercises-dataset:1716",
+      "base": "assisted_seated_pec_stretch_ball"
+    },
+    {
+      "catalogId": "exercises-dataset:1712",
+      "base": "assisted_side_lying_adductor_stretch"
+    },
+    {
+      "catalogId": "exercises-dataset:3562",
+      "base": "barbell_glute_bridge_two_legs_on_bench"
+    },
+    {
+      "catalogId": "free-exercise-db:Kettlebell_Halo_With_Overhead_Extension",
+      "base": "kettlebell_halo_with_overhead_extension"
+    }
+  ]
+}
