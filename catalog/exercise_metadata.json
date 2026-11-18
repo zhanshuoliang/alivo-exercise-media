@@ -4442,8 +4442,8 @@
       "license": "ALIVO-editorial",
       "licenseUrl": "https://openai.com/policies/terms-of-use/",
       "changes": "ALIVO 原创彩色编辑插图，服装带 ALIVO 品牌字标; resized to 1024px and encoded as lossy WebP quality 82",
-      "sha256": "c7e7113b1d60ed2fc218d7912dd0c122c99ec333f25028206796bc386e9136fc",
-      "reviewedAt": "2026-11-09"
+      "sha256": "8503bd2e2cca6869dde21920a71b8082678fa216145b4f4d268f43250342a3e6",
+      "reviewedAt": "2026-11-18"
     },
     {
       "catalogId": "exercises-dataset:0009",

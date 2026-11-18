@@ -1,20 +1,12 @@
 # ALIVO bundled exercise media
 
-## wger_plank_346.png
+## wger_plank_346.png (removed 2026-11-18)
 
-- Work: Plank / forearm plank illustration, wger exercise 458, image 346.
-- Credited author: utkb (wger image metadata, retrieved 2026-09-26).
-- License: Creative Commons Attribution-ShareAlike 4.0 International.
-- License link: https://creativecommons.org/licenses/by-sa/4.0/
-- Legal terms: https://creativecommons.org/licenses/by-sa/4.0/legalcode.en
-- Record: https://wger.de/api/v2/exerciseimage/346/
-- Original: https://wger.de/media/exercise-images/458/b7bd9c28-9f1d-4647-bd17-ab6a3adf5770.png
-- Modifications: none; the UI only scales the original for display.
-- SHA-256: 006a934daf47e95ccf37a0482bce110b12b4f2f49c55f7b6d4fc97aba3e588d5
-
-This asset retains its own CC BY-SA 4.0 license. No additional ALIVO restrictions
-are applied to the asset. The author and wger do not endorse ALIVO. This notice
-does not grant rights to other catalog images, including Gym visual media.
+The legacy unbound wger file `media/wger_plank_346.png` (CC BY-SA 4.0, author
+utkb, wger exercise 458 image 346) was removed from this repository during the
+full branded-media audit on 2026-11-18. It was never bound to any catalog
+record and never shipped in the app bundles; the bound plank illustration is
+the ALIVO original `plank.png` (`alivo:extra-001`).
 
 ## ALIVO editorial illustrations
 
@@ -253,7 +245,7 @@ ALIVO 编辑插图，非动作教学示范。Generated specifically for ALIVO wi
 - `exercise_media/dumbbell_side_bend.png` — `exercises-dataset:0407`; SHA-256 `f5293cabe9f1ca3a964003ae336237e047d2a9f1bfe1949302bec2125dfeabad`.
 - `exercise_media/barbell_wrist_curl.png` — `exercises-dataset:1412`; SHA-256 `4af67a23779c0ba5469c1c7960e0c5826ac1eb906b0cb99e8350bfd2f0bbe754`.
 - `exercise_media/barbell_reverse_wrist_curl.png` — `exercises-dataset:1411`; SHA-256 `3261c330009682e53764a0259965aef708953af933d0adfe8f18ec0e2c11e3e1`.
-- `exercise_media/dumbbell_zottman_curl.png` — `exercises-dataset:0439`; SHA-256 `39a404ad374d01827318f2ba95d980ce068d0c8b0b979abc4f12046ebdd695dd`.
+- `exercise_media/dumbbell_zottman_curl.png` — `exercises-dataset:0439`; SHA-256 `bfbbce7c111663f68530d49e2f21ffac0d71b1296755af3f677b158f2ab4df77`.
 - `exercise_media/assisted_dip_machine.png` — `exercises-dataset:0009`; SHA-256 `beb803140489b6c4956b67a0500213195ad67a24e2e3a08d9eb0a19f55bb9e93`.
 - `exercise_media/assisted_pull_up_machine.png` — `exercises-dataset:1432`; SHA-256 `9b9f2e63c37c5b6351f4465b4957f03502ac12f766221d10c6eec27e9dcbcdac`.
 - `exercise_media/band_assisted_pull_up.png` — `exercises-dataset:0970`; SHA-256 `c0d475578ce6a031836ce384c86448efcb567c7bef85e61d3a898decb56a39c6`.
