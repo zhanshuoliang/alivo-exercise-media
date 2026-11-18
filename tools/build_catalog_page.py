@@ -86,8 +86,8 @@ def load_media():
 
 
 def load_open_media():
-    """media-open/manifest.json -> catalogId to list of unbranded CC-BY edition items."""
-    p = ROOT / "media-open" / "manifest.json"
+    """media-commercial/manifest.json -> catalogId to list of unbranded commercial-edition items."""
+    p = ROOT / "media-commercial" / "manifest.json"
     if not p.exists():
         return {}
     data = json.loads(p.read_text(encoding="utf-8"))
@@ -358,16 +358,16 @@ table{border-collapse:collapse;width:100%;font-size:13px}td,th{border-bottom:1px
     <div class="athhead"><span class="athname">Kai · 凯</span><span class="athrole">首席演示运动员</span></div>
     <div class="athbio">专长：自重力量、体操类、杠铃与爆发力动作。性格：沉稳自律、动作教科书式严谨。带标版全部插图与无标版力量/器械镜头主角。</div>
     <div class="vers">
-     <figure><img src="character/turnaround_branded.png" alt="Kai 三视图（带标版）"><figcaption>带标版 · ALIVO-editorial · 可自由使用</figcaption></figure>
-     <figure><img src="character/turnaround_open.png" alt="Kai 三视图（无标开源版）"><figcaption>无标开源版 · CC-BY-4.0 · Paul Leung · 使用须署名</figcaption></figure>
+     <figure><img src="character/turnaround_branded.png" alt="Kai 三视图（带标版）"><figcaption>带标版 · ALIVO-Branded-Free · 可自由使用（须留字标）</figcaption></figure>
+     <figure><img src="character/turnaround_open.png" alt="Kai 三视图（无标商业版）"><figcaption>无标商业版 · ALIVO-Commercial · 须授权</figcaption></figure>
     </div>
    </div>
    <div class="roster">
     <div class="athhead"><span class="athname">Liv · 莉芙</span><span class="athrole">灵活性与柔韧担当</span></div>
     <div class="athbio">专长：拉伸、瑜伽、动态热身、瑜伽球与放松类动作。性格：轻快亲和、节奏感强。第 13 轮起无标版柔韧/灵活性镜头主力。</div>
     <div class="vers">
-     <figure><img src="character/turnaround_female_branded.png" alt="Liv 三视图（带标版）"><figcaption>带标版 · ALIVO-editorial · 可自由使用</figcaption></figure>
-     <figure><img src="character/turnaround_female_open.png" alt="Liv 三视图（无标开源版）"><figcaption>无标开源版 · CC-BY-4.0 · Paul Leung · 使用须署名</figcaption></figure>
+     <figure><img src="character/turnaround_female_branded.png" alt="Liv 三视图（带标版）"><figcaption>带标版 · ALIVO-Branded-Free · 可自由使用（须留字标）</figcaption></figure>
+     <figure><img src="character/turnaround_female_open.png" alt="Liv 三视图（无标商业版）"><figcaption>无标商业版 · ALIVO-Commercial · 须授权</figcaption></figure>
     </div>
    </div>
   </div>
@@ -448,11 +448,11 @@ function renderDetail(r){
  const e=energyOf(r),conf=confOf(r),t=r.timing;
  const motionFile=DATA.motionSamples[r.id]||'';
  const vars=[];
- if(r.media.file)vars.push({v:'branded',src:MBASE+'media/'+r.media.file,label:r.media.female?'Kai · 带标版':'带标版',lic:'ALIVO-editorial · 可自由使用'});
- if(r.media.female)vars.push({v:'brandedF',src:MBASE+'media/'+r.media.female,label:'Liv · 带标版',lic:'ALIVO-editorial · 可自由使用'});
- if(r.media.openM)vars.push({v:'openM',src:MBASE+'media-open/'+r.media.openM,label:'Kai · 无标开源版',lic:'CC-BY-4.0 · Paul Leung · 使用须署名'});
- if(r.media.openF)vars.push({v:'openF',src:MBASE+'media-open/'+r.media.openF,label:'Liv · 无标开源版',lic:'CC-BY-4.0 · Paul Leung · 使用须署名'});
- if(r.media.open)vars.push({v:'open',src:MBASE+'media-open/'+r.media.open,label:'无标开源版',lic:'CC-BY-4.0 · Paul Leung · 使用须署名'});
+ if(r.media.file)vars.push({v:'branded',src:MBASE+'media/'+r.media.file,label:r.media.female?'Kai · 带标版':'带标版',lic:'ALIVO-Branded-Free · 可自由使用（须留字标）'});
+ if(r.media.female)vars.push({v:'brandedF',src:MBASE+'media/'+r.media.female,label:'Liv · 带标版',lic:'ALIVO-Branded-Free · 可自由使用（须留字标）'});
+ if(r.media.openM)vars.push({v:'openM',src:MBASE+'media-commercial/'+r.media.openM,label:'Kai · 无标商业版',lic:'ALIVO-Commercial · Paul Leung · 须授权'});
+ if(r.media.openF)vars.push({v:'openF',src:MBASE+'media-commercial/'+r.media.openF,label:'Liv · 无标商业版',lic:'ALIVO-Commercial · Paul Leung · 须授权'});
+ if(r.media.open)vars.push({v:'open',src:MBASE+'media-commercial/'+r.media.open,label:'无标商业版',lic:'ALIVO-Commercial · Paul Leung · 须授权'});
  const multi=vars.length>1;
  const track=r.meta.track||{},tk=Object.entries(track).filter(([k,v])=>v).map(([k,v])=>({'loadType':'负重类型','weightBasis':'重量口径','repsBasis':'次数口径','defaultSide':'默认侧别'}[k]||k)+'：'+({'external':'外部负重','bodyweight':'自重','assistance':'辅助','machine':'器械示值','single':'单侧','total':'合计','per-side':'单侧','bilateral':'双侧','alternating':'交替','unknown':'未知'}[v]||v)).join('；');
  document.getElementById('detail').innerHTML=

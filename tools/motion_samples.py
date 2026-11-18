@@ -25,7 +25,7 @@ def load_motion_samples(root=ROOT):
             raise ValueError(f"Invalid motion sample identity: {cid}")
         seen.add(cid)
         seen_files.add(filename)
-        if item.get("license") != "ALIVO-editorial" or item.get("status") != "experimental":
+        if item.get("license") not in ("ALIVO-Branded-Free", "ALIVO-editorial") or item.get("status") != "experimental":
             raise ValueError(f"Invalid motion sample attribution: {cid}")
 
         still = item["sourceStill"]
@@ -34,7 +34,7 @@ def load_motion_samples(root=ROOT):
             expected_still = expected_still[: -len(".webp")] + ".png"
         # bound sha256 is the packaged (.webp) hash post-migration; the still's
         # own integrity is verified byte-for-byte against media/ below.
-        if still != expected_still or bound[cid]["license"] != "ALIVO-editorial":
+        if still != expected_still or bound[cid]["license"] not in ("ALIVO-Branded-Free", "ALIVO-editorial"):
             raise ValueError(f"Invalid reference image: {cid}")
         keyframes = item["keyframes"]
         if not re.fullmatch(r"sources/[a-z0-9_-]+\.png", keyframes):

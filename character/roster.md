@@ -6,8 +6,8 @@ ALIVO 自研动作插图的出镜演示运动员均为本项目数字资产（AI
 
 - 服装：深灰绿（muted forest-green）背心、炭灰短裤、深色运动鞋
 - 场景：中性灰摄影棚无缝背景、柔和编辑级布光、方形构图
-- 带标版：胸前一处白色小字 `ALIVO` 字标（ALIVO-editorial）
-- 无标版：全图零文字零标志（CC-BY-4.0 · Paul Leung）
+- 带标版：胸前一处白色小字 `ALIVO` 字标（ALIVO-Branded-Free，自由使用须留字标）
+- 无标版：全图零文字零标志（ALIVO-Commercial，须商业授权 · Paul Leung）
 
 ## 阵容
 

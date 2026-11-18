@@ -1,5 +1,11 @@
 # ALIVO bundled exercise media
 
+## License — ALIVO-Branded-Free
+
+本目录收录 ALIVO 自研动作编辑插图的**带字标版**（画面衣物上含白色 `ALIVO` 字标），许可为 `ALIVO-Branded-Free`：可自由复制、分发、展示与二次创作，**唯一条件是保留画面中的 ALIVO 字标完整可见，不得去除、遮挡或替换**。图片为 AI 辅助生成后经人工逐张审核的静态编辑插图，只表现动作某一瞬间，不是教学示范。作者：Paul Leung。无字标变体不受本许可覆盖；无标使用须另行获得 `ALIVO-Commercial` 商业授权（licensing@alivo.kuaige.cloud，见 `media-commercial/`）。下表 sourceUrl/licenseUrl 记录的 OpenAI 链接为生成服务条款，非再分发许可。
+
+> 注：本许可早前记作 `ALIVO-editorial`；2026-11-18 起更名为 `ALIVO-Branded-Free` 并明确上述条款，含义不变（App 侧校验器同时接受新旧标签）。
+
 ## wger_plank_346.png (removed 2026-11-18)
 
 The legacy unbound wger file `media/wger_plank_346.png` (CC BY-SA 4.0, author

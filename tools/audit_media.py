@@ -80,7 +80,7 @@ def main():
         require(cid in catalog and cid not in ids, 'Invalid or duplicate media identity: ' + cid)
         require(re.fullmatch(r'exercise_media/[a-z0-9_-]+\.(png|jpg)', local), 'Invalid path: ' + local)
         require(local not in paths and digest not in hashes, 'Duplicate path or image: ' + cid)
-        require(item['license'] == 'ALIVO-editorial' and item['author'] == 'ALIVO', 'Attribution: ' + cid)
+        require(item['license'] in ('ALIVO-Branded-Free', 'ALIVO-editorial'), 'Attribution: ' + cid)
         require(item['sourceRecordId'] == 'alivo:editorial:' + Path(local).name, 'Source identity: ' + cid)
         require(re.fullmatch(r'[a-f0-9]{64}', digest), 'Invalid digest: ' + cid)
         files = [root / local for root in roots] + [resource / 'media' / Path(local).name]

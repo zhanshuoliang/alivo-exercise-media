@@ -28,15 +28,18 @@
 | `upper_back_stretch.png` | `exercises-dataset:1365` | `1bbd735c25cc1e26935adbee9ab442d7955c1c55f0935c5a796e12bd7f0397b5` |
 | `spine_stretch.png` | `exercises-dataset:1363` | `909a9c8c63f308c0ce94b209a5b83fd6726bc37d242c9701f409acdb98f26f61` |
 | `seated_lower_back_stretch.png` | `exercises-dataset:0690` | `e2bf8c1ad04c34f875b19617b067798f9d4955f13ec5de06b3f49083df73a750` |
-# ALIVO Exercise Media — Open Edition NOTICE
+# ALIVO Exercise Media — Commercial Edition NOTICE
 
-本目录收录 ALIVO 自研动作编辑插图的**无字标开源版**。
+本目录收录 ALIVO 自研动作编辑插图的**无字标商业版**。
 
-- 许可：**CC-BY-4.0**（https://creativecommons.org/licenses/by/4.0/）
+- 许可：**ALIVO-Commercial**（商业授权）。未获得书面商业授权前，**不得**复制、分发、展示、商用或二次创作。
 - 作者：**Paul Leung**
-- 署名要求：复制、分发、展示或二次创作时，须注明 "Paul Leung — ALIVO open exercise illustrations"（或链接至本仓库 https://github.com/zhanshuoliang/alivo-exercise-media），并标明许可为 CC-BY-4.0。
+- 授权洽谈：**licensing@alivo.kuaige.cloud**（或经仓库 https://github.com/zhanshuoliang/alivo-exercise-media Issues 联系）。
+- 免费替代：如需免费使用，请改用 `media/` 目录的**带 ALIVO 字标版**（`ALIVO-Branded-Free` 许可），唯一义务是保留画面中的 ALIVO 字标。
 - 图片为 AI 辅助生成后经人工逐张审核的静态编辑插图，只表现动作某一瞬间，不是教学示范。
-- 与 `media/`（带 ALIVO 字标、`ALIVO-editorial` 许可、可自由使用）为两套独立发行物；文件名与 catalogId 一一对应。
+- 与 `media/`（带 ALIVO 字标、`ALIVO-Branded-Free` 许可、可自由使用）为两套独立发行物；文件名与 catalogId 一一对应。
+
+> 注：本目录早前版本曾误标为 CC-BY-4.0「开源版」；自 2026-11-18 起订正为 `ALIVO-Commercial` 商业授权，CC-BY 表述作废。
 
 | catalogId | file | SHA-256 |
 | --- | --- | --- |

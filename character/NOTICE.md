@@ -6,10 +6,10 @@
 
 | 文件 | 说明 | 作者 | 授权 | SHA-256 |
 | --- | --- | --- | --- | --- |
-| `turnaround_branded.png` | Kai · 带 ALIVO 胸前字标版 | Paul Leung | ALIVO-editorial（可自由使用） | `7ba462721b02199884b1c46538b2313c02a2dea3aa6b0719cf0bddacb557b9fa` |
-| `turnaround_open.png` | Kai · 无标开源版 | Paul Leung | [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/)（使用须署名 "Paul Leung / ALIVO"） | `895dde5733cca214caae990745954e1c0e44906c3ba4a689544fe2a4a8297b64` |
-| `turnaround_female_branded.png` | Liv · 带 ALIVO 胸前字标版 | Paul Leung | ALIVO-editorial（可自由使用） | `21bb5dbbfeb691841d04656c537deff49bd8c034e7f076def4faf794a7ac3889` |
-| `turnaround_female_open.png` | Liv · 无标开源版 | Paul Leung | [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/)（使用须署名 "Paul Leung / ALIVO"） | `32628665bd51a7f14da8ddbc990ea89140730691fb3658282994a14593d1e600` |
+| `turnaround_branded.png` | Kai · 带 ALIVO 胸前字标版 | Paul Leung | ALIVO-Branded-Free（可自由使用，须保留字标） | `7ba462721b02199884b1c46538b2313c02a2dea3aa6b0719cf0bddacb557b9fa` |
+| `turnaround_open.png` | Kai · 无标商业版 | Paul Leung | ALIVO-Commercial（须商业授权，licensing@alivo.kuaige.cloud） | `895dde5733cca214caae990745954e1c0e44906c3ba4a689544fe2a4a8297b64` |
+| `turnaround_female_branded.png` | Liv · 带 ALIVO 胸前字标版 | Paul Leung | ALIVO-Branded-Free（可自由使用，须保留字标） | `21bb5dbbfeb691841d04656c537deff49bd8c034e7f076def4faf794a7ac3889` |
+| `turnaround_female_open.png` | Liv · 无标商业版 | Paul Leung | ALIVO-Commercial（须商业授权，licensing@alivo.kuaige.cloud） | `32628665bd51a7f14da8ddbc990ea89140730691fb3658282994a14593d1e600` |
 
 - 两版为独立生成，三视图内部为同一人物；两版之间人物长相略有差异属生成工具限制，角色以服装与风格规范定义。
 - 生成方式：OpenAI ImageGen（AI 辅助生成），提示词存档见 `prompts/`。
